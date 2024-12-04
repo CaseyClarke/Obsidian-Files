@@ -71,7 +71,9 @@
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 6. 
-	<br>(a)
+	<br>$Let \; p(x), q(x) \in Poly(\mathbb{F})$
+	
+	(a)
 	
 	$T(p(x) + q(x)) \stackrel{?}{=} T(p(x)) + T(q(x))$
 	$x(p(x) + q(x)) \stackrel{?}{=} x(p(x)) + x(q(x))$
@@ -87,4 +89,75 @@
 	
 	(b)
 	
+	$T(p(x)) = T(q(x)) \stackrel{?}{\implies} p(x) = q(x)$
+	$T(p(x)) = T(q(x))$
+	$xp(x) = xq(x)$
+	$p(x)= q(x)$
+	
+	$\therefore$ T is one-to-one
+	
+	(c)
+	
+	$\text{For any } p(x) \in Poly(\mathbb{F}) \quad \exists \; q(x) \text{ Such That } T(p(x)) = q(x)$
+	Counterexample:
+	$q(x) = 1$
+	$T(p(x)) = 1$
+	$xp(x) = 1$
+	$p(x) = \frac{1}{x}$
+	There is no solution for the above equation in $Poly(\mathbb{F})$
+	
+	$\therefore$ T is not onto
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
+7. 
+	<br>(a)
+	
+	$T : \mathbb{F}_{23}^6 \rightarrow \mathbb{F}_{23}^4$
+	
+	(b)
+	
+	 The standard matrix of T is A
+	
+	(c)
+	
+	$Im_B = \text{Column space of A} = \left( \begin{pmatrix} 1\\-1\\2\\-3\end{pmatrix}, \begin{pmatrix} -1\\1\\-3\\2\end{pmatrix}, \begin{pmatrix} 2\\2\\2\\0\end{pmatrix} \right)$
+	
+	(d)
+	
+	$x_6 = t$
+	$x_5 = s$
+	$x_4 = -s -2t$
+	$x_3 = 3t$
+	$x_2 = r$
+	$x_1 = -2r + s + 5t$
+	
+	$\begin{pmatrix} -2r + s +5t\\ r\\ 3t\\-s -2t \\ s\\ t  \;\\\end{pmatrix} = t\begin{pmatrix} 5\\0\\3\\-2 \\0 \\ 1 \end{pmatrix} + s\begin{pmatrix} 1\\0\\0\\-1 \\1 \\ 0 \end{pmatrix} + r\begin{pmatrix} -2\\1\\0\\0 \\ 0\\ 0\end{pmatrix}$
+	
+	$Ker_B = Null_B = \left( \begin{pmatrix} 5\\0\\3\\-2 \\0 \\ 1 \end{pmatrix}, \begin{pmatrix} 1\\0\\0\\-1 \\1 \\ 0 \end{pmatrix}, \begin{pmatrix} -2\\1\\0\\0 \\ 0\\ 0\end{pmatrix} \right)$
+	
+	(e)
+	
+	The range = image of T is a 3-dimensional subspace of $\mathbb{F}_{23}^4$. The kernel of T is a 3-dimensional subspace of $\mathbb{F}_{23}^6$.
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
+8. 
+	<br>$Let \; u,v \in \mathbb{F}$
+	
+	Closure of vector addition:
+	$T(u + v) = T(u) + T(v)$
+	$u+v = u+v$
+	$u+v \in s$
+	
+	Closure of scalar multiplication:
+	$kT(u) = T(ku)$
+	$ku = ku$
+	$ku \in S$
+	
+	Zero vector:
+	$T(0_v) = 0_v$
+	$0_v \in S$
+	
+	$QED$
 	
