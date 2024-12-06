@@ -44,8 +44,22 @@
 4. 
 	<br>$f$ preserves group multiplication by definition in the question
 	
-	 $I_G \rightarrow I_H$:
-
+	Identity to Identity
+	 $f(1_G) \stackrel{?}{=} 1_H$
+	 $f(1_G \cdot 1_G) = f(1_G) \cdot f(1_G)$
+	 $f(1_G) = f(1_G) \cdot f(1_G)$
+	 $f(1_g)^{-1} f(1_g) = f(1_G)$
+	 $f(1_G) = 1_H$
+	
+	Inverse to Inverse
+	$f(g^{-1}) \stackrel{?}{=} f(g)^{-1}$
+	$f(gg^{-1}) = f(g)f(g^{-1})$
+	$f(1_G) = f(g)f(g^{-1})$
+	$1_H = f(g)f(g^{-1})$
+	$f(g)^{-1}1_H = f(g^{-1})$
+	$f(g)^{-1} = f(g^{-1})$
+	
+	$QED$
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -67,7 +81,9 @@
 	$LHS = RHS$
 	Scalar multiplication is preserved
 	$QED$
-
+	
+	It is neither one-to-one or onto as the kernel is non trivial and the 0 entry in the matrix immediately excludes a large part of the codomain
+	
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 6. 
@@ -103,8 +119,8 @@
 	$q(x) = 1$
 	$T(p(x)) = 1$
 	$xp(x) = 1$
-	$p(x) = \frac{1}{x}$
-	There is no solution for the above equation in $Poly(\mathbb{F})$
+	$p(x) = \frac{1}{x}$ 
+	But $\frac 1x$ is a rational function not a polynomial so there is no solution for the above equation  in $Poly(\mathbb{F})$
 	
 	$\therefore$ T is not onto
 
