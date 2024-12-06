@@ -82,7 +82,7 @@
 	Scalar multiplication is preserved
 	$QED$
 	
-	It is neither one-to-one or onto as the kernel is non trivial and the 0 entry in the matrix immediately excludes a large part of the codomain
+	It is one-to-one but not onto as the kernel is trivial and the 0 entry in the matrix immediately excludes a large part of the codomain
 	
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
