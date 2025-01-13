@@ -63,5 +63,27 @@
 
 4. <br>(a)
 	
+	We need to show that this relation satisfies the 3 properties of an equivalence relation
 	
-   
+	Reflexive:
+	
+	$g^{-1}g = 1_G \in H$ as $H$ must contain the identity if it is a subgroup
+	
+	Symmetric:
+	
+	$g \sim g' \implies g^{-1}g' \in H$
+	$(g^{-1}g')^{-1} = g{'}^{-1}g \implies g{'}^{-1}g \in H$ since inverse is closed
+	$\implies g' \sim g$
+	
+	Transitive:
+	
+	$g \sim g'$
+	$g' \sim g''$
+	$(g^{-1}g')(g{'}^{-1}g'') = g^{-1}g'' \in H$ since multiplication is closed
+	$\implies g \sim g''$
+	
+	$\therefore$ This is a valid equivalence relation
+	
+	(b)
+	
+	
