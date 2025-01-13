@@ -53,7 +53,13 @@
 	
 	(b)
 	
+	A linear map is an isomorphism iff it is one to one and onto
 	
+	One to One:
+	$T($
 	
+	(c)
+	
+	$Poly(\mathbb{F})$ is not finite dimensional
 	
    
