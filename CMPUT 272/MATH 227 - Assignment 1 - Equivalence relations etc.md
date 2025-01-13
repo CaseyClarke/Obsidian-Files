@@ -94,4 +94,26 @@
 
 5. <br>(a)
 	
+	(i)
 	
+	Composition preserves linearity
+	$(ST)(T^{-1}S^{-1}) = (T^{-1}S^{-1}) (ST) = 1_G$
+	$(S(T(V))(T^{-1}(S^{-1}(V)) = (T^{-1}(S^{-1}(V))(S(T(V)) = 1_G$
+	$(S(T(T^{-1}(S^{-1}(V))) = (S(T((T^{-1}(S^{-1}(V)))) = 1_G$
+	$1_G = 1_G = 1_G$
+	$\therefore$ It is closed as the properties of linearity and invertibility hold
+	
+	(ii)
+	
+	$(ST)R = S(TR)$
+	$S(T(V)R = S(T(R(V)$
+	$S(T(R(V) = S(T(R(V)$
+	
+	(iii)
+	
+	$I(V) = V$
+	Which is trivially linear and is invertible as $I^{-1} = I$ 
+	
+	(iv)	
+	
+	Any element's has an inverse by definition
