@@ -26,4 +26,34 @@
 	
 	(b)
 	
+	We need to show that $p(x) \sim q(x) \implies f(p(x)) = f(q(x)) \quad \forall \; p(x), q(x) \in \mathbb{Q}[x]/\sim$
+	$\implies (2p(1) + 3p(2) - 5p(3)) = (2q(1) + 3q(2) - 5q(3)) \text{ and } (p(1) - p(-1)) = (q(1) - q(-1))$
+	Given that $p(x) \sim q(x)$ we know that from the properties of derivatives $q(x) = p(x) + c$ for some rational value of c 
 	
+	$(2p(1) + 3p(2) - 5p(3)) = (2q(1) + 3q(2) - 5q(3))$:
+	$(2p(1) + 3p(2) - 5p(3)) = (2(p(1) + c) + 3(p(2) + c) - 5(p(3) + c))$
+	$(2p(1) + 3p(2) - 5p(3)) = (2p(1) + 2c + 3p(2) + 3c - 5p(3) + -5c)$
+	$(2p(1) + 3p(2) - 5p(3)) = (2p(1) + 3p(2) - 5p(3))$
+	$LHS = RHS$
+	
+	$(p(1) - p(-1)) = (q(1) - q(-1))$:
+	$(p(1) - p(-1)) = (p(1) + c -(p(-1) + c)$
+	$(p(1) - p(-1)) = (p(1) - p(-1))$
+	$LHS = RHS$
+	
+	$\therefore f$ is well defined over $\mathbb{Q}[x]/\sim$
+
+3. <br>(a)
+	
+	A vector space is isomorphic to another if their dimensions are equal
+	$dim(V) = n$
+	$dim(V \oplus V) = 2n$
+	$dim(V) = dim(V \oplus V) \implies n = 2n$
+	$n = 0$ is the only case in which this holds which shows that this is only true for the trivial vector space
+	
+	(b)
+	
+	
+	
+	
+   
