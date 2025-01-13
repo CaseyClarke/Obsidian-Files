@@ -55,11 +55,13 @@
 	
 	A linear map is an isomorphism iff it is one to one and onto
 	
-	One to One:
-	$T($
+	==Prove using odd and even arguments==
 	
 	(c)
 	
 	$Poly(\mathbb{F})$ is not finite dimensional
+
+4. <br>(a)
+	
 	
    
