@@ -116,4 +116,4 @@
 	
 	(iv)	
 	
-	Any element's has an inverse by definition
+	Any element has an inverse by definition
