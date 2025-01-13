@@ -86,4 +86,12 @@
 	
 	(b)
 	
+	==prove that this is a well defined bijection==
+	
+	(c)
+	
+	==idk man==
+
+5. <br>(a)
+	
 	
