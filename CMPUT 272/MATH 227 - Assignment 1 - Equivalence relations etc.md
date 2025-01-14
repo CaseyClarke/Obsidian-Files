@@ -122,7 +122,6 @@
 	
 	(i)
 	
-	Need to show that $f(T)$ remains invertible and linear
 	Function composition preserves linearity and invertibility
 	
 	(ii)
@@ -134,5 +133,37 @@
 	
 	(iii)
 	
-	$f^{-1}(T) = S \circ T^{-1} \circ S^{-1}$
-	$f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) =1$
+	$f^{-1}(T) = S^{-1} \circ T \circ S$
+	$f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) = T$
+	
+	Inverse preserves the group operation so it is also a homomorphism
+
+6. <br>(a)
+	
+	$$[T(x^4)]_{\beta'} = \begin{pmatrix} 2\\1\\1\\0 \end{pmatrix}$$ 
+	$$[T(x^3)]_{\beta'} = \begin{pmatrix} -2\\-1\\-1\\0 \end{pmatrix}$$ 
+	$$[T(x^2)]_{\beta'} = \begin{pmatrix} -1\\-2\\-2\\1 \end{pmatrix}$$ 
+	$$[T(x)]_{\beta'} = \begin{pmatrix} 0\\3\\0\\1 \end{pmatrix}$$ 
+	$$[T(1)]_{\beta'} = \begin{pmatrix} 1\\-1\\-1\\1 \end{pmatrix}$$ 
+	$$[T]_{\beta' \leftarrow \beta} = \begin{pmatrix} 2 & -2 & -1& 0 & 1\\1 & -1 & -2 & 3 & -1\\1 & -1 & -2 & 0 & -1\\0 & 0 & 1 & 1 & 1 \end{pmatrix} $$
+	(b)
+	
+	$$[T(x^4 - x^3 + x)]_{\beta} = \begin{pmatrix} 1\\1\\0\\1\\0 \end{pmatrix}$$ 
+	$$[T(x^4 - x^3 + x)]_{\beta'} = \begin{pmatrix} 0\\3\\0\\1\ \end{pmatrix}$$ 
+	$$[T(x^4 - x^3 + x)]_{\beta'} = \begin{pmatrix} 2 & -2 & -1& 0 & 1\\1 & -1 & -2 & 3 & -1\\1 & -1 & -2 & 0 & -1\\0 & 0 & 1 & 1 & 1 \end{pmatrix}\begin{pmatrix} 1\\1\\0\\1\\0 \end{pmatrix} = \begin{pmatrix} 0\\3\\0\\1 \end{pmatrix}$$
+	
+	They both get the same answer so the formula holds
+
+7. <br>(a)
+	
+	$$[T(x^2)]_{\beta} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+	$$[T(x)]_{\beta} = \begin{pmatrix} 0 \\ 2 \\ 0 \end{pmatrix}$$
+	$$[T(1)]_{\beta} = \begin{pmatrix} 1 \\ 1 \\ -4 \end{pmatrix}$$
+	$$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 2 & 1 \\ 0 & 0 & -4 \end{pmatrix}$$
+	$$[S(1,0,0)]_{\beta} = \begin{pmatrix} 1 \\ 1 \\ 0 \\ 1 \end{pmatrix}$$
+	$$[S(0,1,0)]_{\beta} = \begin{pmatrix} 1 \\ 0 \\ 0 \\ 1 \end{pmatrix}$$
+	$$[S(0,0,1)]_{\beta} = \begin{pmatrix} 0 \\ -1 \\ 2 \\ 1 \end{pmatrix}$$
+	$$[S]_{\beta''\leftarrow \beta} = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 0 & 2 \\ 1 & 1 & 1  \end{pmatrix} $$
+	(b)
+	
+	$$[S \circ T]_{\beta'' \leftarrow \beta} = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 0 & 2 \\ 1 & 1 & 1  \end{pmatrix}\begin{pmatrix} 0 & 0 & 1 \\ 0 & 2 & 1 \\ 0 & 0 & -4 \end{pmatrix} = $$
