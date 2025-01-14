@@ -117,3 +117,22 @@
 	(iv)	
 	
 	Any element has an inverse by definition
+
+	(b)
+	
+	(i)
+	
+	Need to show that $f(T)$ remains invertible and linear
+	Function composition preserves linearity and invertibility
+	
+	(ii)
+	
+	$f(T \circ T) = S \circ (T \circ T) \circ S^{-1}$
+	$f(T) \circ f(T) = (S \circ T \circ S^{-1}) \circ (S \circ T \circ S^{-1})$
+	$f(T) \circ f(T) = (S \circ T \circ T \circ S^{-1}) = S \circ (T \circ T) \circ S^{-1}$
+	$f(T \circ T) = f(T) \circ f(T)$
+	
+	(iii)
+	
+	$f^{-1}(T) = S \circ T^{-1} \circ S^{-1}$
+	$f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) =1$
