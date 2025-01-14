@@ -11,6 +11,8 @@
 		$T(\vec{v}) = T(\vec{v'}) = T(\vec{v''}) \implies T(\vec{v}) = T(\vec{v''})$
 	$QED$
 
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
 2. <br>(a)
 	
 	We need to show that $\vec{u} \sim \vec{v} \implies f(\vec{u}) = f(\vec{v}) \quad \forall \; \vec{u}, \vec{v} \in \mathbb{C}^3/\sim$
@@ -43,6 +45,8 @@
 	
 	$\therefore f$ is well defined over $\mathbb{Q}[x]/\sim$
 
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
 3. <br>(a)
 	
 	A vector space is isomorphic to another if their dimensions are equal
@@ -60,6 +64,8 @@
 	(c)
 	
 	$Poly(\mathbb{F})$ is not finite dimensional
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 4. <br>(a)
 	
@@ -92,6 +98,8 @@
 	
 	==idk man==
 
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
 5. <br>(a)
 	
 	(i)
@@ -117,7 +125,7 @@
 	(iv)	
 	
 	Any element has an inverse by definition
-
+	
 	(b)
 	
 	(i)
@@ -138,6 +146,8 @@
 	
 	Inverse preserves the group operation so it is also a homomorphism
 
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
 6. <br>(a)
 	
 	$$[T(x^4)]_{\beta'} = \begin{pmatrix} 2\\1\\1\\0 \end{pmatrix}$$ 
@@ -154,6 +164,8 @@
 	
 	They both get the same answer so the formula holds
 
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
 7. <br>(a)
 	
 	$$[T(x^2)]_{\beta} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
@@ -166,4 +178,4 @@
 	$$[S]_{\beta''\leftarrow \beta} = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 0 & 2 \\ 1 & 1 & 1  \end{pmatrix} $$
 	(b)
 	
-	$$[S \circ T]_{\beta'' \leftarrow \beta} = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 0 & 2 \\ 1 & 1 & 1  \end{pmatrix}\begin{pmatrix} 0 & 0 & 1 \\ 0 & 2 & 1 \\ 0 & 0 & -4 \end{pmatrix} = $$
+	$$[S \circ T]_{\beta'' \leftarrow \beta} = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 0 & 2 \\ 1 & 1 & 1  \end{pmatrix}\begin{pmatrix} 0 & 0 & 1 \\ 0 & 2 & 1 \\ 0 & 0 & -4 \end{pmatrix} = \begin{pmatrix} 0 & 2 & 2 \\ 0 & 0 & 5 \\ 0 & 0 & -8 \\ 0 & 2 & -2  \end{pmatrix}$$
