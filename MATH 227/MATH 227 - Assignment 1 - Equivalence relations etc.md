@@ -92,7 +92,7 @@
 	
 	(b)
 	
-	==prove that this is a well defined bijection==
+	==prove that this is well defined and invertible (onto and one to one)==
 	
 	(c)
 	
