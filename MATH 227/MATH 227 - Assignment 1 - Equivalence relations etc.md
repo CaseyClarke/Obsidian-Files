@@ -1,5 +1,4 @@
-1. 
-	   <br>To show that $\vec{v} \sim \vec{v'}$ is an equivalence relation we need to show that it follows the 3 properties of an equivalence relation
+1. <br>To show that $\vec{v} \sim \vec{v'}$ is an equivalence relation we need to show that it follows the 3 properties of an equivalence relation
 	
 	Reflexive Property:
 		$T(\vec{v}) = T(\vec{v'}) \implies \vec{v} = \vec{v'}$
@@ -59,7 +58,10 @@
 	
 	A linear map is an isomorphism iff it is one to one and onto
 	
-	==Prove using odd and even arguments==
+	T can be split up into to components, $p(x^2)$ and $xq(x^2)$ these can be represented as $x^{2k}$ and $x^{2x+1} \quad \forall \; k \in \mathbb{N}$  respectively 
+	$x^{2k}$ can be used to represent any polynomial with only even degrees
+	$x^{2k+1}$ can be used to represent any polynomial with only odd degrees
+	Thus adding them together as such  $x^{2k} + x^{2k+1} = T(p(x), q(x)) = p(x^2) + xq(x^2)$ we can get polynomials with any degree meaning that the output space is $Poly(\mathbb{F})$ 
 	
 	(c)
 	
