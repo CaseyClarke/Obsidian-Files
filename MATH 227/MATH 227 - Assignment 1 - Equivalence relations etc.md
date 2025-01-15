@@ -105,10 +105,10 @@
 	(i)
 	
 	Composition preserves linearity
-	$(ST)(T^{-1}S^{-1}) = (T^{-1}S^{-1}) (ST) = 1_G$
-	$(S(T(V))(T^{-1}(S^{-1}(V)) = (T^{-1}(S^{-1}(V))(S(T(V)) = 1_G$
-	$(S(T(T^{-1}(S^{-1}(V))) = (S(T((T^{-1}(S^{-1}(V)))) = 1_G$
-	$1_G = 1_G = 1_G$
+	$(S \circ T) \circ (T^{-1} \circ S^{-1})(V) = (T^{-1} \circ S^{-1}) \circ  (S \circ T) = V$
+	$(S(T(V)) \circ (T^{-1}(S^{-1}(V)) = (T^{-1}(S^{-1}(V)) \circ (S(T(V)) = V$
+	$(S(T(T^{-1}(S^{-1}(V))) = (S(T((T^{-1}(S^{-1}(V)))) = V$
+	$V = V = V$
 	$\therefore$ It is closed as the properties of linearity and invertibility hold
 	
 	(ii)
