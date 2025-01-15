@@ -105,16 +105,15 @@
 	(i)
 	
 	Composition preserves linearity
-	$(S \circ T) \circ (T^{-1} \circ S^{-1})(V) = (T^{-1} \circ S^{-1}) \circ  (S \circ T) = V$
-	$(S(T(V)) \circ (T^{-1}(S^{-1}(V)) = (T^{-1}(S^{-1}(V)) \circ (S(T(V)) = V$
-	$(S(T(T^{-1}(S^{-1}(V))) = (S(T((T^{-1}(S^{-1}(V)))) = V$
-	$V = V = V$
+	$(S \circ T)^{-1} = T^{-1} \circ S^{-1}$
+	$(S \circ T)^{-1}(V) \circ  (T^{-1} \circ S^{-1})(V) = S(T(T^{-1}(S^{-1}(V)))) = V$
+	$(T^{-1} \circ S^{-1})(V) \circ (S \circ T)^{-1}(V) = T^{-1}(S^{-1}(S(T(V)))) = V$
 	$\therefore$ It is closed as the properties of linearity and invertibility hold
 	
 	(ii)
 	
-	$(ST)R = S(TR)$
-	$S(T(V)R = S(T(R(V)$
+	$(S \circ T) \circ R = S \circ (T \circ R)$
+	$S(T(V) \circ R = S \circ (T(R(V)$
 	$S(T(R(V) = S(T(R(V)$
 	
 	(iii)
@@ -124,28 +123,27 @@
 	
 	(iv)	
 	
-	Any element has an inverse by definition
+	Any element has an inverse by definition and from the properties of function composition we know $(T \circ T^{-1})(V) = (T^{-1} \circ T)(V) = V = I(V) \quad \forall \; T \in IL(V)$
 	
 	(b)
 	
 	(i)
 	
-	Function composition preserves linearity and invertibility
+	From the previous question we know that function composition forms a group over $IL(V)$ so this is automatically satisfied as $f$ is just the composition of functions
 	
 	(ii)
 	
 	$f(T \circ T) = S \circ (T \circ T) \circ S^{-1}$
 	$f(T) \circ f(T) = (S \circ T \circ S^{-1}) \circ (S \circ T \circ S^{-1})$
 	$f(T) \circ f(T) = (S \circ T \circ T \circ S^{-1}) = S \circ (T \circ T) \circ S^{-1}$
-	$f(T \circ T) = f(T) \circ f(T)$
+	$f(T) \circ f(T) = f(T \circ T)$
 	
 	(iii)
 	
 	$f^{-1}(T) = S^{-1} \circ T \circ S$
 	$f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) = T$
 	
-	Inverse preserves the group operation so it is also a homomorphism
-
+	Since $f$ is simply a string of function compositions it preserves the group structure meaning that (i), (ii), and (iii) are all automatically satisfied making it a homomorphism as well
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 6. <br>(a)
