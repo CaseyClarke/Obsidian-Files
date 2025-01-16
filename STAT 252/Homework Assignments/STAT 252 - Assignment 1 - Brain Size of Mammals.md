@@ -9,14 +9,14 @@
 (a)
 - 
   >![Figure 1](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXaY9iO05TcHHuAuw6f8vA7fyJcGpJHmsN3zHcJL_P5IRVOqh8MPjeTGuPKQDlEbolobedPNL-pAlnjmE-cdGfq1LCuAWu2qaZpR0ywJvLRu_CWA4N7Oy9cEitUAA80QqI5C-P?key=_VwyLlKMddU95SYPlK_KuEQP)
-- 
-  The mean for the LARGE group is overall larger than that of the SMALL group however, The S. D. for the SMALL group is smaller than that of the LARGE group suggesting a tighter spread of values within the SMALL group compared to the LARGE group
+
+- The mean for the LARGE group is overall larger than that of the SMALL group however, The S. D. for the SMALL group is smaller than that of the LARGE group suggesting a tighter spread of values within the SMALL group compared to the LARGE group
 
 (b)
 - 
   >![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5koUJO8h1hIXlbU1SYgOnaV2JN2RsRT7PW9u5rVG3Do219owCRexhEQEcl_NoAQVZQ8aVlHLMDA0Pk8G9JXA6WHbirbI7e5sG6ChEI9IEfKGoMftx7e3Xdw41puR_-CFoesnH?key=_VwyLlKMddU95SYPlK_KuEQP)
-- 
-  The IQR (size of box) is notably smaller for the SMALL group compared to the LARGE group, this is the same conclusion we came to from looking at the descriptive statistics in part (a). The median for the LARGE group is also notably higher up (larger) than that of the SMALL group. They are both right-skewed as the median is closer to the bottom of the box and the upper whisker is longer than the bottom. The recommended mesure of central tendency for both of them is the median as it is less affected by skew and outliers because they are both skewed. There are no outliers as SPSS identifies none by the $1.5 \times IQR$ Rule
+
+- The IQR (size of box) is notably smaller for the SMALL group compared to the LARGE group, this is the same conclusion we came to from looking at the descriptive statistics in part (a). The median for the LARGE group is also notably higher up (larger) than that of the SMALL group. They are both right-skewed as the median is closer to the bottom of the box and the upper whisker is longer than the bottom. The recommended mesure of central tendency for both of them is the median as it is less affected by skew and outliers because they are both skewed. There are no outliers as SPSS identifies none by the $1.5 \times IQR$ Rule
 
 (c)
 
@@ -59,7 +59,7 @@
 - 
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFs56vlne0D_e3tm79Gysn_fmHQ3VG73oWdTAxN21l6nnmaFqSEc8I6poEMJGtWsOld2MQjLAiDlbM4WdX1pR25dkGk7SFQXP5D42s11kBhRReE2IL4EUuEM2vJ5PkOXE8ZIku?key=_VwyLlKMddU95SYPlK_KuEQP)
 
-> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5fi92UVhsVk6CTRPHRXQUdDLoiyLQiVc5mZqq49w3eyC7c7KYNFzCpJPcVE9t6fIq4iJAi15Wd-lJxSyo3a_xH_7bxFxTJT9ju2BHV4G-258-Sabbqi5Vbx_s9LRyqqXAICVd?key=_VwyLlKMddU95SYPlK_KuEQP)
+   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5fi92UVhsVk6CTRPHRXQUdDLoiyLQiVc5mZqq49w3eyC7c7KYNFzCpJPcVE9t6fIq4iJAi15Wd-lJxSyo3a_xH_7bxFxTJT9ju2BHV4G-258-Sabbqi5Vbx_s9LRyqqXAICVd?key=_VwyLlKMddU95SYPlK_KuEQP)
 
 - Both plots follow the line very closely so we can be very confidence of the assumption of normality, far more than the version before the log transform
 
@@ -86,8 +86,8 @@
 - 
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
 
-- $H_0 : \mu_L  - \mu_S = 0$
-- $H_A : \mu_L - \mu_S\neq 0$
+- $H_0 : ln(\mu_L  - \mu_S) = 0$
+- $H_A : ln(\mu_L - \mu_S) \neq 0$
 - $t = -1.247$
 - $p = 0.216$
 - The distribution under the null hypothesis is normal. 
@@ -110,5 +110,8 @@
 
 (b)
 
-- $p = 0.219$ (i assume 🤷, it wasn't said in the video at all where we get p)
+- $H_0 : \mu_L  - \mu_S = 0$
+- $H_A : \mu_L - \mu_S \neq 0$
+- $p = 0.219$
+- (i assume 🤷, it wasn't said in the video at all where we get p)
 - Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.
