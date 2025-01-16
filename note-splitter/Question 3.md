@@ -1,5 +1,7 @@
 # Question 3
 
+Any logarithm/antilogarithm mentioned is assumed to be base $e$, as that is what was used in the Instructional video, $ln(x)$ and $e^x$ are used to denote the logarithm and antilogarithm respectively
+
 (a)
 
 - 

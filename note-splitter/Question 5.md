@@ -7,7 +7,7 @@
 
 (b)
 
-- $H_0 : \mu_L  - \mu_S = 0$
-- $H_A : \mu_L - \mu_S \neq 0$
+- $H_0 : \text{ The relative brain weight is the same for all groups}$
+- $H_A : \text{ The relative brain weight is } \underline{\text{not}} \text{ the same for all groups}$
 - $p = 0.219$
 - Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.
