@@ -14,8 +14,8 @@
 - 
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
 
-- $H_0 : \mu_L  - \mu_S = 0$
-- $H_A : \mu_L - \mu_S\neq 0$
+- $H_0 : ln(\mu_L  - \mu_S) = 0$
+- $H_A : ln(\mu_L - \mu_S) \neq 0$
 - $t = -1.247$
 - $p = 0.216$
 - The distribution under the null hypothesis is normal. 

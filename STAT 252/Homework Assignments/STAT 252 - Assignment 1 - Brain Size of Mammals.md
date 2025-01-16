@@ -1,6 +1,6 @@
 # Question 1
 
-- This study is a retrospective observational study, we cannot make population inferences as there is no random sampling and we also cannot make causal inferences in observational studies at all. The findings would be able to the general population of all mammals if there was random sampling.
+- This study is a retrospective observational study, we cannot make population inferences as there is no random sampling and we also cannot make causal inferences in observational studies at all. The findings would be able to be generalized to the population of interest (all mammals) if there was random sampling.
 
 {{ENDQUESTION}}
 
@@ -113,5 +113,4 @@
 - $H_0 : \mu_L  - \mu_S = 0$
 - $H_A : \mu_L - \mu_S \neq 0$
 - $p = 0.219$
-- (i assume 🤷, it wasn't said in the video at all where we get p)
 - Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.

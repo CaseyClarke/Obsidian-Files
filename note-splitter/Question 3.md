@@ -19,7 +19,7 @@
 - 
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFs56vlne0D_e3tm79Gysn_fmHQ3VG73oWdTAxN21l6nnmaFqSEc8I6poEMJGtWsOld2MQjLAiDlbM4WdX1pR25dkGk7SFQXP5D42s11kBhRReE2IL4EUuEM2vJ5PkOXE8ZIku?key=_VwyLlKMddU95SYPlK_KuEQP)
 
-> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5fi92UVhsVk6CTRPHRXQUdDLoiyLQiVc5mZqq49w3eyC7c7KYNFzCpJPcVE9t6fIq4iJAi15Wd-lJxSyo3a_xH_7bxFxTJT9ju2BHV4G-258-Sabbqi5Vbx_s9LRyqqXAICVd?key=_VwyLlKMddU95SYPlK_KuEQP)
+   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5fi92UVhsVk6CTRPHRXQUdDLoiyLQiVc5mZqq49w3eyC7c7KYNFzCpJPcVE9t6fIq4iJAi15Wd-lJxSyo3a_xH_7bxFxTJT9ju2BHV4G-258-Sabbqi5Vbx_s9LRyqqXAICVd?key=_VwyLlKMddU95SYPlK_KuEQP)
 
 - Both plots follow the line very closely so we can be very confidence of the assumption of normality, far more than the version before the log transform
 

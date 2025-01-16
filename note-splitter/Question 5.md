@@ -7,5 +7,7 @@
 
 (b)
 
-- $p = 0.219$ (i assume 🤷, it wasn't said in the video at all where we get p)
+- $H_0 : \mu_L  - \mu_S = 0$
+- $H_A : \mu_L - \mu_S \neq 0$
+- $p = 0.219$
 - Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.
