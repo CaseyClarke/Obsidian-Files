@@ -25,12 +25,12 @@
   
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXct7TfaRbUsW6ZggL4AZQiZBSOeheUcYsTDZ8J-pI7ciAQuSFzsNr87pPridYMN83YMv56oi2gWt3qeWgSIMhC2lqYbhgj0DxIeVpFFTvssiDDqUg3FvglLzv7ecMdYxGmi1O8PHQ?key=_VwyLlKMddU95SYPlK_KuEQP)
   
-- Since the points on both plots stay roughly close to the line we can assume the data is roughly normal, it seems as if the lower values are less normal and more extreme though.
+- Since the points on both plots __do not__ stay roughly close to the line we can assume the data __is not__ roughly normal.
 
 (d)
 
 - The assumptions are as follows, 
-	- Normality - We can assume normality as we have a large sample and from part (c)
+	- Normality - This is violated as shown in part (c)
 	- Random sampling - We __do not__ have random sampling
 	- Independence - We can assume the data is independent from the study design
 	- Equal variances - We can assume equal variances as $\frac{max(S_1, S_2)}{min(S_1,S_2)} = \frac{61.691}{30.767} < 2$
@@ -65,10 +65,50 @@
 
 (d)
 
-- It seemed as if the log transformation "smoothed out" the data, the variances became smaller, the skewness was reduced, and the evidence of normality was more evident
+- It seemed as if the log transformation "smoothed out" the data, the variances became smaller, the skewness was reduced, and the data became more normal
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 
 # Question 4. 
 
+(a)
+- $ln(\mu_{L} - \mu_{S}) = 1.8370 - 1.5910 = 0.246$
+- $\mu_{L} - \mu_{S} = e^{0.246} \approx 1.2789$
+
+- From log rules we know that 
+- $$e^{ln(\mu_{L} - \mu_{S})} = e^{ln(\frac{\mu_{L}}{\mu_{S}})} = \frac{\mu_{L}}{\mu_{S}}$$
+- Therefore the antilogarithm of the difference is the ratio of the brain sizes, e.g. on average the LARGE group has $1.2789\times$ the brain size compared to those of the SMALL group
+
+
+(b)
+
+- 
+  > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
+
+- $H_0 : \mu_L  - \mu_S = 0$
+- $H_A : \mu_L - \mu_S\neq 0$
+- $t = -1.247$
+- $p = 0.216$
+- The distribution under the null hypothesis is normal. 
+- Given that the p-value is bigger than our significance level of $0.01$ we fail to reject the null hypothesis
+
+(c)
+
+- $CI_{99} = (e^{-0.76525}, e^{0.27334}) \approx (0.46522, 1.31435)$
+
+- From part (a) we know that a difference log transformed can be thought of as a ratio which means to form a conclusion from the confidence interval we need to check if it contains $1$ as that would mean that both means are equal, since it does in fact contain $1$ we can conclude that with $95\%$ confidence there is no difference between the means. This is the same conclusion we came to in part (a)
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
+# Question 5.
+
+(a)
+
+- 
+  > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegkyRvAH1WhpGpX1Lz0dm7taKi0L24yhUAbCHXq2fLiin-Ksqifq28vtaDeMJZDcWHwR64jKP7Ak0Q5odA0BirbXhTSmtHOS296Z-1Is6bX8VqhyQvPy9_alPxP6LQQCuYLIFPEQ?key=_VwyLlKMddU95SYPlK_KuEQP)
+
+(b)
+
+- $p = 0.219$ (i assume 🤷, it wasn't said in the video at all where we get p)
+- Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.
