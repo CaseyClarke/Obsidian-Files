@@ -87,6 +87,7 @@ Any logarithm/antilogarithm mentioned is assumed to be base $e$, as that is what
 
 - 
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
+  > [Full Size Image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
 
 - $H_0 : ln(\mu_L  - \mu_S) = 0$
 - $H_A : ln(\mu_L - \mu_S) \neq 0$
@@ -112,7 +113,7 @@ Any logarithm/antilogarithm mentioned is assumed to be base $e$, as that is what
 
 (b)
 
-- $H_0 : \mu_L  - \mu_S = 0$
-- $H_A : \mu_L - \mu_S \neq 0$
+- $H_0 : \mu_L,\mu_S \; \text{Have the same Distribution}$ 
+- $H_A : \mu_L,\mu_S \; \text{Do not have the same Distribution}$ 
 - $p = 0.219$
 - Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.
