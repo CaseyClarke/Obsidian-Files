@@ -1,10 +1,10 @@
-# Question 1.
+# Question 1
 
 - This study is a retrospective observational study, we cannot make population inferences as there is no random sampling and we also cannot make causal inferences in observational studies at all. The findings would be able to the general population of all mammals if there was random sampling.
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+{{ENDQUESTION}}
 
-# Question 2.
+# Question 2
 
 (a)
 - 
@@ -36,9 +36,9 @@
 	- Equal variances - We can assume equal variances as $\frac{max(S_1, S_2)}{min(S_1,S_2)} = \frac{61.691}{30.767} < 2$
 
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+{{ENDQUESTION}}
 
-# Question 3. 
+# Question 3
 
 (a)
 
@@ -67,10 +67,10 @@
 
 - It seemed as if the log transformation "smoothed out" the data, the variances became smaller, the skewness was reduced, and the data became more normal
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+{{ENDQUESTION}}
 
 
-# Question 4. 
+# Question 4
 
 (a)
 - $ln(\mu_{L} - \mu_{S}) = 1.8370 - 1.5910 = 0.246$
@@ -99,9 +99,9 @@
 
 - From part (a) we know that a difference log transformed can be thought of as a ratio which means to form a conclusion from the confidence interval we need to check if it contains $1$ as that would mean that both means are equal, since it does in fact contain $1$ we can conclude that with $95\%$ confidence there is no difference between the means. This is the same conclusion we came to in part (a)
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+{{ENDQUESTION}}
 
-# Question 5.
+# Question 5
 
 (a)
 
