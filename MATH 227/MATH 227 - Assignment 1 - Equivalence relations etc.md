@@ -123,11 +123,8 @@
 	- Assume $gh_1 = gh_2$
 	- $g^{-1}gh_1 = g^{-1}gh_2 \implies h_1 = h_2$
 	Onto-ness of $F$:
-	- $F^{-1}(gh) = $
+	- F is onto from the definition of $[g]$
 	We now have a bijection that maps from $H$ to $[g]$ meaning that we can say that $H$ and $[g]$ have the same size
-	
-	
-	
 	
 	(c)
 	
