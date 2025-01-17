@@ -114,7 +114,20 @@
 	
 	(b)
 	
-	==prove that this is well defined and invertible (onto and one to one)==
+	$g \sim g' \implies g^{-1}g' \in H \implies g' = gh \quad h \in H$
+	Meaning that 
+	$\forall h \in H \; gh \in [g] \quad \text{ Where } [g] \text{ is some eqivalence class with a representative } g$
+	Define $F : H \rightarrow [g] \quad F(h) = gh$
+	One-to-one-ness of $F$:
+	- $gh_1, \; gh_2 \in [g]$
+	- Assume $gh_1 = gh$
+	- $g^{-1}gh_1 = g^{-1}gh_2 \implies h_1 = h_2$
+	Onto-ness of $F$:
+	- 
+	We now have an onto Function that maps from $H$ to $[g]$ meaning that we can say that $H$ and $[g]$ have the same size
+	
+	
+	
 	
 	(c)
 	
