@@ -120,11 +120,11 @@
 	Define $F : H \rightarrow [g] \quad F(h) = gh$
 	One-to-one-ness of $F$:
 	- $gh_1, \; gh_2 \in [g]$
-	- Assume $gh_1 = gh$
+	- Assume $gh_1 = gh_2$
 	- $g^{-1}gh_1 = g^{-1}gh_2 \implies h_1 = h_2$
 	Onto-ness of $F$:
-	- 
-	We now have an onto Function that maps from $H$ to $[g]$ meaning that we can say that $H$ and $[g]$ have the same size
+	- $F^{-1}(gh) = $
+	We now have a bijection that maps from $H$ to $[g]$ meaning that we can say that $H$ and $[g]$ have the same size
 	
 	
 	
