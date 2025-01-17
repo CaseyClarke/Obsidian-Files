@@ -112,7 +112,7 @@
 	
 	$\therefore$ This is a valid equivalence relation
 	
-	(b)
+	(b) (cardinality)
 	
 	$g \sim g' \implies g^{-1}g' \in H \implies g' = gh \quad h \in H$
 	Meaning that 
@@ -128,7 +128,8 @@
 	
 	(c)
 	
-	==idk man==
+	Since we know that the equivalence relation $g \sim g' \iff g^{-1}g \in H$ partitions G into some number of partitions of size $H$ we can say that $size(G) = n \times size(H) \text{ for some } n \in \mathbb{N}$
+	This is the definition of evenly dividing 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
