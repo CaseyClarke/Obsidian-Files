@@ -1,29 +1,43 @@
 # Question 4
 
 (a)
-- $ln(\mu_{L} - \mu_{S}) = 1.8370 - 1.5910 = 0.246$
-- $\mu_{L} - \mu_{S} = e^{0.246} \approx 1.2789$
 
-- From log rules we know that 
-- $$e^{ln(\mu_{L} - \mu_{S})} = e^{ln(\frac{\mu_{L}}{\mu_{S}})} = \frac{\mu_{L}}{\mu_{S}}$$
-- Therefore the antilogarithm of the difference is the ratio of the brain sizes, e.g. on average the LARGE group has $1.2789\times$ the brain size compared to those of the SMALL group
+We need to show that this relation satisfies the 3 properties of an equivalence relation
 
+Reflexive:
 
-(b)
+$g^{-1}g = 1_G \in H$ as $H$ must contain the identity if it is a subgroup
 
-- 
-  > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
-  > [Full Size Image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
+Symmetric:
 
-- $H_0 : ln(\mu_L  - \mu_S) = 0$
-- $H_A : ln(\mu_L - \mu_S) \neq 0$
-- $t = -1.247$
-- $p = 0.216$
-- The distribution under the null hypothesis is normal. 
-- Given that the p-value is bigger than our significance level of $0.01$ we fail to reject the null hypothesis
+$g \sim g' \implies g^{-1}g' \in H$
+$(g^{-1}g')^{-1} = g{'}^{-1}g \implies g{'}^{-1}g \in H$ since inverse is closed
+$\implies g' \sim g$
+
+Transitive:
+
+$g \sim g'$
+$g' \sim g''$
+$(g^{-1}g')(g{'}^{-1}g'') = g^{-1}g'' \in H$ since multiplication is closed
+$\implies g \sim g''$
+
+$\therefore$ This is a valid equivalence relation
+
+(b) (cardinality)
+
+$g \sim g' \implies g^{-1}g' \in H \implies g' = gh \quad h \in H$
+Meaning that 
+$\forall h \in H \; gh \in [g] \quad \text{ Where } [g] \text{ is some eqivalence class with a representative } g$
+Define $F : H \rightarrow [g] \quad F(h) = gh$
+One-to-one-ness of $F$:
+- $gh_1, \; gh_2 \in [g]$
+- Assume $gh_1 = gh_2$
+- $g^{-1}gh_1 = g^{-1}gh_2 \implies h_1 = h_2$
+Onto-ness of $F$:
+- F is onto from the definition of $[g]$
+We now have a bijection that maps from $H$ to $[g]$ meaning that we can say that $H$ and $[g]$ have the same size
 
 (c)
 
-- $CI_{99} = (e^{-0.76525}, e^{0.27334}) \approx (0.46522, 1.31435)$
-
-- From part (a) we know that a difference log transformed can be thought of as a ratio which means to form a conclusion from the confidence interval we need to check if it contains $1$ as that would mean that both means are equal, since it does in fact contain $1$ we can conclude that with $95\%$ confidence there is no difference between the means. This is the same conclusion we came to in part (a)
+Since we know that the equivalence relation $g \sim g' \iff g^{-1}g \in H$ partitions G into some number of partitions of size $H$ we can say that $size(G) = n \times size(H) \text{ for some } n \in \mathbb{N}$
+This is the definition of evenly dividing

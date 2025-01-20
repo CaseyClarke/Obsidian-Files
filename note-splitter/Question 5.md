@@ -2,12 +2,45 @@
 
 (a)
 
-- 
-  > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegkyRvAH1WhpGpX1Lz0dm7taKi0L24yhUAbCHXq2fLiin-Ksqifq28vtaDeMJZDcWHwR64jKP7Ak0Q5odA0BirbXhTSmtHOS296Z-1Is6bX8VqhyQvPy9_alPxP6LQQCuYLIFPEQ?key=_VwyLlKMddU95SYPlK_KuEQP)
+(i)
+
+Composition preserves linearity
+$(S \circ T)^{-1} = T^{-1} \circ S^{-1}$
+$(S \circ T)^{-1}(V) \circ  (T^{-1} \circ S^{-1})(V) = S(T(T^{-1}(S^{-1}(V)))) = V$
+$(T^{-1} \circ S^{-1})(V) \circ (S \circ T)^{-1}(V) = T^{-1}(S^{-1}(S(T(V)))) = V$
+$\therefore$ It is closed as the properties of linearity and invertibility hold
+
+(ii)
+
+$(S \circ T) \circ R = S \circ (T \circ R)$
+$S(T(V) \circ R = S \circ (T(R(V)$
+$S(T(R(V) = S(T(R(V)$
+
+(iii)
+
+$I(V) = V$
+Which is trivially linear and is invertible as $I^{-1} = I$ 
+
+(iv)	
+
+Any element has an inverse by definition and from the properties of function composition we know $(T \circ T^{-1})(V) = (T^{-1} \circ T)(V) = V = I(V) \quad \forall \; T \in IL(V)$
 
 (b)
 
-- $H_0 : \text{ The relative brain weight is the same for all groups}$
-- $H_A : \text{ The relative brain weight is } \underline{\text{not}} \text{ the same for all groups}$
-- $p = 0.219$
-- Given that the p-value is still bigger than $0.01$ we fail to reject the null hypothesis, the same as Q4.
+(i)
+
+From the previous question we know that function composition forms a group over $IL(V)$ so this is automatically satisfied as $f$ is just the composition of functions
+
+(ii)
+
+$f(T \circ T') = S \circ (T \circ T') \circ S^{-1}$
+$f(T) \circ f(T') = (S \circ T \circ S^{-1}) \circ (S \circ T' \circ S^{-1})$
+$f(T) \circ f(T') = (S \circ T \circ T' \circ S^{-1}) = S \circ (T \circ T') \circ S^{-1}$
+$f(T) \circ f(T') = f(T \circ T')$
+
+(iii)
+
+$f^{-1}(T) = S^{-1} \circ T \circ S$
+$f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) = T$
+
+Since $f$ is simply a string of function compositions it preserves the group structure meaning that (i), (ii), and (iii) are all automatically satisfied making it a homomorphism as well

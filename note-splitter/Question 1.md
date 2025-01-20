@@ -1,3 +1,15 @@
 # Question 1
 
-- This study is a retrospective observational study, we cannot make population inferences as there is no random sampling and we also cannot make causal inferences in observational studies at all. The findings would be able to be generalized to the population of interest (all mammals) if there was random sampling.
+To show that $\vec{v} \sim \vec{v'}$ is an equivalence relation we need to show that it follows the 3 properties of an equivalence relation
+
+Reflexive Property:
+- $T(\vec{v}) = T(\vec{v'}) \implies \vec{v} = \vec{v'}$
+
+Symmetric Property:
+- $T(\vec{v}) = T(\vec{v'}) \implies \vec{v} = \vec{v'} \implies \vec{v'} = \vec{v}$
+
+Transitive Property
+- $T(\vec{v}) = T(\vec{v'})$
+- $T(\vec{v'}) = T(\vec{v''})$
+- $T(\vec{v}) = T(\vec{v'}) = T(\vec{v''}) \implies T(\vec{v}) = T(\vec{v''})$
+$QED$
