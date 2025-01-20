@@ -186,7 +186,7 @@ $f(T) \circ f(T) = f(T \circ T)$
 $f^{-1}(T) = S^{-1} \circ T \circ S$
 $f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) = T$
 
-Since $f$ is simply a string of function compositions it preserves the group structure meaning that (i), (ii), and (iii) are all automatically satisfied making it a homomorphism as well
+Since $f^{-1}$ is simply a string of function compositions it preserves the group structure meaning that (i), (ii), and (iii) are all automatically satisfied making it a homomorphism as well
 
 {{ENDQUESTION}}
 
@@ -202,9 +202,9 @@ $$[T(1)]_{\beta'} = \begin{pmatrix} 1\\-1\\-1\\1 \end{pmatrix}$$
 $$[T]_{\beta' \leftarrow \beta} = \begin{pmatrix} 2 & -2 & -1& 0 & 1\\1 & -1 & -2 & 3 & -1\\1 & -1 & -2 & 0 & -1\\0 & 0 & 1 & 1 & 1 \end{pmatrix} $$
 (b)
 
-$$[T(x^4 - x^3 + x)]_{\beta} = \begin{pmatrix} 1\\1\\0\\1\\0 \end{pmatrix}$$ 
-$$[T(x^4 - x^3 + x)]_{\beta'} = \begin{pmatrix} 0\\3\\0\\1\ \end{pmatrix}$$ 
-$$[T(x^4 - x^3 + x)]_{\beta'} = \begin{pmatrix} 2 & -2 & -1& 0 & 1\\1 & -1 & -2 & 3 & -1\\1 & -1 & -2 & 0 & -1\\0 & 0 & 1 & 1 & 1 \end{pmatrix}\begin{pmatrix} 1\\1\\0\\1\\0 \end{pmatrix} = \begin{pmatrix} 0\\3\\0\\1 \end{pmatrix}$$
+$$[(x^4 - x^3 + x)]_{\beta} = \begin{pmatrix} 1\\-1\\0\\1\\0 \end{pmatrix}$$ 
+$$[T(x^4 - x^3 + x)]_{\beta'} = \begin{pmatrix} 4\\5\\2\\1\ \end{pmatrix}$$ 
+$$[T(x^4 - x^3 + x)]_{\beta'} = \begin{pmatrix} 2 & -2 & -1& 0 & 1\\1 & -1 & -2 & 3 & -1\\1 & -1 & -2 & 0 & -1\\0 & 0 & 1 & 1 & 1 \end{pmatrix}\begin{pmatrix} 1\\-1\\0\\1\\0 \end{pmatrix} = \begin{pmatrix} 4\\5\\2\\1 \end{pmatrix}$$
 
 They both get the same answer so the formula holds
 

@@ -33,10 +33,10 @@ From the previous question we know that function composition forms a group over 
 
 (ii)
 
-$f(T \circ T') = S \circ (T \circ T') \circ S^{-1}$
-$f(T) \circ f(T') = (S \circ T \circ S^{-1}) \circ (S \circ T' \circ S^{-1})$
-$f(T) \circ f(T') = (S \circ T \circ T' \circ S^{-1}) = S \circ (T \circ T') \circ S^{-1}$
-$f(T) \circ f(T') = f(T \circ T')$
+$f(T \circ T) = S \circ (T \circ T) \circ S^{-1}$
+$f(T) \circ f(T) = (S \circ T \circ S^{-1}) \circ (S \circ T \circ S^{-1})$
+$f(T) \circ f(T) = (S \circ T \circ T \circ S^{-1}) = S \circ (T \circ T) \circ S^{-1}$
+$f(T) \circ f(T) = f(T \circ T)$
 
 (iii)
 
