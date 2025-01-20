@@ -43,4 +43,4 @@ $f(T) \circ f(T') = f(T \circ T')$
 $f^{-1}(T) = S^{-1} \circ T \circ S$
 $f(T) \circ f^{-1}(T) = f^{-1}(T) \circ f(T) = T$
 
-Since $f$ is simply a string of function compositions it preserves the group structure meaning that (i), (ii), and (iii) are all automatically satisfied making it a homomorphism as well
+Since $f^{-1}$ is simply a string of function compositions it preserves the group structure meaning that (i), (ii), and (iii) are all automatically satisfied making it a homomorphism as well
