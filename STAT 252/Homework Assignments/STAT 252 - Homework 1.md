@@ -65,4 +65,8 @@ They gave different conclusions as part(a) had a much less strict confidence lev
 
 ### Experiment 1
 
+(a)
+
+
+
 
