@@ -33,7 +33,7 @@
 	- Normality - This is violated as shown in part (c) and (b)
 	- Random sampling - We __do not__ have random sampling
 	- Independence - We can assume the data is independent from the study design
-	- Equal variances - We can assume equal variances as $\frac{max(S_1, S_2)}{min(S_1,S_2)} = \frac{61.691}{30.767} < 2$ and from the fact that the box plots have roughly equal spreads
+	- Equal variances - We can assume equal variances from the fact that the box plots have roughly equal spreads
 
 
 {{ENDQUESTION}}
