@@ -67,7 +67,20 @@ $$\begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}^{-1} = \frac 12 \begin{pmatrix} 2 &
 
 # Question 4
 
-$$[T(0,1,4)]_{\beta} = [(5,3,3)]_{\beta}\begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
-$$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta}\begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
-$$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta}\begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
+$$[T(1,0,0)]_{\beta} = [3, 0, 3]_{\beta} = \begin{pmatrix} 3 \\ 0 \\ 3\end{pmatrix}$$
+$$[T(0,1,0)]_{\beta} = [1, -1, -1]_{\beta} = \begin{pmatrix} 1 \\ -1 \\ -1\end{pmatrix}$$
+$$[T(0,0,1)]_{\beta} = [1, 1, 1]_{\beta} = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$$
+$$[T]_{\beta \leftarrow \beta} = \begin{pmatrix} 3 & 1 & 1 \\ 0 & -1 & 1  \\ 3 & -1 & 1\end{pmatrix}$$
+
+$$[T(0,1,4)]_{\beta} = [(5,3,3)]_{\beta} = \begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
+$$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta} = \begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
+$$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
+$$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 5 & 0 & 16 \\ 3 & -3 & 4 \\ 3 & 0 & 10\end{pmatrix}$$
+
+
+$$[T(0,1,4)]_{\beta} = [(5,3,3)]_{\beta} = \begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
+$$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta} = \begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
+$$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
+$$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 5 & 0 & 16 \\ 3 & -3 & 4 \\ 3 & 0 & 10\end{pmatrix}$$
+
 
