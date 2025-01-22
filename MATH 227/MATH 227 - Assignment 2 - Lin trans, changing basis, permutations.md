@@ -65,6 +65,8 @@ $$[T(x)]_{\beta'} = [(0,2)]_{\beta} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}$$
 $$[T]_{\beta' \leftarrow \beta} = \begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}$$
 $$\begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}^{-1} = \frac 12 \begin{pmatrix} 2 & 0\\ -1 & 1\end{pmatrix} = \begin{pmatrix} 1 & 0\\ -1/2 & 1/2\end{pmatrix}$$
 
+{ENDQUESTION}}
+
 # Question 4
 
 $$[T(1,0,0)]_{\beta} = [3, 0, 3]_{\beta} = \begin{pmatrix} 3 \\ 0 \\ 3\end{pmatrix}$$
@@ -77,10 +79,27 @@ $$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta} = \begin{pmatrix} 0 \\ -3 \\ 0\e
 $$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
 $$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 5 & 0 & 16 \\ 3 & -3 & 4 \\ 3 & 0 & 10\end{pmatrix}$$
 
+idk how to do that last one
 
-$$[T(0,1,4)]_{\beta} = [(5,3,3)]_{\beta} = \begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
-$$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta} = \begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
-$$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
-$$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 5 & 0 & 16 \\ 3 & -3 & 4 \\ 3 & 0 & 10\end{pmatrix}$$
+{{ENDQUESTION}}
 
+# Question 5
 
+(a)
+
+{{ENDQUESTION}}
+
+# Question 6
+
+(a)
+
+$$\begin{pmatrix} 1 & 2 & 3 & 4 \\ 1 & 3 & 4 & 2 \\ \end{pmatrix} \circ \begin{pmatrix} 1 & 2 & 3 & 4 \\ 3 & 1 & 4 & 2 \\ \end{pmatrix} = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 4 & 1 & 2 & 3 \\ \end{pmatrix}$$
+$$\begin{pmatrix} 1 & 2 & 3 & 4 \\ 3 & 1 & 4 & 2 \\ \end{pmatrix}\circ \begin{pmatrix} 1 & 2 & 3 & 4 \\ 1 & 3 & 4 & 2 \\ \end{pmatrix}   = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 3 & 4 & 2 & 1 \\ \end{pmatrix}$$
+(b)
+
+$$h^{-1} = \begin{pmatrix} 2 & 3 & 4 & 1 \\ 1 & 2 & 3 & 4 \\ \end{pmatrix} = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 4 & 1 & 2 & 3 \\ \end{pmatrix}$$
+
+(c)
+
+$$P(h) = 
+\begin{pmatrix} 0 & 0 & 0 & 1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{pmatrix}$$
