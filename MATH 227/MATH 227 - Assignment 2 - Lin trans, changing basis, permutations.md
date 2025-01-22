@@ -6,7 +6,7 @@
 $dim(domain) = dim(Ker(T) + dim(Im(T)$
 $\Rightarrow 4 = dim(Ker(T) + dim(Im(T)$
 $dim(Ker(T)) \in (0,4)$
-$dim(Ker(T)) = 4 - dim(Im(T))$
+$\Rightarrow dim(Ker(T)) = 4 - dim(Im(T))$
 $dim(Im(T)) \in (0,4)$
 
 (b)
@@ -55,8 +55,19 @@ $T^{-1}(x+iy)= \begin{pmatrix} 2/13 & 3/13 \\ 3/13 & -2/13  \end{pmatrix}\begin{
 
 # Question 3
 
+Domain: $\mathbb{R}^2$
+Codomain: $P_1(\mathbb{R})$
+
 $\beta = (1, x)$
 $\beta' = ((1,0),(0,1))$
+$$[T(1)]_{\beta'} = [(1,1)]_{\beta} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$ 
+$$[T(x)]_{\beta'} = [(0,2)]_{\beta} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}$$ 
+$$[T]_{\beta' \leftarrow \beta} = \begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}$$
+$$\begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}^{-1} = \frac 12 \begin{pmatrix} 2 & 0\\ -1 & 1\end{pmatrix} = \begin{pmatrix} 1 & 0\\ -1/2 & 1/2\end{pmatrix}$$
 
-$[T]_{\beta \leftarrow \beta'}$
+# Question 4
+
+$$[T(0,1,4)]_{\beta} = [(5,3,3)]_{\beta}\begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
+$$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta}\begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
+$$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta}\begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
 
