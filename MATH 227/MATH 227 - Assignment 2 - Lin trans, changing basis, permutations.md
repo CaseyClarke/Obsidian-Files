@@ -67,7 +67,7 @@ $$[T(x)]_{\beta'} = [(0,2)]_{\beta} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}$$
 $$[T]_{\beta' \leftarrow \beta} = \begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}$$
 $$\begin{pmatrix} 1 & 0\\ 1 & 2\end{pmatrix}^{-1} = \frac 12 \begin{pmatrix} 2 & 0\\ -1 & 1\end{pmatrix} = \begin{pmatrix} 1 & 0\\ -1/2 & 1/2\end{pmatrix}$$
 
-{ENDQUESTION}}
+{{ENDQUESTION}}
 
 # Question 4
 
@@ -209,6 +209,7 @@ $$
 
 $$
 
+{{ENDQUESTION}}
 
 # Question 6
 
