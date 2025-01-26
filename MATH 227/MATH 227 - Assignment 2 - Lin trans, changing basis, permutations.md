@@ -50,7 +50,9 @@ $[T]_{\beta \leftarrow \beta} = \begin{pmatrix} 2 & 3 \\ 3 & -2 \end{pmatrix}$
 
 $[T^{-1}]_{\beta \leftarrow \beta} = ([T]_{\beta \leftarrow \beta}) = \begin{pmatrix} 2 & 3 \\ 3 & -2 \end{pmatrix}$
 $$\begin{pmatrix} 2 & 3 \\ 3 & -2 \\ \end{pmatrix}^{-1} = \frac{1}{-13}\begin{pmatrix} -2 & -3 \\ -3 & 2 \\ \end{pmatrix} = \begin{pmatrix} 2/13 & 3/13 \\ 3/13 & -2/13  \end{pmatrix}$$
-$T^{-1}(x+iy)= \begin{pmatrix} 2/13 & 3/13 \\ 3/13 & -2/13  \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2/13(x) + 3/13(y) \\ 3/13(x) - 2/13(y)  \end{pmatrix} = (2/13(x) + 3/13(y)) + i(3/13(x) - 2/13(y))$
+$T^{-1}(x+iy)= \begin{pmatrix} 2/13 & 3/13 \\ 3/13 & -2/13  \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2/13(x) + 3/13(y) \\ 3/13(x) - 2/13(y)  \end{pmatrix}$
+$= (2/13(x) + 3/13(y)) + i(3/13(x) - 2/13(y))$
+
 {{ENDQUESTION}}
 
 # Question 3
@@ -79,15 +81,16 @@ $$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta} = \begin{pmatrix} 0 \\ -3 \\ 0\e
 $$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
 $$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 5 & 0 & 16 \\ 3 & -3 & 4 \\ 3 & 0 & 10\end{pmatrix}$$
 
+$$[P]_{\beta' \leftarrow \beta} = \begin{pmatrix} 0 & 1 & 2 \\ 1 & 0 & 3  \\ 4 & -3 & 7\end{pmatrix}$$
+$$[P]_{\beta \leftarrow \beta'} = [P]_{\beta' \leftarrow \beta}^{-1} = \begin{pmatrix} -9 & 13 & -3 \\ -5 & 8 & -2  \\ 3 & -4 & 1\end{pmatrix}$$
 
-$$[T(0,1,4)]_{\beta'} = [(5,3,3)]_{\beta'} = \begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
-$$[T(1, 0 , -3)]_{\beta'} = [(0, -3, 0)]_{\beta'} = \begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
-$$[T(2,3,7)]_{\beta'} = [(16, 4, 10)]_{\beta'} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
+$$[T]_{\beta' \leftarrow \beta'} = [P]_{\beta \leftarrow \beta'}[T]_{\beta \leftarrow \beta}[P]_{\beta' \leftarrow \beta} = \begin{pmatrix} -9 & 13 & -3 \\ -5 & 8 & -2  \\ 3 & -4 & 1\end{pmatrix}\begin{pmatrix} 3 & 1 & 1 \\ 0 & -1 & 1  \\ 3 & -1 & 1\end{pmatrix}\begin{pmatrix} 0 & 1 & 2 \\ 1 & 0 & 3  \\ 4 & -3 & 7\end{pmatrix}$$
+$$ = \begin{pmatrix}
+-2 & -1 &-5 \\
+6 & -11 & -13 \\
+6 & -1 & 3​
+\end{pmatrix}$$
 
-
-$$[T]_{\beta' \leftarrow \beta'} = $$
-
-idk how to do that last one
 
 {{ENDQUESTION}}
 
@@ -95,7 +98,9 @@ idk how to do that last one
 
 (a)
 
-{{ENDQUESTION}}
+$$[p(t)]_{\beta} = \begin{pmatrix} 0 \\ -1 \\ 4 \end{pmatrix}$$
+$$[p(t)]_{\beta} = \begin{pmatrix} -1 \\ -6 \\ 5 \end{pmatrix}$$
+
 
 # Question 6
 
