@@ -99,7 +99,7 @@ $$ = \begin{pmatrix}
 (a)
 
 $$[p(t)]_{\beta} = \begin{pmatrix} 0 \\ -1 \\ 4 \end{pmatrix}$$
-$$[p(t)]_{\beta} = \begin{pmatrix} 7 \\ 2 \\ -3 \end{pmatrix}$$
+$$[p(t)]_{\beta'} = \begin{pmatrix} 7 \\ 2 \\ -3 \end{pmatrix}$$
 
 (b)
 
@@ -108,11 +108,40 @@ $$[P]_{\beta \leftarrow \beta'} = \begin{pmatrix}
 0 & 1 & 1 \\
 1 & 0 & 1 ​
 \end{pmatrix}$$
-$$[P]_{\beta' \leftarrow \beta} = \begin{pmatrix}
--1 & 3 & 1 \\
-1 & 1 & 1 \\
--1 & 0 & 1 ​
+$$[P]_{\beta' \leftarrow \beta} = [P]_{\beta \leftarrow \beta'}^{-1} = \begin{pmatrix}
+-4 & -5 & 9 \\
+-4 & -4 & 8 \\
+4 & 5 & 9 ​
 \end{pmatrix}$$
+$$[P]_{\beta \leftarrow \beta''} = \begin{pmatrix}
+1 & 0 & 1 \\
+1 & 0 & 2 \\
+2 & 1 & 0 ​
+\end{pmatrix}$$
+$$[P]_{\beta'' \leftarrow \beta} = [P]_{\beta \leftarrow \beta''}^{-1} = \begin{pmatrix}
+2 & -1 & 0 \\
+-4 & 2 & 1 \\
+-1 & 1 & 0 ​
+\end{pmatrix}$$
+
+(c)
+
+$$\begin{pmatrix}
+-4 & -5 & 9 \\
+-4 & -4 & 8 \\
+4 & 5 & 9 ​
+\end{pmatrix}\begin{pmatrix} 0 \\ -1 \\ 4 \end{pmatrix} = \begin{pmatrix} 7 \\ 2 \\ -3 \end{pmatrix}$$
+(d)
+
+$$\begin{pmatrix}
+2 & -1 & 0 \\
+-4 & 2 & 1 \\
+-1 & 1 & 0 ​
+\end{pmatrix}
+\begin{pmatrix} 0 \\ -1 \\ 4 \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix}$$
+(e)
+
+
 
 
 # Question 6
