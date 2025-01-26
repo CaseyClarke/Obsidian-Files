@@ -99,7 +99,20 @@ $$ = \begin{pmatrix}
 (a)
 
 $$[p(t)]_{\beta} = \begin{pmatrix} 0 \\ -1 \\ 4 \end{pmatrix}$$
-$$[p(t)]_{\beta} = \begin{pmatrix} -1 \\ -6 \\ 5 \end{pmatrix}$$
+$$[p(t)]_{\beta} = \begin{pmatrix} 7 \\ 2 \\ -3 \end{pmatrix}$$
+
+(b)
+
+$$[P]_{\beta \leftarrow \beta'} = \begin{pmatrix}
+2 & 3 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 1 ​
+\end{pmatrix}$$
+$$[P]_{\beta' \leftarrow \beta} = \begin{pmatrix}
+-1 & 3 & 1 \\
+1 & 1 & 1 \\
+-1 & 0 & 1 ​
+\end{pmatrix}$$
 
 
 # Question 6
