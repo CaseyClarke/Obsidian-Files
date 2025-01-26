@@ -15,7 +15,7 @@ $dim(domain) = dim(Ker(S) + dim(Im(S)$
 $\Rightarrow 6 = dim(Ker(S) + dim(Im(S)$
 $dim(Im(S)) \in (0,4)$
 $\Rightarrow dim(Ker(S)) = 6 - dim(Im(S))$
-$dim(Im(S)) \in (2,6)$
+$dim(Ker(S)) \in (2,6)$
 
 {{ENDQUESTION}}
 
@@ -78,6 +78,14 @@ $$[T(0,1,4)]_{\beta} = [(5,3,3)]_{\beta} = \begin{pmatrix} 5 \\ 3 \\ 3\end{pmatr
 $$[T(1, 0 , -3)]_{\beta} = [(0, -3, 0)]_{\beta} = \begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
 $$[T(2,3,7)]_{\beta} = [(16, 4, 10)]_{\beta} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
 $$[T]_{\beta \leftarrow \beta'} = \begin{pmatrix} 5 & 0 & 16 \\ 3 & -3 & 4 \\ 3 & 0 & 10\end{pmatrix}$$
+
+
+$$[T(0,1,4)]_{\beta'} = [(5,3,3)]_{\beta'} = \begin{pmatrix} 5 \\ 3 \\ 3\end{pmatrix}$$
+$$[T(1, 0 , -3)]_{\beta'} = [(0, -3, 0)]_{\beta'} = \begin{pmatrix} 0 \\ -3 \\ 0\end{pmatrix}$$
+$$[T(2,3,7)]_{\beta'} = [(16, 4, 10)]_{\beta'} = \begin{pmatrix} 16 \\ 4 \\ 10\end{pmatrix}$$
+
+
+$$[T]_{\beta' \leftarrow \beta'} = $$
 
 idk how to do that last one
 
