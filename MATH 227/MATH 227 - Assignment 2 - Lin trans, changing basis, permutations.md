@@ -43,12 +43,12 @@ $T(cz) = (2+3i)\overline{cz} = c(2+3i)\overline{z} = cT(z)$
 (c)
 
 $[T(1)]_{\beta} = \begin{pmatrix} 2 \\3 \end{pmatrix}$
-$[T(i)]_{\beta}  = [3-2i]_B =\begin{pmatrix} 3 \\2 \end{pmatrix}$
+$[T(i)]_{\beta}  = [3-2i]_B =\begin{pmatrix} 3 \\ -2 \end{pmatrix}$
 $[T]_{\beta \leftarrow \beta} = \begin{pmatrix} 2 & 3 \\ 3 & -2 \end{pmatrix}$
 
 (d)
 
-$[T^{-1}]_{\beta \leftarrow \beta} = ([T]_{\beta \leftarrow \beta}) = \begin{pmatrix} 2 & 3 \\ 3 & -2 \end{pmatrix}$
+$[T^{-1}]_{\beta \leftarrow \beta} = ([T]_{\beta \leftarrow \beta})^{-1} = \begin{pmatrix} 2 & 3 \\ 3 & -2 \end{pmatrix}^{-1}$
 $$\begin{pmatrix} 2 & 3 \\ 3 & -2 \\ \end{pmatrix}^{-1} = \frac{1}{-13}\begin{pmatrix} -2 & -3 \\ -3 & 2 \\ \end{pmatrix} = \begin{pmatrix} 2/13 & 3/13 \\ 3/13 & -2/13  \end{pmatrix}$$
 $T^{-1}(x+iy)= \begin{pmatrix} 2/13 & 3/13 \\ 3/13 & -2/13  \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2/13(x) + 3/13(y) \\ 3/13(x) - 2/13(y)  \end{pmatrix}$
 $= (2/13(x) + 3/13(y)) + i(3/13(x) - 2/13(y))$
