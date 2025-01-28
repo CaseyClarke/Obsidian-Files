@@ -105,14 +105,8 @@ $a \neq -6$
 
 # Question 6
 
-$$
-\begin{pmatrix}
-a & b & c & d \\
--a+b & 0 & -c+b & -d+b \\
-0 & 1 & 2 & 3 \\
-a & a+1 & a+2 & a+3
-\end{pmatrix}
-$$
+$2(2,0,1,2) + 1(-1,2,-4,-1) + 2(-4,3,-1,0) = (-5,8,-4,3)$
+That is the same as the last row meaning it is redundant meaning that the RREF has a row of all 0's $\implies \; det(A) = 0$
 
 {{ENDQUESTION}}
 
