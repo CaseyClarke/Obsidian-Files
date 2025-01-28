@@ -16,7 +16,7 @@ $\Rightarrow A_{1,2}A_{2,3}A_{3,4}A_{4,1}sign(\sigma)$
 $\Rightarrow (0)A_{2,3}A_{3,4}A_{4,1}sign(\sigma)$
 $\Rightarrow 0$
 
-{{ENQUESTION}}
+{{ENDQUESTION}}
 
 # Question 2
 
@@ -26,7 +26,7 @@ $F(a,b) = F(b,a)$
 $F(a+2b,a-2b) = 1 -2F(a,b) + 2F(a,b) + 4$
 $F(a+2b,a-2b) = -3$
 
-{{ENDQUESTION}
+{{ENDQUESTION}}
 
 # Question 3
 
@@ -37,25 +37,23 @@ a & b & c & d \\
 0 & 1 & 2 & 3 \\
 a & a+1 & a+2 & a+3
 \end{pmatrix}
-$$
-
-$$
+\xrightarrow{
+    \begin{subarray}{l}
+        R_2 \leftarrow  R_2 + R_1\\
+        R_4 \leftarrow  R_4 - R_3
+    \end{subarray}
+}
 \begin{pmatrix}
 a & b & c & d \\
 b & b & b & b \\
 0 & 1 & 2 & 3 \\
 a & a & a & a
 \end{pmatrix}
-$$
-$$
-\begin{pmatrix}
-a & b & c & d \\
-1 & 1 & 1 & 1 \\
-0 & 1 & 2 & 3 \\
-1 & 1 & 1 & 1
-\end{pmatrix}
-$$
-$$
+\xrightarrow{
+    \begin{subarray}{l}
+        R_4 \leftarrow  (a^{-1}R_4) - (b^{-1}R_2)
+    \end{subarray}
+}
 \begin{pmatrix}
 a & b & c & d \\
 1 & 1 & 1 & 1 \\
@@ -63,6 +61,7 @@ a & b & c & d \\
 0 & 0 & 0 & 0
 \end{pmatrix}
 $$
+
 Row of 0's $\implies$not invertible
 
 {{ENDQUESTION}}
@@ -74,12 +73,12 @@ Row of 0's $\implies$not invertible
 $det(-5A^2B^3A^T) = det(-5)det(A^2)det(B^3)det(A^T) \neq 0$
 $det(-5A^2B^3A^T) = -5det(A)^2det(B)^3det(A) \neq 0$
 $det(-5A^2B^3A^T) = -5det(A)^3det(B)^3 \neq 0$
-$\implies det(A) \neq 0\text{ and } det(B) \neq 0$
+$\therefore \; det(A) \neq 0\text{ and } det(B) \neq 0$
 
 (b)
 
-$det(2AB^{-1}A^TB^2) = 2det(A)\frac{1}{det(B)}det(A)det(B)^2$
-$det(2AB^{-1}A^TB^2) = 2(-1)\frac{1}{2}(-1)(4)$
+$det(2AB^{-1}A^TB^2) = 2det(A)det(B)^{-1}det(A)det(B)^2$
+$det(2AB^{-1}A^TB^2) = 2(-1)2^{-1}(-1)(4)$
 $det(2AB^{-1}A^TB^2) = 4$
 
 (c)
@@ -88,9 +87,8 @@ given that $det(A^T) = det(A)$
 $det(-A) = det(A)$
 $det(-A) = det(-I_7)det(A)$
 $det(-A) = (-1)^7 det(A)$
-$(-1)^{7} = -1$
-$-det(A) = det(A)$
-$det(A)$ must be $0$
+$det(A) = -det(A)$
+$det(A)$ must be $0 \implies$ not invertible
 
 {{ENDQUESTION}}
 
@@ -98,16 +96,33 @@ $det(A)$ must be $0$
 
 $det(A) = (1)(0)(a) + (-1)(-1)(2) + (3)(1)(1) - (3)(0)(2) - (1)(-1)(1) - (a)(1)(-1) \neq 0$
 $det(A) = a+6 \neq 0$
-$a+6 \neq 0$
 $a \neq -6$
 
 {{ENDQUESTION}}
 
 # Question 6
 
-The rows are not linearly independent as
-$2(2,0,1,2) + 1(-1,2,-4,-1) + 2(-4,3,-1,0) = (-5,8,-4,3)$
-That is the same as the last row meaning it is redundant meaning that the RREF has a row of all 0's $\implies \; det(A) = 0$
+$$
+\begin{pmatrix}
+2 & 0 & 1 & 2 \\
+-1 & 2 & -4 & -1 \\
+-4 & 3 & -1 & 0 \\
+-5 & 8 & -4 & 3
+\end{pmatrix}
+\xrightarrow{
+    \begin{subarray}{l}
+        R_4 \leftarrow R_4 -(2R_1 + 1R_2 + 2R_3)\\
+    \end{subarray}
+}
+\begin{pmatrix}
+2 & 0 & 1 & 2 \\
+-1 & 2 & -4 & -1 \\
+-4 & 3 & -1 & 0 \\
+0 & 0 & 0 & 0
+\end{pmatrix}
+$$
+
+Row of 0's $\implies$not invertible $\implies$ $det(A) = 0$
 
 {{ENDQUESTION}}
 
