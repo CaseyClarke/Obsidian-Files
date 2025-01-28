@@ -30,6 +30,42 @@ $F(a+2b,a-2b) = -3$
 
 # Question 3
 
+$$
+\begin{pmatrix}
+a & b & c & d \\
+-a+b & 0 & -c+b & -d+b \\
+0 & 1 & 2 & 3 \\
+a & a+1 & a+2 & a+3
+\end{pmatrix}
+$$
+$R_2 \leftarrow R_2 + R_1$
+$R_4 \leftarrow R_4 - R_3$
+
+$$
+\begin{pmatrix}
+a & b & c & d \\
+b & b & b & b \\
+0 & 1 & 2 & 3 \\
+a & a & a & a
+\end{pmatrix}
+$$
+$$
+\begin{pmatrix}
+a & b & c & d \\
+1 & 1 & 1 & 1 \\
+0 & 1 & 2 & 3 \\
+1 & 1 & 1 & 1
+\end{pmatrix}
+$$
+$$
+\begin{pmatrix}
+a & b & c & d \\
+1 & 1 & 1 & 1 \\
+0 & 1 & 2 & 3 \\
+0 & 0 & 0 & 0
+\end{pmatrix}
+$$
+
 {{ENDQUESTION}}
 
 # Question 4
