@@ -61,6 +61,11 @@ $det(A)$ must be $0$
 
 # Question 5
 
+$det(A) = (1)(0)(a) + (-1)(-1)(2) + (3)(1)(1) - (3)(0)(2) - (1)(-1)(1) - (a)(1)(-1) \neq 0$
+$det(A) = a+6 \neq 0$
+$a+6 \neq 0$
+$a \neq -6$
+
 {{ENDQUESTION}}
 
 # Question 6
