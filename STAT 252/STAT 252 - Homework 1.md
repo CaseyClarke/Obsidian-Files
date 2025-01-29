@@ -85,11 +85,11 @@
 - (iii) 
 	- $\text{Estimate} = \mu_\text{Treatment} - \mu_\text{Control} = 6.0667$
 	- $n = n1 , n2 = 30$
-	- $SE(\text{Estimate}) = s_p\sqrt{\frac{1}{2n}} = 19.8537\sqrt{\frac{1}{60}} = 2.5631$
-	- $t = \frac{\mu_\text{Treatment} - \mu_\text{Control}}{SE(\text{Estimate})} = \frac{6.0667}{2.5631} = 2.3669$
+	- $SE(\text{Estimate}) = s_p\sqrt{\frac{2}{n}} = 19.8537\sqrt{\frac{1}{15}} = 5.1262$
+	- $t = \frac{\mu_\text{Treatment} - \mu_\text{Control}}{SE(\text{Estimate})} = \frac{6.0667}{5.1262} = 1.1835$
 - (iv)
 	- $df = 2n-2 = 58$
-	- $p \in  (0.01, 0.02) \implies$ strong to moderate evidence against $H_0$
+	- $p \in  (0.025, 0.05) \implies$ strong to moderate evidence against $H_0$
 	- $p > a = 0.01 \implies$ we fail reject the null hypothesis 
 - (v)
 	- At a significance level of $0.01$ we fail reject the claim that the treatment does not raise the platelet count significantly
@@ -102,7 +102,7 @@
 	- $C.V. = t^*_{df,a/2} = t^*_{58,0.025} = 2.009$
 - (ii)
 	- $\mu_\text{Treatment} - \mu_\text{Control} \pm  t^*_{58,0.025}SE({\text{Estimate}})$
-	- $\Rightarrow 6.0667 \pm 2.009(2.3669) = (1.3115979, 10.8218021)$
+	- $\Rightarrow 6.0667 \pm 2.009(1.1835) = (3.6890485, 8.4443515)$
 - (iii) 
 	- given that $0$ is in not the confidence interval we can say with $95\%$ confidence that there is sufficient evidence to conclude a difference between the two means
 
@@ -157,18 +157,36 @@
 
 (a)
 
-- $\text{Estimate} = \mu_\text{hotels} - \mu_\text{cabins} = 5.1353$
+- $\text{Estimate} = \mu_\text{hotels} - \mu_\text{cabins} = 5.6555 - 4.6152 = 1.0403$
 - $n = n_1,n_2 = 20$
-- $SE(\text{Estimate}) = s_p\sqrt{\frac{1}{2n}} = 0.55099\sqrt{\frac{1}{40}} = 0.0871$
-- $t = \frac{\mu_\text{hotels} - \mu_\text{cabins}}{SE(\text{Estimate})} = \frac{5.1353}{0.0871} = 3.6602$
+- $df = 2n-2 = 38$
+- $S_p = \sqrt{\frac{(n-1)(S_1)^2+(n-1)(S_2)^2}{2n-2}} = \sqrt{\frac{(19)(0.1451)^2+(19)(0.18008)^2}{38}}$
+- $\Rightarrow 0.1635$
+- $SE(\text{Estimate}) = s_p\sqrt{\frac{2}{n}} = 0.1635\sqrt{\frac{1}{10}} = 0.05170$
+- $C.V. = t^*_{df,a/2} = t^*_{38, 0.05} = 1.697$
+- $\mu_d \pm  t^*_{38,0.05}SE({\text{Estimate}})$
+- $\Rightarrow 1.0403 \pm 1.697(0.05170) = (0.9525651, 1.1280349)$
+- Back transformed C.I. $= (e^{0.9525651}, e^{1.1280349}) = (2.59235077709, 3.08957919874)$
 
-- (i)
-	- $C.V. = t^*_{df,a/2} = t^*_{29,0.025} = 2.756$
-- (ii)
-	- $\mu_d \pm  t^*_{29,0.025}SE({\text{Estimate}})$
-	- $\Rightarrow 3.7667 \pm 2.756(1.0291) = (0.9305004, 6.6028996)$
-- (iii) 
-	- given that $0$ is in not the confidence interval we can say with $95\%$ confidence that there is sufficient evidence to conclude a difference between the two means
+(b)
+
+- Since this is a back transformed $ln(x)$ C.I. to test for equal means we check if 1 is in the C.I. Given that $1$ is not in the confidence interval we can say with $90\%$ confidence that there is sufficient evidence to conclude a difference between the two means
+# Question 5
+
+{{ENDQUESTION}}
+
+(a)
+
+- A Mann-Witney U test with
+
+ $H_0 : \text{ There is no difference in the amount of hours spent watching horror movies between youth and adults}$ $H_0 : \text{ There is a difference in the amount of hours spent watching horror movies between youth and adults}$
+ 
+- would be the most appropriate here as the Shapiro-Wilk test for normality on the youth group for both the logged and original data is less than $0.05$ which means we cannot assume normality for either, there are no assumptions for this test
+
+(b)
+
+
+- 
 
 
 
