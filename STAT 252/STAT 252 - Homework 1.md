@@ -28,7 +28,8 @@
 
 (a)
 
-- (i) A t-test is the most appropriate where the sample is $\mu_{2019}$
+- (i) 
+	- A t-test is the most appropriate where the sample is $\mu_{2019}$
 - (ii) 
 	- $H_0 : \mu_{2019} = 279$
 	- $H_A : \mu_{2019} \neq 279$
@@ -45,11 +46,13 @@
 	- $p < a = 0.05 \implies$ we reject the null hypothesis 
 - (v)
 	- At a significance level of $0.05$ we reject the claim that the average cost of residential electrical bills in 2019 is the same as the average cost of residential electrical bills in 2017
+
 (b)
 
 - Variables are carried over from the previous part, only change is $a = 0.01$
-- 
-- (i) $C.V. = t^*_{df,a/2} = t^*_{11,0.005} = 3.106$
+
+- (i)
+	- $C.V. = t^*_{df,a/2} = t^*_{11,0.005} = 3.106$
 - (ii)
 	- $\bar{y} \pm  t^*_{11,0.005}SE({\bar{y}}) = 305.72 \pm  (3.106)11.5614 = (269.8103, 341.6297)$
 - (iii) 
@@ -57,7 +60,7 @@
 
 (c)
 
-They gave different conclusions as part(a) had a much less strict confidence level compared to part (b), the strength of the evidence did not change, just our level of confidence
+- They gave different conclusions as part(a) had a much less strict confidence level compared to part (b), the strength of the evidence did not change, just our level of confidence
 
 {ENDQUESTION}
 
