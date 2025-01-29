@@ -131,7 +131,7 @@
 - (iv)
 	- $df = n-1 = 29$
 	- $p <  0.0005 \implies$ convincing to strong evidence against $H_0$
-	- $p < a = 0.01 \implies$ we fail reject the null hypothesis 
+	- $p < a = 0.01 \implies$ we reject the null hypothesis 
 - (v)
 	- At a significance level of $0.01$ we reject the claim that the treatment does not raise the platelet count significantly
 
@@ -152,7 +152,6 @@
 - Since we got the same answer for both parts that would suggest that the drug does actually have the proposed affect
 
 {{ENDQUESTION}}
-
 # Question 4
 
 (a)
@@ -171,39 +170,55 @@
 (b)
 
 - Since this is a back transformed $ln(x)$ C.I. to test for equal means we check if 1 is in the C.I. Given that $1$ is not in the confidence interval we can say with $90\%$ confidence that there is sufficient evidence to conclude a difference between the two means
-# Question 5
 
 {{ENDQUESTION}}
+# Question 5
 
 (a)
 
-- A Mann-Witney U test with
-
- $H_0 : \text{ There is no difference in the amount of hours spent watching horror movies between youth and adults}$ $H_0 : \text{ There is a difference in the amount of hours spent watching horror movies between youth and adults}$
- 
-- would be the most appropriate here as the Shapiro-Wilk test for normality on the youth group for both the logged and original data is less than $0.05$ which means we cannot assume normality for either and the data is not paired, there are no assumptions for this test
+A Mann-Witney U test with
+$H_0 : \text{There is no difference in the amount of hours spent watching horror movies between youth and adults}$
+$H_A : \text{There is a difference in the amount of hours spent watching horror movies between youth and adults}$
+would be the most appropriate here as the Shapiro-Wilk test for normality on the youth group for both the logged and original data is less than $0.05$ which means we cannot assume normality for either and the data is not paired, there are no assumptions for this test
 
 (b)
 
+| Sample 1 | Sample 2 | Rank 1   | Rank 2 |
+| -------- | -------- | -------- | ------ |
+| 0        | 0        | 2.5<br>  | 2.5    |
+| 1        | 0        | 6<br>    | 2.5    |
+| 1        | 0        | 6<br>    | 2.5    |
+| 2        | 1        | 8.5<br>  | 6      |
+| 3        | 2        | 10.5<br> | 8.5    |
+| 5        | 3        | 13<br>   | 10.5   |
+| 8        | 4        | 14<br>   | 12     |
+| 12       | 9        | 16       | 15     |
+| 18       | 13       | 18       | 17     |
+| 22       | 20       | 20<br>   | 19     |
+| 26       | 28       | 21<br>   | 22     |
+| 39       | 29       | 26<br>   | 23     |
+| 42       | 30       | 27<br>   | 24     |
+| 44       | 33       | 28<br>   | 25     |
+| 47       |          | 29<br>   |        |
+| 48       |          | 30       |        |
+| 49       |          | 31       |        |
+|          |          |          |        |
 
-0 0 0 1 2 3 4 9 13 20 28 29 30 33
+- (i) 
+	- From part (a)
+- (ii) 
+	- From part (a)
+- (iii) 
+	- $M_1 = 306.5$
+	- $n_1 = 17$
+	- $n_2 = 14$
+	- $\mu_M = \frac{n_1(1+n_1+n_2)}{2} =  \frac{17(1+14+17)}{2} = 272$
+	- $SE(M) = \sqrt{\frac{n_1n_2(1+n_1+n_2)}{12}} = \sqrt{\frac{(14)(17)(1+14+17)}{12}} = 25.1926$
+	- $Z^*_0 = \frac{M_1 - \mu_M}{SE(M)} = \frac{306.5 - 272}{25.1926} = 1.3694$
+- (iv)
+	- $p =  0.1706 \implies$ convincing to strong evidence against $H_0$
+	- $p < a = 0.1 \implies$ we fail to reject the null hypothesis 
+- (v)
+	- At a significance level of $0.1$ we fail to reject that claim that there is no difference in the amount of hours spent watching horror movies between youth and adults
 
-| Sample 1 | Sample 2 | Rank 1 | Rank 2 | Combined Ranks |
-| -------- | -------- | ------ | ------ | -------------- |
-| 0        | 0        |        |        |                |
-| 1        | 0        |        |        |                |
-| 1        | 0        |        |        |                |
-| 2        | 1        |        |        |                |
-| 3        | 2        |        |        |                |
-| 5        | 3        |        |        |                |
-| 8        | 4        |        |        |                |
-| 12       | 9        |        |        |                |
-| 18       | 13       |        |        |                |
-| 22       | 20       |        |        |                |
-| 26       | 28       |        |        |                |
-| 39       | 29       |        |        |                |
-| 42       | 30       |        |        |                |
-| 44       | 33       |        |        |                |
-| 47       |          |        |        |                |
-| 48       |          |        |        |                |
-| 49       |          |        |        |                |
+
