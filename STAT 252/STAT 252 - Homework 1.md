@@ -11,7 +11,7 @@
 
 (c)
 
-- Yield per Plot - Ordinal - $kg/m^2$
+- Yield per Plot - Continuous- $kg/m^2$
 
 (d)
 
@@ -20,7 +20,7 @@
 (e)
 
 - Causal inferences are possible as there is random allocation
-- Population inferences are not possible because idk man i feel like it
+- Population inferences are not possible as there is no indication that these plots are indicative of some larger population
 
 {{ENDQUESTION}}
 
