@@ -181,7 +181,7 @@
 
  $H_0 : \text{ There is no difference in the amount of hours spent watching horror movies between youth and adults}$ $H_0 : \text{ There is a difference in the amount of hours spent watching horror movies between youth and adults}$
  
-- would be the most appropriate here as the Shapiro-Wilk test for normality on the youth group for both the logged and original data is less than $0.05$ which means we cannot assume normality for either, there are no assumptions for this test
+- would be the most appropriate here as the Shapiro-Wilk test for normality on the youth group for both the logged and original data is less than $0.05$ which means we cannot assume normality for either and the data is not paired, there are no assumptions for this test
 
 (b)
 
