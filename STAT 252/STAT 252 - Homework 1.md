@@ -89,7 +89,7 @@
 	- $t = \frac{\mu_\text{Treatment} - \mu_\text{Control}}{SE(\text{Estimate})} = \frac{6.0667}{5.1262} = 1.1835$
 - (iv)
 	- $df = 2n-2 = 58$
-	- $p \in  (0.025, 0.05) \implies$ strong to moderate evidence against $H_0$
+	- $p \in  (0.1, 0.15) \implies$ strong to moderate evidence against $H_0$
 	- $p > a = 0.01 \implies$ we fail reject the null hypothesis 
 - (v)
 	- At a significance level of $0.01$ we fail reject the claim that the treatment does not raise the platelet count significantly
@@ -102,9 +102,9 @@
 	- $C.V. = t^*_{df,a/2} = t^*_{58,0.025} = 2.009$
 - (ii)
 	- $\mu_\text{Treatment} - \mu_\text{Control} \pm  t^*_{58,0.025}SE({\text{Estimate}})$
-	- $\Rightarrow 6.0667 \pm 2.009(1.1835) = (3.6890485, 8.4443515)$
+	- $\Rightarrow 6.0667 \pm 2.009(5.1262) = (-4.2318358, 16.3652358)$
 - (iii) 
-	- given that $0$ is in not the confidence interval we can say with $95\%$ confidence that there is sufficient evidence to conclude a difference between the two means
+	- given that $0$ is in the confidence interval we can say with $95\%$ confidence that there is not sufficient evidence to conclude a difference between the two means
 
 
 ### Experiment 2
@@ -140,16 +140,16 @@
 - Variables are carried over from the previous part, only change is $a = 0.05$
 
 - (i)
-	- $C.V. = t^*_{df,a/2} = t^*_{29,0.025} = 2.756$
+	- $C.V. = t^*_{df,a/2} = t^*_{29,0.025} = 2.045$
 - (ii)
 	- $\mu_d \pm  t^*_{29,0.025}SE({\text{Estimate}})$
-	- $\Rightarrow 3.7667 \pm 2.756(1.0291) = (0.9305004, 6.6028996)$
+	- $\Rightarrow 3.7667 \pm 2.045(1.0291) = (1.6621905, 5.8712095)$
 - (iii) 
 	- given that $0$ is in not the confidence interval we can say with $95\%$ confidence that there is sufficient evidence to conclude a difference between the two means
 
 (g)
 
-- Since we got the same answer for both parts that would suggest that the drug does actually have the proposed affect
+- Since they are different trials the difference in experiment design and random chance with respect to the effect on the study participants is probably why the answers are different
 
 {{ENDQUESTION}}
 # Question 4
@@ -202,7 +202,6 @@ would be the most appropriate here as the Shapiro-Wilk test for normality on the
 | 47       |          | 29<br>   |        |
 | 48       |          | 30       |        |
 | 49       |          | 31       |        |
-|          |          |          |        |
 
 - (i) 
 	- From part (a)
@@ -216,7 +215,7 @@ would be the most appropriate here as the Shapiro-Wilk test for normality on the
 	- $SE(M) = \sqrt{\frac{n_1n_2(1+n_1+n_2)}{12}} = \sqrt{\frac{(14)(17)(1+14+17)}{12}} = 25.1926$
 	- $Z^*_0 = \frac{M_1 - \mu_M}{SE(M)} = \frac{306.5 - 272}{25.1926} = 1.3694$
 - (iv)
-	- $p =  0.1706 \implies$ convincing to strong evidence against $H_0$
+	- $p =  0.1706 \implies$ weak evidence against $H_0$
 	- $p < a = 0.1 \implies$ we fail to reject the null hypothesis 
 - (v)
 	- At a significance level of $0.1$ we fail to reject that claim that there is no difference in the amount of hours spent watching horror movies between youth and adults
