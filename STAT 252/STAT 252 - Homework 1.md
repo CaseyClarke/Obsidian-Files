@@ -120,9 +120,9 @@
 (e)
 
 - (i) 
-	- From part (a)
+	- From part (d)
 - (ii) 
-	- From part (a)
+	- From part (d)
 - (iii) 
 	- $\text{Estimate} = \mu_d = 3.7667$
 	- $n = 30$
