@@ -6,12 +6,12 @@
 
 (b)
 
-- Irrigation levels - Ordinal - $mm$
+- Irrigation levels - Ordinal Continuous - $mm$
 - Fertilizer type - Categorical - $A\lor B$
 
 (c)
 
-- Yield per Plot - Continuous- $kg/m^2$
+- Yield per Plot - Ordinal Continuous- $kg/m^2$
 
 (d)
 
