@@ -74,7 +74,7 @@
 
 (a)
 - $ln(\mu_{L} - \mu_{S}) = 1.8370 - 1.5910 = 0.246$
-- $\mu_{L} - \mu_{S} = e^{0.246} \approx 1.2789$
+- $e^{0.246} \approx 1.2789$
 
 - From log rules we know that 
 - $$e^{ln(\mu_{L} - \mu_{S})} = e^{ln(\frac{\mu_{L}}{\mu_{S}})} = \frac{\mu_{L}}{\mu_{S}}$$
