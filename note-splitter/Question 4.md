@@ -1,11 +1,11 @@
 # Question 4
 
 (a)
-- $ln(\mu_{L} - \mu_{S}) = 1.8370 - 1.5910 = 0.246$
+- $ln(\mu_{L}) - ln(\mu_{S}) = 1.8370 - 1.5910 = 0.246$
 - $e^{0.246} \approx 1.2789$
 
 - From log rules we know that 
-- $$e^{ln(\mu_{L} - \mu_{S})} = e^{ln(\frac{\mu_{L}}{\mu_{S}})} = \frac{\mu_{L}}{\mu_{S}}$$
+- $$e^{ln(\mu_{L}) - ln(\mu_{S})} = e^{ln(\frac{\mu_{L}}{\mu_{S}})} = \frac{\mu_{L}}{\mu_{S}}$$
 - Therefore the antilogarithm of the difference is the ratio of the brain sizes, e.g. on average the LARGE group has $1.2789\times$ the brain size compared to those of the SMALL group
 
 
@@ -15,8 +15,8 @@
   > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
   > [Full Size Image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
 
-- $H_0 : ln(\mu_L  - \mu_S) = 0$
-- $H_A : ln(\mu_L - \mu_S) \neq 0$
+- $H_0 : ln(\mu_L)  - ln(\mu_S) = 0$
+- $H_A : ln(\mu_L) - ln(\mu_S) \neq 0$
 - $t = -1.247$
 - $p = 0.216$
 - The distribution under the null hypothesis is normal. 
