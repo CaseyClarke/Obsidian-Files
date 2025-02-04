@@ -84,19 +84,18 @@
 (b)
 
 - 
-  > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
-  > [Full Size Image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIt8NyPLpHrva4bB5xP-ESYneFlu-BDMeolaeGA8d3DHZzA6gCcLI0_m1h-W4VwWaM_bbTGwZDxhPZ8pwDEP7tWz0XHZdh8h457Lvl5aG5vQXJAYn8nkjUkzG6GHNaupg8JGuroA?key=_VwyLlKMddU95SYPlK_KuEQP)
+  > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe_OoXKC2eA5ybJ43jj5nxnMOvODfB-W47EYqYuqPqmT-XtnJCQ7YTAvMhZNlS036dgPRbs6Ll53sliCLpZlxdo2clXgHDg68fdxaQe49WBHzJHMQ69pQzKPrGS8_LU0Gi0TliXCQ?key=IQAsPUclo3cAIZczkFx_qYMk)
 
 - $H_0 : ln(\mu_L)  - ln(\mu_S) = 0$
 - $H_A : ln(\mu_L) - ln(\mu_S) \neq 0$
-- $t = -1.247$
+- $t = 1.247$
 - $p = 0.216$
 - The distribution under the null hypothesis is normal. 
 - Given that the p-value is bigger than our significance level of $0.01$ we fail to reject the null hypothesis
 
 (c)
 
-- $CI_{99} = (e^{-0.76525}, e^{0.27334}) \approx (0.46522, 1.31435)$
+- $CI_{99} = (e^{-0.27334}, e^{0.76525}) \approx (0.760834, 2.14953)$
 
 - From part (a) we know that a difference log transformed can be thought of as a ratio which means to form a conclusion from the confidence interval we need to check if it contains $1$ as that would mean that both means are equal, since it does in fact contain $1$ we can conclude that with $95\%$ confidence there is no difference between the means. This is the same conclusion we came to in part (a)
 
