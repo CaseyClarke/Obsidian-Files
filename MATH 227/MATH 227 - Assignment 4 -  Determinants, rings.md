@@ -99,9 +99,19 @@ Multiplicitive inverse:
 Multiplicitive identity:
 - $\exists 1 \in \operatorname{U}(R) \text{ S. T. } 1u = u \quad u \in U$
 - $(1)^{-1} = -1 \implies \pm 1 \in U$ 
-Closure
+Closure:
 - $uv \in U$
 - $(uv)^{-1} = v^{-1}u^{-1}$
 
 # Question 7
+
+Let the matricies be $A,B,C$ Respectivly
+
+$\operatorname{det}(A) = -1 \implies$ Invertible as $-1 \in U(\mathbb{Z}[x])$
+$\operatorname{det}(B)) = −21x^2+7x−4 \implies$ not invertible as $−21x^2+7x−4 \notin U(\mathbb{Z}[x])$
+$\operatorname{det}(C) = -1 \implies$ Invertible as $-1 \in U(\mathbb{Z}[x])$
+
+$A^{-1} = \frac{1}{-1}\begin{pmatrix} -1 & -2x^3+3x - 5 \\ 0 & 1\end{pmatrix} = \begin{pmatrix} 1 & 2x^3-3x + 5 \\ 0 & -1\end{pmatrix} = A$
+
+$C^{-1} = \frac{1}{-1}\begin{pmatrix} 2x+1 & -4 \\ -x^2 & 2x-1 \end{pmatrix} = \begin{pmatrix} -2x-1 & 4 \\ x^2 & -2x+1 \end{pmatrix}$
 
