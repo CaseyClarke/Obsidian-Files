@@ -12,6 +12,8 @@
 
 (a)
 
+$\operatorname{det}\begin{pmatrix} 2 & -1 \\ -3 & 1\end{pmatrix} = 5$
+
 (b)
 
 # Question 3
