@@ -106,7 +106,6 @@ Closure:
 # Question 7
 
 Let the matricies be $A,B,C$ Respectivly
-
 $\operatorname{det}(A) = -1 \implies$ Invertible as $-1 \in U(\mathbb{Z}[x])$
 $\operatorname{det}(B)) = −21x^2+7x−4 \implies$ not invertible as $−21x^2+7x−4 \notin U(\mathbb{Z}[x])$
 $\operatorname{det}(C) = -1 \implies$ Invertible as $-1 \in U(\mathbb{Z}[x])$
