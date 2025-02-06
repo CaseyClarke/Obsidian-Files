@@ -12,3 +12,10 @@
 
 (b)
 
+- Since this is an experiment with random sampling and allocation we can make causal inferences but population inferences are not possible as the sample was only from one grade of math students not all of the grades in high school
+
+# Question 2
+
+(a)
+
+- 
