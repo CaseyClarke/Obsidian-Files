@@ -67,7 +67,7 @@ $$
 $$
 # Question 5
 
-$\operatorname{det}(A) = 6$ by criss cross
+$\operatorname{det}(A) = 6 \equiv 1$ by criss cross
 
 $$x = \frac{
 \begin{vmatrix}
@@ -75,9 +75,9 @@ A & 1 & -1 \\
 B & 4 & 0 \\
 C & 1 & 2
 \end{vmatrix}
-}{6}
+}{1}
 =
-\frac{8A-3B+4C}{6}
+8A-3B+4C
 $$
 $$y = \frac{
 \begin{vmatrix}
@@ -85,9 +85,9 @@ $$y = \frac{
 2 & B & 0 \\
 1 & C & 2
 \end{vmatrix}
-}{6}
+}{1}
 =
-\frac{−4A+3B−2C}{6}
+−4A+3B−2C
 $$
 $$z = \frac{
 \begin{vmatrix}
@@ -95,9 +95,9 @@ $$z = \frac{
 2 & 4 & B \\
 1 & 1 & C
 \end{vmatrix}
-}{6}
+}{1}
 =
-\frac{-2A + 2C}{6}
+-2A + 2C
 $$
 
 # Question 6 
