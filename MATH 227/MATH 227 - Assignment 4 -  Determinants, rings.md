@@ -58,12 +58,12 @@ $$
 $\operatorname{det}(A) = 76$ by criss cross
 $$
 (A^{-1})_{1,2} = \frac{(-1)^{1+2}}{\operatorname{det}(A)}
-\begin{vmatrix} 0 & 1 \\ 6  & 5 \end{vmatrix}
+\begin{vmatrix} 4 & -1 \\ -2  & 5 \end{vmatrix}
 =
 \frac{-1}{76}
-(-6)
+(18)
 =
-\frac{6}{76}
+\frac{-18}{76}
 $$
 # Question 5
 
