@@ -7,6 +7,8 @@
 -  $\operatorname{det}\begin{pmatrix}1 & -3 & -4 \\-2 & 5 & 5 \\3 & 7 & 6\end{pmatrix}= 0$ by criss cross
 - $\operatorname{det} = 0 \implies$ Linearly dependant
 - By make your life easy they cannot span all of $P_2(\mathbb{R})$
+- 
+{{ENDQUESTION}}
 
 # Question 2
 
@@ -22,6 +24,9 @@ Translating all points by $(-2,3)$ so that we have a point at $(0,0)$ for easy c
 $\vec{u} = (-4,5)$
 $\vec{v} = (-3,4)$
 $area = \frac12\operatorname{det}\begin{pmatrix} -4 & -3 \\ 5 & 4\end{pmatrix} = \frac12\left|-1\right| =\frac{1}{2}$
+
+{{ENDQUESTION}}
+
 # Question 3
 
 $$
@@ -53,6 +58,8 @@ $$
 -3
 
 $$
+{{ENDQUESTION}}
+
 # Question 4
 
 $\operatorname{det}(A) = 76$ by criss cross
@@ -65,6 +72,8 @@ $$
 =
 \frac{-18}{76}
 $$
+{{ENDQUESTION}}
+
 # Question 5
 
 $\operatorname{det}(A) = 6 \equiv 1$ by criss cross
@@ -100,6 +109,8 @@ $$z = \frac{
 -2A + 2C
 $$
 
+{{ENDQUESTION}}
+
 # Question 6 
 
 Multiplicitive identity:
@@ -111,6 +122,9 @@ Closure:
 Multiplicitive inverse:
 - $u \in U \implies uu^{-1} = 1_R = u^{-1}u$
 - $u^{-1} \in U$ as $u$ is it's inverse
+
+{{ENDQUESTION}}
+
 # Question 7
 
 Let the matricies be $A,B,C$ Respectivly, determinants taken by criss cross
@@ -122,3 +136,4 @@ $A^{-1} = \frac{1}{-1}\begin{pmatrix} -1 & -2x^3+3x - 5 \\ 0 & 1\end{pmatrix} = 
 
 $C^{-1} = \frac{1}{-1}\begin{pmatrix} 2x+1 & -4 \\ -x^2 & 2x-1 \end{pmatrix} = \begin{pmatrix} -2x-1 & 4 \\ x^2 & -2x+1 \end{pmatrix}$
 
+{{ENDQUESTION}}
