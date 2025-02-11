@@ -14,7 +14,7 @@
 
 $\vec{u} = (2,-3)$
 $\vec{v} = (-1,1)$
-$area = \operatorname{det}\begin{pmatrix} 1 & -1 \\ 1 & -2\end{pmatrix} = 1$
+$area = \operatorname{det}\begin{pmatrix} -1 & 1 \\ 2 & -3\end{pmatrix} = 1$
 
 (b)
 
