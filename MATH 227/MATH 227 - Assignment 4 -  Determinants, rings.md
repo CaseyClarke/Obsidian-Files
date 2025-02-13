@@ -3,6 +3,7 @@
 (a)
 - $\operatorname{det}\begin{pmatrix}3 & -4 & -2 \\0 & 1 & 1 \\-6 & 7 & 5\end{pmatrix}=6$ by criss cross
 - $\operatorname{det} \neq 0 \implies$ Linearly independant
+
 (b)
 -  $\operatorname{det}\begin{pmatrix}1 & -3 & -4 \\-2 & 5 & 5 \\3 & 7 & 6\end{pmatrix}= 0$ by criss cross
 - $\operatorname{det} = 0 \implies$ Linearly dependant
@@ -14,16 +15,16 @@
 
 (a)
 
-$\vec{u} = (2,-3)$
-$\vec{v} = (-1,1)$
-$area = \operatorname{det}\begin{pmatrix} -1 & 1 \\ 2 & -3\end{pmatrix} = 1$
+- $\vec{u} = (2,-3)$
+- $\vec{v} = (-1,1)$
+- $area = \operatorname{det}\begin{pmatrix} -1 & 1 \\ 2 & -3\end{pmatrix} = 1$
 
 (b)
 
-Translating all points by $(-2,3)$ so that we have a point at $(0,0)$ for easy calculation we get
-$\vec{u} = (-4,5)$
-$\vec{v} = (-3,4)$
-$area = \frac12\operatorname{det}\begin{pmatrix} -4 & -3 \\ 5 & 4\end{pmatrix} = \frac12\left|-1\right| =\frac{1}{2}$
+- Translating all points by $(-2,3)$ so that we have a point at $(0,0)$ for easy calculation we get
+- $\vec{u} = (-4,5)$
+- $\vec{v} = (-3,4)$
+- $area = \frac12\operatorname{det}\begin{pmatrix} -4 & -3 \\ 5 & 4\end{pmatrix} = \frac12\left|-1\right| =\frac{1}{2}$
 
 {{ENDQUESTION}}
 
@@ -113,17 +114,21 @@ $$
 
 # Question 6 
 
+
 Multiplicitive identity:
 - $1_R1_R = 1_R = 1_R1_R$
 - $1_R \in U$ as it is its own inverse
+
 Closure:
 - $uv(v^{-1}u^{-1}) = 1_R = (v^{-1}u^{-1})uv$
 - $uv \in U$ as $v^{-1}u^{-1}$ is it's inverse
+
 Multiplicitive inverse:
 - $u \in U \implies uu^{-1} = 1_R = u^{-1}u$
 - $u^{-1} \in U$ as $u$ is it's inverse
 
 {{ENDQUESTION}}
+
 
 # Question 7
 
