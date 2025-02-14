@@ -69,3 +69,4 @@ $p(x).(u+v) = (p(x)).u + (p(x)).v$
 
 (b)
 
+Assume for contradiction there is such a $T$, Let $T(1) = w$
