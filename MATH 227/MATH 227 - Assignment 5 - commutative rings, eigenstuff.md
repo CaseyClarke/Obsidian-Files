@@ -35,7 +35,37 @@ meaning that the x degree and the y degree must be both 0
 so $p(x,y) = a \quad a \in R$  is invertible iff $a$ is invertible in R
 $\therefore$ $U(R[x,y]) = U(R[x]) = U(R)$
 
+{{ENDQUESTION}
+
 # Question 2
 
 (a)
+
+- $(1,6)$
+
+(b)
+
+- $\{1,5,7,11\}$
+
+(c)
+
+- $(1,6)$
+
+(d)
+
+- $\{\pm 1\}$
+
+{{ENDQUESTION}}
+
+# Question 3
+
+(a)
+
+$p(x).(u+v) = (a_0 + a_1(2)^1 + a_2(2)^2 + \dots + a_n(2)^n)(u+v)$
+Since both elements are now just real numbers we can use distributivity
+$p(2) = a_0 + a_1(2)^1 + a_2(2)^2 + \dots + a_n(2)^n$
+$p(x).(u+v) = (p(2))u + (p(2))v$
+$p(x).(u+v) = (p(x)).u + (p(x)).v$
+
+(b)
 
