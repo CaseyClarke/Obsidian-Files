@@ -8,3 +8,19 @@ However any polynomial with degree $> 0$ cannot be inverted in $R[x]$ as the inv
 
 (b)
 
+$r(x),s(x) \in R[x]$
+
+Case 1: $r(x) \neq 0$
+
+$r(x)q(x) = 0$
+$r(x)q(x) = r(x)0$
+$\implies q(x) = 0$
+
+Case 2: $q(x) \neq 0$
+
+$r(x)q(x) = 0$
+$r(x)q(x) = 0q(x)$
+$\implies r(x) = 0$
+
+(c)
+
