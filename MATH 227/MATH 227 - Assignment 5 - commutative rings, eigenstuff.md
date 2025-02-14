@@ -99,5 +99,36 @@ $\operatorname{Null}(A+2I) = \begin{pmatrix} -2 \\ 1\end{pmatrix}$
 
 $P = \begin{pmatrix}  3 & -2 \\ 1 & 1 \end{pmatrix}$
 
+$P^{-1} = \frac15 \begin{pmatrix}  1 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix}  9 & 7 \\ 2 & 5 \end{pmatrix}$
+
 $D = \begin{pmatrix}  3 & 0 \\ 0 & -2 \end{pmatrix}$
+
+(c)
+
+$\sqrt{B} = P\sqrt{B}P^{-1}$
+as $\sqrt{B}\sqrt{B} = P\sqrt{B}P^{-1}P\sqrt{B}P^{-1} = B$
+
+$\sqrt{3} = \sqrt{25} = \pm 5$
+$\sqrt{-2} = \sqrt{9} = \pm3$
+
+$\sqrt{B}_1 = \begin{pmatrix}  3 & -2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix}  5 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix}  9 & 7 \\ 2 & 5 \end{pmatrix} = \begin{pmatrix}  2 & -2 \\ -4 & -5 \end{pmatrix}$
+$\sqrt{B}_2 = \begin{pmatrix}  3 & -2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix}  -5 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix}  9 & 7 \\ 2 & 5 \end{pmatrix} = \begin{pmatrix}  -4 & -3 \\ 5 & 2 \end{pmatrix}$
+$\sqrt{B}_3 = \begin{pmatrix}  3 & -2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix}  5 & 0 \\ 0 & -3 \end{pmatrix}\begin{pmatrix}  9 & 7 \\ 2 & 5 \end{pmatrix} = \begin{pmatrix}  4 & 3 \\ -5 & -2 \end{pmatrix}$
+$\sqrt{B}_4 = \begin{pmatrix}  3 & -2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix}  -5 & 0 \\ 0 & -3 \end{pmatrix}\begin{pmatrix}  9 & 7 \\ 2 & 5 \end{pmatrix} = \begin{pmatrix}  -2 & 2 \\ 4 & 5 \end{pmatrix}$
+
+{{ENDQUESTION}}
+# Question 5
+
+$det(B-\lambda I) = (-1-\lambda)(-3-\lambda) + 2 = \lambda^2 +4\lambda + 5$
+
+$\lambda = \frac{-4 \pm \sqrt{-4}}{2} =  \frac{-4 \pm 2i}{2} = -2 \pm i$
+
+$\operatorname{Null}(B-(-2+i)I) = \begin{pmatrix} -1-i \\ 1\end{pmatrix}$
+$\operatorname{Null}(B-(-2-i)I) = \begin{pmatrix} -1+i \\ 1\end{pmatrix}$
+
+$P = \begin{pmatrix} -1-i & -1 + i \\ 1 & 1\end{pmatrix}$
+
+$D = \begin{pmatrix} -2 + i & 0 \\ 0 & -2 - i\end{pmatrix}$
+
+# Question 6
 
