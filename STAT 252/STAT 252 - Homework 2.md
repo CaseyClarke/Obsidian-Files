@@ -26,4 +26,9 @@
 - (iv)
 
 	- $\alpha = 0.05$
-	- $p \in (0.025, 0.01)$
+	- $p = P(F^{4}_{25} > 4.5423) \in (0.025, 0.01) < \alpha \implies$Reject the null hypothesis
+
+
+- (v)
+
+	- At a significance level of $0.05$ we reject the claim that the there is no difference in the mean sales between the different stores
