@@ -32,3 +32,12 @@
 - (v)
 
 	- At a significance level of $0.05$ we reject the claim that the there is no difference in the mean sales between the different stores
+
+
+(b)
+
+- $S_p = \sqrt{MSE} = \sqrt{0.22472} = 0.47405$
+
+(c)
+
+- 
