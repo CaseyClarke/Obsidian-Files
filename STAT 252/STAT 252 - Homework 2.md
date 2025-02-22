@@ -40,20 +40,10 @@
 
 (c)
 
-```mermaid
-block-beta
-columns 1
-  db(("DB"))
-  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
-  block:ID
-    A
-    B["A wide one in the middle"]
-    C
-  end
-  space
-  D
-  ID --> D
-  C --> D
-  style B fill:#939,stroke:#333,stroke-width:4px
-
-```
+| A      | B      | C      | D      | E      |
+| ------ | ------ | ------ | ------ | ------ |
+| 1.883  | 1.783  | 1.183  | 1.333  | 0.900  |
+| ------ | ------ | ------ | ------ |        |
+|        | ------ | ------ | ------ |        |
+|        |        | ------ | ------ | ------ |
+|        |        |        | ------ | ------ |
