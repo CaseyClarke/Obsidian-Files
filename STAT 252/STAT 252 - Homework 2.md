@@ -104,7 +104,7 @@
 - (iv)
 
 	- $df = n-k = 25$
-	- $p = 2P(t_{25} > 2.9716) \in (0.01,0.005) \implies$ ==Evidence==
+	- $p = 2P(t_{25} > 2.9716) \in (0.01,0.005) \implies$ strong to moderate evidence against $H_0$
 	- $\alpha = 0.05$
 	- $p < \alpha \implies$ Reject the null hypothesis
 
@@ -136,11 +136,13 @@
 - (iv)
 
 	- $df = n-k = 25$
-	- $p = 2P(t_{25} > -3.9367) \in (0.01,0.005) \implies$ ==Evidence==
+	- $p = 2P(t_{25} > -3.9367) \in (0.0005,0.001) \implies$ Strong evidence against $H_0$
 	- $\alpha = 0.05$
 	- $p < \alpha \implies$ Reject the null hypothesis
 
 - (v)
 
-	- At a signifigance level of $0.05$ we reject the null hypothesis that there is a signifigant difference in the sales of stores A and B (combined) in comparison with stores C and D (combined)
+	- At a signifigance level of $0.05$ we reject the null hypothesis that there is a signifigant difference in the sales of store E in comparison with stores A and B (combined)
+
+
 
