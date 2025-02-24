@@ -105,8 +105,8 @@ $D = \begin{pmatrix}  3 & 0 \\ 0 & -2 \end{pmatrix}$
 
 (c)
 
-$\sqrt{B} = P\sqrt{B}P^{-1}$
-as $\sqrt{B}\sqrt{B} = P\sqrt{B}P^{-1}P\sqrt{B}P^{-1} = B$
+$\sqrt{B} = P\sqrt{D}P^{-1}$
+as $\sqrt{B}\sqrt{B} = P\sqrt{D}P^{-1}P\sqrt{D}P^{-1} = PDP^{-1}$
 
 $\sqrt{3} = \sqrt{25} = \pm 5$
 $\sqrt{-2} = \sqrt{9} = \pm3$
