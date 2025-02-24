@@ -149,3 +149,33 @@
 
 (a)
 
+- (i)
+
+	- A t test with would be the most appropriate with paramater
+	- $\gamma = \mu_E - \frac{\mu_A + \mu_B}{2} = \mu_E -\frac12 \mu_A -\frac12 \mu_B$
+
+- (ii)
+
+	- $H_0 : \gamma = 0$
+	- $H_A : \gamma \neq 0$
+
+- (iii)
+
+	- $\hat{\gamma} = 0.9 -\frac12 (1.883) - \frac12 (1.783) = -0.933$
+	- $s_p = 0.47405 \text{ (From part (b)) }$
+	- $n_i = n_j = 6$
+	- $SE(\hat{\gamma}) = s_p\sqrt{\frac{(C_1)^2}{n_i} + \frac{(C_2)^2}{n_i} + \frac{(C_3)^2}{n_i}}$
+	- $SE(\hat{\gamma}) = 0.47405\sqrt{\frac{(1)^2}{6} + \frac{(-1/2)^2}{6} + \frac{(-1/2)^2}{6}} = 0.2370$
+	- $t = \frac{\hat{\gamma}}{SE(\hat{\gamma})} = \frac{-0.933}{0.2370} = -3.9367$
+
+- (iv)
+
+	- $df = n-k = 25$
+	- $p = 2P(t_{25} > -3.9367) \in (0.0005,0.001) \implies$ Strong evidence against $H_0$
+	- $\alpha = 0.05$
+	- $p < \alpha \implies$ Reject the null hypothesis
+
+- (v)
+
+	- At a signifigance level of $0.05$ we reject the null hypothesis that there is a signifigant difference in the sales of store E in comparison with stores A and B (combined)
+
