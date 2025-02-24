@@ -145,35 +145,72 @@
 	- At a signifigance level of $0.05$ we reject the null hypothesis that there is a signifigant difference in the sales of store E in comparison with stores A and B (combined)
 
 
+{{ENDQUESTION}}
+
 # Question 2
+
+Filled in ANOVA tables for later use
+
+$n = 36 \text{ (Number of Observations) }$ 
+
+Table 1
+
+ $k = 6 \text{ (Number of groups) }$
+
+| Sales          |        |            | ANOVA Table |     |      |
+| -------------- | ------ | ---------- | ----------- | --- | ---- |
+|                | Ss     | df         | Ms          | F   | Sig. |
+| Between        | 7.692  | $k-1=5$    |             |     |      |
+| Within (error) | 6.393  | $n-k = 30$ |             |     |      |
+| Total          | 14.086 | $n-1 = 35$ |             |     |      |
+
+Table 2
+
+ $k = 2 \text{ (Number of groups) }$
+
+| Sales          |        |            | ANOVA Table |     |      |
+| -------------- | ------ | ---------- | ----------- | --- | ---- |
+|                | Ss     | df         | Ms          | F   | Sig. |
+| Between        | 0.934  | $k-1=1$    |             |     |      |
+| Within (error) | 13.151 | $n-k = 34$ |             |     |      |
+| Total          | 14.086 | $n-1 = 35$ |             |     |      |
+
+Table 3
+
+$k = 3 \text{ (Number of groups) }$
+
+| Sales          |        |            | ANOVA Table |     |      |
+| -------------- | ------ | ---------- | ----------- | --- | ---- |
+|                | Ss     | df         | Ms          | F   | Sig. |
+| Between        | 6.749  | $k-1=2$    |             |     |      |
+| Within (error) | 7.337  | $n-k = 33$ |             |     |      |
+| Total          | 14.086 | $n-1 = 35$ |             |     |      |
+
 
 (a)
 
 - (i)
 
-	- A t test with would be the most appropriate with paramater
-	- $\gamma = \mu_E - \frac{\mu_A + \mu_B}{2} = \mu_E -\frac12 \mu_A -\frac12 \mu_B$
+	- A two way ANOVA test would be most appropriate here with paramaters defined in the question
 
 - (ii)
 
-	- $H_0 : \gamma = 0$
-	- $H_A : \gamma \neq 0$
+	- $H_0 : \mu_{A-Sa} =  \mu_{A-Su}, \; \mu_{B-Sa} =  \mu_{B-Su}, \; \mu_{C-Sa} =  \mu_{C-Su}$
+	- $H_A : \mu_{A-Sa}, \; \mu_{A-Su}, \; \mu_{B-Sa}, \; \mu_{B-Su}, \; \mu_{C-Sa}, \; \mu_{C-Su}, \;$
+	- (reduced 3 vs. full 6)
 
 - (iii)
 
-	- $\hat{\gamma} = 0.9 -\frac12 (1.883) - \frac12 (1.783) = -0.933$
-	- $s_p = 0.47405 \text{ (From part (b)) }$
-	- $n_i = n_j = 6$
-	- $SE(\hat{\gamma}) = s_p\sqrt{\frac{(C_1)^2}{n_i} + \frac{(C_2)^2}{n_i} + \frac{(C_3)^2}{n_i}}$
-	- $SE(\hat{\gamma}) = 0.47405\sqrt{\frac{(1)^2}{6} + \frac{(-1/2)^2}{6} + \frac{(-1/2)^2}{6}} = 0.2370$
-	- $t = \frac{\hat{\gamma}}{SE(\hat{\gamma})} = \frac{-0.933}{0.2370} = -3.9367$
+	- EF (Error Full) = row 2 table 1
+	- ER (Error Reduced) = row 2 table 3
+	- $df_{EF} = 30$
+	- $df_{ER} = 33$
+	- $F = \frac{(SS_{ER} - SS_{EF}) \div (df_{ER} - df_{EF})}{(SS_{EF}) \div (df_{EF})} =  \frac{(7.337 - 6.393) \div (33 - 30)}{(6.393) \div (30)} = 1.4766$
 
 - (iv)
 
-	- $df = n-k = 25$
-	- $p = 2P(t_{25} > -3.9367) \in (0.0005,0.001) \implies$ Strong evidence against $H_0$
 	- $\alpha = 0.05$
-	- $p < \alpha \implies$ Reject the null hypothesis
+	- $p = P(F^{4}_{25} > 4.5423) \in (0.025, 0.01) < \alpha \implies$Reject the null hypothesis
 
 - (v)
 
