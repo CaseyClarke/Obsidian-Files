@@ -145,4 +145,7 @@
 	- At a signifigance level of $0.05$ we reject the null hypothesis that there is a signifigant difference in the sales of store E in comparison with stores A and B (combined)
 
 
+# Question 2
+
+(a)
 
