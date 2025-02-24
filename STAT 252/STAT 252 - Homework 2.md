@@ -55,7 +55,7 @@
 - $k = 5$
 - $MSE = 0.22472 \text{ (From previous part) }$
 - $m = \frac{k(k-1)}{2} = \frac{5(5-1)}{2} = 10$
-- $\alpha_1 = \frac{\alpha_F}{m} = \frac{0.05}{15} = 0.00334$
+- $\alpha_1 = \frac{\alpha_F}{m} = \frac{0.05}{10} = 0.0005$
 - $df = n-k = 30 - 5 = 25$
 - $t_{df,\alpha/2} = t_{25,0.025} = 2.060$
 - $ME_{ij} = t_{df,\alpha/2}\sqrt{MSE}\sqrt{\frac{2}{n_i}} = 2.06\sqrt{0.22472}\sqrt{\frac{2}{6}} = 0.5638$

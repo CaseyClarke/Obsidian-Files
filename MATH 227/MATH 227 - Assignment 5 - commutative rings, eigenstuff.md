@@ -12,7 +12,7 @@ so we can only take the case of $p(x) = a$ for some constant $a \in R$ since thi
 (b)
 
 Suppose for contradiction that $f(x)$ and $g(x)$ are non-zero polynomials with $n$ and $m$ degree respectively and leading coeffecients $C_f$ and $C_g$
-If $f(x)g(x) = 0$ every term must be zero so for a general leading term: $C_fC_gx^{m+n}$  by the zero property of $R$ either $C_f = 0$ or $C_g = 0$ meaning that either $f(x)$ or $g(x)$ has a leading term of zero which means that thery are 0 themselves which is a contradiction
+If $f(x)g(x) = 0$ every term must be zero so for a general leading term: $C_fC_gx^{m+n}$  by the zero property of $R$ either $C_f = 0$ or $C_g = 0$ meaning that either $f(x)$ or $g(x)$ has a leading term of zero we can inductively continue this down making every next leading term 0 until the whole polynomial is 0 which is a contradiction
 
 (c)
 
