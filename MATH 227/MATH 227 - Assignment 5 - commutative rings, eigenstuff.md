@@ -130,5 +130,15 @@ $P = \begin{pmatrix} -1-i & -1 + i \\ 1 & 1\end{pmatrix}$
 
 $D = \begin{pmatrix} -2 + i & 0 \\ 0 & -2 - i\end{pmatrix}$
 
+{{ENDQUESTION}}
 # Question 6
 
+$T$ map: 
+- $T(\hat{v}) = \lambda\hat{w}$
+- we have that the $ith$ entry of the eigenvector $\hat{w}$ is of the form $\hat{w}_i = a\hat{v}_{i+1}$ 
+- with eigenvalue $\lambda = \frac 1a$
+
+$S$ map:
+- $S(\hat{v}) = \lambda\hat{w}$
+- The $ith$ entry of the eigenvector $\hat{w}$ is of the form $\hat{w}_i = a\hat{v}_{i-1}$ where $\hat{v}_{-1} = 0$
+- with eigenvalue $\lambda = \frac1a$
