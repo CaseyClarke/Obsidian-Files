@@ -11,19 +11,8 @@ so we can only take the case of $p(x) = a$ for some constant $a \in R$ since thi
 
 (b)
 
-$r(x),s(x) \in R[x]$
-
-Case 1: $r(x) \neq 0$
-
-$r(x)q(x) = 0$
-$r(x)q(x) = r(x)0$
-$\implies q(x) = 0$
-
-Case 2: $q(x) \neq 0$
-
-$r(x)q(x) = 0$
-$r(x)q(x) = 0q(x)$
-$\implies r(x) = 0$
+Suppose for contradiction that $f(x)$ and $g(x)$ are non-zero polynomials with $n$ and $m$ degree respectively and leading coeffecients $C_f$ and $C_g$
+If $f(x)g(x) = 0$ every term must be zero so for a general leading term: $C_fC_gx^{m+n}$  by the zero property of $R$ either $C_f = 0$ or $C_g = 0$ meaning that either $f(x)$ or $g(x)$ has a leading term of zero which means that thery are 0 themselves which is a contradiction
 
 (c)
 
@@ -105,8 +94,8 @@ $D = \begin{pmatrix}  3 & 0 \\ 0 & -2 \end{pmatrix}$
 
 (c)
 
+$A^n = PD^nP^{-1}$
 $\sqrt{B} = P\sqrt{D}P^{-1}$
-as $\sqrt{B}\sqrt{B} = P\sqrt{D}P^{-1}P\sqrt{D}P^{-1} = PDP^{-1}$
 
 $\sqrt{3} = \sqrt{25} = \pm 5$
 $\sqrt{-2} = \sqrt{9} = \pm3$
@@ -134,11 +123,17 @@ $D = \begin{pmatrix} -2 + i & 0 \\ 0 & -2 - i\end{pmatrix}$
 # Question 6
 
 $T$ map: 
-- $T(\hat{v}) = \lambda\hat{w}$
-- we have that the $ith$ entry of the eigenvector $\hat{w}$ is of the form $\hat{w}_i = a\hat{v}_{i+1}$ 
-- with eigenvalue $\lambda = \frac 1a$
+- $T(\hat{v}) = \lambda\hat{v}$
+- $(a_2,a_3,a_4\dots) = \lambda(a_1,a_2,a_3,\dots) = (\lambda a_1,\lambda a_2,\lambda a_3,\dots)$
+- $a_2 = \lambda a_1$
+- $a_3 = \lambda a_2 = \lambda^2a_1$
+- $\dots$
+- $a_n = \lambda^{n-1} a_1 \quad n > 0$
+- $\therefore$ The eigenvectors for this map are in the form $(a_1, \lambda a_1, \lambda^2 a_1, \lambda^3 a_1, \dots)$ with eigen values $\lambda \neq 0$ and $a_1 \neq 0$ so that we don't get the trivial space
 
 $S$ map:
-- $S(\hat{v}) = \lambda\hat{w}$
-- The $ith$ entry of the eigenvector $\hat{w}$ is of the form $\hat{w}_i = a\hat{v}_{i-1}$ where $\hat{v}_{-1} = 0$
-- with eigenvalue $\lambda = \frac1a$
+- $S(\hat{v}) = \lambda\hat{v}$
+- $(0, a_1, a_2, a_3, \dots) = \lambda(a_1,a_2,a_3,\dots) = (\lambda a_1,\lambda a_2,\lambda a_3,\dots)$
+- $0 = \lambda a_1 \implies \; \lambda = 0 \lor a_1 = 0$ 
+- In either case the proposed eigenvector becomes the 0 vector meaning that it cannot be an eigenvector
+- $\therefore$ This map has no eigenvectors or eigenvalues
