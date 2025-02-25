@@ -134,7 +134,7 @@
 - (iv)
 
 	- $df = n-k = 25$
-	- $p = 2P(t_{25} > -3.9367) \in (0.0005,0.001) \implies$ Strong evidence against $H_0$
+	- $p = 2P(t_{25} < -3.9367) \in (0.0005,0.001) \implies$ Strong evidence against $H_0$
 	- $\alpha = 0.05$
 	- $p < \alpha \implies$ Reject the null hypothesis
 
