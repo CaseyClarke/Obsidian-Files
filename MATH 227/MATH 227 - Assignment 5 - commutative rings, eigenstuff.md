@@ -4,8 +4,8 @@
 (a)
 
 For any $p(x)$ to be invertible there must exists a $q(x)$ in the same domain such that $p(x)q(x) = 1$
-The degree of the LHS is 0 which means that $0 = deg(p(x)q(x))$ and since $x^ax^b = x^{a+b}$
-$0 = deg(p(x)) + deg(q(x))$ meaning that $p(x)$ and $q(x)$ are both constants
+The degree of the RHS is 0 which means that $0 = deg(p(x)q(x))$ and since $x^ax^b = x^{a+b}$
+$0 = deg(p(x)) + deg(q(x))$ meaning that $p(x)$ and $q(x)$ are both constants as a polynomial cannot have negitive degree
 
 so we can only take the case of $p(x) = a$ for some constant $a \in R$ since this "polynomial" is actually just some element in R we can say that any $p(x)$ in $R[x]$ is only invertible if $a$ is invertible in R
 
