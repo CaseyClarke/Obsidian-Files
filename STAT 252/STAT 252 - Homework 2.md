@@ -189,7 +189,7 @@ $k = 3 \text{ (Number of groups) }$
 
 - (i)
 
-	- A two way ANOVA test would be most appropriate here with paramaters defined in the question
+	- An ESS F test would be most appropriate here with paramaters defined in the question
 
 - (ii)
 
@@ -244,27 +244,27 @@ $n = 25 \times 12 = 300 \text{ (Number of Observations) }$
 
 (b)
 
-- Two way ANOVA
+- ESS F test
 - $H_0 : \mu_1 = \mu_2 = \mu_3 , \; \mu_4, \; \mu_5 = \mu_6 = \mu_7, \; \mu_8 = \mu_9 = \mu_{10}, \; \mu_{11} = \mu_{12}$
-- $H_A : \text{ There are some differences between the sections graded by same grader}$
-- $df_{LAB} = 12 - 1 = 11$
-- $df_{GRADER} = 5 - 1 = 4$
-- $df_E = 300 - 12 = 288$
+- $H_A : \text{ There are some differences in the mean marks between the sections graded by same grader}$
+- $l = 5$ (number of lab graders) 
+- $df_{R} = n-k = 288$
+- $df_{F} = n - k + l - 1 = 292$
 
 (c)
 
-- Two way ANOVA
-- $H_0 : \mu_{Q1} = \mu{R1} = \mu{S1}$
-- $H_A : \text{ There are some differences in the means}$
-- $df_{LEC} = 12 - 5 = 2$
-- $df_{LAB} = 12 - 3 = 9$
-- $df_{E} = 300 - 12 = 288$ 
+- ESS F test
+- $H_0 : \mu_{Q1} = \mu_{R1} = \mu_{S1}$
+- $H_A : \text{ There are some differences in the mean lab marks for the people in the same lectures}$
+- $l = 3$ (number of lab sections)
+- $df_{R} = n-k = 288$
+- $df_{F} = n - k + l - 1 = 286$
 
 {{ENDQUESTION}}
 # Question 4
 
 The Kruskal-Wallis test would be the most appropriate here as
-1. The provided data is not normal and the logged transformed data is also not normal given the p values in the Shapiro-Wilk tests are above the lower bound for true signifigance in all cases except Nicaragua
+1. The provided data is not normal and the logged transformed data is also not normal given that the p values in the Shapiro-Wilk tests for Nicaragua are less than the lower bound for signifigance in the original data $(<0.001)$ and log transformed data $(0.17)$
 2. $n<30\implies$ CRT does not apply 
 
 - Because of the last 2 we cannot use a normal ANOVA test so the following are the assumptions for the Kruskal-Wallis test
