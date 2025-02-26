@@ -48,7 +48,7 @@ There is a lot of variance in the spreads and centers of the boxplots and there 
 
 > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4Vb2gcnSpiAK-eliyoaKahHDpfRWAShK0eiL0HwDeoXrJYFt02i3FEi9c7ch4WdgkL5vnDE8OyRNb7kFBOVFs1ttgJvBgdlAKoeDwRBUs9pmwAm_5nqmFpIk18BwvSFjxkWpKqA?key=IQAsPUclo3cAIZczkFx_qYMk)
 
-All of the plots seem roughly normal, the dots stay close to the trend line is roughly $45°$
+All of the plots seem roughly normal, the dots stay close to the trend line and it is roughly $45°$
 
 If the assumption of normality was violated it would pose a signifigant problem as it it a requirement for the following statistical tests and would affect the results greatly
 
@@ -59,7 +59,7 @@ If the assumption of normality was violated it would pose a signifigant problem 
 (a)
 
 - $H_0: \mu_{C} = \mu_{H} = \mu_{Q} = \mu_{T} = \mu_{HT} = \mu_{QT}$
-- $H_A : \text{Not all means are equal}$
+- $H_A : \text{There are some differences in the means}$
 
 (b)
 
