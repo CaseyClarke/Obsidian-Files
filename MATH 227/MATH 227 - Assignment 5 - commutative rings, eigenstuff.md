@@ -24,7 +24,7 @@ meaning that the x degree and the y degree must be both 0
 so $p(x,y) = a \quad a \in R$  is invertible iff $a$ is invertible in R
 $\therefore$ $U(R[x,y]) = U(R[x]) = U(R)$
 
-{{ENDQUESTION}
+{{ENDQUESTION}}
 
 # Question 2
 
