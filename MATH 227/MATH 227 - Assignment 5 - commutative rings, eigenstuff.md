@@ -30,7 +30,7 @@ $\therefore$ $U(R[x,y]) = U(R[x]) = U(R)$
 
 (a)
 
-- $(1,6)$
+- all elements in $\mathbb{Z}_7$
 
 (b)
 
@@ -38,7 +38,7 @@ $\therefore$ $U(R[x,y]) = U(R[x]) = U(R)$
 
 (c)
 
-- $(1,6)$
+- all elements in $\mathbb{Z}_7$
 
 (d)
 
