@@ -27,6 +27,12 @@
 (d)
 
 - Given that $P_{n+1} = Ap_n$ we know that $P_n = A^np_0$ where $p_0$ is the initial probability vector
-- 
+- we can diagonalize $A$ as $A = QDQ^{-1}$ and $A^n = QD^nQ^{-1}$
+- $lim_{n\rightarrow \infty}A^n = Q\begin{pmatrix} 1^n & 0 & 0 \\ 0 & (-2/3)^n & 0 \\ 0 & 0 & (-1/3)^n\end{pmatrix}Q^{-1}$
+- and from the useful fact in the question we know that
+- $lim_{n\rightarrow \infty}A^n = Q\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{pmatrix}Q^{-1}$
+- Which implies that the eigenvector corresponding to the eigenvalue of 1 is stable as n goes to infinity but the other eigenvalues decay to 0, meaning that finding the eigenvector that corresponds to 1 would give us the long running probabilities regardless of the initial input
+
+- $\operatorname{Null}(A-(1)I) = \operatorname{Null}\begin{pmatrix} -1 & 2/3 & 2/3  \\ 1/2 & -1 & 1/3 \\ 1/2 & 1/3 & -1\end{pmatrix}$
 - 
 - 
