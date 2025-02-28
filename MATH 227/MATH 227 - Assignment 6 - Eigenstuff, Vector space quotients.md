@@ -142,5 +142,41 @@ $P^{-1} \begin{pmatrix} -5 & 0 & 6 \\ 7 & -6 & -1 \\ -1 & 6 & -5 \end{pmatrix}$
 $A^n = PD^nP^{-1}$
 
 
+$$
+A^n = 
+\begin{pmatrix} 
+-(-5)^n+7(5)^n-5 & 6(-5)^n-6(5)^n & -5(-5)^n-5^n+6 \\
+\dots & \dots & \dots \\
+\dots & \dots & \dots \\
+\end{pmatrix}$$
+
+$$v_n = A^n\begin{pmatrix} f_1 \\ f_2 \\ f_3\end{pmatrix} = \begin{pmatrix} 
+-(-5)^n+7(5)^n-5 & 6(-5)^n-6(5)^n & -5(-5)^n-5^n+6 \\
+\dots & \dots & \dots \\
+\dots & \dots & \dots \\
+\end{pmatrix}
+\begin{pmatrix} f_1 \\ f_2 \\ f_3\end{pmatrix}
+$$
+$$=
+\begin{pmatrix} 
+f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6) \\
+\dots \\
+\dots
+\end{pmatrix}  
+$$
+$$\begin{pmatrix} f_{n} \\ f_{n+1} \\ f_{n+2}\end{pmatrix} = \begin{pmatrix} 
+f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6) \\
+\dots \\
+\dots
+\end{pmatrix}$$
+$f_n = f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6)$
+
+
+
+
+
+
+
+
 
 
