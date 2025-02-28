@@ -136,6 +136,11 @@ $\lambda = 1, \pm 5$
 $\operatorname{null}(A-\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
 $\operatorname{null}(A-5\lambda) = \begin{pmatrix} 1 \\ 7 \\ -2\end{pmatrix}$
 $\operatorname{null}(A+5\lambda) = \begin{pmatrix} 1 \\ 10 \\ -2\end{pmatrix}$
+$P = \begin{pmatrix} 1 & 1 & 1 \\ 1 & 7 & 10 \\ 1 & -2 & -2 \end{pmatrix}$
+$D = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 5 & 0 \\ 0 & 0 & -5\end{pmatrix}$
+$P^{-1} \begin{pmatrix} -5 & 0 & 6 \\ 7 & -6 & -1 \\ -1 & 6 & -5 \end{pmatrix}$
+$A^n = PD^nP^{-1}$
+
 
 
 
