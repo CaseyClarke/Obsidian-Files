@@ -134,8 +134,8 @@ $\operatorname{det}(A-\lambda I) = -\lambda^3+\lambda^2 - 9\lambda + 9 = -(1-\la
 $\lambda = 1, \pm 5$
 
 $\operatorname{null}(A-\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
-$\operatorname{null}(A-5\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
-$\operatorname{null}(A+5\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
+$\operatorname{null}(A-5\lambda) = \begin{pmatrix} 1 \\ 7 \\ -2\end{pmatrix}$
+$\operatorname{null}(A+5\lambda) = \begin{pmatrix} 1 \\ 10 \\ -2\end{pmatrix}$
 
 
 
