@@ -130,7 +130,12 @@ $A = \begin{pmatrix} 1 & -9 & 9 \\ 1 & 0 & 0 \\ 0 & 1 & 0\end{pmatrix}$
 
 $v_n = A\begin{pmatrix} f_1 \\ f_2 \\ f_3\end{pmatrix}$
 
+$\operatorname{det}(A-\lambda I) = -\lambda^3+\lambda^2 - 9\lambda + 9 = -(1-\lambda)(\lambda^2 + 9)$
+$\lambda = 1, \pm 5$
 
+$\operatorname{null}(A-\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
+$\operatorname{null}(A-5\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
+$\operatorname{null}(A+5\lambda) = \begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}$
 
 
 
