@@ -26,6 +26,7 @@
 
 (d)
 
+- Given that $P_{n+1} = Ap_n$ we know that $P_n = A^np_0$ where $p_0$ is the initial probability vector
 - 
 - 
 - 
