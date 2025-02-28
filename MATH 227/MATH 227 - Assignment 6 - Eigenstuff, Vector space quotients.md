@@ -15,7 +15,7 @@
 
 (c)
 
-- To compute this probability we use the probability matrix
+- To compute this probability we use the probability vector
 - $p = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$
 - and left multiply by A twice 
 
