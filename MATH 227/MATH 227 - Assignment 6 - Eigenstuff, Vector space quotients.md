@@ -128,7 +128,7 @@ $\begin{pmatrix} f_{n+1} \\ f_{n+2} \\ f_{n+3}\end{pmatrix} = A\begin{pmatrix} f
 
 $A = \begin{pmatrix} 1 & -9 & 9 \\ 1 & 0 & 0 \\ 0 & 1 & 0\end{pmatrix}$
 
-$v_n = A\begin{pmatrix} f_1 \\ f_2 \\ f_3\end{pmatrix}$
+$v_n = A^n\begin{pmatrix} f_1 \\ f_2 \\ f_3\end{pmatrix}$
 
 $\operatorname{det}(A-\lambda I) = -\lambda^3+\lambda^2 - 9\lambda + 9 = -(1-\lambda)(\lambda^2 + 9)$
 $\lambda = 1, \pm 5$
