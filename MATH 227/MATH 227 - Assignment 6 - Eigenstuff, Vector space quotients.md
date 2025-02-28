@@ -34,6 +34,90 @@
 - Which implies that the eigenvector corresponding to the eigenvalue of 1 is stable as n goes to infinity but the other eigenvalues decay to 0, meaning that finding the eigenvector that corresponds to 1 would give us the long running probabilities regardless of the initial input
 
 - $\operatorname{Null}(A-(1)I) = \operatorname{Null}\begin{pmatrix} -1 & 2/3 & 2/3  \\ 1/2 & -1 & 1/3 \\ 1/2 & 1/3 & -1\end{pmatrix}$
+- Solving for this null space with the additional stipulation that $p_1 + p_2 + p_3 = 1$
+- we get that 
+- $\hat{v} = \begin{pmatrix} 1/3 \\ 1/3 \\ 1/3 \end{pmatrix}$
+
+{{ENDQUESTION}}
+
+# Question 2
+
+We need to show that $A \sim B \implies det(A) = det(B)$ 
+$A = PBP^{-1}$
+$det(A) = det(PBP^{-1}) = det(P)det(B)det(P^{-1}) = \frac{det(P)}{det(P)}det(B) = det(B)$
+$det(A) = det(B)$
+
+{{ENDQUESTION}}
+
+# Question 3
+
+(a)
+
+- any $r \in \mathbb{Q}$ can be written in the form $r = r + 0\sqrt{3}$
+- $C(r) = C(r+0\sqrt{3}) = r -0\sqrt{3} = r$
+- $C(r) = r$
+
+(b)
+
+- $C = C^{-1}$
+- as $C(C(a+b\sqrt{3})) = a+b\sqrt{3}$
+
+(c)
+
+- $x = a+b\sqrt{3}$
+- $y = c+d\sqrt{3}$
+
+- $C(0) = 0$
+	- $0 = 0 + 0\sqrt{3}$
+	- $C(0+0\sqrt{3}) = 0 - 0 \sqrt{3} = 0$
+	- $C(0) = 0$
+
+- $C(1) = 1$
+	- $1 = 1 + 0\sqrt{3}$
+	- $C(1+0\sqrt{3}) = 1-0\sqrt{3} = 1$
+	-  $C(1) = 1$
+
+- $C(x+y) = C(x) + C(y)$
+	- $C(a+b\sqrt{3} + c + d\sqrt{3}) = C((a+c) + (b+d)\sqrt{3}) = (a+c) - (b+d)\sqrt{3}$
+	- $\Rightarrow (a-b\sqrt{3}) + (c-d\sqrt{3}) = C(x) + C(y)$
+
+- $C(xy) = C(x)C(y)$
+	- $C(xy) = C((ac + 3bd) +(ad+bc)\sqrt{3}) = (ac + 3bd) -(ad+bc)\sqrt{3}$
+	- $C(x)C(y) = (a-b\sqrt{3})(c-d\sqrt{3}) = (ac + 3bd) -(ad+bc)\sqrt{3}$
+	- $C(xy) = C(x)C(y)$
 - 
-- 
-- 
+{{ENDQUESTION}}
+
+# Question 4
+
+ - $P_A$
+	- $\text{Size} = 2$
+	- $det(A) = -1$
+	- $\text{Trace} = 0$
+	- $\text{Invertible} = \text{True}$
+	- $\lambda = \pm 1$
+ - $P_B$
+	- $\text{Size} = 2$
+	- $det(A) = 1$
+	- $\text{Trace} = 2$
+	- $\text{Invertible} = \text{True}$
+	- $\lambda = 1$
+ - $P_C$
+	- $\text{Size} = 4$
+	- $det(A) = 0$
+	- $\text{Trace} = 0$
+	- $\text{Invertible} = \text{False}$
+	- $\lambda = 0$
+ - $P_D$
+	- $\text{Size} = 3$
+	- $det(A) = 0$
+	- $\text{Trace} = 1$
+	- $\text{Invertible} = \text{False}$
+	- $\lambda = -2, 0, 1$
+
+{{ENDQUESTION}}
+
+# Question 5
+
+$v_n = \begin{pmatrix} f_{n+2} \\ -9f_{n+1} \\ 9f_n\end{pmatrix}$
+$v_{n+1} = \begin{pmatrix} f_{n+3} \\ -9f_{n+2} \\ 9f_{n+1}\end{pmatrix} = \begin{pmatrix} f_{n+2} -9f_{n+1} + 9f_n \\ -9f_{n+2} \\ 9f_{n+1}\end{pmatrix}$
