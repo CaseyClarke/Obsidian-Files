@@ -169,7 +169,11 @@ f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6) \\
 \dots \\
 \dots
 \end{pmatrix}$$
-$f_n = f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6)$
+$f[n] = f_1\Bigl[6 + \Bigl(5 - (-1)^n\Bigr)4^n3^{n+1}\Bigr] - f_2\Bigl[(-1)^n + 1\Bigr]12^n + f_3\Bigl[12 + 12^n\Bigl(3 + 4(-1)^n\Bigr)\Bigr] \pmod{17}$
+[https://www.wolframcloud.com/env/1f96a402-e487-4702-b0e9-18c3c0b02a17]
+
+
+
 
 
 
