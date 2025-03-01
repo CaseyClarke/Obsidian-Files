@@ -165,12 +165,24 @@ f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6) \\
 \end{pmatrix}  
 $$
 $$\begin{pmatrix} f_{n} \\ f_{n+1} \\ f_{n+2}\end{pmatrix} = \begin{pmatrix} 
-f_1(-(-5)^n+7(5)^n-5) + f_2(6(-5)^n-6(5)^n) + f_3(-5(-5)^n-5^n+6) \\
+-(-1)^n5^nf_1+7(5)^nf_1-5f_1+6(-1)^n5^nf_2-65^nf_2-5(-1)^n5^nf_3-5^nf_3+6f_3 \\
 \dots \\
 \dots
 \end{pmatrix}$$
-$f[n] = f_1\Bigl[6 + \Bigl(5 - (-1)^n\Bigr)4^n3^{n+1}\Bigr] - f_2\Bigl[(-1)^n + 1\Bigr]12^n + f_3\Bigl[12 + 12^n\Bigl(3 + 4(-1)^n\Bigr)\Bigr] \pmod{17}$
-[https://www.wolframcloud.com/env/1f96a402-e487-4702-b0e9-18c3c0b02a17]
+
+
+$f_n = -(-1)^n5^nf_1+7(5)^nf_1-5f_1+6(-1)^n5^nf_2-65^nf_2-5(-1)^n5^nf_3-5^nf_3+6f_3$
+
+After some awful algebraic simplification 
+
+$f_n = -f_1(5+(-5)^n-7(5)^n) + 6f_2((-5)^n-5^n) + f_3(6+(-5)^{n+1}-5^n)$
+
+
+
+
+
+
+
 
 
 
