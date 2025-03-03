@@ -170,12 +170,8 @@ $$\begin{pmatrix} f_{n} \\ f_{n+1} \\ f_{n+2}\end{pmatrix} = \begin{pmatrix}
 \dots
 \end{pmatrix}$$
 
+$f_n = f_1(6 + (5-(-1)^n)3(12)^{n}) - f_2((-1)^n+1)12^n + f_3(12 + 12^n(3+4(-1)^n))$
 
-$f_n = -(-1)^n5^nf_1+7(5)^nf_1-5f_1+6(-1)^n5^nf_2-6(5)^nf_2-5(-1)^n5^nf_3-5^nf_3+6f_3$
-
-After some awful algebraic simplification 
-
-$f(n) = f_1(6 + (5-(-1)^n)4^n3^{n+1}) - f_2((-1)^n+1)12^n + f_3(12 + 12^n(3+4(-1)^n)) \pmod{17}$
 
 
 
