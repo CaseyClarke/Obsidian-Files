@@ -115,6 +115,13 @@ $det(A) = det(B)$
 	- $\text{Invertible} = \text{False}$
 	- $\lambda = -2, 0, 1$
 
+| Poly  | Size | Det  | Trace | Inv   | $\lambda$  |
+| ----- | ---- | ---- | ----- | ----- | ---------- |
+| $P_A$ | $2$  | $-1$ | $0$   | True  | $\pm 1$    |
+| $P_B$ | $2$  | $1$  | $2$   | True  | $1$        |
+| $P_C$ | $4$  | $0$  | $0$   | False | $0$        |
+| $P_D$ | $3$  | $0$  | $1$   | False | $-2 ,0, 1$ |
+
 {{ENDQUESTION}}
 
 # Question 5
@@ -170,7 +177,7 @@ $$\begin{pmatrix} f_{n} \\ f_{n+1} \\ f_{n+2}\end{pmatrix} = \begin{pmatrix}
 \dots
 \end{pmatrix}$$
 
-$f_n = f_1(6 + (5-(-1)^n)3(12)^{n}) - f_2((-1)^n+1)12^n + f_3(12 + 12^n(3+4(-1)^n))$
+$f_n = f_1(6 + (-2(-5)^{n}-3(5)^{n})) - f_2((5)^n+(-5)^n) + f_3(-5 + (3(-5)^n+4(5)^n))$
 
 
 {{ENDQUESTION}}
