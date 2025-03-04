@@ -177,11 +177,15 @@ $f_n = f_1(6 + (5-(-1)^n)3(12)^{n}) - f_2((-1)^n+1)12^n + f_3(12 + 12^n(3+4(-1)^
 
 # Question 6
 
-$[M_{2\times2}(\mathbb{F})]_B = \left( \begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} \right)$
+$A = \text{Trace-0 Matrices}$
 
-$[A]_B = \left(  \begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
+$[M_{2\times2}(\mathbb{F})]_B = \left(  \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix},  \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
 
-$[M_{2\times2}(\mathbb{F}) \setminus A]_B = \left( \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}\right)$
+Choosing a weird basis for convience
+
+$[A]_B = \left(  \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
+
+$[M_{2\times2}(\mathbb{F}) \setminus A]_B = M_{2\times2}(\mathbb{F}) \cap A = \left( \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}\right)$
 
 
 
