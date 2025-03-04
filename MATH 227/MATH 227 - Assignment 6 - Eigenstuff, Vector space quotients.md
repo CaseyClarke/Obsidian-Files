@@ -179,9 +179,7 @@ $$\begin{pmatrix} f_{n} \\ f_{n+1} \\ f_{n+2}\end{pmatrix} = \begin{pmatrix}
 
 $f_n = f_1(6 + (-2(-5)^{n}-3(5)^{n})) - f_2((5)^n+(-5)^n) + f_3(-5 + (3(-5)^n+4(5)^n))$
 
-
 {{ENDQUESTION}}
-
 # Question 6
 
 $A = \text{Trace-0 Matrices}$
