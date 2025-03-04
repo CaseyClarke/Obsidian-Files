@@ -37,6 +37,7 @@
 - Solving for this null space with the additional stipulation that $p_1 + p_2 + p_3 = 1$
 - we get that 
 - $\hat{v} = \begin{pmatrix} 1/3 \\ 1/3 \\ 1/3 \end{pmatrix}$
+ - Meaning that the probabilities stabilise all to $1/3$ each as $n \rightarrow \infty$ 
 
 {{ENDQUESTION}}
 
@@ -183,14 +184,15 @@ $f_n = f_1(6 + (-2(-5)^{n}-3(5)^{n})) - f_2((5)^n+(-5)^n) + f_3(-5 + (3(-5)^n+4(
 # Question 6
 
 $A = \text{Trace-0 Matrices}$
+$B = M_{2\times2}(\mathbb{F})$
 
-$[M_{2\times2}(\mathbb{F})]_B = \left(  \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix},  \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
+$[B] = \left(  \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix},  \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
 
 Choosing a weird basis for convience
 
-$[A]_B = \left(  \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
+$[A] = \left(  \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix},  \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\right)$
 
-$[M_{2\times2}(\mathbb{F}) \setminus A]_B = M_{2\times2}(\mathbb{F}) \cap A = \left( \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}\right)$
+$[B\setminus A] = B \cap A = \left( \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}\right)$
 
 
 
