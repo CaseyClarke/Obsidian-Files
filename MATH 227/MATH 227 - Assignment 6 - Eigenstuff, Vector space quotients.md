@@ -173,6 +173,15 @@ $$\begin{pmatrix} f_{n} \\ f_{n+1} \\ f_{n+2}\end{pmatrix} = \begin{pmatrix}
 $f_n = f_1(6 + (5-(-1)^n)3(12)^{n}) - f_2((-1)^n+1)12^n + f_3(12 + 12^n(3+4(-1)^n))$
 
 
+{{ENDQUESTION}}
+
+# Question 6
+
+$[M_{2\times2}(\mathbb{F})]_B = \left( \begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} \right)$
+
+
+
+$[M_{2\times2}(\mathbb{F}) \setminus A]_B$
 
 
 

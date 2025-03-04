@@ -12,7 +12,7 @@
 
 (b)
 
-- Since this is an experiment with random sampling and allocation we can make causal inferences but population inferences are not possible as the sample was only from one grade of math students not all of the grades in high school
+- Since this is an experiment but without random sampling and allocation we cannot make causal inferences and population inferences are not possible as the sample was only from one grade of math students not all of the grades in high school
 
 {{ENDQUESTION}}
 
@@ -151,8 +151,9 @@ If the assumption of normality was violated it would pose a signifigant problem 
 | C     | Q     | T     | QT    | H     | HT    |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | ----- | ----- |       |       |       |       |
-|       |       | ----- | ----- | ----- |       |
-|       |       |       | ----- | ----- | ----- |
+|       |       | ----- | ----- |       |       |
+|       |       |       | ----- | ----- |       |
+|       |       |       |       | ----- | ----- |
 
 {{ENDQUESTION}}
 
