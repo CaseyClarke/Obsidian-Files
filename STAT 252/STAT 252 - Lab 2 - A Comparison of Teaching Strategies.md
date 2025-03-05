@@ -174,7 +174,9 @@ Sum-of-squares residuals = 11240.700
 $df_{EF} = 174$
 
 
-$F = \frac{(SS_{ER} - SS_{EF}) \div (df_{ER} - df_{EF})}{(SS_{EF}) \div (df_{EF})} =  \frac{(11297.367 - 11240.700) \div (176 - 174)}{(11240.700) \div (174)} = 1.4766$
+$F = \frac{(SS_{ER} - SS_{EF}) \div (df_{ER} - df_{EF})}{(SS_{EF}) \div (df_{EF})} =  \frac{(11297.367 - 11240.700) \div (176 - 174)}{(11240.700) \div (174)} = 0.4386$
 
+$p = P(F^* > F^{df_{ER}-df_{EF}}_{df_{EF}} = F^2_{174}) > 0.25$
 
+Our $p$ value being $> 0.05$ means that there is no strong evidence to reject the null hypothesis​. In other words, the four-mean model is sufficient to explain the variability in the response
 
