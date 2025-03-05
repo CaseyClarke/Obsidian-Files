@@ -2,7 +2,7 @@
 
 (a)
 
-- The population of interest is high school math students, the subjects are grade 12 math students from a large high school. The factor is teaching strategies, the levels are as follows:
+- The population of interest is high school math students, the subjects are 180 grade 12 math students from a large high school. The response variable is midterm scores. The factor is teaching strategies, the levels are as follows:
 	- Group 1: C (control group, only lecture notes and discussion)
 	- Group 2: H (control plus weekly homework assignments)
 	- Group 3: Q (control plus weekly quizzes)
@@ -12,7 +12,8 @@
 
 (b)
 
-- Since this is an experiment but without random sampling and allocation we cannot make causal inferences and population inferences are not possible as the sample was only from one grade of math students not all of the grades in high school
+- Since this is an experiment but with random allocation we can make casual inferences
+- Population inferences are not possible as the sample was only from one grade of math students not all of the grades in high school and there was no random sampling.
 
 {{ENDQUESTION}}
 
@@ -133,13 +134,17 @@ If the assumption of normality was violated it would pose a signifigant problem 
 (c)
 
 - $95\% \text{ CI}_H = \text{ Value of Contrast} \pm SE(\gamma_H)t^*_{df} = 13.18 \pm 1.467(1.660) = (10.745, 15.615)$ 
-- ==INTERPRETATION==
+
+- We estimate with $95\%$ confidence that the mean effect of homework assignments on midterm scores is between $(10.745, 15.615)$ i.e. we estimate with $95\%$ confidence that having homework assignments increased the average midterm score by $(10.745, 15.615)$ compared to those who didn't
+
 
 (d)
 
 - $\gamma_{H-Q} = \gamma_H - \gamma_Q = 0 \mu_1 + \frac 12 \mu_2 -\frac12\mu_3 -0 \mu_4 + \frac12 \mu_5  - \frac12 \mu_6$
 -  $90\% \text{ CI}_{H-Q} = \text{ Value of Contrast} \pm SE(\gamma_{H-Q})t^*_{df} = 12.12 \pm 1.467(1.290) = (10.228, 14.012)$ 
-- ==INTERPRETATON==
+
+- We estimate with $90\%$ confidence that the difference in the effects of homework assignments and computer tutorials on midterm scores is between $(10.228, 14.012)$ i.e. we estimate with $90\%$ confidence that having homework assignments increased the average midterm score by $(10.228, 14.012)$ compared to those who had computer tutorials
+- 
 
 {{ENDQUESTION}}
 
@@ -155,7 +160,7 @@ If the assumption of normality was violated it would pose a signifigant problem 
 |       |       |       | ----- | ----- |       |
 |       |       |       |       | ----- | ----- |
 
-==COMMENTS==
+The means comparision diagram shows signifigant differences in the means, in particular C and Q are similar and the rest of the groups are similar to each other
 
 {{ENDQUESTION}}
 
@@ -178,5 +183,8 @@ $F = \frac{(SS_{ER} - SS_{EF}) \div (df_{ER} - df_{EF})}{(SS_{EF}) \div (df_{EF}
 
 $p = P(F^* > F^{df_{ER}-df_{EF}}_{df_{EF}} = F^2_{174}) > 0.25$
 
-Our $p$ value being $> 0.05$ means that there is no strong evidence to reject the null hypothesis​. In other words, the four-mean model is sufficient to explain the variability in the response
+Our $p$ value being $> 0.25$ means that there is no strong evidence to reject the null hypothesis​. In other words, the four-mean model is sufficient to explain the variability in the response
+
+If we assume $\alpha = 0.05$ 
+$p>\alpha$ at the given signifgance level we fail to reject the null hypothesis that there is a signifigant difference of taking quizzes or not on midterm scores
 
