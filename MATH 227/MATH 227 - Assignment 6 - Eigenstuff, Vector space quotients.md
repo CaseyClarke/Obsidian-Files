@@ -36,7 +36,7 @@
 - $\operatorname{Null}(A-(1)I) = \operatorname{Null}\begin{pmatrix} -1 & 2/3 & 2/3  \\ 1/2 & -1 & 1/3 \\ 1/2 & 1/3 & -1\end{pmatrix}$
 - Solving for this null space with the additional stipulation that $p_1 + p_2 + p_3 = 1$
 - we get that 
-- $\hat{v} = \begin{pmatrix} 1/3 \\ 1/3 \\ 1/3 \end{pmatrix}$
+- $\hat{v} = \begin{pmatrix} 0.4 \\ 0.3 \\ 0.3 \end{pmatrix}$
  - Meaning that the probabilities stabilise all to $1/3$ each as $n \rightarrow \infty$ 
 
 {{ENDQUESTION}}
