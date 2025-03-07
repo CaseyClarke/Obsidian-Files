@@ -1,4 +1,3 @@
-
 # Question 1 
 
 $f_{\text{terms}} = A_{1,\sigma(1)}A_{2,\sigma(2)}A_{3,\sigma(3)}A_{4,\sigma(4)}sign(\sigma)$

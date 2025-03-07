@@ -1,4 +1,3 @@
-
 # Question 1
 
 (a)
@@ -73,4 +72,5 @@
 - $\{A \in G \ | \operatorname{det}(A) = 1\}$
 
 (b)
-- 
+
+
