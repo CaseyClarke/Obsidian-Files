@@ -89,5 +89,5 @@
 (b)
 
 - The equivalence classses of $G/H$ are $[\text{Even Permuatations}]$ and $[\text{Odd Permutations}]$
-
-
+- $f([g]) = \operatorname{sgn}([g]) + 1$
+- $f(h)^{-1} = $
