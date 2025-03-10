@@ -84,9 +84,10 @@
 
 (a)
 
-- $H$ is a subgroup
-	- Identity:
-		- $\operatorname{sgn}(1_g) = 1 \implies 1_G \in H$
-	- Closure of Composition:
-		- 
+- $\operatorname{ker}(\operatorname{sym}(\pi)) = H$ as the identity of $\{\pm 1\}$ is $1$ and from Thm proved in class we know that the kernal forms a normal subgroup from the quotient $G/H$
+
+(b)
+
+- The equivalence classses of $G/H$ are $[\text{Even Permuatations}]$ and $[\text{Odd Permutations}]$
+
 
