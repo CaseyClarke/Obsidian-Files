@@ -107,14 +107,53 @@
 	  $\times \equiv + \mod 2$
 	  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g')$
 - 
-- Onto:
+- One-to-one:
 	- $\operatorname{Ker}(f) = H$ and $H = 1_g$ which is the trivial kernal
 
-- One-to-one:
-	- $\operatorname{ker}(f) = \operatorname{sgn}(g) \mod 2 = \{0,1\} = \mathbb{Z}_2$
+- Onto:
+	- $\operatorname{Img}(f) = \operatorname{sgn}(g) \mod 2 = \{0,1\} = \mathbb{Z}_2$
 
 
 {{ENDQUESTION}}
 
 # Question 5
+
+Closure of Addition:
+- $k,k' \in K$
+- $f(k) = 0_r \quad f(k') = 0_r$
+- $f(k+k') = f(k) + f(k')$
+- $f(k+k') = 0_r + 0_r = 0_r$
+- $\implies k + k' \in K$
+
+Ideal:
+- $f(rkr') = f(r)f(k)f(r')$
+- $f(rkr') = f(r)(0_r)f(r') = 0_r$
+- $\implies rkr' \in K$
+
+
+{{ENDQUESTION}}
+
+# Question 6
+
+(a)
+
+- Identity:
+	- $0_r = x^3(0) \implies 0 \in S$
+
+- Closure of addition
+	- $\forall p(x),q(x) \in S$
+	- $p(x) + q(x) = x^3p'(x) + x^3q'(x) = x^3(p'(x) + q'(x))$
+	- $r(x) = p'(x) + q'(x) \in R$
+	- $x^3r(x) \in S \implies p(x) + q(x) \in S$
+
+	Inverses:
+	- $-p(x) = -x^3(p'(x)) = x^3(-p'(x)) \implies -p(x) \in S$
+
+- Ideal:
+	- $p(x)s(x) = p(x)x^3s'(x) = x^3p(x)s'(x)$
+	- $r(x) = p(x)s'(x) \in R$
+	- $x^3r(x) \in S \implies p(x)s(x) \in S$
+
+
+(b)
 
