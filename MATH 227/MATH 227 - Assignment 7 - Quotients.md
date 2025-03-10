@@ -10,7 +10,8 @@
 
 - Closure of Scalar multiplication:
 	- $\forall k \in \mathbb{F}, w \in W \;kw = (k0, k0, k0, k_4 \times w_4, k_5 \times w_5, \dots) =  (0, 0, 0, k_4 \times w_4, k_5 \times w_5, \dots)\in W$ 
-- 
+
+
 (b)
 
 - A basis for $W$ is 
@@ -19,6 +20,7 @@
 -  $$\{ b_1 = (1,0,0,0,0,0,\dots), \; b_2 = (0,1,0,0,0,0,0,\dots), \;b_3 = (0,0,1,0,0,0,0,\dots), \;  b_4, b_5, b_6 \dots \}$$
 - Meaning that the basis for $V/W$ is 
 - $$\{(1,0,0,0,0,0,\dots), \; (0,1,0,0,0,0,0,\dots), \; (0,0,1,0,0,0,0,\dots)\}$$
+
 (c)
 
 - The dimension of their respective basises are the same $(3)$ meaning they must be isomorphic to each other, we can also see this by ignoring all of the terms past $n = 3$ in the basis for $V/W$ as they are all 0 and contribute nothing to the basis, this gives us the standard basis for $\mathbb{F}^3$
@@ -102,11 +104,11 @@
 - $f([g]) = \operatorname{sgn}(g) \mod 2$
 
 - Homomorphism:
-	  $\operatorname{sgn}(g \circ g') = \operatorname{sgn}(g)\operatorname{sgn}(g')$
-	  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g') \mod 2$
-	  $\times \equiv + \mod 2$
-	  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g')$
-- 
+	-  $\operatorname{sgn}(g \circ g') = \operatorname{sgn}(g)\operatorname{sgn}(g')$
+	-  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g') \mod 2$
+	- $\times \equiv + \mod 2$
+	-  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g')$
+
 - One-to-one:
 	- $\operatorname{Ker}(f) = H$ and $H = 1_g$ which is the trivial kernal
 
@@ -141,7 +143,6 @@ Ideal:
 	- $0_r = x^3(0) \implies 0 \in S$
 
 - Closure of addition
-	- $\forall p(x),q(x) \in S$
 	- $p(x) + q(x) = x^3p'(x) + x^3q'(x) = x^3(p'(x) + q'(x))$
 	- $r(x) = p'(x) + q'(x) \in R$
 	- $x^3r(x) \in S \implies p(x) + q(x) \in S$
@@ -157,4 +158,16 @@ Ideal:
 
 (b)
 
-$[q(x)] \in R/S \implies r(x) - s(x) \in S \implies \frac{r(x) - s(x)}{x^3} = s'(x)$
+- $p(x),q(x)$ are in the same equivalence class if they differ by some polynomial multiple of $x^3$
+- $p(x) - q(x) = x^3r(x)$
+- $p(x) = x^3r(x) + q(x)$
+- This is the exact form of polymomial division with quotient $r(x)$ and remainder $q(x)$
+- The degree of the remainder of a polynomial division must be strictly less than the degree of the divisior i.e $\operatorname{deg}(x^3) > \operatorname{deg}(q(x)) \implies \operatorname{deg}(q(x)) \leq 2$
+- but $p(x) \sim q(x)$ 
+- meaning that we can choose $q(x)$ as the representative and it will always have degree $\leq 2$
+
+(c)
+
+- $[(x^2 + 1)(x-1)] = [x^3 -x^2 + x -1] =  [-x^2 + x - 1]$
+- 
+- 
