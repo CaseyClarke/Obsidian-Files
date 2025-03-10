@@ -157,3 +157,4 @@ Ideal:
 
 (b)
 
+$[q(x)] \in R/S \implies r(x) - s(x) \in S \implies \frac{r(x) - s(x)}{x^3} = s'(x)$
