@@ -84,13 +84,35 @@
 
 (a)
 
-- $\operatorname{ker}(\operatorname{sym}(\pi)) = H$ as the identity of $\{\pm 1\}$ is $1$ and from Thm proved in class we know that the kernal forms a normal subgroup from the quotient $G/H$
+- Identity: 
+	- $\operatorname{sgn}(1_g) = 1 \implies \in H$
+
+- Closure of Multiplication:
+	- $\operatorname{sgn}(g \circ g') = \operatorname{sgn}(g)\operatorname{sgn}(g') = (1)(1) = 1 \implies \in H$
+
+- Closure of inverse:
+	- $\operatorname{sgn}(g^{-1}) = \operatorname{sgn}(g)^{-1} = (1)^{-1} = 1 \implies \in H$
+
+- Normality:
+	- $\operatorname{sgn}(ghg^{-1}) = \operatorname{sgn}(g)\operatorname{sgn}(h)\operatorname{sgn}(g)^{-1} = \operatorname{sgn}(g)(1)\operatorname{sgn}(g)^{-1} = 1 \implies \in H$
 
 (b)
 
 - The equivalence classses of $G/H$ are $[\text{Even Permuatations}]$ and $[\text{Odd Permutations}]$
-- $f([g]) = \operatorname{sgn}([g]) \mod 2$
-- $f^{-1}(g)\begin{cases} [\text{Even Permutations}] & g = 0 \\ [\text{Odd Permutations}] & g = 1  \end{cases}$
+- $f([g]) = \operatorname{sgn}(g) \mod 2$
+
+- Homomorphism:
+	  $\operatorname{sgn}(g \circ g') = \operatorname{sgn}(g)\operatorname{sgn}(g')$
+	  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g') \mod 2$
+	  $\times \equiv + \mod 2$
+	  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g')$
+- 
+- Onto:
+	- $\operatorname{Ker}(f) = H$ and $H = 1_g$ which is the trivial kernal
+
+- One-to-one:
+	- $\operatorname{ker}(f) = \operatorname{sgn}(g) \mod 2 = \{0,1\} = \mathbb{Z}_2$
+
 
 {{ENDQUESTION}}
 
