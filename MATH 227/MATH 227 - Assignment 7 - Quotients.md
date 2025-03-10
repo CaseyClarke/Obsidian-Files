@@ -101,12 +101,12 @@
 (b)
 
 - The equivalence classses of $G/H$ are $[\text{Even Permuatations}]$ and $[\text{Odd Permutations}]$
-- $f([g]) = \operatorname{sgn}(g) \mod 2$
+- $f([g]) = \operatorname{sgn}(g)$
 
 - Homomorphism:
 	-  $\operatorname{sgn}(g \circ g') = \operatorname{sgn}(g)\operatorname{sgn}(g')$
-	-  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g') \mod 2$
-	- $\times \equiv + \mod 2$
+	-  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g')$
+	- $(\times) \equiv (+) \text{ over } \operatorname{sgn}(n)$
 	-  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g')$
 
 - One-to-one:
