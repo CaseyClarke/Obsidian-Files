@@ -73,3 +73,20 @@
 
 (b)
 
+- The equivalence classes in $G/H$ are all matrices with the same determinant,
+- thus we can write a representative of any of these classes as 
+- $[a] = \begin{pmatrix} a  & 0 & \dots \\ 0 & 1 & \dots \\ \vdots & \vdots & \ddots \end{pmatrix}$
+- which is a diagonal matrix with $\operatorname{det}(A) = a$ 
+
+{{ENDQUESTION}}
+
+# Question 4
+
+(a)
+
+- $H$ is a subgroup
+	- Identity:
+		- $\operatorname{sgn}(1_g) = 1 \implies 1_G \in H$
+	- Closure of Composition:
+		- 
+
