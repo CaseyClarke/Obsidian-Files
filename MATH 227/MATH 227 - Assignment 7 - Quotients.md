@@ -101,13 +101,15 @@
 (b)
 
 - The equivalence classses of $G/H$ are $[\text{Even Permuatations}]$ and $[\text{Odd Permutations}]$
-- $f([g]) = \operatorname{sgn}(g)$
+- $f([g]) = \operatorname{sgn}(g) \mod 2$
 
 - Homomorphism:
 	-  $\operatorname{sgn}(g \circ g') = \operatorname{sgn}(g)\operatorname{sgn}(g')$
-	-  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g')$
-	- $(\times) \equiv (+) \text{ over } \operatorname{sgn}(n)$
-	-  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g')$
+	-  $f([g \circ g']) = \operatorname{sgn}(g)\operatorname{sgn}(g') \mod 2$
+	- Multiplication in $\{\pm 1\}$ is the same as addition mod 2
+	-  $f(g \circ g') = \operatorname{sgn}(g) + \operatorname{sgn}(g') \mod 2$
+	-  $f(g \circ g') = f(g) + f(g')$
+	- 
 
 - One-to-one:
 	- $\operatorname{Ker}(f) = H$ and $H = 1_g$ which is the trivial kernal
