@@ -89,5 +89,10 @@
 (b)
 
 - The equivalence classses of $G/H$ are $[\text{Even Permuatations}]$ and $[\text{Odd Permutations}]$
-- $f([g]) = \operatorname{sgn}([g]) + 1$
-- $f(h)^{-1} = $
+- $f([g]) = \operatorname{sgn}([g]) \mod 2$
+- $f^{-1}(g)\begin{cases} [\text{Even Permutations}] & g = 0 \\ [\text{Odd Permutations}] & g = 1  \end{cases}$
+
+{{ENDQUESTION}}
+
+# Question 5
+
