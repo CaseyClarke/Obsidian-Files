@@ -82,7 +82,13 @@ Filled in ANOVA table
 
 (i)
 
-- 
+- $\delta  = \mu(mass|age + 3) - \mu(mass|age) = \beta_0 + \beta_1(age + 3) - (\beta_0 + \beta_1age) = 3\beta_1$
+
+- Given that $SE(ax) = |a|SE(x) \quad a \in R$
+- $SE(3\hat{\beta_1}) = 3SE(\hat{\beta_1}) = 3(0.177568347639) = 0.532705042917$ (From (f))
+
+- $\alpha = 0.05$
+- $(1-\alpha)\times 100\% \ CI: \quad 3\hat{\beta_1} \pm t_{14, 0.025}SE(3\hat{\beta_1})$ 
 
 # Question 2
 
