@@ -20,7 +20,7 @@
 -  $$\{ b_1 = (1,0,0,0,0,0,\dots), \; b_2 = (0,1,0,0,0,0,0,\dots), \;b_3 = (0,0,1,0,0,0,0,\dots), \;  b_4, b_5, b_6 \dots \}$$
 - Meaning that the basis for $V/W$ is 
 - $$\{(1,0,0,0,0,0,\dots), \; (0,1,0,0,0,0,0,\dots), \; (0,0,1,0,0,0,0,\dots)\}$$
-
+- 
 (c)
 
 - The dimension of their respective basises are the same $(3)$ meaning they must be isomorphic to each other, we can also see this by ignoring all of the terms past $n = 3$ in the basis for $V/W$ as they are all 0 and contribute nothing to the basis, this gives us the standard basis for $\mathbb{F}^3$
