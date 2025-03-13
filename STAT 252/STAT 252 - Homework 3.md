@@ -96,12 +96,34 @@ Filled in ANOVA table
 
 (j)
 
-
+- $\hat{y} = \hat{\beta_0} + \hat{\beta_1}(60) = 155.143 - 1.013(60) = 94.363$
+- $S_{XX} = (n-1)S^2_{age} = (15)(12.46846)^2 = 2331.93742157$
+- $\hat{\sigma} = \sqrt{MSE} = \sqrt{73.5267} = 8.5748$
+- $SE(\hat{y}) = \hat{\sigma}\sqrt{\frac 1n + \frac{(60 - \mu_{age})^2}{S_{XX}}} = 8.5748\sqrt{\frac {1}{15} + \frac{(60 - 60.4375)^2}{2331.93742157}} = 2.21536636719$
+- $\alpha = 0.05$
+- $(1-\alpha)\times 100\% \ CI:$
+- $\hat{y} \pm t_{14, 0.025}SE(\hat{y})$
+- $94.363 \pm 2.145(2.21536636719)$
+- $(89.6110391424, 99.1149608576)$
 
 (k)
 
+- $\hat{y} = \hat{\beta_0} + \hat{\beta_1}(60) = 155.143 - 1.013(60) = 94.363$
+- $S_{XX} = (n-1)S^2_{age} = (15)(12.46846)^2 = 2331.93742157$
+- $\hat{\sigma} = \sqrt{MSE} = \sqrt{73.5267} = 8.5748$
+- $SE(\hat{y}) = \hat{\sigma}\sqrt{1 + \frac 1n + \frac{(60 - \mu_{age})^2}{S_{XX}}} = 8.5748\sqrt{1 + \frac {1}{15} + \frac{(60 - 60.4375)^2}{2331.93742157}} = 8.85635608932$
+- $\alpha = 0.05$
+- $(1-\alpha)\times 100\% \ CI:$
+- $\hat{y} \pm t_{14, 0.025}SE(\hat{y})$
+- $94.363 \pm 2.145(8.85635608932)$
+- $(75.3661161884, 113.359883812)$
 
 (l)
+
+- The first one is narrower as it is only accounting for uncertainty in the estimation while the second one accounts for that as well as variability within samples of the same age, mathematically wise this is just a difference of $+1$ in the root of the standard error
+
+{{ENDQUESTION}}
+
 # Question 2
 
 
