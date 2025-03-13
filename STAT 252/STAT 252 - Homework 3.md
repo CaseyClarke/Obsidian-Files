@@ -90,9 +90,12 @@ Filled in ANOVA table
 - $\alpha = 0.05$
 - $(1-\alpha)\times 100\% \ CI:$
 - $\delta \pm t_{14, 0.025}SE(\delta) = 3\hat{\beta_1} \pm t_{14, 0.025}SE(3\hat{\beta_1})$
-
+- $\Rightarrow 3(-1.013) \pm 2.145 (0.532705042917)0.532705042917$
+- $(-3.6476966516, -2.4303033484)$
+- 
 
 (j)
+
 
 
 (k)
