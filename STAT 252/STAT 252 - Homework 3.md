@@ -3,12 +3,12 @@
 
 Filled in ANOVA table
 
-|       | Ss                               | df         | Ms                      | F                                        |          |
-| ----- | -------------------------------- | ---------- | ----------------------- | ---------------------------------------- | -------- |
-| REGER | $2391.564$                       | $1$        | $2391.564$              | $\frac{2391.564}{73.5267} = 32.5265$<br> | 0.000055 |
-| ERROR | $3420.938 - 2391.564 = 1029.374$ | $n-2 = 14$ | $1029.374/14 = 73.5267$ |                                          |          |
-| Total | $3420.938$                       | $n-1 = 15$ |                         |                                          |          |
-
+|       | Ss         | df         | Ms                      | F                                        | sig.     |
+| ----- | ---------- | ---------- | ----------------------- | ---------------------------------------- | -------- |
+| REGER | $2391.564$ | $1$        | $2391.564$              | $\frac{2391.564}{73.5267} = 32.5265$<br> | 0.000055 |
+| ERROR | $1029.374$ | $n-2 = 14$ | $1029.374/14 = 73.5267$ |                                          |          |
+| Total | $3420.938$ | $n-1 = 15$ |                         |                                          |          |
+$SS_{ERROR} = 3420.938 - 2391.564$
 
 (a)
 
@@ -99,31 +99,57 @@ Filled in ANOVA table
 - $\hat{y} = \hat{\beta_0} + \hat{\beta_1}(60) = 155.143 - 1.013(60) = 94.363$
 - $S_{XX} = (n-1)S^2_{age} = (15)(12.46846)^2 = 2331.93742157$
 - $\hat{\sigma} = \sqrt{MSE} = \sqrt{73.5267} = 8.5748$
-- $SE(\hat{y}) = \hat{\sigma}\sqrt{\frac 1n + \frac{(60 - \mu_{age})^2}{S_{XX}}} = 8.5748\sqrt{\frac {1}{15} + \frac{(60 - 60.4375)^2}{2331.93742157}} = 2.21536636719$
+- $SE(\hat{y}) = \hat{\sigma}\sqrt{\frac 1n + \frac{(60 - \mu_{age})^2}{S_{XX}}} = 8.5748\sqrt{\frac {1}{16} + \frac{(60 - 60.4375)^2}{2331.93742157}} = 2.14510718339$
 - $\alpha = 0.05$
 - $(1-\alpha)\times 100\% \ CI:$
 - $\hat{y} \pm t_{14, 0.025}SE(\hat{y})$
-- $94.363 \pm 2.145(2.21536636719)$
-- $(89.6110391424, 99.1149608576)$
+- $94.363 \pm 2.145(2.14510718339)$
+- $(89.7617450916, 98.9642549084)$
 
 (k)
 
 - $\hat{y} = \hat{\beta_0} + \hat{\beta_1}(60) = 155.143 - 1.013(60) = 94.363$
 - $S_{XX} = (n-1)S^2_{age} = (15)(12.46846)^2 = 2331.93742157$
 - $\hat{\sigma} = \sqrt{MSE} = \sqrt{73.5267} = 8.5748$
-- $SE(\hat{y}) = \hat{\sigma}\sqrt{1 + \frac 1n + \frac{(60 - \mu_{age})^2}{S_{XX}}} = 8.5748\sqrt{1 + \frac {1}{15} + \frac{(60 - 60.4375)^2}{2331.93742157}} = 8.85635608932$
+- $SE(\hat{y}) = \hat{\sigma}\sqrt{1 + \frac 1n + \frac{(60 - \mu_{age})^2}{S_{XX}}} = 8.5748\sqrt{1 + \frac {1}{16} + \frac{(60 - 60.4375)^2}{2331.93742157}} = 8.83904292716$
 - $\alpha = 0.05$
 - $(1-\alpha)\times 100\% \ CI:$
 - $\hat{y} \pm t_{14, 0.025}SE(\hat{y})$
-- $94.363 \pm 2.145(8.85635608932)$
-- $(75.3661161884, 113.359883812)$
+- $94.363 \pm 2.145(8.83904292716)$
+- $(75.4032529212, 113.322747079)$
 
 (l)
 
-- The first one is narrower as it is only accounting for uncertainty in the estimation while the second one accounts for that as well as variability within samples of the same age, mathematically wise this is just a difference of $+1$ in the root of the standard error
+- The first one is narrower as it is only accounting for uncertainty in the estimation while the second one accounts for that as well as variability within samples of the same age, mathematically this is just a difference of $+1$ in the root of the standard error
 
 {{ENDQUESTION}}
-
 # Question 2
 
+(a)
 
+- $\beta_0 + \beta_1(weight + 1) - (\beta_0 + \beta_1(weight)) = \beta_1(weight + 1) -\beta_1(weight) = \beta_1$
+
+(b)
+
+- $(e^{0.006}, e^{0.016}) = (1.00601803605, 1.01612868541)$
+
+- This means that we are $95\%$ confident that a $1 \ kg$ increase in birthweight corresponds to a between $1.00601803605$ and $1.01612868541$ times increase in gestation time
+
+(c)
+
+- $(e^{4.59}, e^{5.9}) = (98.4944301619, 365.037467865)$
+
+- This means that we are $95\%$ confident that given a $1.2 \ kg$ lion the gestation period will be between $98.4944301619$ and $365.037467865$ unknown units (days?)
+
+{{ENDQUESTION}}
+# Question 3
+
+ANOVA:
+
+- Normality: The response variables must be normally distributed 
+- Equal S.D.'s: Must have Homogeneity of variances
+
+SLR: 
+
+- Normality: The residuals must be normally distributed 
+- Equal S.D.'s: Must have Homoscedasticity
