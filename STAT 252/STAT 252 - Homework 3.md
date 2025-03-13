@@ -92,7 +92,13 @@ Filled in ANOVA table
 - $\delta \pm t_{14, 0.025}SE(\delta) = 3\hat{\beta_1} \pm t_{14, 0.025}SE(3\hat{\beta_1})$
 
 
+(j)
 
+
+(k)
+
+
+(l)
 # Question 2
 
 
