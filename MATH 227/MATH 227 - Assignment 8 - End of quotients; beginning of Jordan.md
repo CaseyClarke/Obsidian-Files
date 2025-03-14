@@ -30,10 +30,13 @@ Closure of addition
 - $x + y = an+am$ for some $n,m \in R$
 - $\Rightarrow a(n+m) \in S_a$ by definition
 
+{{ENDQUESTION}}
 # Question 3
 
 (a)
 
 - $\forall r \in R, s \in S$
+- 
+- 
 - 
 - 
