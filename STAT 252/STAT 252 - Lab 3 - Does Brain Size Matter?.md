@@ -120,5 +120,6 @@ When pooling the two genders together it is signifigant at $\alpha = 0.05$ and t
 
 Males have higher mean PIQ than Females and they also have higher standard deviation than females, e.g. higher spread
 
-(b)
+We can assume equal variances from the $\frac{SD_1}{SD_2} \leq 2$ rule
 
+(b)
