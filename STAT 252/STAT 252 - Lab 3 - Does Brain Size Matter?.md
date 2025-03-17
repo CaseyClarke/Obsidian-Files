@@ -165,5 +165,19 @@ This is the exact same p value as part b as this regression testing if the SEX v
 
 # Question 5
 
+(a)
+
+$\mu(PIQ|MRI) = \beta_0 + \beta_1(MRI) + \varepsilon$
+
+The model assumptions are as follows:
+- Linearity
+- Homoscedasticity
+- Normality
+- No outliers
+- Independance
+
+(b)
+
+
 
 
