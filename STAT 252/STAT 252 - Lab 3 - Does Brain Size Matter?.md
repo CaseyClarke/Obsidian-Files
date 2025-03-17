@@ -173,11 +173,14 @@ The model assumptions are as follows:
 - Linearity
 - Homoscedasticity
 - Normality
-- No outliers
 - Independance
 
 (b)
 
 
+
+- As we increase $MRI$ by one unit on average $PIQ$ will increase by $\hat{\beta_1}$
+- When $MRI = 0$ we expect our $PIQ$ value to be $\hat{\beta_0}$
+- 
 
 
