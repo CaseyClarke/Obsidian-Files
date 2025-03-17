@@ -123,3 +123,37 @@ Males have higher mean PIQ than Females and they also have higher standard devia
 We can assume equal variances from the $\frac{SD_1}{SD_2} \leq 2$ rule
 
 (b)
+
+==COMPLETE==
+
+
+(c)
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcafcvTOfSETMM4KBWgg1u6k9psZJ8l5Lov9elRoLL3_urV63SPD4EjFcKR0bv66p-QMb_O0WkeDRMlkijoDkHbkiqdHLRKzC2HCduz_o_U2t9Xwkg46g3UDt718QL0CgROACoA?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-DzxVvy3XWpX9elrrqM7pDVzy42b1U6RLke_yYvBoobvuF_13oao6HGZrThhsjwwdWkxnY2SftBRUYSo1WOVf-f6zNVSp_3X02mIOe0PqQOKvma4-Iiyzy7H41cbe__MIkqt90w?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1bSogxQxXtUS11_ejd_Wg8BTsvpaScMonMfJFsRj4zJhbgDuQfPg74Uw1mQEC4uZ_yoXGPvKWJIs9sXz5c8c1LdJoJe2oFL4r4W4xFA7s6L0QFO3JsCnd6rfJgYrt_CVcI0uq?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+
+$\hat{PIQ} = \hat{\beta_0} + \hat{\beta_1}sex = 110.450 + 1.150(sex)$
+
+The intercept is equal to the mean of Female PIQ $(110.45)$
+The sum of the slope and intercept is equal to the mean of Male PIQ $111.6$
+
+This makes sense as when $sex = 0 \; (Female)$ the regression equation becomes $110.450 + 1.150(0) = 110.450$
+and when $sex = 1 \; (Male)$ the regression equation becomes $110.450 + 1.150(1) = 111.6$
+this is just showing that the equation correctly models the regression
+
+(d)
+
+The p value for this test comes from the 2nd row in the Coefficents table in the previous question $(p = 0.874)$
+
+==COMPARE VALUES WITH PART B==
+
+{{ENDQUESTION}}
+
+# Question 5
+
+
+
