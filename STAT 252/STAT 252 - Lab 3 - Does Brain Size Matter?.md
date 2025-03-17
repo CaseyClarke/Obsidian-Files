@@ -124,7 +124,17 @@ We can assume equal variances from the $\frac{SD_1}{SD_2} \leq 2$ rule
 
 (b)
 
-==COMPLETE==
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEmuc1ZUio2rWfTQ6y0Fon-qgAk540xjntSxOnslBi_OS7Po1htPlvR-q7z4gdNcqXhAwaLwozz49_xJx68S1-WalITn6Y4Ome0Omxw5KsXLF5zMAw4kWdHsHLLeD9-z5rD38r?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+$H_0: \mu_{F} = \mu_{M}$
+$H_A : \mu_{F} \neq \mu_{M}$
+
+$t = -0.16$
+$p = 0.874$
+
+Distribution under null hypothesis is a $t$ distribution with $df = 38$
+
+Given the very high p value we can conclude that at $\alpha = 0.05$ we fail to reject the null hypothesis that there is not a signifigant difference in the mean PIQ between males and females
 
 
 (c)
@@ -149,7 +159,7 @@ this is just showing that the equation correctly models the regression
 
 The p value for this test comes from the 2nd row in the Coefficents table in the previous question $(p = 0.874)$
 
-==COMPARE VALUES WITH PART B==
+This is the exact same p value as part b as this regression testing if the SEX variable slope is equal to zero is the exact same as testing if there is any difference in the means between males and females, the exact test performed in part b
 
 {{ENDQUESTION}}
 
