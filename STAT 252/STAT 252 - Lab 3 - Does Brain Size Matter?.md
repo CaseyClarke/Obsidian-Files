@@ -134,7 +134,7 @@ $p = 0.874$
 
 Distribution under null hypothesis is a $t$ distribution with $df = 38$
 
-Given the very high p value we can conclude that at $\alpha = 0.05$ we fail to reject the null hypothesis that there is not a signifigant difference in the mean PIQ between males and females
+Given the very high p value we can conclude that at $\alpha = 0.05$ we fail to reject the null hypothesis that there is a signifigant difference in the mean PIQ between males and females
 
 
 (c)
@@ -174,13 +174,107 @@ The model assumptions are as follows:
 - Homoscedasticity
 - Normality
 - Independance
+- No Serious Outliers
 
 (b)
 
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchZCuv4kzqdwwKc_xxGV252dgrIy0vLzcqLsU9bnEjSdUO7pIEsW_ltKwCR-bJ3-VJkFr9gRyulX5AH0wAXmHuF98TXB9cuTW3izz_icfrIjXO1CgTQ0hMq9tsbzSoVFBWWN6Zyg?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjyYGx52kdo3358tXQU_4oWt1X_aYFc5cLbxXRop7MyC7UFERW2GtIpBzZAkZP8JqL5OBNuH9NoFx648id4WpCAXnn6ikeT8v4RThYG5mUZQS7zwktmzgo4E79UyXZ58R0j8md?key=VJ35wvjewSyDYVqgnxnVaPm8)
 
 
-- As we increase $MRI$ by one unit on average $PIQ$ will increase by $\hat{\beta_1}$
-- When $MRI = 0$ we expect our $PIQ$ value to be $\hat{\beta_0}$
-- 
+$\hat{PIQ} = 1.744 + 0.00012(MRI)$
+
+As we increase $MRI$ by one unit on average $PIQ$ will increase by $\hat{\beta_1} =0.00012$
+When $MRI = 0$ we expect our $PIQ$ value to be $\hat{\beta_0} = 1.744$
+
+
+(c)
+
+This is given by $R^2$ which from the model summary in the previous question is $0.150$
+meaning that about $15 \%$ of the variation in $PIQ$ is explained by $MRI$
+
+(d)
+
+$H_0: \beta_1 = 0$
+$H_A: \beta_1 \neq 0$
+
+$t = 2.586$
+$p = 0.014$
+
+Distribution under null hypothesis is a $t$ distribution with $df = 38$
+
+At $\alpha = 0.05$ we reject the null hypthesis and conclude $\beta_1 \neq 0$ meaning that that $MRI$ is a signifigant variable
+
+
+{{ENDQUESTION}}
+
+# Question 6 
+
+(a)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNKPNcHG8RbxT6iIkNYanHlOxgLccVkklrUlfahtZlx3SEFboH2Eohc-Gk4MOFHfAgydVoWR5NoEHemglWiwUh7KB2up5vAiAox5TxhH8acg08wD4zKjUKz-4unYZG7D4VT9f6mQ?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfTjWVUfVHAEFSBp5F40XI9XQcl2pkh248LlGznX5XXaDCDvwNkDy3XFGb4Hz0O-_rKrjb2Mr2HYpn-pxiOR3ocYoRLrS7DaAjDusTJ66vJleuqEjwWIjQNxW-S0GgoFflEa9shMQ?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+
+Males: 
+- $\mu(PIQ|MRI) = -116.844 + 0.000239(MRI)$
+- As we increase $MRI$ by one unit on average $PIQ$ will increase by $\hat{\beta_1} = 0.000239$
+- When $MRI = 0$ we expect our $PIQ$ value to be $\hat{\beta_0} = -116.844$
+
+Females:
+- $\mu(PIQ|MRI) = -23.733 + 0.000156(MRI)$
+- As we increase $MRI$ by one unit on average $PIQ$ will increase by $\hat{\beta_1} = 0.000156$
+- When $MRI = 0$ we expect our $PIQ$ value to be $\hat{\beta_0} = -23.733$
+
+(b)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcCST_yNazENuD6KN0A0tpfepv03n_UL8ya1J3B9l2gQqM_g3FeMOiSrtfrHqkQbfizYJsr3sj7jaY0U8WQKDf6EmR_ZqiFIEjoXwuOeak4S_iKE_O0RHNIpTdBe42zrWjFFeMCUg?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdovy58RirD8TL9aPOVjQWcqoPaCk66y5Gmitc4ef4fnR5JcKOIPbw3P8smmCajBhe-cmoN0gzRFGB14FSHWcsmznYqCWMnzPtmWyhgR3tmXTVRlvVoYRDDky4eDDu5HSTQvXMR5A?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+
+Males: 
+- This is given by $R^2$ which from the model summary is $0.323$ meaning that about $32.3 \%$ of the variation in $PIQ$ is explained by $MRI$
+Females: 
+- This is given by $R^2$ which from the model summary is $0.157$ meaning that about $15.7 \%$ of the variation in $PIQ$ is explained by $MRI$
+
+(c)
+
+Males:
+- $H_0: \beta_1 = 0$
+- $H_A: \beta_1 \neq 0$
+
+- $t = -1.496$
+- $p = 0.152$
+
+- Distribution under null hypothesis is a $t$ distribution with $df = 18$
+
+- At $\alpha = 0.05$ we fail to reject the null hypthesis and conclude $\beta_1 \neq 0$ meaning that that $MRI$ is a not signifigant variable for Males
+
+Females:
+- $H_0: \beta_1 = 0$
+- $H_A: \beta_1 \neq 0$
+
+- $t = -0.323$
+- $p = 0.75$
+
+- Distribution under null hypothesis is a $t$ distribution with $df = 18$
+
+- At $\alpha = 0.05$ we fail to reject the null hypthesis and conclude $\beta_1 \neq 0$ meaning that that $MRI$ is a not signifigant variable for Females
+
+
+
+(d)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcS1AKl0NIltss_C4V2HfTzyAlXXm1ufl_KJVdM6251QVATC3-JrQr3Bzmv0FJMSXHdAvcbnjbEDhEK0UZXyQOxZYipRhtCy6UwduhmTeVlvRwWiRPm4pZxl_J8mRRDwOKwHTbDXQ?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJU4Xq0g3mOJjFou7MTm6SpgaqDD3OmevKMzKpod-uV_wbkfszfbocrtWDMfSxK5a9Y439fc1r8I-knml22MV3MZbgb5zztlMoRDLU081W1XfLBeXvwHw-_H_9GYi6jEcU7QP3sw?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+
+
+
+
 
 
