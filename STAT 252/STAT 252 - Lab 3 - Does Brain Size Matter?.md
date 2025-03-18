@@ -246,35 +246,57 @@ Males:
 - $H_0: \beta_1 = 0$
 - $H_A: \beta_1 \neq 0$
 
-- $t = -1.496$
-- $p = 0.152$
+- $t = 2.93$
+- $p = 0.009$
 
 - Distribution under null hypothesis is a $t$ distribution with $df = 18$
 
-- At $\alpha = 0.05$ we fail to reject the null hypthesis and conclude $\beta_1 \neq 0$ meaning that that $MRI$ is a not signifigant variable for Males
+- At $\alpha = 0.05$ we fail reject the null hypthesis and conclude $\beta_1 \neq 0$ meaning that that $MRI$ is a signifigant variable for Males
 
 Females:
 - $H_0: \beta_1 = 0$
 - $H_A: \beta_1 \neq 0$
 
-- $t = -0.323$
-- $p = 0.75$
+- $t = 1.831$
+- $p = 0.084$
 
 - Distribution under null hypothesis is a $t$ distribution with $df = 18$
 
 - At $\alpha = 0.05$ we fail to reject the null hypthesis and conclude $\beta_1 \neq 0$ meaning that that $MRI$ is a not signifigant variable for Females
 
-
-
 (d)
+
 
 >![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcS1AKl0NIltss_C4V2HfTzyAlXXm1ufl_KJVdM6251QVATC3-JrQr3Bzmv0FJMSXHdAvcbnjbEDhEK0UZXyQOxZYipRhtCy6UwduhmTeVlvRwWiRPm4pZxl_J8mRRDwOKwHTbDXQ?key=VJ35wvjewSyDYVqgnxnVaPm8)
 
 >![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJU4Xq0g3mOJjFou7MTm6SpgaqDD3OmevKMzKpod-uV_wbkfszfbocrtWDMfSxK5a9Y439fc1r8I-knml22MV3MZbgb5zztlMoRDLU081W1XfLBeXvwHw-_H_9GYi6jEcU7QP3sw?key=VJ35wvjewSyDYVqgnxnVaPm8)
 
+Females seem to be roughly normal as the points stay close to the line but Males seem less normal as the points vary further from the line but no serious violations 
+
+(e)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJncv_E4GjVUS6UqdJKoSRow8QSDiUV0enlJREDkwzPYx_kygulkzfhFsO6hCOxaOVCse-bjsLJ6WU4o-lbsOZjLPWzCPpwugNlvqlu8Sj5Lrn33QlM3qJ_iKypPo2oDNB9udzJg?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc6t5iqV33_-ecyQtdcFMNSc04La31NVcyu0MoTm191lyf-fj_tjxph-zeJLkjeB4A1UFmC5ebKdHYnJ1hi4S1KcrPIyzhY-YtVQX38IZ466NY9Wlmj3cxFPM-VQ2KsKSVNXIwj?key=VJ35wvjewSyDYVqgnxnVaPm8)
+
+
+The points seem do be randomly scattered around the horizontal 0 line with only a few clustering oddities in the Males but no serious violations
+
+
+(f)
+
+$MRI(1001121) = -116.844 + 0.000239(1001121) = 122.423919$
+
+From SPSS $(1-\alpha)\times 100\%$ CI is $(110.40465, 134.93294)$
+From SPSS $(1-\alpha)\times 100\%$ PI is $(79.09612, 166.24147)$
+
+The prediction is much wider than the confidence interval
+
+Given that the assumptions are satisfied from the previous questions PI should be used, if there were violations it would be better to use the CI
 
 
 
 
+- 
 
 
