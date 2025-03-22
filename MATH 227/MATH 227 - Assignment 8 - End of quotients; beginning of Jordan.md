@@ -37,6 +37,3 @@ Closure of addition
 
 - $\forall r \in R, s \in S$
 - 
-- 
-- 
-- 
