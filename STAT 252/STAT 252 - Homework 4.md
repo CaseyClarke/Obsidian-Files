@@ -111,8 +111,47 @@ General formula $= \beta_1 + \beta_6male + \beta_7D1 + \beta_8D2+ \beta_9D3 + \b
 | Female | 3   | $\beta_1 + \beta_9$                        |
 
 
+(b)
+
+- To find the constraints just set each effect with the same dosage equal to each other
+- $D(0)$:
+	- $\beta_1 + \beta_6 = \beta_1$
+	- $\beta_6 = 0$
+
+- $D(1)$:
+	- $\beta_1 + \beta_6 + \beta_7 + \beta_{10} = \beta_1 + \beta_7$
+
+- $D(2)$:
+	- $\beta_1 + \beta_6 + \beta_8 + \beta_{11} = \beta_1 + \beta_8$
+
+- $D(3)$:
+	- $\beta_1 + \beta_6 + \beta_9 + \beta_{12} = \beta_1 + \beta_9$
+
+- The $\beta_6 = 0$ equation cascades down and sets all constraints to 0 so
+- The constraints are $\beta_{6}, \beta_{10}, \beta_{11}, \beta_{12} = 0$
+
+(c)
+
+- Setting all female effects equal to each other we get $\beta_{7}, \beta_{8}, \beta_{9} = 0$
+
+- $H_0: \beta_{7}, \beta_{8}, \beta_{9} = 0$
+- $H_A: \text{At least one }\beta_{7}, \beta_{8}, \beta_{9} \neq 0$
 
 
-- 
-- 
+- Under null it is an $F^{\#contraints}_{n-k} = F^3_{130-13} = F^3_{117}$
+
+(d)
+
+General formula $= \beta_2 + \beta_6(weight) + \beta_{10}(weight \times D1) + \beta_{11}(weight \times D2) + \beta_{12}(weight \times D3)$
+
+| IBP | Effect                                           |
+| --- | ------------------------------------------------ |
+| 0   | $\beta_2 + \beta_6(weight)$                      |
+| 1   | $\beta_2 + \beta_6(weight) + \beta_{10}(weight)$ |
+| 2   | $\beta_2 + \beta_6(weight) + \beta_{11}(weight)$ |
+| 3   | $\beta_2 + \beta_6(weight) + \beta_{12}(weight)$ |
+
+(e)
+
+
 - 
