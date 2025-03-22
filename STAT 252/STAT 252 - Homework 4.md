@@ -57,7 +57,45 @@ Filled in ANOVA table
 
 (f)
 
+- $\hat{\beta_3} = -0.772$
+- $SE(\hat{\beta_3}) = 0.244$
+- $df = 13$ (from previous part)
+- $t_{0.025} = 2.160$
+- $\hat{\beta_3} \pm t_{0.025}SE(\hat{\beta_3)} = -0.772 \pm 2.160(0.244) = (-1.29904, -0.24496)$
+
+- Since the confidence interval does not contain 0 we can say with $95\%$ that the interaction term (interaction between driving experiece and number of violations) has a signifigant effect on montly premiums
+
+(g)
+
+- Observed $= \hat{\gamma} = 96.740 + (-1.441 \times 10 ) + (22.313 \times 3) + (-0.772 \times 30) = 126.109$
+
+- Residual $= 100 - \hat{\gamma} = 100 - 126.109 = -26.109$  
+
+(h)
+
+
+- $\hat{\gamma} = 96.740 + (-1.441 \times 10 ) + (22.313 \times 3) + (-0.772 \times 30) = 126.109$
+- $t_{0.025} = 2.160$
+- $MSE = 77.3783846154$ (from above table)
+- $\hat{\gamma}\pm t_{0.025}\sqrt{MSE + SE(fit)^2}$
+-  $=126.109 \pm 2.160\sqrt{77.3783846154 + (3.249)^2} = (105.853959404, 146.364040596)$
+
+- $\therefore$ We are $95\%$ confident that for a driver that has been driving for 10 years and has gotten 3 tickets in the past 3 years, thier monthly premiums lie in the range 
+- $(105.853959404, 146.364040596)$ dollars
+
+(i)
+
+- $\hat{\gamma} = 96.740 + (-1.441 \times 10 ) + (22.313 \times 3) + (-0.772 \times 30) = 126.109$
+- $t_{0.025} = 2.160$
+- $\hat{\gamma}\pm t_{0.025}SE(fit) = 126.109 \pm 2.160(3.249) = (119.09116, 133.12684)$
+
+- $\therefore$ We are $95\%$ confident that for a driver that has been driving for 10 years and has gotten 3 tickets in the past 3 years, thier monthly premiums lie in the range $(119.09116, 133.12684)$ dollars
+
+{{ENDQUESTION}}
+
+
+
+
 - 
-
-
+- 
 - 
