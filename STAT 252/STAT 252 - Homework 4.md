@@ -153,5 +153,7 @@ General formula $= \beta_2 + \beta_6(weight) + \beta_{10}(weight \times D1) + \b
 
 (e)
 
+$$\beta_0 + \beta_1 (weight) + \beta_3 D1 + \beta_4 D2 + \beta_5 D3 + \beta_7 (weight \times D1) + \beta_8 (weight \times D2) + \beta_9 (weight \times D3)$$
 
-- 
+(f) 
+
