@@ -95,16 +95,21 @@ Filled in ANOVA table
 
 # Question 2
 
-| Gender | IBP | Effect |
-| ------ | --- | ------ |
-| Male   | 0   |        |
-| Male   | 1   |        |
-| Male   | 2   |        |
-| Male   | 3   |        |
-| Female | 0   |        |
-| Female | 1   |        |
-| Female | 2   |        |
-| Female | 3   |        |
+(a)
+
+General formula $= \beta_1 + \beta_6male + \beta_7D1 + \beta_8D2+ \beta_9D3 + \beta_{10}(male \times D1) + \beta_{11}(male \times D2) + \beta_{12}(male \times D3)$
+
+| Gender | IBP | Effect                                     |
+| ------ | --- | ------------------------------------------ |
+| Male   | 0   | $\beta_1 + \beta_6$                        |
+| Male   | 1   | $\beta_1 + \beta_6 + \beta_7 + \beta_{10}$ |
+| Male   | 2   | $\beta_1 + \beta_6 + \beta_8 + \beta_{11}$ |
+| Male   | 3   | $\beta_1 + \beta_6 + \beta_9 + \beta_{12}$ |
+| Female | 0   | $\beta_1$                                  |
+| Female | 1   | $\beta_1 + \beta_7$                        |
+| Female | 2   | $\beta_1 + \beta_8$                        |
+| Female | 3   | $\beta_1 + \beta_9$                        |
+
 
 
 
