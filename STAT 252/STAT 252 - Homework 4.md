@@ -93,6 +93,18 @@ Filled in ANOVA table
 
 {{ENDQUESTION}}
 
+# Question 2
+
+| Gender | IBP | Effect |
+| ------ | --- | ------ |
+| Male   | 0   |        |
+| Male   | 1   |        |
+| Male   | 2   |        |
+| Male   | 3   |        |
+| Female | 0   |        |
+| Female | 1   |        |
+| Female | 2   |        |
+| Female | 3   |        |
 
 
 
