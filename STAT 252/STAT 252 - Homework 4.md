@@ -21,7 +21,7 @@ Filled in ANOVA table
 - $p = P(F^3_{13} > F^*) \in (0.005, 0.001) \implies$ strong evidence against $H_0$
 - $p < \alpha = 0.05 \implies$ reject $H_0$
 
-- $\therefore$ We conclude that yes this is a useful model with very high certainty
+- $\therefore$ We conclude that at $\alpha = 0.05$ this is a useful model
 
 (b)
 
@@ -35,3 +35,29 @@ Filled in ANOVA table
 
 (d)
 
+- $SE = \sqrt{\frac{SS_R}{df_R}} = \sqrt{\frac{1005.919}{13}} = 8.79649842923$
+
+(e)
+
+- A Multiple Regression t-test for the Usefulness of Particular Predictor Variables would be most appropriate
+
+- $H_0: \beta_1 = 0$
+- $H_A: \beta_1 < 0$
+
+- $\hat{\beta_1} = -1.441$
+- $SE(\hat{\beta_1}) = 0.676$
+- $t^* = \frac{\hat{\beta_1}}{SE(\hat{\beta_1})} = \frac{-1.441}{0.676} = -2.13165680473$
+- $df = n-(k+1) = 17 - 4 = 13$
+
+- $p = P(t_{13} > t^*) \in (0.025, 0.05) \implies$ Moderate evidence against $H_0$
+- $p_{computer} = 0.053/2 = 0.0265$
+- $p < \alpha = 0.05 \implies$ reject $H_0$
+
+- $\therefore$ We conclude that at $\alpha = 0.05$ there is a negative relationship between years driving and monthly premiums
+
+(f)
+
+- 
+
+
+- 
