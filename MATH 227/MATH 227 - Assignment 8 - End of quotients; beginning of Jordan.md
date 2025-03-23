@@ -172,6 +172,4 @@ $p_B(t) = p_A(t)\stackrel{?}{\implies} A \sim B$
 - $QED$
 
 {{ENDQUESTION}}
-- 
-
  
