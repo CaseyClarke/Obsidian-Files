@@ -95,6 +95,7 @@ $$\begin{pmatrix}
 0 & 0 & 0 & 5 & 1 \\
 0 & 0 & 0 & 0 & 5
 \end{pmatrix}$$
+
 $[J_3(2) \oplus J_1(5) \oplus J_1(5)]$
 $$\begin{pmatrix} 
 2 &1 & 0 & 0 & 0 \\ 
