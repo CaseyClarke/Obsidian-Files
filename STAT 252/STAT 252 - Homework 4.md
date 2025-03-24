@@ -13,8 +13,8 @@ Filled in ANOVA table
 
 - A Multiple Regression ANOVA Test (F-Test) would be most appropriate
 
-- $H_0: \text{The model is useful for making predictions}$
-- $H_A: \text{The model is not useful for making predictions}$
+- $H_0: \text{The model is not useful for making predictions}$
+- $H_A: \text{The model is useful for making predictions}$
 
 - $F^* = 123.703642142$ (from above table)
 
