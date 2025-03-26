@@ -159,8 +159,8 @@ $$\beta_0 + \beta_1 (weight) + \beta_3 D1 + \beta_4 D2 + \beta_5 D3 + \beta_7 (w
 
 - A Extra-Sum-of-Squares F-Test in MLR would be most appropriate here
 
-- $H_0: \beta_1 = \beta_2 = \beta_3 = \beta_4 = 0$
-- $H_A: \text{ At least one }\beta_1, \beta_2, \beta_3, \beta_4 \neq 0$
+- $H_0: \beta_4 = \beta_5 = 0$
+- $H_A: \text{ At least one }\beta_4, \beta_5 \neq 0$
 
 - Using model 3 as full and 2 as reduced
 
