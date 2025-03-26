@@ -164,5 +164,8 @@ $$\beta_0 + \beta_1 (weight) + \beta_3 D1 + \beta_4 D2 + \beta_5 D3 + \beta_7 (w
 
 - Using model 3 as full and 2 as reduced
 
+- $F = \frac{(SS_{ER} - SS_{EF}) / (df_{ER} - df_{EF})}{SS_{EF} / df_{EF}} = \frac{(94.441 - 1.121) / (126 - 123)}{1.121 / 123}$
+ 
+
 
 - 
