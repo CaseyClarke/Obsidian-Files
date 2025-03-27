@@ -39,5 +39,32 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 
 (c)
 
+- $m_A(x) = (x-\lambda)^kp(x)$
+- $m_A(A) = (A-\lambda I)^kp(A) = 0$
+- 
+- we know that $p(A) \neq 0$ as 
+- $p(A) = 0 \implies m_A(x) \; | \; p(x)$ which would imply that $(x-\lambda)^k \;| \; 1$ but that is not a polynomial so contradiction
+- meaning that $vp(A) \neq 0$ for some $v \in A$  since $(nonzero)(nonzero) = (nonzero)$
+- $m_A(A) = (A-\lambda)^k(vp(A)) = 0$ since we have shown that $(A-\lambda)^k = 0$
+- $w = vp(A)$
+- $m_A(A) = (A - \lambda)^kw = 0$
+- $w \in GE_\lambda(A)$ by definition
+- by part (a) we know that this implies that $w \in E_\lambda$
+
+{{ENDQUESTION}}
+
+# Question 5
+
+(a)
+
+- $v \in GE_\lambda(A) \implies (A-\lambda I)^kv = 0$
+- $(A-\lambda I)^k(p(A)v)$
+- $p(A)(A-\lambda I)^Kv = p(A)0 = 0$
+- $\implies p(A)v \in GE_\lambda(A)$
+- 
+(b)
+
+- 
+- 
 - 
 - 
