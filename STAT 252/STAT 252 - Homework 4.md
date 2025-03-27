@@ -18,7 +18,7 @@ Filled in ANOVA table
 
 - $F^* = 123.703642142$ (from above table)
 
-- $p = P(F^3_{13} > F^*) \in (0.005, 0.001) \implies$ strong evidence against $H_0$
+- $p = P(F^3_{13} > F^*) < 0.001 \implies$ strong evidence against $H_0$
 - $p < \alpha = 0.05 \implies$ reject $H_0$
 
 - $\therefore$ We conclude that at $\alpha = 0.05$ this is a useful model
@@ -63,7 +63,7 @@ Filled in ANOVA table
 - $t_{0.025} = 2.160$
 - $\hat{\beta_3} \pm t_{0.025}SE(\hat{\beta_3)} = -0.772 \pm 2.160(0.244) = (-1.29904, -0.24496)$
 
-- Since the confidence interval does not contain 0 we can say with $95\%$ that the interaction term (interaction between driving experiece and number of violations) has a signifigant effect on montly premiums
+- Since the confidence interval does not contain 0 we can say with $95\%$ confidence that the interaction term (interaction between driving experiece and number of violations) has a signifigant effect on montly premiums
 
 (g)
 
@@ -110,7 +110,6 @@ General formula $= \beta_1 + \beta_6male + \beta_7D1 + \beta_8D2+ \beta_9D3 + \b
 | Female | 2   | $\beta_1 + \beta_8$                        |
 | Female | 3   | $\beta_1 + \beta_9$                        |
 
-
 (b)
 
 - To find the constraints just set each effect with the same dosage equal to each other
@@ -137,8 +136,7 @@ General formula $= \beta_1 + \beta_6male + \beta_7D1 + \beta_8D2+ \beta_9D3 + \b
 - $H_0: \beta_{7}, \beta_{8}, \beta_{9} = 0$
 - $H_A: \text{At least one }\beta_{7}, \beta_{8}, \beta_{9} \neq 0$
 
-
-- Under null it is an $F^{\#contraints}_{n-k} = F^3_{130-13} = F^3_{117}$
+- Under null it is an $F^{\#contraints}_{n-p-1} = F^3_{130-13-1} = F^3_{116}$
 
 (d)
 
@@ -164,8 +162,12 @@ $$\beta_0 + \beta_1 (weight) + \beta_3 D1 + \beta_4 D2 + \beta_5 D3 + \beta_7 (w
 
 - Using model 3 as full and 2 as reduced
 
-- $F = \frac{(SS_{ER} - SS_{EF}) / (df_{ER} - df_{EF})}{SS_{EF} / df_{EF}} = \frac{(94.441 - 1.121) / (126 - 123)}{1.121 / 123}$
- 
+- $df = [df_{ER} - df_{EF} = 3, df_{EF} = 123]$
 
+- $F = \frac{(SS_{ER} - SS_{EF}) / (df_{ER} - df_{EF})}{SS_{EF} / df_{EF}} = \frac{(94.441 - 1.121) / (126 - 123)}{1.121 / 123} = 3413.13113292$
 
-- 
+- Given the insanely high F statistic
+- $p < 0.000001 \implies$ strong evidence against $H_0$
+- $p < \alpha = 0.01 \implies$ reject $H_0$
+
+- $\therefore$ We conclude that at $\alpha = 0.01$ we reject the null hypoethesis and conclude that that dose has a significant effect on Pressure after controlling for weight, age, and gender.
