@@ -64,6 +64,18 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 - 
 (b)
 
+- We know that $Av = \lambda v$ by definition and that $A^nv = \lambda^n v$ by repeatedly applying this fact
+- $p(A)v = (a_0Iv + a_1Av + a_2A^2v + \dots + a_nA^nv)$
+- $p(A)v = (a_0v + a_1\lambda v + a_2\lambda^2v + \dots + a_n\lambda^nv)$
+- $p(A)v = p(\lambda)v$
+
+{{ENDQUESTION}}
+
+# Question 6
+
+(a)
+
+- 
 - 
 - 
 - 
