@@ -19,15 +19,8 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 
 (a)
 
-- We know that for any $v \in GE_\lambda(A), \; \exists \ l \text{ S. T. } (A - \lambda I)^lv = \bar{0}$ for some $l \geq 1$
-- and when $l = m_\lambda$ then $\operatorname{Null}((A-\lambda 1)^l) = E_\lambda$ meaning that $(A - \lambda I)^lv = \bar{0}$ where $v \in E_\lambda$ and it is non-zero as eigenspaces are non-trivial by definition
-
-(b)
-
-- If $\lambda$ is not an eigenvalue it's multiplicities are 0 so by part (a) we know that $\operatorname{Null}((A-\lambda 1)^l) = E_\lambda$ where $l = m_\lambda = 0$ 
-- $(A - \lambda I)^0v = \bar{0}$
-- $v = \bar{0}$
-
-(c)
+- By the definition of generalized eigen space we know that there exists some $l$ such that 
+- $(A-\lambda I)^lv = 0 \land (A-\lambda I)^{l-1}v \neq 0$
+- This shows that there is an $l$ such that $(A-\lambda I)^{l-1}v \neq 0$
 
 - 
