@@ -84,6 +84,8 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 
 (b)
 
+- $$\frac{1}{m_A(x)} = \sum_{i = 1}^k \frac{a_i(x)}{(x-\lambda_i I)^{l_i}}$$
+- $$\frac{1}{m_A(A)} = \sum_{i = 1}^k \frac{a_i(A)}{(A-\lambda_i I)^{l_i}} \implies \frac{1}{m_A(A)} = \sum_{i = 1}^k \frac{a_i(A)}{(A-\lambda_i I)^{l_i}}$$
 - 
 - 
 - 
