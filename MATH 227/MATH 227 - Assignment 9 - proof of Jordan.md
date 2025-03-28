@@ -75,7 +75,16 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 
 (a)
 
-- From 4(b) we know that when $GE_\mu(A) = \{0\}$
+- Assume for contradiction that $(A-\mu I)^mv = 0$
+- $let \; p(x) = (x - \mu I) ^m$
+- $p(A)v = 0$
+- but we know that $p(A)v = p(\lambda)v \in GE_\lambda(A)$
+- but then $p(A)v \neq 0$ since $0 \notin GE_\lambda(A)$
+- contradiction
+
+(b)
+
+- 
 - 
 - 
 - 
