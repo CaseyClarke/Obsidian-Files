@@ -75,6 +75,7 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 
 (a)
 
+- From 4(b) we know that when $GE_\mu(A) = \{0\}$
 - 
 - 
 - 
