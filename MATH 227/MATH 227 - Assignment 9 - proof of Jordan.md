@@ -89,8 +89,21 @@ $$m_A(x)\frac{1}{m_A(x)} = \sum_{i = 1}^k m_A(x)\frac{a_i(x)}{(x-\lambda_i I)^{l
 $$1(v) = \sum_{i = 1}^k m_A(x)\frac{a_i(x)}{(x-\lambda_i I)^{l_i}}(v)$$
 $$v = \sum_{i = 1}^k m_A(x)\frac{a_i(x)}{(x-\lambda_i I)^{l_i}}v$$
 $$v_i = m_A(x)\frac{a_i(x)}{(x-\lambda_i I)^{l_i}}v$$
-
 $$v = \sum_{i = 1}^k v_i$$
-now we just need to verify that each $v_i \in GE_\lambda(A)$
+now we just need to verify that each $v_i \in GE_\lambda(A)$ e.g that $(A-\lambda I)^lv = 0 \land (A-\lambda I)^{l-1}v \neq 0$
+Subsituting $x = A$ so we can use the commutativity of matrix polynomials
 
-$$v_i = m_A(x)\frac{a_i(x)}{(x-\lambda_i I)^{l_i}}v$$
+$v_i = m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}v$
+$(A- \lambda I)^kv_i = (A- \lambda I)^k\left(m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}v\right)$
+
+Case 1 $k = l_i$:
+- $(A- \lambda I)^kv_i = (A- \lambda I)^k\left(m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{k}}v\right) = m_A(A)a_i(A) = 0$ 
+- as $m_A(A) = 0$
+
+Case 2 $k \neq l_i$
+- This means that we cannot cancel the fraction so it must be non-zero
+
+Thus we have shown that each $v_i \in GE_\lambda(A)$
+
+
+
