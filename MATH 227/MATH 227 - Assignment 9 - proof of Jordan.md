@@ -35,7 +35,7 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 (b)
 
 - If $\lambda$ is not an eigenvalue $E_\lambda = \{0\}$ 
-- Suppose for contradition that $GE_\lambda(A)$ contains some non-zero vector, from part (a) we know that if we left multiply that non-zero vector by $(A-\lambda I)$ some ($l-1$) amout of times we get a vector in $E_\lambda$ but that is a contradiction since $E_\lambda = \{0\}$ thus $GE_\lambda(A) = \{0\}$
+- Suppose for contradition that $GE_\lambda(A)$ contains some non-zero vector, from part (a) we know that if we left multiply that non-zero vector by $(A-\lambda I)$ some ($l-1$) amout of times we get a non-zero vector in $E_\lambda$ but that is a contradiction since $E_\lambda = \{0\}$ thus $GE_\lambda(A) = \{0\}$
 
 (c)
 
