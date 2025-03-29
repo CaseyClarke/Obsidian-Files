@@ -97,13 +97,15 @@ $v_i = m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}v$
 $(A- \lambda I)^kv_i = (A- \lambda I)^k\left(m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}v\right)$
 
 Case 1 $k = l_i$:
-- $(A- \lambda I)^kv_i = (A- \lambda I)^k\left(m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{k}}v\right) = m_A(A)a_i(A) = 0$ 
+- $(A- \lambda I)^kv_i = (A- \lambda I)^k\left(m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{k}}v\right) = m_A(A)a_i(A)v = 0$ 
 - as $m_A(A) = 0$
 
 Case 2 $k \neq l_i$
 - This means that we cannot cancel the fraction so it must be non-zero
 
-Thus we have shown that each $v_i \in GE_\lambda(A)$
+Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^k v_i$
 
+(c)
 
+- 
 
