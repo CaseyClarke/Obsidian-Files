@@ -123,5 +123,5 @@ Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^
 Assume for contradiction that $v_1 \neq 0$ (WLOG)
 
 $p(A)\sum_{i = 1}^kv_i = 0$
-$p(A)v_1 + p(A)v_2 + \dots + p(A)v_n$
-- 
+
+from the way that we defined $p(x)$ it is essentially the minimal polynomial without the first term, this means that  
