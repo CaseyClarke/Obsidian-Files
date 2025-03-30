@@ -107,4 +107,5 @@ Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^
 
 (c)
 
-
+- First prove $\operatorname{Null}((A-\lambda_i I)^{l_i}) = GE_{\lambda_i}(A)$
+- 
