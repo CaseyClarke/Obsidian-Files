@@ -1,6 +1,6 @@
 # Question 1
 
-$m_A(x) = (x-0)^2(x-4)^3$
+$m_A(x) = (x-0)^2(x-4)^2$
 
 {{ENDQUESTION}}
 
