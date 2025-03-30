@@ -27,7 +27,6 @@ $-4A^2 + A + I$
 
 - By the definition of generalized eigen space we know that there exists some $l$ such that 
 - $(A-\lambda I)^lv = 0 \land (A-\lambda I)^{l-1}v \neq 0$
-- This shows that there is an $l$ such that $(A-\lambda I)^{l-1}v \neq 0$ (non-zero)
 
 - $Let \; k \text{ be the smallest positive integer such that } (A-\lambda I)^kv = 0 \land (A-\lambda I)^{k-1}v \neq 0$ 
 - $Let \; x = (A-\lambda I)^{k-1}v \neq 0$
