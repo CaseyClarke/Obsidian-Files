@@ -90,7 +90,7 @@ $-4A^2 + A + I$
 - $(A-\mu I)^mv \neq 0$
 - contradiction
 - thus it must equal 0
-- 
+
 (b)
 
 $$\frac{1}{m_A(x)} = \sum_{i = 1}^k \frac{a_i(x)}{(x-\lambda_i I)^{l_i}}$$
@@ -132,7 +132,9 @@ Case 1 $i = 1$:
 
 Case 2 $i > 1$
 
-- $p(A)v_i = (A - \lambda_2)^{l_2}v_i \dots (A - \lambda_i)^{l_i}v_i \dots (A - \lambda_k)^{l_k}v_i$
+- $p(A)v_i = (A - \lambda_2)^{l_2} \dots (A - \lambda_i)^{l_i} \dots (A - \lambda_k)^{l_k}v_i$
+- Using commutativity
+- $p(A)v_i = (A - \lambda_2)^{l_2} \dots (A - \lambda_i)^{l_i}v_i \dots (A - \lambda_k)^{l_k}$
 - but $(A - \lambda_i)^{l_i}v_i = 0$ by definition so
 - $p(A)v_i = 0$
 
