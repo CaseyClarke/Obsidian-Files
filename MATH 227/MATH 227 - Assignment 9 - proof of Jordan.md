@@ -102,6 +102,7 @@ Case 1 $k = l_i$:
 
 Case 2 $k \neq l_i$
 - This means that we cannot cancel the fraction so it must be non-zero
+- ==THIS IS NOT CORRECT==
 
 Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^k v_i$
 
