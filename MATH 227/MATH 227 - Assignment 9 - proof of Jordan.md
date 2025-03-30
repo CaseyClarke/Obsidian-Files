@@ -1,6 +1,6 @@
 # Question 1
 
-$m_A(x) = (x-0)^2(x-4)^2$
+$m_A(x) = (x-0)^2(x-4)^3$
 
 {{ENDQUESTION}}
 
@@ -11,7 +11,13 @@ $$\begin{pmatrix} 4 & 1 & 0 & 0 \\ 0 & 4 &1 & 0  \\ 0 & 0 & 4 & 0 \\ 0 & 0 & 0 &
 
 # Question 3
 
-$A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
+$p(\lambda)_A = -\lambda^3 + \lambda^2$
+$p(A)_A = -A^3 + A^2$
+$A^3 = A^2$
+$\implies A^n = A^2 \; \forall n > 2$
+$A^5 -6A^4+2A^3 - A^2 + A + I$
+$A^2 -6A^2+2A^2 - A^2 + A + I$
+$-4A^2 + A + I$
 
 {{ENDQUESTION}}
 
@@ -26,7 +32,7 @@ $A^5 -6A^4+2A^3 - A^2 + A + I \mod (-A^3 + A^2) = -A^2 +5A + 3$
 - $Let \; k \text{ be the smallest positive integer such that } (A-\lambda I)^kv = 0 \land (A-\lambda I)^{k-1}v \neq 0$ 
 - $Let \; x = (A-\lambda I)^{k-1}v \neq 0$
 
-- $(A-\lambda I)x = (A-\lambda I)(A-\lambda I)^{k-1}x = (A-\lambda I)^{k} = 0$
+- $(A-\lambda I)x = (A-\lambda I)(A-\lambda I)^{k-1}v = (A-\lambda I)^{k}v = 0$
 - $(A-\lambda I)x = 0 \implies x \in E_\lambda$
 
 - So for the integer $l-1$ that follows the rule  $(A-\lambda I)^lv = 0 \land (A-\lambda I)^{l-1}v \neq 0$
@@ -108,5 +114,4 @@ Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^
 
 (c)
 
-- 
 
