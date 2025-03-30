@@ -108,4 +108,20 @@ Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^
 (c)
 
 - First prove $\operatorname{Null}((A-\lambda_i I)^{l_i}) = GE_{\lambda_i}(A)$
+- from 6(b) each $v_i \in GE_{\lambda_i}(A) \implies$
+- $(A-\lambda_i)^{l_i}v_i = 0 \equiv \operatorname{Null}((A-\lambda_i)^{l_i}) \implies$
+- $GE_{\lambda_i}(A) = \operatorname{Null}((A-\lambda_i)^{l_i})$
+
+- Suppose for contradiction that some other $r < l_i$ also holds
+- $\operatorname{Null}((A-\lambda_i I)^{r}) = GE_{\lambda_i}(A)$
+- This would imply that the partial fraction decomposition from 6(b) had an extra 0 term $(r+1)$ that contributed nothing but this would contradict the minimality of the minimal polynomial thus $l_i$ must be the smallest that holds
+
+{{ENDQUESTION}}
+
+# Question 7
+
+Assume for contradiction that $v_1 \neq 0$ (WLOG)
+
+$p(A)\sum_{i = 1}^kv_i = 0$
+$p(A)v_1 + p(A)v_2 + \dots + p(A)v_n$
 - 
