@@ -105,7 +105,7 @@ $k(A) =  m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}$
 $v_i = k(A)v$
 $k(A)v \in GE_\lambda(A)$ by 5(a)
 
-Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^k v_i$
+Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^k v_i$ for any arbitrary $v \in \mathbb{F}^n$
 
 (c)
 
