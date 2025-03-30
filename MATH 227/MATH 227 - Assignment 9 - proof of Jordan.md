@@ -32,15 +32,15 @@ $-4A^2 + A + I$
 - $Let \; x = (A-\lambda I)^{k-1}v \neq 0$
 
 - $(A-\lambda I)x = (A-\lambda I)(A-\lambda I)^{k-1}v = (A-\lambda I)^{k}v = 0$
-- $(A-\lambda I)x = 0 \implies x \in E_\lambda$
+- $(A-\lambda I)x = 0 \implies x \in E_\lambda(A)$
 
 - So for the integer $l-1$ that follows the rule  $(A-\lambda I)^lv = 0 \land (A-\lambda I)^{l-1}v \neq 0$
 - both properties hold
 
 (b)
 
-- If $\lambda$ is not an eigenvalue $E_\lambda = \{0\}$ 
-- Suppose for contradition that $GE_\lambda(A)$ contains some non-zero vector, from part (a) we know that if we left multiply that non-zero vector by $(A-\lambda I)$ some ($l-1$) amout of times we get a non-zero vector in $E_\lambda$ but that is a contradiction since $E_\lambda = \{0\}$ thus $GE_\lambda(A) = \{0\}$
+- If $\lambda$ is not an eigenvalue $E_\lambda(A) = \{0\}$ 
+- Suppose for contradition that $GE_\lambda(A)$ contains some non-zero vector, from part (a) we know that if we left multiply that non-zero vector by $(A-\lambda I)$ some ($l-1$) amout of times we get a non-zero vector in $E_\lambda$ but that is a contradiction since $E_\lambda(A) = \{0\}$ thus $GE_\lambda(A) = \{0\}$
 
 (c)
 
@@ -54,7 +54,7 @@ $-4A^2 + A + I$
 - $w = p(A)v$
 - $(A - \lambda)^kw = 0$
 - $w \in GE_\lambda(A)$ by definition
-- by part (a) we know that this implies that $w \in E_\lambda$
+- by part (a) we know that this implies that $w \in E_\lambda(A)$
 
 {{ENDQUESTION}}
 
