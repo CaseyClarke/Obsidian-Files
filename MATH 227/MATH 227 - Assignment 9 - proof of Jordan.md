@@ -48,7 +48,7 @@ $-4A^2 + A + I$
 - $m_A(A) = (A-\lambda I)^kp(A) = 0$
 - 
 - we know that $p(A) \neq 0$ as 
-- $p(A) = 0 \implies (x-\lambda)^k$ is actually the minimal polynomial since it has lower degree but that contradicts the minimality of the minimal polynomial so it must be that $p(A) \neq 0$ 
+- $p(A) = 0 \implies p(A)$ is actually the minimal polynomial since it has strictly lower degree than $m_A(A)$ but that contradicts the minimality of the minimal polynomial so it must be that $p(A) \neq 0$ 
 - meaning that $p(A)v \neq 0$ for some $v \in A$  since $(nonzero)(nonzero) = (nonzero)$
 - $m_A(A)v = (A-\lambda)^kp(A)v = 0$ 
 - $w = p(A)v$
