@@ -121,7 +121,23 @@ Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^
 # Question 7
 
 Assume for contradiction that $v_1 \neq 0$ (WLOG)
+from the way that we defined $p(x)$ it is essentially the minimal polynomial without the first term, this means that 
+
+Case 1 $i = 1$:
+
+- $p(A)v_1$ is non-zero as there is no corresponding $i = 1$ term in the minimal polynomial to cancel $v_1$ out with
+
+Case 2 $i > 1$
+
+- $p(A)v_i = (A - \lambda_2)^{l_2}v_i \dots (A - \lambda_i)^{l_i}v_i \dots (A - \lambda_k)^{l_k}v_i$
+- but $(A - \lambda_i)^{l_i}v_i = 0$ by definition so
+- $p(A)v_i = 0$
 
 $p(A)\sum_{i = 1}^kv_i = 0$
-
-from the way that we defined $p(x)$ it is essentially the minimal polynomial without the first term, this means that  
+$\sum_{i = 1}^kp(A)v_i = 0$
+$p(A)v_1 + \sum_{i = 2}^kp(A)v_i = 0$
+$p(A)v_1 + 0 = 0$
+$p(A)v_1 = 0$
+since we know that $p(A) \neq 0$
+$v_1 = 0$
+contradiction
