@@ -49,11 +49,11 @@ $-4A^2 + A + I$
 - $m_A(A) = (A-\lambda I)^kp(A) = 0$
 - 
 - we know that $p(A) \neq 0$ as 
-- $p(A) = 0 \implies m_A(x) \; | \; p(x)$ which would imply that $(x-\lambda)^k \;| \; 1$ but that is not a polynomial so contradiction
-- meaning that $vp(A) \neq 0$ for some $v \in A$  since $(nonzero)(nonzero) = (nonzero)$
-- $m_A(A) = (A-\lambda)^k(vp(A)) = 0$ since we have shown that $(A-\lambda)^k = 0$
-- $w = vp(A)$
-- $m_A(A) = (A - \lambda)^kw = 0$
+- $p(A) = 0 \implies (x-\lambda)^k$ is actually the minimal polynomial since it has lower degree but that contradicts the minimality of the minimal polynomial so it must be that $p(A) \neq 0$ 
+- meaning that $p(A)v \neq 0$ for some $v \in A$  since $(nonzero)(nonzero) = (nonzero)$
+- $m_A(A)v = (A-\lambda)^kp(A)v = 0$ 
+- $w = p(A)v$
+- $(A - \lambda)^kw = 0$
 - $w \in GE_\lambda(A)$ by definition
 - by part (a) we know that this implies that $w \in E_\lambda$
 
@@ -84,10 +84,13 @@ $-4A^2 + A + I$
 - Assume for contradiction that $(A-\mu I)^mv = 0$
 - $let \; p(x) = (x - \mu I) ^m$
 - $p(A)v = 0$
-- but we know that $p(A)v = p(\lambda)v \in GE_\lambda(A)$
-- but then $p(A)v \neq 0$ since $0 \notin GE_\lambda(A)$
+- but we know that $p(A)v = p(\lambda)v$
+- $(A - \mu I)^mv = (\lambda - \mu )^mv$
+- since $v \neq 0$ and $(\lambda - \mu )^m \neq 0$ since $\lambda \neq \mu$
+- $(A-\mu I)^mv \neq 0$
 - contradiction
-
+- thus it must equal 0
+- 
 (b)
 
 $$\frac{1}{m_A(x)} = \sum_{i = 1}^k \frac{a_i(x)}{(x-\lambda_i I)^{l_i}}$$
