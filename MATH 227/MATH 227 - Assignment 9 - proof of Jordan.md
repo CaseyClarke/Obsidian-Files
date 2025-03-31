@@ -66,7 +66,7 @@ $-4A^2 + A + I$
 - $(A-\lambda I)^k(p(A)v)$
 - $p(A)(A-\lambda I)^Kv = p(A)0 = 0$
 - $\implies p(A)v \in GE_\lambda(A)$
-- 
+
 (b)
 
 - We know that $Av = \lambda v$ by definition and that $A^nv = \lambda^n v$ by repeatedly applying this fact
@@ -101,12 +101,13 @@ $$I(v) = \sum_{i = 1}^k p(A)a_i(A)(v)$$
 $$v = \sum_{i = 1}^k p(A)a_i(A)v$$
 $$v_i = p(A)a_i(A)(v)$$
 $$v = \sum_{i = 1}^k v_i$$
-now we just need to verify that each $v_i \in GE_\lambda(A)$ 
+now we just need to verify that each $v_i \in GE_{\lambda_i}(A)$ 
 $k(A) = p(A)a_i(A)$
 $v_i = k(A)v$
-$k(A)v \in GE_\lambda(A)$ by 5(a)
+$(A-\lambda_i I)^{l_i}v_i = (A-\lambda_i I)^{l_i}\frac{m_A(A)}{(A-\lambda_i I)^{l_i}}a_i(A)v = m_A(A)a_i(A)v = 0$
+$(A-\lambda_i I)^{l_i}v_i = 0 \implies v_i \in GE_{\lambda_i}(A)$ 
 
-Thus we have shown that each $v_i \in GE_\lambda(A)$ and that $v = \sum_{i = 1}^k v_i$ for any arbitrary $v \in \mathbb{F}^n$
+Thus we have shown that each $v_i \in GE_{\lambda_i}(A)$ and that $v = \sum_{i = 1}^k v_i$ for any arbitrary $v \in \mathbb{F}^n$
 
 (c)
 
@@ -146,3 +147,4 @@ $p(A)v_1 = 0$
 since we know that $p(A) \neq 0$
 $v_1 = 0$
 contradiction
+thus each $v_i$ must be 0
