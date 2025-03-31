@@ -95,13 +95,14 @@ $-4A^2 + A + I$
 $$\frac{1}{m_A(x)} = \sum_{i = 1}^k \frac{a_i(x)}{(x-\lambda_i I)^{l_i}}$$
 $$m_A(x)\frac{1}{m_A(x)} = \sum_{i = 1}^k m_A(x)\frac{a_i(x)}{(x-\lambda_i I)^{l_i}}$$
 $$I = \sum_{i = 1}^k m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}$$
+$$Let \; p(x) = \frac{m_A(x)}{(x-\lambda_i I)^{l_i}} \quad \text{ This is essentially removing the ith term of the minimal polynomial}$$
 $$\text{ Substituting }x = A$$
-$$I(v) = \sum_{i = 1}^k m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}(v)$$
-$$v = \sum_{i = 1}^k m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}v$$
-$$v_i = m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}v$$
+$$I(v) = \sum_{i = 1}^k p(A)a_i(A)(v)$$
+$$v = \sum_{i = 1}^k p(A)a_i(A)v$$
+$$v_i = p(A)a_i(A)(v)$$
 $$v = \sum_{i = 1}^k v_i$$
 now we just need to verify that each $v_i \in GE_\lambda(A)$ 
-$k(A) =  m_A(A)\frac{a_i(A)}{(A-\lambda_i I)^{l_i}}$
+$k(A) = p(A)a_i(A)$
 $v_i = k(A)v$
 $k(A)v \in GE_\lambda(A)$ by 5(a)
 
