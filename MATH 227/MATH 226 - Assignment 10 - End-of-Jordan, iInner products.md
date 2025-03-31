@@ -27,7 +27,11 @@ $J(A) = J_4(\pi)\oplus J_3(\pi)\oplus J_3(\pi)$
 - solving these equations gives 
   $x = \begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \end{pmatrix} y = \begin{pmatrix} 0 \\0 \\ 5 \\ 1 \end{pmatrix}$
 - Meaning that $P = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 5 \\ 0 & 0 & 0 & 1\end{pmatrix}$
-(b)9
+(b)
 
 - $\operatorname{det}(A-\lambda I) = \lambda^4 - 4\lambda^3+4\lambda^2$
-- $\lambda^4 - 4\lambda^3+4\lambda^2 = \lambda^2(\lambda^2 - 4\lambda + 4\lambda)$
+- $\lambda^4 - 4\lambda^3+4\lambda^2 = \lambda^2(\lambda^2 - 4\lambda + 4\lambda) = \lambda^2(\lambda - 2)^2$
+- $\lambda = 2, 0$
+- 
+
+- 
