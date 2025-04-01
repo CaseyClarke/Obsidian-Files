@@ -45,4 +45,11 @@ show a linear moderate linear relationship
 
 (a)
 
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfZi9ZF0w7qajgtzYYupopz8o73Yxcc03kCMKNLmQlKx5DtWAhlmQBjlc_KKMdIASpuFZRA8ddJhnWYLxU8Muxlt_TLorOAx30XGTEN-H03xN4nklM4P_XyetX2B5Obmva9U5bsmQ?key=Y0atQW0GXv1vnQpUimEG73Gv)
+
+
+For the pairs of variables that were already linear the transform did not really change all that much but for the other variables they are a lot closer to linear or are at least closer to being randomly scattered around the middle of the graph and not the bottom left as a lot of graphs were in the previous question
+
+(b)
+
 - 
