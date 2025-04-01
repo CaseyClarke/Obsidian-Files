@@ -75,4 +75,54 @@ Model assumptions are as follows
 
 (a)
 
-- 
+- At the end there were 5 variables removed in the following order (first removed to last removed):
+	- LNdep
+	- LNrunoff
+	- LNprec	
+	- LNarea	
+	- LNdischarg
+
+(b)
+
+- The final equation at the end of the backwards elemination was $LNO_3 = 0.973 + 0.508LNDENSITY + 0.274LNNPREC$
+- Percentage of variation explained by the explanitory variables is $R^2 \times 100 \% = 0.806(100 \%) = 80.6\%$
+
+(c)
+
+- SPSS reports the p value (from the last column of the ANOVA table) to be 0 to 13 decimal points of accuracy so we can be fairly certain that $p < \alpha = 0.05$
+
+- The p value corresponding to the $\beta_0$ term is $0.01$ meaning it is signifigant at $\alpha = 0.05$ 
+- The p value corresponding to the $\beta_1LNDENSITY$ term is 0 to 9 decimals meaning it is signifigant at $\alpha = 0.05$ 
+- The p value corresponding to the $\beta_2LNNPREC$ term is $0.026$ decimals meaning it is signifigant at $\alpha = 0.05$ 
+
+- It is clear that while all of them are signifigant the $LNDENSITY$ is clearly the term that is contributing the most signifigance and thus giving us that very low p value
+
+{{ENDQUESTION}}
+
+# Question 6 
+
+(a)
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcFtL30MeegmxKxFjYbZMIwV9HaTUOpWwOCsZuU3BEoJt0LjgxZI6OtttYUi7JS_Bnw6X9DJOCaMDfu7Irnl9nMaMpv8tTsE4cUwQXmWmAjKUnF-4nOpBkrmQp_78tk8cq_R7mZEw?key=Y0atQW0GXv1vnQpUimEG73Gv)
+
+
+Variance does not seem to be constant as the spread of the points on the graph is vastly different for different standardized predicted values, for example when the standardized predicted value is 1 the spread is far tighter then when it is -1
+This might imply that our assumption of equal varience has been violated
+There also does not appear to be any egregious ouliers
+
+(b)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZSFG8XE2LMm2n9MzyeOkPV4ngQD3bwcqteuLOzg-jgXmr24-DGwYXyhNcfe1iawVVBqHW0yxM8ZJkBf4jKLH4LpoeO6D4j9EWH_hoEsXINMQT9W1nMSp1glnLhUC9udbz_NzoZw?key=Y0atQW0GXv1vnQpUimEG73Gv)
+
+
+The points do not deviate severly from the line so we can assume that normality holds
+
+{{ENDQUESTION}}
+
+# Question 7
+
+(a)
+
+- $R^2 = 0.130$
+  It is so low because at the end of the forwards selection only one variable remained
+- Meaning that only about $13\%$ of the variation in LNNO3 is explained by the variables in this model, this could suggest that this model might not be the best
