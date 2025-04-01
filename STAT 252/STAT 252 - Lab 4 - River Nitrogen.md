@@ -52,4 +52,7 @@ For the pairs of variables that were already linear the transform did not really
 
 (b)
 
+ >![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNyQQCY8xUNoSeFBvuomE3jamZAfHbLP0v9IcNLkbfzr_KSoRsfCMx5EualS8R2mU8waGBOFcdBHFkQ-kwuKHmJVsyxxcXmRYxifvWntbhSas36e7NoTex_YsPVV4E4DAIVabq5w?key=Y0atQW0GXv1vnQpUimEG73Gv)
+
+
 - 
