@@ -6,3 +6,43 @@ The study is an observational study looking at statistics about rivers and not c
 
 # Question 2
 
+(a)
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcirXUXw6Vu-2z4b-6j4DxLa1rv-9zSc6mJqe5D3Y1iBgb_054nrO0nRO7Qh8u0bP6SQaLAxX0puKK3TFk6LZtRqd9fOXpxBaWQ3n90jVK_upkuoKdKnfVCQCziIgGplUy00LwX8g?key=Y0atQW0GXv1vnQpUimEG73Gv)
+> 
+
+
+It seems as if 
+- DEP and NPREC 
+  DENSITY and NO3
+  NPREC and Density
+
+show a linear strong linear relationship and 
+  - NO3 and NPREC
+  - PREC and Density
+  
+show a linear moderate linear relationship
+
+
+(b)
+
+- NO3 vs.
+	- DISCHARG - Non-linear relationship
+	- RUNOFF - Non-linear relationship
+	- AREA - Non-linear relationship
+	- Density - Solid linear relationship
+	- DEP - Very Roughly linear relationship
+	- NPREC - Roughly linear relationship
+	- PREC - Non-linear relationship
+
+
+- DENSITY would be the one I would choose If i had to choose only one predictor variable as it is the closest to a linear realationship
+- A linear model would not be appropriate as over half of them do not show a linear relationship in the slightest
+
+{{ENDQUESTON}}
+
+# Question 3
+
+(a)
+
+- 
