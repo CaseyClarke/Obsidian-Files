@@ -126,3 +126,19 @@ The points do not deviate severly from the line so we can assume that normality 
 - $R^2 = 0.130$
   It is so low because at the end of the forwards selection only one variable remained
 - Meaning that only about $13\%$ of the variation in LNNO3 is explained by the variables in this model, this could suggest that this model might not be the best
+
+(b)
+
+The influential case is case 3 (Caragh, Ireland) with $COO = 0.861 \quad LEV = 0.153 \quad SRE = -2.833$ 
+There is only one influential case as this is the only cases that is infuential in all 3 variables
+It is marked on the graph with its case number
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXeCHlSjXCF8Vofcmyyn8mr7qm7bygToVlFXr4TATb4d171EqpgQ8439RvJ9cwXirvjX2mXi8r6Mn5BMiQxl8rv-cUmW3XG5Itr-2Of4Mb8CkIJ9iNjA7py-3gHOvcol4DrSrKUA?key=Y0atQW0GXv1vnQpUimEG73Gv)
+
+
+After removing case 3 $R^2 = 0.261$ This is a signifigant increase from before case 3 was removed 
+$LNO_3 = 6.148490 - 0.362858LNDENSITY$
+
+(c)
+
+- 
