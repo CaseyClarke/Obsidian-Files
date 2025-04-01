@@ -62,3 +62,17 @@ Several variables show strong correlations indicating potential collinearity, th
 
 # Question 4
 
+$LNNO_3 = \beta_0 + \beta_1LNDISCHARG + \beta_2LNRUNOFF + \beta_3LNAREA + \beta_4LNDENSITY + \beta_5LNDEP + \beta_6LNNPREC + \beta_7LNPREC + \epsilon$
+$\mu(LNNO_3) = \beta_0 + \beta_1LNDISCHARG + \beta_2LNRUNOFF + \beta_3LNAREA + \beta_4LNDENSITY + \beta_5LNDEP + \beta_6LNNPREC + \beta_7LNPREC$
+
+Model assumptions are as follows
+- $\sim N(0, c) \quad \text{For some } c \in \mathbb{R^+}$
+- Independence of the error term $\epsilon$
+
+{{ENDQUESTION}}
+
+# Question 5
+
+(a)
+
+- 
