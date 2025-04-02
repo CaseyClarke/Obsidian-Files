@@ -135,6 +135,7 @@ It is marked on the graph with its case number
 
 > ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXeCHlSjXCF8Vofcmyyn8mr7qm7bygToVlFXr4TATb4d171EqpgQ8439RvJ9cwXirvjX2mXi8r6Mn5BMiQxl8rv-cUmW3XG5Itr-2Of4Mb8CkIJ9iNjA7py-3gHOvcol4DrSrKUA?key=Y0atQW0GXv1vnQpUimEG73Gv)
 
+It's also pretty clear from looking at the graph that this case is influential
 
 After removing case 3 $R^2 = 0.261$ This is a signifigant increase from before case 3 was removed 
 $LNO_3 = 6.148490 - 0.362858LNDENSITY$
