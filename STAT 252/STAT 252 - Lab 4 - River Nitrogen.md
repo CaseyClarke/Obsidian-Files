@@ -129,6 +129,8 @@ The points do not deviate severly from the line so we can assume that normality 
 
 (b)
 
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZOcI1bOdiBGPTxSG2vc9GK8V_lPcmIEoSuLowyHh68dOaAmookSWxrOB-Oy1f1qdOGYT21D79ukmyKue1UiCvYjwAmsfdya_0mthK02wc-SHKOxAu6bVdPm4K7-7X0sHJMfViOQ?key=6JOuZrwQDQoB9AFCBWEhKmOj)
+
 The influential case is case 3 (Caragh, Ireland) with $COO = 0.861 \quad LEV = 0.153 \quad SRE = -2.833$ 
 There is only one influential case as this is the only cases that is infuential in all 3 variables
 It is marked on the graph with its case number
@@ -138,8 +140,46 @@ It is marked on the graph with its case number
 It's also pretty clear from looking at the graph that this case is influential
 
 After removing case 3 $R^2 = 0.261$ This is a signifigant increase from before case 3 was removed 
-$LNO_3 = 6.148490 - 0.362858LNDENSITY$
+$\mu(LNO_3) = 6.148490 - 0.362858LNDISCHARG$
 
 (c)
 
-- 
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcioGuLel122cSGC9iwG0clPfR99B71c6FIsvAhbwhdZkNSx0AOecBwiuKfG_Fiy77Wb0M3bt9W1cLK6u4zN8Yk6euYwC1oMihZGkqlR53XPl7D7ZZ8wrygMHZ_QaVuf0YZ0hog?key=6JOuZrwQDQoB9AFCBWEhKmOj)
+
+>![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCcf7A4-7pgSS-IzMlypEgK-tgwaPXjIqe1iFDOkU2wrrzpm0CiK_RIfRCg0CkVY463denWV8e9VP6bHKTlLDXijyJUMzNiHaUbXMW4plEWs4-B7apEMbyNtviOAl_J39Wm5r9xA?key=6JOuZrwQDQoB9AFCBWEhKmOj)
+
+
+$\mu(LNO_3) = \beta_1 + \beta_2LNDISCHARG$ (b)
+$\mu(LNO_3) = \beta_1 + \beta_2LNDISCHARG + \beta_2LNDEP + \beta_3LNNPREC$ (c)
+
+$H_0: \beta_2 = \beta_3 = 0$ (R = Reduced)
+$H_A: \text{ At least one }\beta_2,\beta_3 \text{ differs from 0}$ (F = Full)
+
+Using ESS F test, SS/df values found from ANOVA tables in (b) and (c)
+
+$F^* = \frac{(SSR_R - SSR_F) / (df_r - df_f)}{SSR_F/df_F} = \frac{(51.587 - 33.054) / (39 - 37)}{33.054/37} = 10.372738549$
+
+$p = P(F^3_{37} > F^*) < 0.001$
+
+Given that the p value is very low (lower than standard level of signifigance $\alpha = 0.05$) we reject the null hypothesis in favor of the alternative, that is that the Full model is statistically signifigant
+
+{{ENDQUESTION}}
+
+# Question 8
+
+> ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdV2vYXC_sCYTzr6VvRdm6wbAAi42MF9XS8A8NDWdS4M_qStnfnHz9DxRL3mos_Gz_pg5s1VTSZCwyPH-KN9zBIgwpXupQCPlZPzgs1fszSoEBCtu1aGicwgk2c4N7n7Re_4Dpnrw?key=6JOuZrwQDQoB9AFCBWEhKmOj)
+
+$\mu(LNO_3) = \beta_1 + \beta_2LNDISCHARG + \beta_2LNDEP + \beta_3LNNPREC$ q7(c)
+$\mu(LNO_3) = \beta_1 + \beta_2LNDISCHARG + \beta_2LNDEP + \beta_3LNNPREC + \beta_4LNDENSITY$ q8
+
+Using ESS F test, SS/df values found from ANOVA tables in q7(c) and q8
+
+$H_0: \beta_4 = 0$ (R = Reduced)
+$H_A: \beta_4 \neq 0$ (F = Full)
+
+$F^* = \frac{(SSR_R - SSR_F) / (df_r - df_f)}{SSR_F/df_F} = \frac{(33.054 - 11.873) / (37 - 35)}{11.873/35} = 31.2193632612$
+
+$p = P(F^2_{35} > F^*) < 0.001$
+
+Given that the p value is very low (lower than standard level of signifigance $\alpha = 0.05$) we reject the null hypothesis in favor of the alternative, that is that the Full model is statistically signifigant e.g. adding Density signifigantly improved the accuracy of the model
+
