@@ -107,3 +107,42 @@ $\theta = \frac{2\pi}{3}$
 
 # Question 6
 
+Symmetry:
+- Since mulitplication is commuatative in $\mathbb{R}$ this is trivial
+
+Non-Degenerate:
+
+
+{{ENDQUESTION}}
+
+# Question 7
+
+Symmetry:
+- Since intersect is commuatative this is trivial
+
+Non-Degenerate:
+- For any $v \neq 0$ we can find another vector $w$ such that $\langle v, w\rangle \neq 0$ by defining $w$ as the original set $v$ plus some other letter that is not in $v$ this makes is so the intersect only contains a single element and the length squared of a single element is just $1 \mod 2 \neq 0$ which is always true
+
+Bilinear:
+- $\langle au + bv, cu' + dv' \rangle = ||(au \cup bv) \cap (cu' \cup dv')|| \mod 2$
+- $(au \cup bv) \cap (cu' \cup dv') = ((au \cup bv) \cap cu') \cup ((au \cup bv) \cap dv')$
+- $((au \cup bv) \cap cu') \cup ((au \cup bv) \cap dv') =((au \cap cu') \cup (bv \cap cu') ) \cup ((au\cap dv') \cup (bv \cap dv'))$
+- $au \cap bv = ab\langle u,v \rangle$ as if $a \lor b = 0$ then $au \cap bv = 0$ and if $a \lor b = 1$ then nothing happens to the intersection 
+- $ac\langle u,u'\rangle + bc\langle v,u'\rangle + ad\langle u,v'\rangle + bd\langle v,v'\rangle$
+
+{{ENDQUESTION
+
+# Question 8
+
+Reflexive:
+- $\langle v,v \rangle_V = \langle Tv,Tv \rangle_W$
+- $||v||^2_V = ||Tv||^2_W$
+- Linear maps preserve length so this is true thus $v \sim v$
+
+Symmetric:
+- Inner products are symmetric so this is trivial
+
+Transitive:
+- $u \sim v \land v \sim w$
+- $\langle u,v \rangle_V = \langle Tu,Tv \rangle_W$
+- $\langle v,w \rangle_V = \langle Tv,Tw \rangle_W$ 
