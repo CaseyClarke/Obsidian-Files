@@ -127,7 +127,7 @@ Bilinear:
 - $\langle au + bv, cu' + dv' \rangle = ||(au \cup bv) \cap (cu' \cup dv')|| \mod 2$
 - $(au \cup bv) \cap (cu' \cup dv') = ((au \cup bv) \cap cu') \cup ((au \cup bv) \cap dv')$
 - $((au \cup bv) \cap cu') \cup ((au \cup bv) \cap dv') =((au \cap cu') \cup (bv \cap cu') ) \cup ((au\cap dv') \cup (bv \cap dv'))$
-- $au \cap bv = ab\langle u,v \rangle$ as if $a \lor b = 0$ then $au \cap bv = 0$ and if $a \lor b = 1$ then nothing happens to the intersection 
+- $au \cap bv = ab\langle u,v \rangle$ as if $a \lor b = 0$ then $au \cap bv = 0$ and if $a \lor b = 1$ then nothing changes
 - $ac\langle u,u'\rangle + bc\langle v,u'\rangle + ad\langle u,v'\rangle + bd\langle v,v'\rangle$
 
 {{ENDQUESTION
