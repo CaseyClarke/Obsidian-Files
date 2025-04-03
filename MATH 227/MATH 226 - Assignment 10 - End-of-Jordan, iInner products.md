@@ -135,14 +135,9 @@ Bilinear:
 # Question 8
 
 Reflexive:
-- $\langle v,v \rangle_V = \langle Tv,Tv \rangle_W$
-- $||v||^2_V = ||Tv||^2_W$
-- Linear maps preserve length so this is true thus $v \sim v$
+- The "do nothing" transformation $T(v) = v$ trivially makes this true
 
 Symmetric:
-- Inner products are symmetric so this is trivial
+- 
 
 Transitive:
-- $u \sim v \land v \sim w$
-- $\langle u,v \rangle_V = \langle Tu,Tv \rangle_W$
-- $\langle v,w \rangle_V = \langle Tv,Tw \rangle_W$ 
