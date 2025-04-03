@@ -88,3 +88,22 @@ $\theta = \frac{2\pi}{3}$
 (a)
 
 - $\langle 4v-w, 2u+v+w\rangle = (4 \times 2)\langle v,u\rangle + 4\langle v,v\rangle + 4\langle v,w\rangle -2\langle w,u\rangle -\langle w,v\rangle -\langle w,w\rangle$
+- $8(-1) + 4(2) + 4(1) -2(2) -(1) -(3)$
+- $-4$
+
+(b)
+
+- $\langle v, u + xv + yw\rangle = 0$
+	- $\langle v,u\rangle + x\langle v,v\rangle + y\langle v,w\rangle = 0$
+	- $-1 + 2x + y = 0$
+- 
+- $\langle w, u + xv + yw\rangle = 0$
+	- $\langle w,u\rangle + x\langle w,v\rangle + y\langle w,w\rangle = 0$
+	- $2 + x + 3y = 0$
+- 
+	Solving the system of equations we get that $y = -1 \quad x = 1$
+
+{{ENDQUESTION}}
+
+# Question 6
+
