@@ -1,4 +1,3 @@
-
 # Question 1 
 
 Filled in ANOVA table

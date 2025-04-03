@@ -85,3 +85,6 @@ $\theta = \frac{2\pi}{3}$
 
 # Question 5
 
+(a)
+
+- $\langle 4v-w, 2u+v+w\rangle = (4 \times 2)\langle v,u\rangle + 4\langle v,v\rangle + 4\langle v,w\rangle -2\langle w,u\rangle -\langle w,v\rangle -\langle w,w\rangle$
