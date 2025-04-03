@@ -39,7 +39,7 @@ show a linear moderate linear relationship
 - DENSITY would be the one I would choose If i had to choose only one predictor variable as it is the closest to a linear realationship
 - A linear model would not be appropriate as over half of them do not show a linear relationship in the slightest
 
-{{ENDQUESTON}}
+{{ENDQUESTION}}
 
 # Question 3
 
@@ -56,14 +56,14 @@ For the pairs of variables that were already linear the transform did not really
 
 
 Several variables show strong correlations indicating potential collinearity, this implies that some predictor variables may be redundant in regression models
-==Might need to add more here==
 
 {{ENDQUESTION}}
 
 # Question 4
 
-$LNNO_3 = \beta_0 + \beta_1LNDISCHARG + \beta_2LNRUNOFF + \beta_3LNAREA + \beta_4LNDENSITY + \beta_5LNDEP + \beta_6LNNPREC + \beta_7LNPREC + \epsilon$
-$\mu(LNNO_3) = \beta_0 + \beta_1LNDISCHARG + \beta_2LNRUNOFF + \beta_3LNAREA + \beta_4LNDENSITY + \beta_5LNDEP + \beta_6LNNPREC + \beta_7LNPREC$
+$LNNO_3 = \beta_0 + \beta_1LNDISCHARG + \beta_2LNRUNOFF + \beta_3LNAREA +$ $\beta_4LNDENSITY + \beta_5LNDEP + \beta_6LNNPREC + \beta_7LNPREC + \epsilon$
+$\mu(LNNO_3) = \beta_0 + \beta_1LNDISCHARG + \beta_2LNRUNOFF + \beta_3LNAREA +$
+$\beta_4LNDENSITY + \beta_5LNDEP + \beta_6LNNPREC + \beta_7LNPREC$
 
 Model assumptions are as follows
 - $\sim N(0, c) \quad \text{For some } c \in \mathbb{R^+}$
@@ -159,7 +159,7 @@ Using ESS F test, SS/df values found from ANOVA tables in (b) and (c)
 
 $F^* = \frac{(SSR_R - SSR_F) / (df_r - df_f)}{SSR_F/df_F} = \frac{(51.587 - 33.054) / (39 - 37)}{33.054/37} = 10.372738549$
 
-$p = P(F^3_{37} > F^*) < 0.001$
+$p = P(F^2_{37} > F^*) < 0.001$
 
 Given that the p value is very low (lower than standard level of signifigance $\alpha = 0.05$) we reject the null hypothesis in favor of the alternative, that is that the Full model is statistically signifigant
 
