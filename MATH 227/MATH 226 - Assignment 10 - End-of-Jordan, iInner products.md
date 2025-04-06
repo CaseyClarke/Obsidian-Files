@@ -48,7 +48,10 @@ $J(A) = J_4(\pi)\oplus J_4(\pi)\oplus J_2(\pi)$
 
 - To find p we just need to "fill in" another generalised eigen vector for $\lambda = 0$
 - solving the equation $Ax = \begin{pmatrix} 0 \\ -1 \\ 1 \\ 0\end{pmatrix}$
-- we get that $x = $
+- we get that $x = \begin{pmatrix} -1 \\ -1 \\ 0 \\ 1\end{pmatrix}$
+- Therefore
+- 
+- $P = \begin{pmatrix}  0 & -1 &  1 & -1 \\-1 &  -1 &-2 & 0 \\ 1 & 0 &   1 &  0 \\0 & 1 &   0 & 1 \\ \end{pmatrix}$
 
 {{ENDQUESTION}}
 
