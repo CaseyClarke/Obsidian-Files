@@ -117,7 +117,25 @@ Symmetry:
 - Since mulitplication is commuatative in $\mathbb{R}$ this is trivial
 
 Non-Degenerate:
-- 
+- For any non-zero vector $u$ at least one of it's elements are non-zero, take any such element and define it's index as $l$ then create a new vector $v$ such that $v_i = 0$ if $i \neq l$ and $v_i = 1$ if $i = l$
+- $\langle u, v\rangle$
+- Case 1 $l$ lies in the $m$ "half" of the vector:
+	- $\langle u, v\rangle = u_l$
+
+- Case 2 $l$ lies in the $n$ "half" of the vector:
+	- $\langle u, v \rangle = -u_l$
+
+- Either way this method of constructing the vector the inner product is non-zero
+
+Bilinear:
+- $\langle au + bv, w \rangle = \sum_{i=1}^m(au_i + bv_i)w_i -\sum_{j = m + 1}^{m+n}(au_j+bv_j)w_j$
+- $a(\sum_{i=1}^mu_iw_i - \sum_{j = m + 1}^{m+n}u_jw_j) +b(\sum_{i=1}^mv_iw_i - \sum_{j = m + 1}^{m+n}v_jw_j)$
+- $\langle au + bv, w \rangle = a\langle u,w\rangle + b\langle v,w\rangle$
+
+Not an inner product:
+- $n = 4 \quad m = 1$
+- $\langle (0,0,0,0,1), (0,0,0,0,1) \rangle = -1 < 0$
+
 
 {{ENDQUESTION}}
 
@@ -144,6 +162,17 @@ Reflexive:
 - The "do nothing" transformation $T(v) = v$ trivially makes this true
 
 Symmetric:
-- 
+- $\langle u,v \rangle_v = \langle Tu, Tv \rangle_w$
+- We know that $T^{-1}$ exists so just apply it to both sides
+- $\langle T^{-1}u,T^{-1}v \rangle_v = \langle w, w' \rangle_w$
 
 Transitive:
+- V ortho equiv W ortho eqiv U
+- 
+- $\langle u,v \rangle_v = \langle Tu, Tv \rangle_w$
+- $\langle u,v \rangle_w = \langle T'u, T'v \rangle_U$
+- 
+- $\langle u,v \rangle_v = \langle Tu, Tv \rangle_w = \langle Tu,Tv \rangle_w = \langle T(T'u), T(T'v) \rangle_U$
+- $T'' = T \circ T'$
+- $\langle u,v \rangle_v = \langle T''u, T''v \rangle_U$
+- Thus V is ortho equiv to U
