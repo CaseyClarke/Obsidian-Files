@@ -59,13 +59,19 @@ $J(A) = J_4(\pi)\oplus J_3(\pi)\oplus J_3(\pi)$
 	- Multiplication is commutative in $\mathbb{R}$ so this is trivially symetric
 
 - Bilinearity
-	- $\langle p(x), uq(x) + vq'(x)\rangle =$
+	- $uq(x) + vq'(x) = (ua_q + va_{q'})x^2 + (ub_q + vb_{q'})x + (uc_q + vc_{q'})$
+	- $\langle uq(x) + vq'(x), p(x)\rangle = 2(ua_q + va_{q'})(a_p) + (ub_q + vb_{q'})(b_p)$
+	- $+ (uc_q + vc_{q'})(c_p) + (ua_q + va_{q'})(b_p) + (ub_q + vb_{q'})(a_p)$
+	- Grouping all $u$ and $v$ terms together you get
+	- $\langle uq(x) + vq'(x), p(x)\rangle = u(2a_qa_p +b_qb_p + c_qc_p + b_qb_p + a_qb_p + b_qa_p)$
+	- $+ v(2a_{q'}a_p +b_{q'}b_p + c_{q'}c_p + b_{q'}b_p + a_{q'}b_p + b_{q'}a_p)$
+	- $\langle uq(x) + vq'(x), p(x)\rangle = u\langle q(x), p(x) \rangle + v\langle q'(x), p(x) \rangle$
 
 - Positive
-	- Stuff
-
-- ==Not complete==
-
+	- $\langle ax^2 + bx + c, ax^2 + bx + c\rangle = 2a^2 + b^2 + c^2 + 2ab$
+	- $2a^2 + b^2 + c^2 + 2ab = a^2 + 2ab + b^2 + a^2 +b^2 + c^2$
+	- $a^2 + 2ab + b^2 + a^2 +b^2 + c^2 =(a+b)^2 + a^2 +b^2 + c^2$
+	- Any real number squared is positive and the sum of positive numbers is positive
 
 {{ENDQUESTION}}
 
@@ -111,7 +117,7 @@ Symmetry:
 - Since mulitplication is commuatative in $\mathbb{R}$ this is trivial
 
 Non-Degenerate:
-
+- 
 
 {{ENDQUESTION}}
 
