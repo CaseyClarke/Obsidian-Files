@@ -2,9 +2,14 @@
 
 Size of matrix is $10\times10$
 
-$\operatorname{Dim}(\operatorname{Null}((A-\pi I))) = 3$
+$\operatorname{Dim}(\operatorname{Null}((A-\pi I))) = 3 \implies$ 3 blocks with size $\geq 1$
+$\operatorname{Dim}(\operatorname{Null}((A-\pi I)^2))-  \operatorname{Dim}(\operatorname{Null}((A-\pi I)))= 3 \implies$ 3 blocks with size $\geq 2$
+$\operatorname{Dim}(\operatorname{Null}((A-\pi I)^3))-  \operatorname{Dim}(\operatorname{Null}((A-\pi I)^2))= 2 \implies$ 2 blocks with size $\geq 3$
+$\operatorname{Dim}(\operatorname{Null}((A-\pi I)^4))-  \operatorname{Dim}(\operatorname{Null}((A-\pi I)^3))= 2 \implies$ 2 blocks with size $\geq 4$
 
-$J(A) = J_4(\pi)\oplus J_3(\pi)\oplus J_3(\pi)$
+We then know that size cannot be $\geq 5$ since we need 3 blocks so there must be two blocks of 4 and that leaves us with the only option that the last one is a block of 2
+
+$J(A) = J_4(\pi)\oplus J_4(\pi)\oplus J_2(\pi)$
 
 {{ENDQUESTION}}
 
@@ -34,14 +39,16 @@ $J(A) = J_4(\pi)\oplus J_3(\pi)\oplus J_3(\pi)$
 - $\lambda^4 - 4\lambda^3+4\lambda^2 = \lambda^2(\lambda^2 - 4\lambda + 4\lambda) = \lambda^2(\lambda - 2)^2$
 - $\lambda = 2, 0$
 - 
-- $\operatorname{Ker}(A-0I) = \operatorname{Ker}(A) = \begin{pmatrix} 1 \\ 1 \\ 1 \\ -1 \end{pmatrix}$
-- $\operatorname{Ker}(A-2I) = \left\{ \begin{pmatrix} 1 \\ 1 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 0 \\ 1 \\ 1 \end{pmatrix} \right\}$
+- $\operatorname{Ker}(A-0I) = \operatorname{Ker}(A) = \begin{pmatrix} 0 \\ -1 \\ 1 \\0 \end{pmatrix}$
+- $\operatorname{Ker}(A-2I) = \left\{ \begin{pmatrix} 1 \\ -2 \\ 1 \\ 0 \end{pmatrix}, \begin{pmatrix} -1 \\ 0 \\ 0 \\ 1 \end{pmatrix} \right\}$
 - $\operatorname{Dim}(\operatorname{Ker}(A)) = 1 \implies$ One jordan block for $\lambda = 0$
 - $\operatorname{Dim}(\operatorname{Ker}(A-2I)) = 2 \implies$ Two jordan blocks for $\lambda = 2$
 
 - $J = \begin{pmatrix} J_2(0) & 0 & 0 \\ 0 & J_1(2) & 0 \\ 0 & 0 &  J_1(2) \end{pmatrix}$
 
-==Still need to find P==
+- To find p we just need to "fill in" another generalised eigen vector for $\lambda = 0$
+- solving the equation $Ax = \begin{pmatrix} 0 \\ -1 \\ 1 \\ 0\end{pmatrix}$
+- we get that $x = $
 
 {{ENDQUESTION}}
 
