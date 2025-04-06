@@ -21,12 +21,12 @@ $J(A) = J_4(\pi)\oplus J_4(\pi)\oplus J_2(\pi)$
 - $\operatorname{Dim}(\operatorname{Null}(A - 0I)) = \operatorname{Dim}(\operatorname{Null}(A))$ 
 - $\operatorname{Null}(A) = \left\{ \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\1 \\ 0 \\ 0 \end{pmatrix} \right\}$
 - $\operatorname{Dim}(\operatorname{Null}(A)) = 2 \implies$ There are 2 Jordan blocks
+- $\operatorname{Dim}(\operatorname{Null}(A^2)) = 3$
+- $\operatorname{Dim}(\operatorname{Null}(A^3)) = 4$
 
-- $A^2 = \begin{pmatrix} 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & -2 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ \end{pmatrix}$
+- $\operatorname{Dim}(\operatorname{Null}(A^3) - \operatorname{Dim}(\operatorname{Null}(A^2) = 4-3 = 1 \implies$ 1 block with size $\geq 3$
 
-- $\operatorname{Dim}(\operatorname{Null}(A^2)) = 4 - 2 = 2 \implies$ At least 2 blocks of size 2
-
-- $J = \begin{pmatrix} J_2(0) & 0 \\ 0 & J_2(0)\end{pmatrix}$
+- $J = \begin{pmatrix} J_3(0) & 0 \\ 0 & J_1(0)\end{pmatrix}$
 - The columns of P are the 2 vectors of $\operatorname{Null}(A)$ $v_1 =  \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix} v_3 = \begin{pmatrix} 0 \\1 \\ 0 \\ 0 \end{pmatrix}$ 
   plus 2 generalised eigenvectors, $x,y$ where $Ax = v_1$ and $Ay = v_3$
 - solving these equations gives 
