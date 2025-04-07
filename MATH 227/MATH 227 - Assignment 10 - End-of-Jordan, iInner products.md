@@ -164,7 +164,11 @@ Symmetry:
 - Since intersect is commuatative this is trivial
 
 Non-Degenerate:
-- For any $v \neq 0$ we can find another vector $w$ such that $\langle v, w\rangle \neq 0$ by defining $w$ as the original set $v$ plus some other letter that is not in $v$ this makes is so the intersect only contains a single element and the length squared of a single element is just $1 \mod 2 \neq 0$ which is always true
+- For any $v \neq 0$ we can find another vector $w$ such that $\langle v, w\rangle \neq 0$ by defining $w$ as 
+- $|u|$ is even:
+	- $w = v$ with a single letter removed if $|u|$ is even, thus $|v \cap w| = 1$ as $|u| = |w| - 1 \implies w$ is odd meaning that $|w| \mod 2 = 1$
+- $|w|$ is odd:
+	- $w =v$ as $|w| = |v| =$ some odd number meaning that $|w| \mod 2 = 1$
 
 Bilinear:
 - $\langle au + bv, cu' + dv' \rangle = ||(au \cup bv) \cap (cu' \cup dv')|| \mod 2$
@@ -173,7 +177,7 @@ Bilinear:
 - $au \cap bv = ab\langle u,v \rangle$ as if $a \lor b = 0$ then $au \cap bv = 0$ and if $a \lor b = 1$ then nothing changes
 - $ac\langle u,u'\rangle + bc\langle v,u'\rangle + ad\langle u,v'\rangle + bd\langle v,v'\rangle$
 
-{{ENDQUESTION
+{{ENDQUESTION}}
 
 # Question 8
 
