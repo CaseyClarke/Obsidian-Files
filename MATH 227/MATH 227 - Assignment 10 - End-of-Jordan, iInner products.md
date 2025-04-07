@@ -20,6 +20,9 @@ $J(A) = J_4(\pi)\oplus J_4(\pi)\oplus J_2(\pi)$
 - $\operatorname{det}(A-\lambda I) = \lambda^4 \quad \lambda = 0$
 - $\operatorname{Dim}(\operatorname{Null}(A - 0I)) = \operatorname{Dim}(\operatorname{Null}(A))$ 
 - $\operatorname{Null}(A) = \left\{ \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\1 \\ 0 \\ 0 \end{pmatrix} \right\}$
+- $\operatorname{Null}(A^2) = \left\{ \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\1 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\0 \\ 1 \\ 0 \end{pmatrix} \right\}$
+- $\operatorname{Null}(A^3) = \left\{ \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\1 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\0 \\ 1 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\0 \\ 0 \\ 1 \end{pmatrix}  \right\}$
+- 
 - $\operatorname{Dim}(\operatorname{Null}(A)) = 2 \implies$ There are 2 Jordan blocks
 - $\operatorname{Dim}(\operatorname{Null}(A^2)) = 3$
 - $\operatorname{Dim}(\operatorname{Null}(A^3)) = 4$
@@ -27,11 +30,17 @@ $J(A) = J_4(\pi)\oplus J_4(\pi)\oplus J_2(\pi)$
 - $\operatorname{Dim}(\operatorname{Null}(A^3) - \operatorname{Dim}(\operatorname{Null}(A^2) = 4-3 = 1 \implies$ 1 block with size $\geq 3$
 
 - $J = \begin{pmatrix} J_3(0) & 0 \\ 0 & J_1(0)\end{pmatrix}$
-- The columns of P are the 2 vectors of $\operatorname{Null}(A)$ $v_1 =  \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix} v_3 = \begin{pmatrix} 0 \\1 \\ 0 \\ 0 \end{pmatrix}$ 
-  plus 2 generalised eigenvectors, $x,y$ where $Ax = v_1$ and $Ay = v_3$
-- solving these equations gives 
-  $x = \begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \end{pmatrix} y = \begin{pmatrix} 0 \\0 \\ 5 \\ 1 \end{pmatrix}$
-- Meaning that $P = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 5 \\ 0 & 0 & 0 & 1\end{pmatrix}$
+
+- We need to find vectors such that $A^3v = 0 \land A^2v \neq 0$
+- Start with $v_1 = \begin{pmatrix} 0 \\0 \\ 0 \\ 1 \end{pmatrix}$
+- Then find $v_2 = Av_1 \quad Av_2 = v_3 \quad Av_3 = 0$
+- Solving the equations we get that 
+- $v_1 = \begin{pmatrix} 0 \\0 \\ 0 \\ 1 \end{pmatrix}$
+- $v_2 = \begin{pmatrix} 2 \\ 3 \\ 1 \\ 0 \end{pmatrix}$
+- $v_3 = \begin{pmatrix} 1 \\ -2 \\ 0 \\ 0 \end{pmatrix}$
+- 
+- Now to fill in the last vector $v_4$ we just choose a vector such that $Av = 0$, we already know that $v_4 = \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix}$ is in the null of A and it is also linearily independant from the other 3 vectors so this works
+- Meaning that $P = \begin{pmatrix} 1 & 2 & 0 & 1 \\ -2 & 3 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0\end{pmatrix}$
 
 (b)
 
