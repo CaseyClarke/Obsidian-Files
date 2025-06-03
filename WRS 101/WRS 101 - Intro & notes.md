@@ -19,3 +19,6 @@ e.g. show that you understand main ideas in the chosen source
 Show that there is learning happening
 The reader should understand why the source is in the work
 
+MLA should be last, first names
+
+alphabetical order by last name, centered on page
