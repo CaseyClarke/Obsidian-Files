@@ -1,0 +1,6 @@
+- [ ] Quiz 1 Sept 15-19
+- [ ] Quiz 2 Oct 6-10
+- [ ] Quiz 3 Oct 20-24
+- [ ] Quiz 4 Nov 3-7
+- [ ] Quiz 5 Nov 17-21
+- [ ] Quiz 6 Dec 1-5

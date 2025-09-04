@@ -1,0 +1,10 @@
+- [ ] Quiz 1 Sept 12
+- [ ] Assignment 1 (groups of 4-6) Sep 23
+- [ ] Quiz 2 Sept 26
+- [ ] Assignment 2 (individual) Oct 9
+- [ ] Quiz 3 Oct 10
+- [ ] Quiz 4 Oct 24
+- [ ] Mini-project 1 (groups of 2-3) Nov 4 
+- [ ] Quiz 5 Nov 7
+- [ ] Mini-project 2 (groups of 2-3) Nov 25
+- [ ] Quiz 6 Nov 28
