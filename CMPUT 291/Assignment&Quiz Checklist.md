@@ -8,3 +8,5 @@
 - [ ] Quiz 5 Nov 7
 - [ ] Mini-project 2 (groups of 2-3) Nov 25
 - [ ] Quiz 6 Nov 28
+
+seems weekly but not sure
