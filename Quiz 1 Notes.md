@@ -47,3 +47,10 @@ other relation (like a `logical pointer’).
 constraints are enforced, i.e., no dangling references.  
 • Can you name a data model w/o referential integrity?
 
+ER Model 
+
+The “world” is described in terms of  
+• entities  
+• relationships  
+• attributes
+
