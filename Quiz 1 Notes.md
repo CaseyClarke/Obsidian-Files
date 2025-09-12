@@ -54,3 +54,4 @@ The “world” is described in terms of
 • relationships  
 • attributes
 
+![[Pasted image 20250912102731.png]]
