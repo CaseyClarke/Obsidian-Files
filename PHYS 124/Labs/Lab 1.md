@@ -1,3 +1,15 @@
+Lab Report #: Title
+Author: Casey Clarke
+CCID: CNC
+Student ID #: Your ID
+Lab Partner(s): Their name(s)
+COURSE NUMBER, Lab Section Number
+TA: TA Name
+Date of Lab: Date
+
+
+<div style="page-break-after: always;"></div>
+
 ### Question 1
 
 **Table 1:** Measured spring extension from varying the masses hung from the same spring and their corresponding Weight using $F = mg$ where $g = 9.80665 m/s^2$
@@ -13,4 +25,6 @@
 | 0.256                      | 1.032         | 10.1          |
 
 ### Question 2
+
+### Question 3
 
