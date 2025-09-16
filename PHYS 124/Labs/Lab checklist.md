@@ -25,3 +25,9 @@
 - [ ] Redo
       Start: Dec 2nd
       Due: Dec 9th
+
+caption 
+
+1. what exp? where is the data from
+2. equation, whats the relation, uncertainty and sig figs
+3. what does the slope mean
