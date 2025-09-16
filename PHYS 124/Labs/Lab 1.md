@@ -28,3 +28,4 @@ Date of Lab: Date
 
 ### Question 3
 
+We measured $k = $
