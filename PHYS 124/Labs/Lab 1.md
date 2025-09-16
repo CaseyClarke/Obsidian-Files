@@ -1,6 +1,6 @@
 ### Question 1
 
-**Table 1:** Measured spring extension from varying the masses hung from the same spring and their corresponding Force using $F = mg$ where $g = 9.80665 m/s^2$
+**Table 1:** Measured spring extension from varying the masses hung from the same spring and their corresponding Force using $F = mg$ where $g = 9.80665 m/s^2$, I was not given any uncertainty values for the raw data therefore I chose to keep 3 sig figs 
 
 | Measured Extension <br>(m) | Mass <br>(kg) | Force <br>(N) |
 | -------------------------- | ------------- | ------------- |
@@ -23,7 +23,7 @@ We measured that the spring constant $k$ was equal to $k = (36.0 \pm 2.7 \space 
 
 The theoretical values for $k$ and $b$ are $k = 40 \space N/m$ and $b = 0$ respectively
 
-Given that the value of $k$ that we found is within 2 standard deviations from the mean our value of $k$ is within modest
+Given that the value of $k$ that we found is within 2 standard deviations from the mean our value of $k$ is within modest agreement
 
 Given that the value of $b$ that we found is within 3 standard deviations from the mean our value of $b$ is in poor agreement
 ### Question 4
