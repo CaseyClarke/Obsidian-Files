@@ -27,10 +27,10 @@ Given that the value of $k$ that we found is within 2 error intervals from the m
 
 Given that the value of $b$ that we found is within 3 error intervals from the mean our value of $b$ is in poor agreement
 ### Question 4
- - (a) $(6.8 \pm 0.1) \space m$
- - (b) $(1 0.5 \pm 1) \space m$
- - (c) $(52 \pm 8) \space J \times 10^{-4}$
- - (d) $(42.8 \pm 0.1) \space N$
+ - (a) $(6.83 \pm 0.10) \space m$
+ - (b) $( 0.5 \pm 1.2) \space kg$
+ - (c) $(52 \pm 8) \space J \times 10^{4}$
+ - (d) $(42.79 \pm 0.10) \space N$
 ### Question 5
 - (a) $\delta F =\left| ma \right| \sqrt{ (\frac{\delta m}{m})^2 + (\frac{\delta a}{a})^2}$
 - (b) $\delta I =\left| \frac{P}{r^2} \right| \sqrt{ (\frac{\delta P}{P})^2 + (2\frac{\delta r}{r})^2}$
