@@ -19,7 +19,7 @@
 **Figure 1:** Force/Weight on the spring as the mass attached changes. The equation that governs this relationship is $F = -kx$ which is a linear relationship in $F$ and $x$. As the measured extension increases the force on the spring increases, we are able to calculate the spring constant $k$ by taking the slope of the graph obtained by plotting this data since $k$ is constant across the varied spring extensions. 
 ### Question 3
 
-We measured that the spring constant $k$ was equal to $k = (36.0 \pm 2.7 \space N)$ and that the intercept $b$ is equal to $b = (0.9 \pm 0.4 \space N)$
+We measured that the spring constant $k$ was equal to $k = (36.0 \pm 2.7 \space N/m)$ and that the intercept $b$ is equal to $b = (0.9 \pm 0.4 \space N)$
 
 The theoretical values for $k$ and $b$ are $k = 40 \space N/m$ and $b = 0$ respectively
 
@@ -34,8 +34,8 @@ Given that the value of $b$ that we found is within 3 error intervals from the m
 ### Question 5
 - (a) $\delta F =\left| ma \right| \sqrt{ (\frac{\delta m}{m})^2 + (\frac{\delta a}{a})^2}$
 - (b) $\delta I =\left| \frac{P}{r^2} \right| \sqrt{ (\frac{\delta P}{P})^2 + (2\frac{\delta r}{r})^2}$
-- (c) $\delta v =\left| \frac{d_2 - d_1}{t_2 - t_1} \right| \sqrt{ (\frac{\delta d_2 - \delta d_1}{d_2 - d_1})^2 + (\frac{\delta t_2 - \delta t_1}{t_2 - t_1})^2}$
-- (d)
+- (c) $\delta v =\left| \frac{d_2 - d_1}{t_2 - t_1} \right| \sqrt{ (\frac{\delta d_2}{d_2 - d_1})^2 + (\frac{\delta d_1}{d_2 - d_1})^2}$
+- (d) $\delta v = \left| \sqrt{v^2_x + v^2_y}\right|\sqrt{\left(\frac{v_x\delta v_x}{\sqrt{v^2_x + v^2_y}^2}\right)^2 + \left(\frac{v_x\delta v_x}{\sqrt{v^2_x + v^2_y}^2}\right)^2}$
 ### Question 6
 
 Acknowledgements: None
