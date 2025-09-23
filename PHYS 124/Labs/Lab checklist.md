@@ -1,4 +1,4 @@
-- [ ] Lab 1
+- [x] Lab 1
       Start: Sept 16th
       Due: Sept 23rd
 - [ ] Lab 2

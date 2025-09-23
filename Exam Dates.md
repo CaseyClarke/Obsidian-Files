@@ -9,3 +9,7 @@ CMPUT 229
 - Oct 29th
 CMPUT 291
 - Oct 15
+
+
+
+$\delta v = |\frac{1}{\sqrt{(22)^2 + (5.8)^2}}|\sqrt{\left((22)(2)\right)^2 + \left((5.8)(0.3)\right)^2}$
