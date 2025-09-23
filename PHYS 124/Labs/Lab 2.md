@@ -10,9 +10,15 @@ Charts here
 
 v vs. t linest
 
+$g = -10.90223076 \pm 0.1492690521$
+$v_{0,y} = -0.07395318653 \pm 0.04847659308$
+
 ### Question 4
 
 linear p vs t 
+
+$g = -11.27390259 \pm 0.02279928704$
+$y_0 = 1.82045686 \pm 0.001600732071$
 
 ### Question 5
 
@@ -21,6 +27,7 @@ i chose to place the points on the left side of the ball, this was chosen to cou
 ### Question 6
 
  - Higher framerate and quality video which would give us more points and more accurate placement of the points
+ - include some more things here
  - 
 ### Question 7
 
@@ -30,4 +37,4 @@ Acknowledgements:
 
 References:
 - Isaac, et al. 2025. Lab Manual PHYS 124. Edmonton: University of Alberta, Department of Physics.
-- Data for the experiment taken from quiz on [[canvas.ualberta.ca ]]
+- Data for the experiment was collected in person
