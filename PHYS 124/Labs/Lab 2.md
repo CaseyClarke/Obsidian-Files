@@ -8,7 +8,7 @@ Charts here
 
 ### Question 3
 
-v vs. t linest
+v vs. t 
 
 $g = -10.90223076 \pm 0.1492690521$
 $v_{0,y} = -0.07395318653 \pm 0.04847659308$
