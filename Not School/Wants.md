@@ -3,7 +3,6 @@
 - [ ] monitor
 - [ ] headphones
 - [ ] RGB aio
-- [ ] eraser
 - [ ] power strip and bricks
 
 ## For ana
