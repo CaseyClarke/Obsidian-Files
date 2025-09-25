@@ -15,3 +15,5 @@
 - [ ] RGB bulbs, 12vhpwr connector, mic arm
 - [ ] ipad case
 - [ ] trrs cables
+- [ ] nfc stickers
+- [ ] switch + cat6 cable for better cable management

@@ -22,7 +22,7 @@ $y_0 = 1.82045686 \pm 0.001600732071$
 
 ### Question 5
 
-i chose to place the points on the left side of the ball, this was chosen to counteract the effects of motion blur on the placement of my points, If I would have chosen the top or the bottom of the ball the mesurements would have been less precise since as the ball went faster it became more of a blur.
+i chose to place the points on the left side of the ball, this was chosen to counteract the effects of motion blur on the placement of my points, If I would have chosen the top or the bottom of the ball the measurements would have been less precise since as the ball went faster it became more of a blur.
 
 ### Question 6
 
@@ -37,4 +37,4 @@ Acknowledgements:
 
 References:
 - Isaac, et al. 2025. Lab Manual PHYS 124. Edmonton: University of Alberta, Department of Physics.
-- Data for the experiment was collected in person
+- Data for the experiment was collected as per Figure 1
