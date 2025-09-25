@@ -7,7 +7,7 @@
 
 ## For ana
 - [ ] eyelash curler
-- [ ] magsafe ring stickers
+- [ ] magsafe ring stickers maybe some wall mounts
 - [ ] Some sort of multi usb charger, idk which one cause they are either expensive or scams
 
 
