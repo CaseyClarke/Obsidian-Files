@@ -15,3 +15,4 @@
 - [ ] mic arm
 - [ ] ipad case
 - [ ] trrs cables
+- [ ] nfc stickers
