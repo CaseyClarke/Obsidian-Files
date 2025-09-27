@@ -16,3 +16,4 @@
 - [ ] ipad case
 - [ ] trrs cables
 - [ ] nfc stickers
+- [ ] electric screwdriver
