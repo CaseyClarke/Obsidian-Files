@@ -3,6 +3,7 @@
 - [ ] monitor
 - [ ] headphones
 - [ ] power strip and bricks
+- [ ] thumbtacks
 
 ## For ana
 - [ ] eyelash curler
