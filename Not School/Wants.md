@@ -17,3 +17,4 @@
 - [ ] trrs cables
 - [ ] nfc stickers
 - [ ] electric screwdriver
+- [ ] magsafe stand for desk and maybe car
