@@ -4,6 +4,7 @@
 - [ ] headphones
 - [ ] power strip and bricks
 - [ ] thumbtacks
+- [ ] air purifier
 
 ## For ana
 - [ ] eyelash curler
