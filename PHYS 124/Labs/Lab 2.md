@@ -22,9 +22,6 @@ We measured that the acceleration due to gravity $g$ was equal to $g = (-10.9 \p
 The theoretical value for $g$ is $g = -9.81 \space m/s^2$ (I chose axes in Logger pro such that $g$ would be negative)
 
 Given that the value of $g$ that we found is within 11 error intervals from the mean our value of $g$ is in complete disagreement with the theoretical value
-
-
-
 ### Question 4
 
 We measured that the acceleration due to gravity $g$ was equal to $g = -11.27 \pm 0.02 \space m/s^2$ 
@@ -35,7 +32,6 @@ Given that the value of $g$ that we found is within 73 error intervals from the 
 ### Question 5
 
 I chose to place the points on the left side of the ball, this was chosen to counteract the effects of motion blur on the placement of my points, If I would have chosen the top or the bottom of the ball the measurements would have been less precise since as the ball went faster it became more of a blur. Ultimately i think either side of the ball would have worked and would have given better results compared to the top or bottom
-
 ### Question 6
 
  - Higher framerate and quality video which would give us more points and more accurate placement of the points
