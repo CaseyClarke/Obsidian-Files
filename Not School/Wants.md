@@ -22,3 +22,6 @@
 - [ ] mic arm
 - [ ] nfc stickers
 - [ ] electric screwdriver
+
+
+remember money is on the square account
