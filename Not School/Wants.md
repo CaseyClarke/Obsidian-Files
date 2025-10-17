@@ -5,6 +5,7 @@
 - [ ] power strip and bricks
 - [ ] air purifier
 - [ ] Phillips oneblade
+- [ ] https://www.amazon.ca/dp/B0C8LWWW2K?tag=pcp0f-20&linkCode=ogi&th=1
 
 ## For ana
 - [ ] eyelash curler
