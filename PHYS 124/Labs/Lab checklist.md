@@ -1,13 +1,13 @@
 - [x] Lab 1
       Start: Sept 16th
       Due: Sept 23rd
-- [ ] Lab 2
+- [x] Lab 2
       Start: Sept 23th
       Due: Sept 30rd
-- [ ] Lab 3
+- [x] Lab 3
       Start: Oct 07th
       Due: Oct 14th
-- [ ] Lab 4
+- [x] Lab 4
       Start: Oct 21st
       Due: Oct 28th
 - [ ] Lab 5
