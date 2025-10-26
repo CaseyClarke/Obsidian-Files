@@ -5,3 +5,16 @@ slii / slri max 31 bits "operand out of range error" otherwise
 sll /slr exists
 srai / slai sign extends instead of just 0
 cant do "and rd, rs1, 0xsomething" as it tries to exend the hex to 32 bits which is too large for instruction
+
+stack
+|
+\\/
+/\
+|
+heap: dynamic data
+staic data: global vairables
+text: code
+reserved
+
+caller saved registers: ra, t_, a_, 
+callee saved registers sp, s_
