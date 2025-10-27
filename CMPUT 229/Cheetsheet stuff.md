@@ -17,7 +17,7 @@ text: code
 reserved
 
 caller saved registers: ra, t_, a_, 
-callee saved registers sp, s_
+callee saved registers sp, fp, s_
 
 relative perf
 $\frac{perf_a}{perf_b} = \frac{time_b}{time_a} = n$
