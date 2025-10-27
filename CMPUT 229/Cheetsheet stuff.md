@@ -35,3 +35,68 @@ cpu time =  instruction count  * clock cycles/ instruction (cpi) * seconds /cloc
 power is proportional to 1/2 capacitive load * voltage^2 * frequency
 
 amdahls law -> improving one aspect of a computer doesn't mean the computer has that proportional improvment
+
+x = \*p
+if registers lw a1, 0(a0)
+if memory
+lw s1, -4(s0)
+lw s1, 0(s1)
+sw s2, -12(s0)
+
+ucause stores the reason for exception
+most sig bit is 0 if exception 1 if interupt
+
+ustatus least sig bit is 0 if user interupts disabled 1 if enabled
+
+interupt enable register (uie) example 4th bit is enable external timer interrupt 8th is enable external keyboard interupt
+
+atomic read write csr
+
+csrr2 t0, 0, t1
+t0 <- CSR0 (zero extended)
+CSR0 <- t1
+
+csrrwi t0, 0, immediate
+
+csrrc t0, 0, t1
+basically anywhere where the bit of t1 = 1 that bit is cleared in CSR0
+
+csrrci t0, 0, immediate
+if immediate is 0 just copy csr0 into t0
+
+csrrs t0, 0, t1 
+anywhere t1 is 1 set that bit in CSR0
+
+csrrsi t0, 0, immidiate
+t0 = csr0
+csr0 = csr0 or immidiate
+
+
+|   |   |   |
+|---|---|---|
+|**CSRRW rd, csr, rs1**|_Atomic Read/Write_|`t = CSR[csr]; CSR[csr] = x[rs1]; x[rd] = t` — reads the CSR into `rd` and writes the value from `rs1` to it.|
+
+|   |   |   |
+|---|---|---|
+|**CSRRS rd, csr, rs1**|_Atomic Read and Set Bits_|`t = CSR[csr]; CSR[csr] = t OR x[rs1]; x[rd] = t` — sets bits in the CSR that are 1 in `rs1`.|
+
+|                        |                              |                                                                                                   |
+| ---------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------- |
+| **CSRRC rd, csr, rs1** | _Atomic Read and Clear Bits_ | `t = CSR[csr]; CSR[csr] = t AND ~x[rs1]; x[rd] = t` — clears bits in the CSR that are 1 in `rs1`. |
+
+![[Pasted image 20251026183219.png]]
+
+privilege 
+
+0 user
+1 supervisor
+2 reserved
+3 machine
+
+trap level, vertical trap, increase priviliege
+horizontal, don't
+
+![[Pasted image 20251026183434.png]]
+
+![[Pasted image 20251026183451.png]]
+
