@@ -10,6 +10,7 @@ $\delta m_A = \left| \frac{m_t d_1}{d_1 + d_2} \right| \sqrt{ \left( \frac{|m_t 
 $\delta m_A = \left|m_A\right|\sqrt{(\frac{\delta m_t}{m_t})^2 + (\frac{\delta d_1}{d_1})^2 + (\frac{\delta (d_1+d_2)}{d_1+d_2})^2}$ 
 $\delta m_A = \left|0.4740625\right|\sqrt{(\frac{0.020}{1.850})^2 + (\frac{0.01}{0.041})^2 + (\frac{0.01}{0.16})^2} = 0.119470826295$  
 
+$\delta m_A = 0.119470826295 \space kg$
 $m_A = 0.5 \pm 0.1 \space kg$
 
 We found $\delta m_t$ by balancing the arm and then adding weight until the bubble moved for us that was 20 grams or 0.02 kg
@@ -18,9 +19,10 @@ We found $\delta m_t$ by balancing the arm and then adding weight until the bubb
 $m_td_1 sin(50) - m_A(d_1+d_2) = 0$
 $m_t(0.041)(0.766) = 0.4740625(0.16)$
 $m_t= \frac{0.4740625(0.16)}{0.041(0.766)} = 2.41514360313 \space kg$
+$m_t = 2.41514360313 \space kg$
 We found $m_{t,exp} = 2.370 \space kg$ with $\delta m_{t,exp} = 0.08 \space kg$
 so $m_{t,exp} = 2.37 \pm 0.08 \space kg$
-Given our massive uncertainty, the experimental value of $m_t$ is within 1 error interval from the expected value so we are in agreement with it
+Given our massive uncertainty, the experimental value of $m_t$ is within 1 error interval from the expected value so we are in good agreement with it
 
 # Question 3
 $T = m_tg$
@@ -29,7 +31,6 @@ $\sum F_{y} = 0 \implies F_{E,y} + F_L + F_G = T_y$
 $F_{E,y} = T_y - F_L - F_G = sin(50)m_tg - 0 - m_Ag$
 $F_E = \sqrt{F_{E,x}^2 + F_{E,y}^2} = \sqrt{(cos(50)m_tg)^2 + (sin(50)m_tg - m_Ag)^2}$
 $F_E = \sqrt{(cos(50)(2.370)(9.81))^2 + (sin(50)(2.370)(9.81) - (0.4740625)(9.81))^2} = 24.8779865232$
-
 $F_E = 24.8779865232 \space N$
 
 # Question 4
@@ -37,10 +38,11 @@ Exact same derivation as Q2
 $m_td_1 sin(50) - m_A(d_1+d_2) = 0$
 $m_t(0.041)(0.766) = 0.4740625(0.16)$
 $m_t= \frac{0.4740625(0.16)}{0.041(0.766)} = 2.41514360313 \space kg$
+$m_t =  2.41514360313 \space kg$
 We found $m_{t,exp} = 2.350 \space kg$ with $\delta m_{t,exp} = 0.03 \space kg$
 so $m_{t,exp} = 2.35 \pm 0.03 \space kg$
 The experimental value of $m_t$ is within 3 error interval from the expected value so we are in disagreement with it. 
-The only thing that  actually (mathematically) changed from Q2 to Q4 was us measuring the uncertainty more accurately and a slight difference in $m_t$ measurement
+The only thing that actually (mathematically) changed from Q2 to Q4 was us measuring the uncertainty more accurately and a slight difference in $m_t$ measurement. The angle is different but the forces are the same.
 
 # Question 5
 
@@ -62,7 +64,8 @@ $F_{E,y} = T_y - F_L - F_G = sin(50)m_tg - m_Lg - m_Ag$
 
 $F_E = \sqrt{F_{E,x}^2 + F_{E,y}^2}$
 $F_E = \sqrt{(cos(50)m_tg)^2 + (sin(50)m_tg - m_Lg - m_Ag)^2}$
-$F_E = \sqrt{(cos(50)(3.91485703369)(9.81))^2 + (sin(50)(3.91485703369)(9.81) - (0.150)(9.81) - (0.4740625)(9.81))^2} = 40.4447915943$
+$F_E = \sqrt{(cos(50)(3.91485703369)(9.81))^2 + (sin(50)(3.91485703369)(9.81) -}$
+$\overline{- (0.150)(9.81) - (0.4740625)(9.81))^2} = 40.4447915943$
 $F_E = 40.4447915943 \space N$
 
 Both the force and the tension are almost doubled by only adding 150 grams as the load, this shows how much work it takes to hold even a small object in your hand with your arm outstretched
@@ -88,6 +91,11 @@ Acknowledgements:
 
 References:
 - Isaac, et al. 2025. Lab Manual PHYS 124. Edmonton: University of Alberta, Department of Physics.
+
+
+# Appendix
+
+Raw Data:
 
 | $\theta(degrees)$ | $m_L(kg)$ | $m_t(kg)$ | $\delta m_t(kg)$ |
 | ----------------- | --------- | --------- | ---------------- |
