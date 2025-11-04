@@ -55,12 +55,12 @@ Overall I think that the Hooke's law experiment was more accurate since it is si
 # Question 5
 
 The mass of the rubber band was measured to be $3.40 \pm 0.01 \space (g)$
-The graphical analysis found the mass to be $1700 \pm 100 \space (g)$
-$\Delta m = m_{graph} - m = 59 - 45 = 1696.6$
-$\delta \Delta m = \sqrt{\delta m^2 + \delta m_{graph}^2} = 100.0000005$
-$3\delta \Delta k = 300.0000015$
-$3\delta \Delta k \leq \Delta k$
-$\implies$ the numbers do not agree (obviously)
+The graphical analysis found the mass to be $575 \pm 40 \space (g)$
+$\Delta m = m_{graph} - m = 575 - 3.4 = 571.6$
+$\delta \Delta m = \sqrt{\delta m^2 + \delta m_{graph}^2} = 40.00000125$
+$3\delta \Delta m = 120.00000375$
+$3\delta \Delta m \leq \Delta m$
+$\implies$ the numbers do not agree
 
 
 # Question 6
