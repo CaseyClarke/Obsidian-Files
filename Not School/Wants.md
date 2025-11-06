@@ -9,8 +9,6 @@
 - [ ] mini pc
 
 ## For ana
-- [ ] eyelash curler
-- [ ] nail clipper
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger, idk which one cause they are either expensive or scams
 - [ ] bowl for ramen/pelmini with a sauce tray built in
