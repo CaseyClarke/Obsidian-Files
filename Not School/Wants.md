@@ -12,7 +12,7 @@
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger, idk which one cause they are either expensive or scams
 - [ ] bowl for ramen/pelmini with a sauce tray built in
-
+- [ ] starbucks teddy bear
 ## Maybes
 - [ ] RGB bulbs
 - [ ] 12v2x6 NOT 12vhpwr connector
