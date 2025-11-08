@@ -7,6 +7,7 @@
 - [ ] Phillips oneblade
 - [ ] https://www.amazon.ca/dp/B0C8LWWW2K?tag=pcp0f-20&linkCode=ogi&th=1
 - [ ] mini pc
+- [ ] https://global.lttstore.com/products/deskpad?variant=40903079886893
 
 ## For ana
 - [ ] magsafe ring stickers 
