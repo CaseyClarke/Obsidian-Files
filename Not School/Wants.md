@@ -2,7 +2,7 @@
 - [ ] fans (120mm / 140mm / rgb / non rgb) and 360mm AIO
 - [ ] monitor
 - [ ] headphones
-- [ ] power strip and bricks
+- [ ] power (strip and bricks)
 - [ ] air purifier
 - [ ] Phillips oneblade
 - [ ] https://www.amazon.ca/dp/B0C8LWWW2K?tag=pcp0f-20&linkCode=ogi&th=1
