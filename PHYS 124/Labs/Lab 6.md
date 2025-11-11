@@ -76,6 +76,7 @@ SHM mass:
 	$m = 0.603265123438$
 	$\delta T = $
 	$y = \frac{3T^2}{4\pi^2}-m_s$
+	$\delta y = \sqrt{(\frac{3T}{2\pi^2}\delta T)^2 + (\delta m_s)^2}$
 	$\delta m_{total} = m_{total}\sqrt{(\frac{\delta k }{k})^2 + (\frac{\delta y}{y})^2}$
 	
 # Question 8 
