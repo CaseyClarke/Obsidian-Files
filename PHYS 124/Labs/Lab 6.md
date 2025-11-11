@@ -72,3 +72,11 @@ $$NEED ERROR PROPIGATION$$
 # Question 8 
 
 I think this lab was clearly more accurate since our Hooke's law value for this lab was within 1 $N/m$ of the actual value whereas the other lab we don't actually know the spring constant of the rubber band but our two experiments differed way more.
+
+# Question 9
+Acknowledgements: 
+- Adam Connaghan and Nikola Uletilovic (lab partners)
+- I collaborated with the above people for the collection of data, all analysis in this document is my own 
+
+References:
+- Isaac, et al. 2025. Lab Manual PHYS 124. Edmonton: University of Alberta, Department of Physics.
