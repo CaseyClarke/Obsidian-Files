@@ -62,14 +62,22 @@ Using unknown mass $G = 370\space g$
 
 Hooke's law mass:
 	$m = \frac{k(x-x_0)}{g}$
-	$m = \frac{25(x-x_0)}{9.81} = 0.379714577$
+	$m = \frac{24.64109598(x-x_0)}{9.81} = 0.3742633334$
+	$\delta m = m\sqrt{(\frac{\delta k }{k})^2 + (\frac{\delta (x-x_0)}{x-x_0})^2}$
+	$\delta m = 0.3742633334\sqrt{(\frac{0.1236496396}{24.64109598})^2  + (\frac{0.01}{0.149})^2} = 0.0251884567127$
+	
 
 SHM mass:
 	$m_s = 0.124 \pm 0.05$
-	$m_{total} = (25(3T^2/(4\pi^2) - m_s) / 3$
+	$m_{total} = (k(3T^2/(4\pi^2) - m_s) / 3$
+	$m_{total} = (35.30793986(3(0.91155)^2)/(4\pi^2) - 0.12414) / 3$
+	$m_{total} = 0.701765123438$
 	$m = m_{total} - m_{hanger}$
-	$m = 0.3863083916$
-$$NEED ERROR PROPIGATION$$
+	$m = 0.603265123438$
+	$\delta T = $
+	$y = \frac{3T^2}{4\pi^2}-m_s$
+	$\delta m_{total} = m_{total}\sqrt{(\frac{\delta k }{k})^2 + (\frac{\delta y}{y})^2}$
+	
 # Question 8 
 
 I think this lab was clearly more accurate since we were actually using a real spring this time, this is shown by the fact that our two values of k for the two experiments were significantly closer than last time. To reduce uncertainty we did multiple trials, made sure the coils of the spring never touch fully during a trial, and of course two different experiments.
