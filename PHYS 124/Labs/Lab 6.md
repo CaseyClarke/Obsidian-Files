@@ -53,7 +53,7 @@ $\Delta k = k_{hooke} - k_{SHM} = 35 - 26.4 = 8.6$
 $\delta \Delta k = \sqrt{\delta k_{hooke}^2 + \delta k_{SHM}^2} = 1.00498756211$
 $3\delta \Delta k = 3.01496268633$
 $3\delta \Delta k \leq \Delta k$
-$\implies$ the numbers do not agree probably more due to the fact that our SHM is terrible than anything else
+$\implies$ the numbers do not agree probably more due to the fact that our SHM is bad than anything else
 
 # Question 7
 
@@ -61,6 +61,7 @@ Red spring constant is $25 \space N/m$
 Using unknown mass $G = 370\space g$
 
 Hooke's law mass:
+	$m = \frac{k(x-x_0)}{g}$
 	$m = \frac{25(x-x_0)}{9.81} = 0.379714577$
 
 SHM mass:
@@ -71,7 +72,7 @@ SHM mass:
 $$NEED ERROR PROPIGATION$$
 # Question 8 
 
-I think this lab was clearly more accurate since our Hooke's law value for this lab was within 1 $N/m$ of the actual value whereas the other lab we don't actually know the spring constant of the rubber band but our two experiments differed way more.
+I think this lab was clearly more accurate since we were actually using a real spring this time, this is shown by the fact that our two values of k for the two experiments were significantly closer than last time. To reduce uncertainty we did multiple trials, made sure the coils of the spring never touch fully during a trial, and of course two different experiments.
 
 # Question 9
 Acknowledgements: 
