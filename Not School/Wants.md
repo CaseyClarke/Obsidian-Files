@@ -4,7 +4,6 @@
 - [ ] headphones
 - [ ] air purifier
 - [ ] Phillips oneblade
-- [ ] mini pc
 - [ ] https://global.lttstore.com/products/deskpad?variant=40903079886893
 - [ ] deepcool ch270 from ali (baba or express)
 - [ ] actually good magsafe charging stand
@@ -17,9 +16,8 @@
 - [ ] maybe sunrise alarm clock
 ## Maybes
 - [ ] RGB bulbs
-- [ ] 12v2x6 NOT 12vhpwr connector
-- [ ] mic arm
 - [ ] nfc stickers
-- [ ] electric screwdriver
+- [ ] electric screwdriver/electronic repair kit
+- [ ] mini pc
 
 remember money is on the square account
