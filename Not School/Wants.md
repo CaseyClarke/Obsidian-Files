@@ -7,6 +7,7 @@
 - [ ] mini pc
 - [ ] https://global.lttstore.com/products/deskpad?variant=40903079886893
 - [ ] deepcool ch270 from ali (baba or express)
+- [ ] actually good magsafe charging stand
 
 ## For ana
 - [ ] magsafe ring stickers 
