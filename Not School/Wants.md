@@ -19,5 +19,6 @@
 - [ ] nfc stickers
 - [ ] electric screwdriver/electronic repair kit
 - [ ] mini pc
+- [ ] magnetic usb c cable
 
 remember money is on the square account
