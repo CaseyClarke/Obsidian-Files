@@ -5,6 +5,7 @@
 - [ ] air purifier
 - [ ] Phillips oneblade
 - [ ] actually good magsafe charging stand
+- [ ] esd bag for selling mb
 
 ## For ana
 - [ ] magsafe ring stickers 
