@@ -1,11 +1,9 @@
 ## For me
-- [ ] fans (120mm / 140mm / rgb / non rgb) and 360mm AIO
+- [ ] maybe 360 aio + matching fans
 - [ ] monitor
 - [ ] headphones
 - [ ] air purifier
 - [ ] Phillips oneblade
-- [ ] https://global.lttstore.com/products/deskpad?variant=40903079886893
-- [ ] deepcool ch270 from ali (baba or express)
 - [ ] actually good magsafe charging stand
 
 ## For ana
@@ -14,6 +12,10 @@
 - [ ] bowl for ramen/pelmini with a sauce tray built in
 - [ ] starbucks teddy bear
 - [ ] maybe sunrise alarm clock
+- [ ] monitor riser for makeup fridge
+- [ ] https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1
+- [ ] spiritfarer prints?
+- [ ] heated blanket with sleeves?
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
