@@ -17,6 +17,7 @@
 - [ ] https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1
 - [ ] spiritfarer prints?
 - [ ] heated blanket with sleeves?
+- [ ] dispatch stickers
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
