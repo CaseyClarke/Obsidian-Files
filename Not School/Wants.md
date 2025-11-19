@@ -6,6 +6,7 @@
 - [ ] Phillips oneblade
 - [ ] actually good magsafe charging stand
 - [ ] esd bag for selling mb
+- [ ] https://www.amazon.ca/Bingfu-Bulkhead-Antenna-Extension-Wireless/dp/B07PGF8ZQ8?th=1
 
 ## For ana
 - [ ] magsafe ring stickers 
