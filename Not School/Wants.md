@@ -6,6 +6,7 @@
 - [ ] Phillips oneblade
 - [ ] actually good magsafe charging stand
 - [ ] esd bag for selling mb
+- [ ] https://www.etsy.com/ca/listing/4375613391/clair-obscur-expedition-33-maelle-and?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=clair+obscur+expedition+33&ref=sr_gallery-3-23&content_source=7193024c-e5d2-48f7-808a-f5b21ec40ace%253ALTa11a7765ff505f461beb7767e2a571717c9e6cdc&organic_search_click=1&logging_key=7193024c-e5d2-48f7-808a-f5b21ec40ace%3ALTa11a7765ff505f461beb7767e2a571717c9e6cdc
 
 ## For ana
 - [ ] magsafe ring stickers 
