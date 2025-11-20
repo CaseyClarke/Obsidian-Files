@@ -18,6 +18,8 @@
 - [ ] spiritfarer prints?
 - [ ] heated blanket with sleeves?
 - [ ] dispatch stickers
+- [ ] twinks
+- [ ] biscolata
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
