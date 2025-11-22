@@ -45,7 +45,13 @@ Figure 1: Plunger extension as the frequency changes. The equation that governs 
 
 # Question 3
 
-Measured $T = 294.95 \space (K)$
+Measured $T = 294.95 \space (K)$ Based off of a quick google search $\delta T = 0.5$
 $c_s = c_{s,0}\sqrt{\frac{T}{273.15}}$
 $c_s = 331.3\sqrt{\frac{294.95}{273.15}}$
 $c_s = 344.3$
+
+$\Delta c_s = c_{s,G} - c_{s,T} = 0.6$
+$\delta \Delta c_s = \sqrt{c_{s,G}^2 + c_{s,T}^2} = 1.00498756211$
+$3\delta \Delta k = 3.01496268633$
+$3\delta \Delta k \leq \Delta k$
+$\implies$ the numbers do not agree probably more due to the fact that our SHM is bad than anything else
