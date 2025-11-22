@@ -66,6 +66,7 @@ They are within 1 error of each other so the values here also agree
 
 # Question 5
 
+$c_s =  \frac{2d}{t} = \frac{2 * 4.7}{0.027} = 348.1$
 
 
 
