@@ -67,6 +67,18 @@ They are within 1 error of each other so the values here also agree
 # Question 5
 
 $c_s =  \frac{2d}{t} = \frac{2 * 4.7}{0.027} = 348.1$
+$\delta d = 0.01 \space m$
+$\delta t = 0.001$ (from phyphox wiki)
+$\delta c_s = c_s\sqrt{\frac{\delta d}{d}^2 + \frac{\delta t}{t}^2}$
+$\delta c_s = 348.1\sqrt{\frac{0.01}{4.7}^2 + \frac{0.001}{0.027}^2}$
+$\delta c_s = 12.914$
+
+$\Delta c_s = c_{s,P} - c_{s,T} = 4.4$
+$\delta \Delta c_s = \sqrt{c_{s,P}^2 + c_{s,T}^2} = 12.9453233254$
+$\Delta c_s \leq \delta \Delta c_s$
+$\implies$ the values agree
+
+
 
 
 
