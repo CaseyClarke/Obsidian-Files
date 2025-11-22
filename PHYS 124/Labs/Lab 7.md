@@ -51,7 +51,13 @@ $c_s = 331.3\sqrt{\frac{294.95}{273.15}}$
 $c_s = 344.3$
 
 $\Delta c_s = c_{s,G} - c_{s,T} = 0.6$
-$\delta \Delta c_s = \sqrt{c_{s,G}^2 + c_{s,T}^2} = 1.00498756211$
-$3\delta \Delta k = 3.01496268633$
-$3\delta \Delta k \leq \Delta k$
-$\implies$ the numbers do not agree probably more due to the fact that our SHM is bad than anything else
+$\delta \Delta c_s = \sqrt{c_{s,G}^2 + c_{s,T}^2} = 1.0295630141$
+$\Delta c_s \leq \delta \Delta c_s$
+$\implies$ the values agree very well
+
+# Question 4
+
+$x_0 = 0.6R$
+$x_0 = 0.6(0.0185)$
+$0.0111$
+
