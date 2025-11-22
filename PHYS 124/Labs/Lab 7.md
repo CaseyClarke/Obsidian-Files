@@ -59,5 +59,13 @@ $\implies$ the values agree very well
 
 $x_0 = 0.6R$
 $x_0 = 0.6(0.0185)$
-$0.0111$
+$x_0 = 0.0111$
+
+$x_{0, E} = 0.012$, $\delta x_{0,E} = 0.001$
+They are within 1 error of each other so the values here also agree
+
+# Question 5
+
+
+
 
