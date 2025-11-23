@@ -82,21 +82,22 @@ $\implies$ the values agree
 
 The air cannot be oscillating up and down on the solid wall of the plunger, must be no movement and no movement can only happen at a node
 
-# Question 7
-
 Closed at both ends $\implies$ nodes at both ends so $L = n\frac\lambda2$
 $L_1 = \frac\lambda2$
 $L_2 =\lambda$
 $\frac{L_2}{L_1} = 2$
-
-# Question 8
+# Question 7
 
 In the experiment
 $L_1 = \frac\lambda4$
 $L_2 = \frac{3\lambda}{4}$
 $\frac{L_2}{L_1} = 3$
 
-Meaning that the closed on both sides version has more harmonics than the open version and that 
+Meaning that the closed on both sides version has more harmonics than the open version and that the closed version can only have even harmonics and the open can only have odd.
+
+# Question 8
+
+$L_1 = \lambda 4$
 
 
 
