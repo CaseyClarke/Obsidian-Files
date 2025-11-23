@@ -78,6 +78,15 @@ $\delta \Delta c_s = \sqrt{c_{s,P}^2 + c_{s,T}^2} = 12.9453233254$
 $\Delta c_s \leq \delta \Delta c_s$
 $\implies$ the values agree
 
+# Question 6
+
+The air cannot be oscillating up and down on the solid wall of the plunger, must be no movement and no movement can only happen at a node
+
+# Question 7
+
+Closed at both ends $\implies$ nodes at both ends so $L = n\frac\lambda2$
+$L_$
+
 
 
 
