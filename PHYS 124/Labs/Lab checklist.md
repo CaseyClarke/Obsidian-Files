@@ -36,3 +36,19 @@ caption
 
 include the extra points and screenshots in the appendix
 
+TOP5WITHTIES = lambda sortBy: [
+
+    { "$setWindowFields": {
+
+        "sortBy": sortBy,
+
+        "output": { "rank": { "$rank": {} } }
+
+    }},
+
+    { "$match": { "rank": { "$lte": 5 } } }
+
+]
+
+*TOP5WITHTIES({ "count": -1 }),
+*TOP5WITHTIES({ "published": -1 }),
