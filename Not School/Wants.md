@@ -22,6 +22,7 @@
 - [ ] dispatch stickers
 - [ ] twinks
 - [ ] biscolata
+- [ ] barney cookie
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
