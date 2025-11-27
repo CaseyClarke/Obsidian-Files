@@ -21,6 +21,7 @@
 - [ ] dispatch stickers
 - [ ] twinks
 - [ ] biscolata
+- [ ] fluffy blanket
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
