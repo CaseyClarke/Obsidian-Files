@@ -27,6 +27,7 @@
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
+- [ ] remote pc power button
 - [ ] electric screwdriver/electronic repair kit
 - [ ] mini pc
 - [ ] magnetic usb c cable
