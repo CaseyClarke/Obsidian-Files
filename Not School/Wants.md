@@ -32,3 +32,6 @@
 - [ ] magnetic usb c cable
 
 remember money is on the square account
+
+
+get gwen typewriter keyboard, blue or pink
