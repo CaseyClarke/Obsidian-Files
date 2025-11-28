@@ -30,6 +30,7 @@
 - [ ] electric screwdriver/electronic repair kit
 - [ ] mini pc
 - [ ] magnetic usb c cable
+- [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
 
 remember money is on the square account
 
