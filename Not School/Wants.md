@@ -8,6 +8,7 @@
 - [ ] [eink magsafe reader](https://www.aliexpress.us/w/wholesale-xteink-x4.html?spm=a2g0o.home.search.0)
 - [ ] [Wifi antenna](https://www.amazon.ca/Performance-Connector-Extendable-Motherboard-Slinkdsco/dp/B0DPPRZ7MP?source=ps-sl-shoppingads-lpcontext&psc=1&smid=A3TJ30L0ZKRXX1)
 - [ ] [Front usb 3.0 to panel mount](https://www.amazon.ca/StarTech-com-USB3SPNLAFHD-2-Port-Motherboard-Header/dp/B006PHY0GM) [panel mount usb 3.0](https://www.amazon.ca/Panel-Extension-Haokiang-Adapter-External/dp/B07FY6Z8J7?source=ps-sl-shoppingads-lpcontext&psc=1&smid=A30RV9VRUHODPZ)
+- [ ] [Good reviewed oled monitor](https://www.amazon.ca/AOC-Q27G4ZD-Monitor-Compatible-Zero-Bright-Dot/dp/B0DQVP7TNH?dib=eyJ2IjoiMSJ9.UGW3Kk-O917oDyvrbjz1LDFXzr5WDGZljsbT1sELAKL6YBRtmzJBq9dYjC3C-3GNSv8suhkfGdlbcdk5KjLERH_E5G7LB9BzFRhrwwlIq-EnFxJrBB4CizCVjSBtY_IR-iFVCS_OGMjRoa--OpSHZpW8_oU9Zg0HzdEuSZ9SsSONCFOfRxR0Pz1S3S4nCDgqI2LIHKnI5n9jrpaHStFr3PfAVAYDwR6G-a1Q512oB8bZskDq0m5RRUaImjj2U7GgarhqFh_7LrPf39FPKAH6Y_fMlRwZXOqjllOcVBJ7OTQ.0y8Qa3xz8RcLevN7kj0fS6o-Y7WNkopo1W1tdM_BhCg&dib_tag=se&geniuslink=true&keywords=aoc+g27g4zd&qid=1764545231&sr=8-1&ufe=app_do%3Aamzn1.fos.a47c58ca-3c50-43d7-a4fc-fb71491f9720)
 
 ## For ana
 - [ ] magsafe ring stickers 
