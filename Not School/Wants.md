@@ -7,7 +7,7 @@
 - [ ] [Clair obsur poster](https://www.etsy.com/ca/listing/4315635051/gustave-clair-obscur-expedition-33-art?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=exp%26eacute%3Bdition+33+tableau&ref=sr_gallery-1-23&frs=1&sts=1&content_source=10718c59-f643-4752-a175-56b44bafdf0f%253ALT97c2024c5861d93aba640153f9bf21ac384d44a4&organic_search_click=1&logging_key=10718c59-f643-4752-a175-56b44bafdf0f%3ALT97c2024c5861d93aba640153f9bf21ac384d44a4)
 - [ ] [eink magsafe reader](https://www.aliexpress.us/w/wholesale-xteink-x4.html?spm=a2g0o.home.search.0)
 - [ ] [Wifi antenna](https://www.amazon.ca/Performance-Connector-Extendable-Motherboard-Slinkdsco/dp/B0DPPRZ7MP?source=ps-sl-shoppingads-lpcontext&psc=1&smid=A3TJ30L0ZKRXX1)
-- [ ] [Front usb 3.0 to panel mount](https://www.staples.ca/products/1481056-en-startech-2-port-panel-mount-usb-30-cable-usb-a-to-motherboard-header-cable-ff) [panel mount usb 3.0](www.amazon.ca/Panel-Extension-Haokiang-Adapter-External/dp/B07FY6Z8J7?source=ps-sl-shoppingads-lpcontext&psc=1&smid=A30RV9VRUHODPZ)
+- [ ] [Front usb 3.0 to panel mount](https://www.amazon.ca/StarTech-com-USB3SPNLAFHD-2-Port-Motherboard-Header/dp/B006PHY0GM) [panel mount usb 3.0](https://www.amazon.ca/Panel-Extension-Haokiang-Adapter-External/dp/B07FY6Z8J7?source=ps-sl-shoppingads-lpcontext&psc=1&smid=A30RV9VRUHODPZ)
 
 ## For ana
 - [ ] magsafe ring stickers 
