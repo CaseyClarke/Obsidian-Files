@@ -26,9 +26,7 @@
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
-- [ ] remote pc power button
 - [ ] mini pc
-- [ ] magnetic usb c cable
 - [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
 
 remember money is on the square account
