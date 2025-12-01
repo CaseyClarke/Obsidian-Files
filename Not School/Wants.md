@@ -27,7 +27,6 @@
 - [ ] RGB bulbs
 - [ ] nfc stickers
 - [ ] remote pc power button
-- [ ] electric screwdriver/electronic repair kit
 - [ ] mini pc
 - [ ] magnetic usb c cable
 - [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
