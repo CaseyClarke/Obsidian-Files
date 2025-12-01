@@ -20,6 +20,9 @@
 - [ ] dispatch stickers and spiritfarer prints?
 - [ ] twinks/biscolata/cookies
 - [ ] fluffy blanket
+- [ ] twirl/flake/ripple chocolate
+- [ ] apple juice
+- [ ] pallet of coffee
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
