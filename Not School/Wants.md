@@ -18,6 +18,7 @@
 - [ ] dispatch stickers and spiritfarer prints?
 - [ ] fluffy blanket and heated blanket with sleeves?
 - [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee
+
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
