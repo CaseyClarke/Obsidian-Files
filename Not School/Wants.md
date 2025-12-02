@@ -16,8 +16,9 @@
 - [ ] maybe sunrise alarm clock
 - [ ] [Monitor riser for makeup fridge](https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1)
 - [ ] dispatch stickers and spiritfarer prints?
-- [ ] fluffy blanket and heated blanket with sleeves?
+- [ ] fluffy blanket and big ass reliable heated blanket
 - [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee
+- [ ] custom staples wrapping paper with cole and bea
 
 ## Maybes
 - [ ] RGB bulbs
