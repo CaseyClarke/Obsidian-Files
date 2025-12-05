@@ -22,6 +22,7 @@
 - [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee
 - [ ] custom staples wrapping paper with cole and bea
 - [ ] [sd card stickers for ana](https://www.amazon.ca/Multi-use-Printable-CFexpress-Stickers-Labeler/dp/B098DCXG4F?source=ps-sl-shoppingads-lpcontext&smid=AYD2N2785NNMV&th=1)
+- [ ] sugar cookies with icing
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
