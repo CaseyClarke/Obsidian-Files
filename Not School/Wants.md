@@ -19,10 +19,9 @@
 - [ ] [Monitor riser for makeup fridge](https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1)
 - [ ] dispatch stickers and spiritfarer prints?
 - [ ] fluffy blanket and big ass reliable heated blanket
-- [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee
+- [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee/sugar cookies with icing
 - [ ] custom staples wrapping paper with cole and bea
 - [ ] [sd card stickers for ana](https://www.amazon.ca/Multi-use-Printable-CFexpress-Stickers-Labeler/dp/B098DCXG4F?source=ps-sl-shoppingads-lpcontext&smid=AYD2N2785NNMV&th=1)
-- [ ] sugar cookies with icing
 ## Maybes
 - [ ] RGB bulbs
 - [ ] nfc stickers
