@@ -22,7 +22,6 @@
 - [ ] [Monitor riser for makeup fridge](https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1)
 ## Maybes
 - [ ] RGB bulbs
-- [ ] nfc stickers
 - [ ] mini pc
 - [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
 
