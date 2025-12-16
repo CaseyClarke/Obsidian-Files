@@ -10,12 +10,13 @@
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger
 - [ ] bowl for ramen/pelmini with a sauce tray built in
-- [ ] maybe sunrise alarm clock
 - [ ] dispatch stickers and spiritfarer prints?
-- [ ] fluffy blanket and big ass reliable heated blanket
+- [ ] fluffy/heated blanket
 - [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee/sugar cookies with icing
+- [ ] RGB bulbs/maybe sunrise alarm clock
 - [ ] [Monitor riser for makeup fridge](https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1)
-- [ ] RGB bulbs
+- [ ] [this for bed](https://www.homedepot.ca/search?q=Furniture%20Cups#!q=Furniture%20Cups) [or this](https://www.homedepot.ca/product/scotch-scotch-gripping-pads-brown-1-5-in-3-81-cm-8-per-pack/1001124548?eid=PS_GO_140203__ALL_PLA-526641&pid=1001124548&store=7117)
+
 ## Maybes
 - [ ] mini pc
 - [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
