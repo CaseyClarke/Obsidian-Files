@@ -112,7 +112,7 @@ IEEE 754 double (sign bit)  (11 exp bits) (52 mantissa bits)
 
 
 normalized = 1.(.....) x 2^(....)
-0.1111111
+0.1111111...
 0.5 + 0.25 + 0.125 + ....
 infinity = exp all 1's mantissa all 0
 NAN = exp all 1's mantissa \neq 0
