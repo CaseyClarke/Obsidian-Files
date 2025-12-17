@@ -129,3 +129,5 @@ bias = 2^(e-1) -1
 normalized values have implicit 1
 
 ![[Pasted image 20251216185129.png]]
+
+
