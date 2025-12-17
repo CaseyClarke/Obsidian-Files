@@ -152,3 +152,22 @@ Destination register
 RegWrite control signal
 Must be carried through pipeline registers
 (ID/EX → EX/MEM → MEM/WB)
+
+block size = words per block * bytes per word
+offsetbits = log(block size (bytes))
+
+num blocks = cache size / block size
+
+number of sets = num blocks / associativity
+
+address bits = Tag | Index | offset
+
+1 tag per block
+
+Write allocate: On a write miss, first copy the data into the local cache, then perform the write on the cached copy.
+
+Write back: Writes update only the local cached copy; changes are written back to the repository later (e.g., when finished or evicted).
+
+Write through: Every write to the local copy is immediately written to the repository as well.
+
+Write around: On a write miss, write directly to the repository without creating or updating a local cached copy.
