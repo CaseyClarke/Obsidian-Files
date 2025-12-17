@@ -142,3 +142,13 @@ branch target buffer
 When the Hazard detection unit determines that a data dependence cannot be satisfied by forwarding, it must make the instruction function as a no-op. To do so, it sets all the control signals for that instruction to zero. It also forces the instruction fetch stage to repeat the fetching of the same instruction again.
 
 when exception, PC is stored in UPEC
+
+IF ID EX MEM WB
+
+load-use hazard, 
+lw then immediately value used, -> need 1 bubble/stall
+Every instruction’s:
+Destination register
+RegWrite control signal
+Must be carried through pipeline registers
+(ID/EX → EX/MEM → MEM/WB)
