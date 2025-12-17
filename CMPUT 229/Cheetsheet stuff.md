@@ -131,3 +131,14 @@ normalized values have implicit 1
 ![[Pasted image 20251216185129.png]]
 
 
+control hazard - This hazard occurs when an instruction depends on the decision of a previous decision-making instruction
+
+data hazard - This hazard occurs when an instruction needs data from a previous instruction in order to execute correctly
+
+Structural Hazard - This hazard occurs when a resource is busy causing an instruction to delay its execution
+
+branch target buffer
+
+When the Hazard detection unit determines that a data dependence cannot be satisfied by forwarding, it must make the instruction function as a no-op. To do so, it sets all the control signals for that instruction to zero. It also forces the instruction fetch stage to repeat the fetching of the same instruction again.
+
+when exception, PC is stored in UPEC
