@@ -171,3 +171,25 @@ Write back: Writes update only the local cached copy; changes are written back t
 Write through: Every write to the local copy is immediately written to the repository as well.
 
 Write around: On a write miss, write directly to the repository without creating or updating a local cached copy.
+
+N = total number of instructions
+FLS​ = fraction of load/store instructions
+MRI= instruction cache miss rate
+MRD = data cache miss rate
+HRD=1−MRD
+MP = miss penalty (cycles)
+HT = hit time (cycles)
+CPIdeal = CPI with perfect cache
+
+I-Cache accesses = N
+D-Cache access = N * FLS
+
+I cache misses = N * MRI
+D-cache misses = N * FLS * MRD
+TOTAL memory requests N * MRI + N * FLS * MRD
+
+MR_AVG = MRI + FLS * MRD
+
+AMAT = HT + MR_AVG * MP
+
+total accesses = N+N * FLS
