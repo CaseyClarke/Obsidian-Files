@@ -117,9 +117,13 @@ normalized = 1.(.....) x 2^(....)
 infinity = exp all 1's mantissa all 0
 NAN = exp all 1's mantissa \neq 0
 
+G = first bit after mantissa
+R = second bit after mantiss
+S = 1 if any bit after R is 1
 GRS
 0xx - round down = do nothing
 100 - tie, round up if last bit is 1 else round down = do nothing
 101,110,111 - round up
 
- 
+bias = 2^(e-1) -1
+normalized values have implicit 1
