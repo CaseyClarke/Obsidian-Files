@@ -101,3 +101,8 @@ horizontal, don't
 ![[Pasted image 20251026183451.png]]
 
 write allocate write through write around ...
+
+critical selection = thing you are accessing
+race condition
+starvation 
+deadlock
