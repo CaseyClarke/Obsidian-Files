@@ -16,4 +16,10 @@ maintenance
 term 1# = does it end
 term 2# = when it ends is it correct
 
+recurrence tree
+
+running time is amount of levels * cost per level
+
+i.e if merge sort n per level k = log(n) levels
+
 
