@@ -42,3 +42,11 @@ almost heap = root not correct
 max-heapify turns almost heap to heap
 
 go from bottom of tree to top heapifiying along the way to fully heap it
+
+![[Pasted image 20251218111117.png]]
+
+avl tree rotations
+
+greedy substitution property - any optimal decision to problem can be altered to become the greedy choice without being less optimal
+
+optimal substructure - sub problems are the same as the whole
