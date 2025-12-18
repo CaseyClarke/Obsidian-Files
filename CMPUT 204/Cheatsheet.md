@@ -23,3 +23,12 @@ running time is amount of levels * cost per level
 i.e if merge sort n per level k = log(n) levels
 
 
+Master Theorem
+The Master Theorem applies to recurrences of the following form:
+T (n) = aT (n/b) + f (n)
+where a ≥ 1 and b > 1 are constants and f (n) is an asymptotically positive function.
+There are 3 cases:
+1. If f (n) = O(nlogb a−) for some constant  > 0, then T (n) = Θ(nlogb a).
+2. If f (n) = Θ(nlogb a logk n) with1 k ≥ 0, then T (n) = Θ(nlogb a logk+1 n).
+3. If f (n) = Ω(nlogb a+) with  > 0, and f (n) satisfies the regularity condition, then T (n) = Θ(f (n)).
+Regularity condition: af (n/b) ≤ cf (n) for some constant c < 1 and all sufficiently large n.
