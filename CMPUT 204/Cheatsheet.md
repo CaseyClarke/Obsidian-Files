@@ -32,3 +32,13 @@ There are 3 cases:
 2. If f (n) = Θ(nlogb a logk n) with1 k ≥ 0, then T (n) = Θ(nlogb a logk+1 n).
 3. If f (n) = Ω(nlogb a+) with  > 0, and f (n) satisfies the regularity condition, then T (n) = Θ(f (n)).
 Regularity condition: af (n/b) ≤ cf (n) for some constant c < 1 and all sufficiently large n.
+
+arr to tree 
+leftchild(i) = 2i
+rightchild(i) = 2i+1
+parent(i) = floor(i/2)
+
+almost heap = root not correct
+max-heapify turns almost heap to heap
+
+go from bottom of tree to top heapifiying along the way to fully heap it
