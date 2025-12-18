@@ -50,3 +50,5 @@ avl tree rotations
 greedy substitution property - any optimal decision to problem can be altered to become the greedy choice without being less optimal
 
 optimal substructure - sub problems are the same as the whole
+
+exponentiation by halving
