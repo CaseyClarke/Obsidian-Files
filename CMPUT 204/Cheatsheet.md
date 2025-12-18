@@ -60,3 +60,5 @@ optimal substructure - overall solution only depends on smaller solutions
 gray gray <-> back edge <-> cycle
 
 edge relax = updating the shortest path by greedy checking if it adding a new edge is lower
+
+kahns algo -> calculate for every node the amount of nodes going in and then add to queue lowest ones
