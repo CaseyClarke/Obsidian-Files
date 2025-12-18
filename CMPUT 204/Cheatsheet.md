@@ -57,4 +57,6 @@ dp overlapping subproblems - repetition of work
 
 optimal substructure - overall solution only depends on smaller solutions
 
-gray gray <-> back edge
+gray gray <-> back edge <-> cycle
+
+edge relax = updating the shortest path by greedy checking if it adding a new edge is lower
