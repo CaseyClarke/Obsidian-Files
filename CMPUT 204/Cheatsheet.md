@@ -62,3 +62,24 @@ gray gray <-> back edge <-> cycle
 edge relax = updating the shortest path by greedy checking if it adding a new edge is lower
 
 kahns algo -> calculate for every node the amount of nodes going in and then add to queue lowest ones
+
+undirected graph -> tree and back edge only
+
+|Edge type|Color of `v` when `(u,v)` seen|Time relationship|
+|---|---|---|
+
+|   |   |   |
+|---|---|---|
+|Tree|White|`d[u] < d[v] < f[v] < f[u]`|
+
+|   |   |   |
+|---|---|---|
+|Back|Gray|`d[v] < d[u] < f[u] < f[v]`|
+
+|   |   |   |
+|---|---|---|
+|Forward|Black (descendant)|`d[u] < d[v] < f[v] < f[u]`|
+
+|   |   |   |
+|---|---|---|
+|Cross|Black (not descendant)|disjoint intervals|
