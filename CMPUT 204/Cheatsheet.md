@@ -56,3 +56,5 @@ exponentiation by halving
 dp overlapping subproblems - repetition of work
 
 optimal substructure - overall solution only depends on smaller solutions
+
+gray gray <-> back edge
