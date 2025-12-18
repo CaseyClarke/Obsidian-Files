@@ -52,3 +52,7 @@ greedy substitution property - any optimal decision to problem can be altered to
 optimal substructure - sub problems are the same as the whole
 
 exponentiation by halving
+
+dp overlapping subproblems - repetition of work
+
+optimal substructure - overall solution only depends on smaller solutions
