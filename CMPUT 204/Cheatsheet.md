@@ -80,6 +80,6 @@ undirected graph -> tree and back edge only
 |---|---|---|
 |Forward|Black (descendant)|`d[u] < d[v] < f[v] < f[u]`|
 
-|   |   |   |
-|---|---|---|
-|Cross|Black (not descendant)|disjoint intervals|
+|       |                        |                    |
+| ----- | ---------------------- | ------------------ |
+| Cross | Black (not descendant) | disjoint intervals |
