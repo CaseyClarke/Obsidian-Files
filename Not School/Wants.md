@@ -7,6 +7,7 @@
 - [ ] [Good reviewed oled monitor](https://www.amazon.ca/AOC-Q27G4ZD-Monitor-Compatible-Zero-Bright-Dot/dp/B0DQVP7TNH?dib=eyJ2IjoiMSJ9.UGW3Kk-O917oDyvrbjz1LDFXzr5WDGZljsbT1sELAKL6YBRtmzJBq9dYjC3C-3GNSv8suhkfGdlbcdk5KjLERH_E5G7LB9BzFRhrwwlIq-EnFxJrBB4CizCVjSBtY_IR-iFVCS_OGMjRoa--OpSHZpW8_oU9Zg0HzdEuSZ9SsSONCFOfRxR0Pz1S3S4nCDgqI2LIHKnI5n9jrpaHStFr3PfAVAYDwR6G-a1Q512oB8bZskDq0m5RRUaImjj2U7GgarhqFh_7LrPf39FPKAH6Y_fMlRwZXOqjllOcVBJ7OTQ.0y8Qa3xz8RcLevN7kj0fS6o-Y7WNkopo1W1tdM_BhCg&dib_tag=se&geniuslink=true&keywords=aoc+g27g4zd&qid=1764545231&sr=8-1&ufe=app_do%3Aamzn1.fos.a47c58ca-3c50-43d7-a4fc-fb71491f9720)
 - [ ] [aio](https://www.airdriecomputer.com/products/lian-li-galahad-ii-lite-360-aio-cpu-liquid-water-cooler-360mm-argb?variant=45016770838665&country=CA&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic)
 - [ ] [cool custom thing](https://github.com/Snackya/Snackboard-mix)
+- [ ] 2 way audio switch
 ## For ana
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger
@@ -14,10 +15,7 @@
 - [ ] dispatch stickers and spiritfarer prints?
 - [ ] fluffy/heated blanket
 - [ ] twirl/flake/ripple chocolate/twinks/biscolata/cookies/apple juice/pallet of coffee/sugar cookies with icing
-- [ ] RGB bulbs/maybe sunrise alarm clock
 - [ ] [Monitor riser for makeup fridge](https://www.amazon.ca/TEAMIX-Monitor-Keyboard-Computer-Organization/dp/B091Y4TXQH?source=ps-sl-shoppingads-lpcontext&th=1)
-- [ ] [this for bed](https://www.homedepot.ca/search?q=Furniture%20Cups#!q=Furniture%20Cups) [or this](https://www.homedepot.ca/product/scotch-scotch-gripping-pads-brown-1-5-in-3-81-cm-8-per-pack/1001124548?eid=PS_GO_140203__ALL_PLA-526641&pid=1001124548&store=7117)
-
 ## Maybes
 - [ ] mini pc
 - [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
