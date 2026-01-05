@@ -18,7 +18,4 @@
 ## Maybes
 - [ ] mini pc
 - [ ] magnetic sheets, maybe for attaching both of the boxes next to bed
-- [ ] [small heatsink for mb vrms](https://www.amazon.ca/Small-Heatsink/s?k=Small+Heatsink)
 - [ ] door puller x2 for me and ana to stop cole pissing on everything
-
-remember money is on the square account
