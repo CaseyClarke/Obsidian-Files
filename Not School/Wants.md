@@ -6,7 +6,7 @@
 - [ ] [Good reviewed oled monitor](https://www.amazon.ca/AOC-Q27G4ZD-Monitor-Compatible-Zero-Bright-Dot/dp/B0DQVP7TNH?dib=eyJ2IjoiMSJ9.UGW3Kk-O917oDyvrbjz1LDFXzr5WDGZljsbT1sELAKL6YBRtmzJBq9dYjC3C-3GNSv8suhkfGdlbcdk5KjLERH_E5G7LB9BzFRhrwwlIq-EnFxJrBB4CizCVjSBtY_IR-iFVCS_OGMjRoa--OpSHZpW8_oU9Zg0HzdEuSZ9SsSONCFOfRxR0Pz1S3S4nCDgqI2LIHKnI5n9jrpaHStFr3PfAVAYDwR6G-a1Q512oB8bZskDq0m5RRUaImjj2U7GgarhqFh_7LrPf39FPKAH6Y_fMlRwZXOqjllOcVBJ7OTQ.0y8Qa3xz8RcLevN7kj0fS6o-Y7WNkopo1W1tdM_BhCg&dib_tag=se&geniuslink=true&keywords=aoc+g27g4zd&qid=1764545231&sr=8-1&ufe=app_do%3Aamzn1.fos.a47c58ca-3c50-43d7-a4fc-fb71491f9720)
 - [ ] [aio](https://www.memoryexpress.com/Products/MX00133082) (lian li galahad II lite 360)
 - [ ] [cool custom thing](https://github.com/Snackya/Snackboard-mix)
-- [ ] [Macbook stand](https://www.amazon.ca/UGREEN-Ergonomic-Aluminum-Laptop-Silver/dp/B0CBJLM51J?th=1)
+- [ ] [usb 3.0 internal](https://www.amazon.ca/USB3-0-Motherboards-Extension-Flexible-Transfer/dp/B0F6CSQ2YC?th=1)
 ## For ana
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger
