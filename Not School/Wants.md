@@ -7,6 +7,7 @@
 - [ ] [aio](https://www.memoryexpress.com/Products/MX00133082) (lian li galahad II lite 360)
 - [ ] [cool custom thing](https://github.com/Snackya/Snackboard-mix)
 - [ ] [usb 3.0 internal](https://www.amazon.ca/USB3-0-Motherboards-Extension-Flexible-Transfer/dp/B0F6CSQ2YC?th=1)
+- [ ] [3.5mm extension](https://www.amazon.ca/Seadream-3-Pole-Female-Headset-Extension/dp/B01DCBJ51I?dib=eyJ2IjoiMSJ9.yBI4ad6KcDZIp4h9pZr-978pxgMMTFQr1HJJF1KjnrI-NRVz3-yWzUJrcGHTkxJr1jVo5d6a2NGE_E1Tz8U7J3-4qhKtYxXqmxKWewO-at_Wb3TsZnk13zaMMXJHYC_xRFO45D2Fo9brVqkwa0nCqwqvgGciiTbRFLObomyMJnabUUQY56dlf5eZZPQpo6DsxenEJDi0oaD7gnxDrAPzxL-y1_3tPheC_OhIDS-AOoXhi9DYRVjIcuB6zMAfZPy8D_7xFoXrs2pOyMIApkFbjJb6wLO_QbI1E2e_ISk_4mw.zSsTG-dUZ0IDZTCDXJCrXCiF3cCMDc3ZmpvkHsR58mE&dib_tag=se&keywords=3%2B5mm%2Baudio%2Bcable%2Bright%2Bangle&qid=1769311539&sr=8-24&th=1)
 ## For ana
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger
