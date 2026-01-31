@@ -51,8 +51,25 @@ $Pr(X<m) = Pr(X > m)$
 $\implies m \quad \text{Is the median of X}$
 # Question 3
 
-(a)
+$\hat{\mu}_n = \frac1n (\sum_{i = 1}^{n}X_i - \sum_{i = 1}^{n}c) + c$
+$= \frac1n \sum_{i = 1}^{n}X_i$ 
+Meaning the estimator is just the sample mean
+$\tilde{\mu}_n = \overline{X}$
 
+(a)
+$E[\hat{\mu}_n] = \frac1n \sum_{i = 1}^{n}(E[X_i -c]) +E[c]$
+$= \mu - c + c = \mu$
+$E[\hat{\mu}_n] = \mu$
+Meaning this is unbiased $\forall c \in \mathbb{R}$
+(b)
+The variance of the sample mean is $\frac{sigma^2}{n}$
+(c)
+Since they are the same thing they have the same variance
+The choice of $c$ does not affect the variance since $c$ does not matter in the estimator equation
+# Question 4
+
+(a)
+S
 
 
 
