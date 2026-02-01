@@ -62,14 +62,41 @@ $= \mu - c + c = \mu$
 $E[\hat{\mu}_n] = \mu$
 Meaning this is unbiased $\forall c \in \mathbb{R}$
 (b)
-The variance of the sample mean is $\frac{sigma^2}{n}$
+The variance of the sample mean is $\frac{\sigma^2}{n}$
 (c)
 Since they are the same thing they have the same variance
 The choice of $c$ does not affect the variance since $c$ does not matter in the estimator equation
 # Question 4
 
 (a)
-S
+Standard one:
+$Bias(V) = \frac{n-1}{n}\sigma^2 - \sigma^2 = -\frac1n \sigma^2$
+$MSE(V) = (-\frac1n \sigma^2)^2 + \frac{2(n-1)}{n^2}\sigma^4$
+$= \frac{2n-1}{n^2}\sigma^4$
+The unbiased one:
+$Bias(V) = 0$
+$MSE(V) = \frac{2}{n-1}\sigma^4$
+
+check
+$\frac{2n-1}{n^2}\sigma^4 \stackrel{?}{<} \frac{2}{n-1}\sigma^4$
+$-3n + 1 \stackrel{?}{<} 0$
+$n > \frac13$
+which is always true since $n$ must be $> 1$
+Therefore the biased one has a lower MSE
+(b)
+$0.01 \geq 2e^{-2n(0.02)^2}$
+$0.01 \geq 2e^{-0.0008n}$
+$e^{-0.0008n} \leq 0.005$
+$-0.0008n \leq ln(0.005)$
+$n \geq \frac{5.298}{0.0008}$
+$n \geq 6622.5$
+
+
+
+
+
+
+
 
 
 
