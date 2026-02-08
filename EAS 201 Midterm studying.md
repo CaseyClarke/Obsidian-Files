@@ -136,3 +136,198 @@ Earth science differs from experimental sciences like physics and chemistry in s
 ## Earth Science Subdisciplines
 
 While you don't need to memorize all of them, be aware that Earth science includes paleontology, geophysics, geochemistry, oceanography, atmospheric science, and many others.
+
+# Key Exam Concepts from Lecture 3
+## Systems
+
+**Definition and Types:**
+
+- Systems are portions of the universe separated for observing and understanding changes
+- **Isolated systems**: Don't exchange matter or energy (example: universe as a whole; solar system is approximately isolated)
+- **Closed systems**: Exchange energy but not matter (example: Earth - approximately closed, with minor exceptions like hydrogen/helium escaping and meteorite impacts)
+- **Open systems**: Exchange both matter and energy (examples: individual animals, ecosystems, atmosphere, hydrosphere, biosphere, geosphere)
+
+**The Four Major Earth Systems:** Atmosphere, hydrosphere, biosphere, and geosphere - energy and matter pass between these systems
+
+## The Water/Hydrologic Cycle
+
+**Key Terms:**
+
+- **Reservoirs**: Locations where material sits for a period of time
+- **Fluxes**: Rates at which material moves from one reservoir to another (measured in cubic km/year)
+- **Residence time**: Average time a water molecule spends in each reservoir (calculated by dividing reservoir size by flux rate)
+
+**Major Water Reservoirs** (know relative sizes, not exact numbers):
+
+- Oceans: largest (~1-2 billion cubic km)
+- Glaciers/ice: second largest (~25 million cubic km)
+- Groundwater: third largest (~23 million cubic km) - most uncertain measurement
+- Surface water (lakes/rivers): much smaller (~200,000 cubic km)
+- Atmosphere: smallest (~13,000 cubic km)
+- Biosphere: ~1,000 cubic km
+
+**Residence Times Examples:**
+
+- Atmosphere: 1-2 weeks (shortest)
+- Oceans: several thousand years (longest)
+
+**Water Cycle Processes:**
+
+- Evaporation from oceans: ~425,000 cubic km/year
+- Evapotranspiration from land: ~70,000 cubic km/year (includes both evaporation and transpiration through plants)
+- Total evaporation: ~500,000 cubic km/year
+- Precipitation on oceans: ~390,000 cubic km/year
+- Precipitation on land: ~110,000 cubic km/year
+- Runoff to oceans: ~40,000 cubic km/year (the difference between precipitation on land and evapotranspiration)
+
+**Key Understanding:**
+
+- The atmosphere maintains constant water volume because input equals output
+- More water falls on land than evaporates from it - the difference flows back to oceans through rivers and groundwater
+- Humans divert about 11% of total runoff
+
+**Climate Change Effects:**
+
+- Glacier reservoir is shrinking (more melting than snow accumulation)
+- Ocean reservoir is expanding (sea level rising)
+- When reservoirs change size, fluxes in and out don't balance exactly
+
+## Solar System
+
+**Formation:**
+
+- Formed ~4.567 billion years ago (4,567 MA or 4.567 GA)
+- Condensed from a nebula (cloud of gas and dust) by gravitational attraction
+- Sun formed from the largest clump; planets from smaller clumps
+
+**Orbits and Laws:**
+
+- Objects orbit due to balance between inertia (Newton's first law) and gravitational force
+- Orbits are ellipses, not perfect circles
+- **Perihelion**: closest point to the Sun
+- **Aphelion**: farthest point from the Sun
+
+**Kepler's Laws** (especially the third):
+
+- Kepler's Third Law: P² ∝ D³ (period squared is proportional to distance cubed)
+- Planets farther from the Sun take much longer to orbit
+- The mass of the planet doesn't affect its orbital period at a given distance
+
+**Temperature Effects:**
+
+- Solar nebula was hottest in the middle, cooler toward the edges
+- Inner planets lost hydrogen and helium (too hot)
+- Outer planets retained hydrogen and helium
+
+**Earth's Orbit:**
+
+- Earth is closest to Sun in January (Northern Hemisphere winter)
+- Seasons are controlled by Earth's axial tilt, not distance from Sun
+- Distance variation has small but important climate effects
+# Key Exam Concepts from Lecture 4
+## Comets and Small Solar System Bodies
+
+**Comets** have very long, eccentric (elliptical) orbits and contain volatile materials. They're some of the most primitive objects we can study from the early solar system.
+
+**Terminology for small objects:**
+
+- Asteroids: larger objects (though the size cutoff with meteoroids is vague)
+- Meteoroids: smaller objects in space
+- Meteors: objects burning up in Earth's atmosphere ("shooting stars")
+- Meteorites: pieces that reach Earth's surface
+
+**Types of meteorites:**
+
+- Iron meteorites: made of metal (iron-nickel), thought to be remnants of broken-up planets
+- Stony meteorites: made of silicate minerals
+- Chondrites: contain chondrules (small glass beads from the protoplanetary disk), representing material never incorporated into planets
+
+## The Planets
+
+**Outer planets** (Jupiter, Saturn, Uranus, Neptune): mostly hydrogen and helium gas, much larger than inner planets. Jupiter likely has metallic hydrogen inside due to high pressure.
+
+**Inner planets** (Mercury, Venus, Earth, Mars) and the Moon share similar structure:
+
+- Metallic core (mostly iron-nickel)
+- Rocky mantle (silicon, oxygen, magnesium, iron)
+- Variable crust (different for each body due to different rock cycles)
+
+**Rock cycles differ:**
+
+- Mars: similar to Earth, evidence of past water, sedimentary rocks, wind-blown sand
+- Earth: active plate tectonics
+- Venus: thick CO₂ atmosphere, extreme greenhouse effect, possibly one-plate tectonics
+- Mercury and Moon: dominated by impact cratering, pulverized surfaces
+
+**The Moon** is unusually large (over 1/4 of Earth's diameter), making Earth-Moon more like a double planet system.
+
+## Earth's Orbit and Seasons
+
+The **ecliptic** is the plane of the solar system where planets orbit and eclipses occur.
+
+**Seasons** are caused by Earth's axial tilt of 23.5° relative to the orbital plane. When the Northern Hemisphere tilts toward the Sun (June), it experiences summer; when tilted away (December), it experiences winter.
+
+**Key positions:**
+
+- Solstices: maximum tilt toward/away from Sun (June and December)
+- Equinoxes: Earth's axis perpendicular to Sun-Earth line (March and September)
+
+## Milankovitch Cycles
+
+Three long-term orbital variations affect Earth's climate over thousands of years:
+
+1. **Obliquity (41,000 years):** Axial tilt varies from 21.5° to 24.5°. Greater tilt = more extreme seasons.
+2. **Precession (23,000 years):** Earth's axis wobbles like a spinning top, changing when solstices/equinoxes occur relative to Earth's orbital position.
+3. **Eccentricity (100,000 years):** Orbit shape varies from nearly circular (0.3% eccentric) to more elliptical (6% eccentric), likely due to Jupiter's gravity.
+
+These cycles affect climate distribution and intensity but operate on timescales of tens of thousands of years—much slower than human-caused climate change (decades to centuries).
+
+## Tides
+
+The Moon's gravity creates two tidal bulges on Earth (exaggerated in models, but only ~1 meter high in reality).
+
+**Why two bulges?** The side facing the Moon experiences stronger gravitational pull. The far side has weaker gravity but the same inertia, causing water to bulge away as Earth and Moon orbit their common center of gravity (barycenter).
+
+**Tidal timing:** High tides occur every ~12 hours and 50 minutes (not exactly 12 hours because the Moon also orbits Earth).
+
+**Spring vs. Neap tides:**
+
+- Spring tides: Sun and Moon aligned (new/full moon) → highest highs and lowest lows, occur every ~2 weeks
+- Neap tides: Sun and Moon at 90° (quarter moons) → less extreme tides, occur between spring tides
+
+## The Sun and Electromagnetic Radiation
+
+**The Sun** is an average main sequence star:
+
+- Radius: ~700,000 km (over 100× Earth's radius)
+- Mass: 10³⁰ kg (300,000× Earth's mass)
+- Power output: 3.8 × 10²⁶ watts
+- Energy source: nuclear fusion
+
+**Electromagnetic spectrum** (shortest to longest wavelength): Gamma rays → X-rays → Ultraviolet → Visible light (violet to red) → Infrared → Microwaves → Radio waves
+
+The Sun emits most energy in the **visible light** range. Earth's atmosphere blocks harmful UV, X-rays, and gamma rays.
+
+**Sunspot cycle:** 11-year cycle with minor variations in solar output (~0.1%). The Maunder Minimum (1650-1700) had few sunspots and coincided with colder climate.
+
+## Energy Flow
+
+**Energy reaching Earth:** ~174,000-175,000 terawatts (1.74 × 10¹⁷ watts) at the top of the atmosphere.
+
+**Energy concentration varies by:**
+
+- Latitude: concentrated at equator, spread out at poles
+- Season: due to axial tilt
+- Atmospheric absorption: water vapor, CO₂, oxygen, ozone, methane absorb different wavelengths
+
+**Energy at surface:** ~1 kilowatt per square meter at the equator when Sun is directly overhead.
+
+## Energy Units
+
+- Joule: fundamental unit of energy
+- Watt: power (1 joule/second)
+- Kilowatt: 1,000 watts (appliances)
+- Megawatt: 1 million watts (power stations)
+- Gigawatt: 1 billion watts (countries)
+- Terawatt: 1 trillion watts (whole Earth)
+- Kilowatt-hour: 3.6 megajoules (electricity billing)
