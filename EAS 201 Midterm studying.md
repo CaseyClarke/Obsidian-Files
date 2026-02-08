@@ -728,3 +728,302 @@ This explains why:
 - **Chemical weathering**: Water dissolves minerals
 
 # Lecture 9
+
+# Key Concepts for Your Exam
+
+Based on this lecture, here are the essential concepts you need to understand:
+
+## Weathering and Erosion
+
+**Weathering** refers to changes that happen to rock more or less in place. **Erosion** is the removal and transport of weathered material. These work together but are distinct processes.
+
+**Physical (Mechanical) Weathering** breaks rocks apart without changing their chemistry. The main types are mechanical abrasion (water or wind hurling particles against solid rock) and frost wedging (water freezing in cracks and expanding up to 9%, breaking rocks apart). Frost wedging is especially effective where there are many freeze-thaw cycles.
+
+**Chemical Weathering** changes the chemical composition of rocks. Examples include dissolving salt in water (polar water molecules pull apart ionic compounds), dissolving limestone (especially with acid present - all rainwater is slightly acidic due to dissolved CO₂), and weathering of feldspar to form clay minerals like kaolinite. Chemical weathering happens faster in warm climates and when acids are present.
+
+## Sediment Classification
+
+Clastic sediments (solid rock particles) are classified by size:
+
+- **Mud**: smaller than 1/16 mm (includes clay and silt)
+- **Sand**: 1/16 mm to 2 mm
+- **Gravel**: larger than 2 mm (includes granules, cobbles, boulders)
+
+**Regolith** is weathered material on Earth's surface. **Soil** is regolith mixed with plant material. Note: Mars and the Moon have regolith but not soil (no plants).
+
+## Sediment Transport in Water
+
+Rivers carry sediment in three ways:
+
+**Dissolved load** consists of invisible ions in solution (like calcium, sodium, bicarbonate) - products of chemical weathering.
+
+**Suspended load** includes small particles (mud and sand) held up by water turbulence, making the water cloudy. These particles rarely touch the bottom.
+
+**Bed load** consists of particles that frequently contact the river bottom. They can slide, roll, tumble, or undergo saltation (jumping). Gravel mostly moves as bed load.
+
+The energy of water flow determines what size particles can be transported. Faster flow = larger particles moved.
+
+## River Characteristics
+
+**Overland flow** is the initial sheet-like movement of water across the surface after soil becomes saturated. It quickly organizes into channels due to positive feedback (deeper areas flow faster, erode more, become even deeper).
+
+**Stream flow** (or channelized flow) occurs once channels form. Rivers receive water from overland flow and **base flow** (groundwater entering through the channel bottom and sides).
+
+**Gradient** measures how steeply a river descends, expressed as degrees, percentage, or meters per kilometer. Rivers typically have a graded profile - steep in headwaters, gentler downstream.
+
+**Velocity** is the speed of water flow (meters per second). Flow is fastest in the middle just below the surface, and on the outside of bends (where erosion is greatest).
+
+**Discharge** is the volume of water passing a point per unit time (cubic meters per second). Calculate it as: **Discharge = velocity × width × depth**. This is a critical measurement for understanding rivers. Note: Never write "CMS" - write m³/s properly.
+
+## River Systems
+
+Rivers organize into **dendritic (tree-like) patterns**. Smaller streams called **tributaries** join to form larger rivers downstream.
+
+**Drainage basins** are areas of land drained by a river system. **Drainage divides** are ridges separating different drainage basins (avoid the ambiguous term "watershed").
+
+**Base level** is the elevation of the water body a river flows into (usually sea level). Rivers flatten as they approach base level.
+
+Rivers can be divided into zones: **headwaters** (mostly erosion, steep), **transfer zone** (mixture of erosion and deposition), and **depositional zone** (near base level, mostly deposition).
+
+# lecture 10
+
+## 1. **Downstream Changes in Rivers**
+
+As you move downstream in a river system:
+
+- **Discharge** ↑ (tributaries add water)
+- **Width and depth** ↑
+- **Gradient** ↓ (slope decreases)
+- **Velocity** ↑ slightly (counterintuitive!)
+- **Erosion ability** ↓ (less able to move coarse sediment)
+
+**Typical gradients:**
+
+- Mountain stream: ~60 m/km
+- North Saskatchewan (Edmonton): 0.3 m/km
+- River mouth: <0.1 m/km
+
+---
+
+## 2. **Three River Zones**
+
+|Zone|Process|Result|
+|---|---|---|
+|**Headwaters**|Down-cutting|Valley gets deeper|
+|**Middle sections**|Lateral erosion|Valley gets wider|
+|**Near base level**|Deposition|Floodplain builds up|
+
+---
+
+## 3. **Mass Wasting (Slope Processes)**
+
+**Rockfall:** Individual blocks fall → accumulate as **scree/talus**
+
+**Slides:** Material moves as a mass
+
+- _Translational_: stays in same orientation
+- _Rotational_: curved surface, material bends
+
+**Flows:** Material churned/swirled
+
+- _Rock avalanche_: dry, supported by compressed air (Frank Slide, 1903)
+- _Debris flow_: wet, catastrophic
+- _Lahar_: hot debris flow from volcano
+
+**Creep:** Very slow downslope movement
+
+- Evidence: curved tree trunks
+- _Solifluction_: creep from freeze-thaw cycles
+
+---
+
+## 4. **Stream Capture (Stream Piracy)**
+
+- **Headward erosion** causes rapidly down-cutting rivers to capture water from other streams
+- Leaves behind empty valleys (example: Deep Hollow, Nova Scotia)
+
+---
+
+## 5. **River Channel Types**
+
+### **Braided Rivers**
+
+- Multiple channels joining/rejoining
+- **High** slope (>0.5 m/km)
+- **High** sediment load
+- Little vegetation
+- Coarse sediment (gravel/sand)
+- Common near glaciers and in deserts
+
+### **Meandering Rivers**
+
+- Single sinuous channel (high **sinuosity**)
+- **Low** gradient
+- Fine sediment (sand/mud)
+- **Erosion** on outside of bend (**cut bank**)
+- **Deposition** on inside (**point bar**)
+- Meanders migrate outward and downstream
+- Can create **oxbow lakes** when neck cuts through
+
+---
+
+## 6. **Floodplain Features**
+
+**Natural levees:** Ridges along riverbanks from repeated flooding
+
+- Thickest sediment deposited on banks
+- Fine sediment spreads across floodplain
+
+**Flooding patterns:**
+
+- **10-year flood** = 10% chance each year (NOT every 10 years!)
+- Recurrence intervals are statistical averages
+- Can happen more or less frequently than predicted
+
+---
+
+## 7. **Depositional Landforms**
+
+**Alluvial fan:**
+
+- Fan-shaped deposit where steep river flattens
+- Forms **on land**
+- Gravel and sand (no mud)
+- **Distributaries** spread across fan
+
+**Delta:**
+
+- Forms where river enters **sea or lake**
+- Similar to alluvial fan but less steep
+- Named after Nile Delta (triangular like Greek letter Δ)
+
+**Estuary:**
+
+- Wide river mouth
+- Forms where tides are strong OR sea level rising
+- Seawater and freshwater mix
+
+---
+
+## 8. **Base Level Changes**
+
+**Causes:** sea level change, tectonic activity, lava flows, landslides, glaciers, land rebound
+
+**Results:**
+
+- **River terraces:** stepped surfaces on valley sides
+- **Incised meanders:** meandering river cutting down into bedrock (North Saskatchewan River in Edmonton)
+- **Superimposed drainage:** river ignores geology because it developed on older, buried surface (Susquehanna River)
+
+---
+
+## 9. **Lakes**
+
+### **Open Lakes**
+
+- Inlet AND outlet
+- **Fresh water** (continuous flushing)
+- Stable water levels
+- Precipitation > evaporation
+- Sediments: mud, sand, gravel near shore
+
+### **Closed Lakes**
+
+- Inlet but NO outlet
+- Water leaves by **evaporation only**
+- **Saline** (salty) - dissolved ions accumulate
+- Evaporation > precipitation
+- **Salt deposits** form
+- Example: Great Salt Lake
+
+**Lakes are temporary:**
+
+- Obstacles erode away
+- Fill with sediment
+- May evaporate or drain through sinkholes
+
+---
+
+## Key Terms to Know
+
+- **Base level:** The lowest point a river can erode to
+- **Sinuosity:** How curved/winding a river is
+- **Discharge:** Volume of water flowing past a point
+- **Bed load vs. suspended load vs. dissolved load**
+- **Distributaries** (spreading out) vs. **tributaries** (joining together)
+- **Nick points:** Steps in river profile (often at dams/lakes)
+
+# Lecture 11
+
+# Groundwater Exam Study Summary
+
+## Core Definitions & Measurements
+
+**Groundwater** is water that flows through pore spaces in rocks beneath Earth's surface. It represents approximately 23.4 million cubic kilometers of water in the hydrosphere, though this is difficult to measure precisely.
+
+**Porosity** is the percentage (0-100%) or fraction (0-1) of rock volume that consists of pore spaces. Maximum values typically reach low 30% in well-sorted, rounded sand grains. Porosity can be:
+
+- **Primary porosity**: spaces formed when the rock formed
+- **Secondary porosity**: spaces formed later (like cracks in granite)
+
+**Permeability** measures how easily water flows through rock, measured in Darcys or millidarcys. It depends on porosity, pore size, and pore connectivity. Fine-grained muds have low permeability despite potentially high porosity because water is held by surface tension and viscosity near grain surfaces.
+
+## Groundwater Zones
+
+**Vadose Zone** (also called aerated or unsaturated zone): Near-surface zone where pore spaces contain both air and water. Water clings to grains.
+
+**Saturated Zone**: Below the vadose zone, where pore spaces are entirely filled with water.
+
+**Water Table**: The boundary where water will drain into a well and fill it up. It sits slightly below the top of the saturated zone. The water table typically mimics the land surface topography in a subdued form—high under hills, low under valleys, and intersecting the surface at lakes and rivers.
+
+## Water Movement
+
+**Recharge** occurs in high-elevation areas where water enters the subsurface and becomes groundwater.
+
+**Base flow** is groundwater that flows into rivers through the river floor (not from surface runoff).
+
+Groundwater flows from areas of high water table elevation to low elevation, driven by gravity and pressure. Flow is much slower than surface water—timescales range from days to millennia depending on depth and permeability.
+
+## Aquifers
+
+An **aquifer** is any saturated body of rock containing water pure enough to be useful to humans.
+
+**Unconfined (water table) aquifer**: Has a water table at its top and a confining layer below. When pumped, it creates a **cone of depression** (drawdown in the water table).
+
+**Confined (artesian) aquifer**: Trapped between two confining layers (low permeability). Water is under pressure and may fountain to the surface when tapped. The recharge area is typically in distant mountains.
+
+**Confining layers** (aquicludes) are low-permeability layers that restrict water flow, often fine-grained sediments like mud.
+
+## Springs & Stream Interactions
+
+**Springs** occur where the water table intersects the land surface, often at geological boundaries between permeable and impermeable rock.
+
+**Losing streams** lose water to groundwater; **gaining streams** receive water from groundwater. **Disappearing streams** flow into the subsurface through holes.
+
+## Dissolution & Karst Features
+
+Groundwater dissolves rock, especially in limestone, gypsum, and rock salt. Dissolution rate depends on pH (lower pH = more acidic = faster dissolution), rock type, and temperature.
+
+**Karst topography** develops in soluble rock areas and includes sinkholes (closed depressions), caves, disappearing streams, and tower karst (steep-sided valleys).
+
+## Water Quality
+
+**Salinity** measures dissolved minerals (parts per million or ppm):
+
+- **Fresh water**: <1,000 ppm (<0.1%)
+- **Brackish water**: 1,000-10,000 ppm (0.1-1%)
+- **Saline water**: 10,000-35,000 ppm (1-3.5%, like seawater)
+- **Brine**: >35,000 ppm (>3.5%)
+
+Slower-flowing groundwater and deeper, older water (connate water) tend to have higher salinity.
+
+## Mineral Precipitation
+
+**Cement** refers to any minerals that crystallize in pore spaces from groundwater, whether or not they glue rocks together.
+
+In caves (vadose zone), evaporating water precipitates minerals forming:
+
+- **Stalactites**: hang from ceiling (C for ceiling)
+- **Stalagmites**: grow from floor (G for ground)
+
+**Veins** are cracks filled with minerals. **Geodes** are spaces partly filled with minerals, often showing visible crystals. **Hydrothermal water** (hot groundwater) can dissolve and deposit a wider variety of minerals than cold water.
