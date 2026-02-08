@@ -1264,3 +1264,142 @@ These are **sorted** (unlike till) because water deposited them:
 **U-shaped vs V-shaped valleys**: Glacial valleys are U-shaped from abrasion; river valleys are V-shaped from mass wasting on slopes
 
 Would you like me to clarify any of these concepts or create practice questions on specific topics?
+
+# Lecture 14
+
+## Permafrost and Periglacial Features
+
+**Pingos** are ice-cored hills that form in permafrost regions, typically at sites of former lakes. When surface water freezes but liquid water remains below, pressure builds up (from freezing expansion and possibly artesian groundwater), pushing the surface upward through repeated freeze-thaw cycles.
+
+**Climate change impacts**: Permafrost thaw creates unstable landscapes (retrogressive slumps) and releases stored carbon as CO2 and methane, creating a positive feedback loop that accelerates warming. The lecture emphasized this is a major concern for northern communities and global climate.
+
+## Sea Ice Formation and Changes
+
+The freezing point of seawater is about **-2°C** (lower than pure water due to dissolved salt). Sea ice forms in stages: frazil ice (small needles) → nilas (thin sheets) → pancake ice → pack ice (70% coverage) → solid sea ice. The ice itself is much purer than seawater because salt ions don't fit into the ice structure.
+
+**Recent trends**: Arctic sea ice has decreased about 3.5% per decade since the 1980s, with the 15 lowest extents all occurring in the last 15 years. Antarctica, previously stable, began showing significant decreases starting around 2023.
+
+## Albedo and Positive Feedback
+
+This is critical to understand:
+
+- Open ocean albedo: **0.06** (reflects only 6% of solar energy)
+- Bare ice albedo: **0.5** (reflects 50%)
+- Ice with snow: **0.9** (reflects 90%)
+
+When ice melts, the ocean absorbs dramatically more heat (going from 50-90% reflection down to 6%), which warms the ocean further, melting more ice. This is one of the largest positive feedback processes in climate models and has immediate effects.
+
+## Thermohaline Circulation
+
+When sea ice forms, it excludes salt, making the remaining seawater denser and colder. This cold, salty water sinks, creating:
+
+- **North Atlantic Deep Water** (flows south from the Arctic, ~4°C)
+- **Antarctic Bottom Water** (even colder, flows north along ocean floor)
+
+These deep currents move as much water as surface currents like the Gulf Stream and are vital to global ocean circulation and climate.
+
+## Ocean Zones (know these definitions)
+
+**Horizontal zones:**
+
+- **Littoral zone**: Between high and low tide marks (alternates wet/dry)
+- **Neuritic zone**: Continental shelf, from low tide to 200m depth
+- **Oceanic zone**: Beyond 200m depth (can reach 11 km in Mariana Trench)
+
+**Vertical zones:**
+
+- **Photic zone**: 0-200m, receives sunlight (allows photosynthesis)
+- **Aphotic zone**: Below 200m, no sunlight
+
+**Biological zones:**
+
+- **Pelagic**: Open water organisms that don't touch bottom
+- **Benthic**: Bottom-dwelling organisms
+
+## Ocean Characteristics
+
+- Covers **71% of Earth's surface**
+- Average depth: **~4.5 km**
+- Maximum depth: **~11 km** (Mariana Trench)
+- Average salinity: **35 parts per thousand** (or 3.5%)
+- Continental shelves are geologically part of continents (< 200m deep)
+
+## Important Numbers to Remember
+
+- Seawater freezing point: -2°C
+- Continental shelf depth boundary: 200m
+- Light penetration: ~200m
+- Ocean salinity: 35 parts per thousand
+- Albedo values: ocean (0.06), ice (0.5), snow-covered ice (0.9)
+
+# Lecture 15
+
+## **Ocean Salinity & Ion Composition**
+
+**The 7 Major Ions (99.7% of ocean salinity):**
+
+- **Chloride (Cl⁻)** - most abundant negative ion
+- **Sodium (Na⁺)** - most abundant positive ion
+- **Sulfate (SO₄²⁻)** - second most abundant negative ion
+- **Magnesium (Mg²⁺)**
+- **Calcium (Ca²⁺)**
+- **Potassium (K⁺)**
+- **Bicarbonate (HCO₃⁻)** - important for carbon cycle
+
+**Key Understanding:** Why river water and seawater have different ion ratios (not just different concentrations)
+
+## **Sources and Sinks**
+
+**SOURCES (how ions enter the ocean):**
+
+- Dissolved load from rivers (main source)
+- Underwater volcanic/hydrothermal activity
+
+**SINKS (how ions are removed):**
+
+1. **Biological extraction** - organisms make shells from calcium carbonate (Ca²⁺ + HCO₃⁻)
+2. **Sorption** - K⁺ and Na⁺ attach to clay mineral surfaces on seafloor
+3. **Sea spray** - removes all ions equally (less important for ratios)
+4. **Chemical reactions** with seafloor rocks
+5. **Evaporite precipitation** - isolated seawater evaporates, depositing minerals (gypsum/calcium sulfate first, then halite/sodium chloride)
+
+**Critical Concept:** Na⁺ and Cl⁻ dominate seawater because they have **no major sinks** removing them
+
+## **Ocean Chemistry Over Time**
+
+- **Iron in early oceans:** Fe²⁺ (more soluble) was abundant when there was no oxygen; switched to Fe³⁺ (insoluble) after oxygen appeared ~2 billion years ago
+- Early oceans were likely less salty than today
+- Banded Iron Formations (BIFs) provide evidence of ancient ocean chemistry
+
+## **Physical Properties**
+
+**Temperature:**
+
+- **Thermocline** - zone of rapid temperature decrease with depth (~50-900m)
+- Surface warmest in tropics, coldest at poles
+- Ocean currents (like Gulf Stream) affect temperature distribution
+
+**Salinity with Depth:**
+
+- **Halocline** - zone of salinity change with depth
+- Can vary more than temperature (can increase OR decrease depending on location)
+- Polar regions may have different patterns than tropical regions
+
+**Density:**
+
+- Water is nearly incompressible (only ~4% denser at bottom of Mariana Trench despite 1000x pressure)
+- **Pycnocline** - zone of rapid density change
+- Density affected by: pressure, salinity, and temperature
+
+## **Important Details**
+
+- **Negative ions** get special names: chlorine atom → chloride ion
+- **When seawater evaporates:** calcium sulfate (gypsum) precipitates FIRST (less soluble), then sodium chloride (more soluble)
+- **Coral/shellfish** need Ca²⁺ and HCO₃⁻ from seawater to build CaCO₃ skeletons
+
+## **Exam Strategy Notes from Professor:**
+
+✓ Open book but don't rely on looking everything up (you'll run out of time)  
+✓ Questions test **relationships between concepts**, not just definitions  
+✓ Material from verbal lecture comments AND online textbook is fair game  
+✓ Sample midterm shows question style/difficulty but will have different questions
