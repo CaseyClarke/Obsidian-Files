@@ -331,3 +331,226 @@ The Sun emits most energy in the **visible light** range. Earth's atmosphere blo
 - Gigawatt: 1 billion watts (countries)
 - Terawatt: 1 trillion watts (whole Earth)
 - Kilowatt-hour: 3.6 megajoules (electricity billing)
+  
+  
+# Lecture 5
+
+## **Energy and Global Systems**
+
+**Energy Units:**
+
+- **Joule** = SI unit of energy
+- **Watt** = 1 joule per second
+- **Terawatt (TW)** = 10¹² watts (used for global energy systems)
+
+**Earth's Energy Budget:**
+
+- Solar input: **174,000 TW**
+- Geothermal: 47 TW (tiny by comparison)
+- Tidal: 3 TW
+- **30% of solar energy reflected** back to space (Earth's albedo)
+- Photosynthesis captures: 40 TW
+- Human energy use: 15-20 TW
+- **Critical point**: Humans extract fossil fuels ~80× faster than they're being created
+
+---
+
+## **Temperature vs. Heat** (Important Distinction!)
+
+- **Temperature** = average kinetic energy of molecules (**intensive** variable)
+    - Doesn't change if you double the amount of substance
+- **Heat** = total kinetic energy of all molecules (**extensive** variable)
+    - Doubles if you double the amount of substance
+
+---
+
+## **Atmospheric Pressure**
+
+- **Definition**: Force per unit area exerted by gas molecules
+- **Units**: Kilopascals (kPa)
+- **Sea level pressure**: ~101 kPa (or 1 atmosphere)
+- **Pressure decreases with altitude** (halves by 5 km up)
+- **Isobars** = lines of constant pressure on weather maps
+- Air flows from **high → low pressure**
+
+---
+
+## **Adiabatic Processes** (Key for Understanding Weather!)
+
+When air rises:
+
+- It **expands** (lower external pressure)
+- **Does work** against surrounding air
+- **Cools down** without heat transfer
+- **Adiabatic lapse rate**: ~10°C per kilometer
+
+This explains why:
+
+- Mountaintops are cold
+- Airplanes fly through freezing air at high altitude
+
+---
+
+## **Atmospheric Layers** (Bottom to Top)
+
+### 1. **Troposphere** (0-10/15 km)
+
+- Where **all weather** occurs
+- Temperature **decreases** with altitude
+- Contains most atmospheric mass
+- Thicker at equator (~18 km) than poles (~10 km)
+- Top boundary = **tropopause**
+
+### 2. **Stratosphere** (10/15-50 km)
+
+- Temperature **increases** with altitude
+- Contains **ozone layer** (~50 km up)
+- Ozone absorbs UV radiation → warms this layer
+- Top boundary = **stratopause**
+
+### 3. **Mesosphere** (50-80/90 km)
+
+- Temperature **decreases** with altitude
+- Coldest part of atmosphere
+- Top boundary = **mesopause**
+
+### 4. **Thermosphere** (>90 km)
+
+- Temperature **increases** with altitude
+- **High temperature, LOW heat** (few molecules)
+- Contains **ionosphere** (aurora borealis/australis occur here)
+
+---
+
+## **Atmospheric Composition**
+
+**Major Gases (dry air):**
+
+- **Nitrogen (N₂)**: ~78-79%
+- **Oxygen (O₂)**: ~21%
+- **Argon (Ar)**: ~1%
+- **Water vapor (H₂O)**: 0-4% (highly variable)
+
+**Trace Gases** (small amounts, big importance):
+
+- **Carbon dioxide (CO₂)**: ~0.04% (increasing annually)
+- **Ozone (O₃)**: Parts per million, absorbs UV
+- **Methane (CH₄)**
+
+**Aerosols** = suspended particles:
+
+- Water droplets (clouds)
+- Dust
+- Pollen
+- Salt from oceans
+- Soot from fires
+
+---
+
+## **Important Cycles**
+
+**Carbon Cycle:**
+
+- **Photosynthesis**: CO₂ → stored carbon + O₂ (energy storage)
+- **Respiration**: Carbon + O₂ → CO₂ + energy (energy release)
+
+**Nitrogen Cycle:**
+
+- **Nitrogen fixation**: N₂ → usable forms
+    - Lightning (creates nitrates)
+    - Nitrogen-fixing bacteria in plant roots (creates ammonium)
+- Essential for proteins in living things
+
+---
+
+## **Weather vs. Climate**
+
+- **Weather** = short-term changes (seconds to weeks)
+    - Studied by meteorologists
+- **Climate** = averaged weather over long periods
+    - Typically 30 years for averaging
+    - 3-5 years for studying climate change
+    - Studied by climatologists
+
+# Lecture 6
+
+## **. Water Vapor in the Atmosphere**
+
+- **Saturation vapor pressure**: The maximum amount of water vapor air can hold in equilibrium with liquid water at a given temperature
+- Increases with temperature (warm air can hold more water than cold air)
+- **Relative humidity**: The actual water vapor content compared to saturation level (expressed as %)
+- **Dew point**: The temperature at which air becomes saturated if cooled
+
+## **2. Greenhouse Gases**
+
+**Carbon Dioxide (CO₂):**
+
+- Pre-industrial: ~280 ppm
+- Current: 425+ ppm (and rising)
+- Seasonal "sawtooth" pattern due to Northern Hemisphere forests absorbing CO₂ in summer, releasing it in winter
+- Monitored at Mauna Loa, Hawaii
+- Transparent to visible light but absorbs infrared radiation
+
+**Methane (CH₄):**
+
+- Current: 1.9 ppm (vs. 0.7 ppm pre-industrial)
+- Powerful greenhouse gas but shorter atmospheric residence time than CO₂
+- Sources: natural gas leaks, decomposition, livestock digestion
+
+## **3. Water Phase Changes**
+
+**Key Properties:**
+
+- Water exists in 3 phases: solid (ice), liquid, vapor
+- **Unusual property**: Ice is less dense than liquid water (why ice floats)
+- Phase diagram shows stability fields at different temperatures and pressures
+
+**Latent Energy:**
+
+- Energy absorbed during: melting, evaporation, sublimation
+- Energy released during: freezing, condensation
+- This creates **negative feedbacks** in the climate system
+
+## **4. Cloud Formation & Precipitation**
+
+**Process:**
+
+1. Air becomes saturated (reaches 100% relative humidity)
+2. Air becomes supersaturated (cooling below dew point)
+3. Nucleation occurs (water droplets form - requires extra energy)
+4. Droplets grow to ~20 microns
+5. Droplets collide and merge
+6. Large droplets fall as rain (or snow if below freezing)
+
+## **5. Adiabatic Lapse Rates** ⭐ _Remember these numbers_
+
+- **Dry adiabatic lapse rate**: 10°C per kilometer
+    - Air cools as it rises and expands
+- **Wet adiabatic lapse rate**: 6°C per kilometer
+    - Slower cooling in clouds due to latent heat release from condensation
+
+## **6. Atmospheric Circulation**
+
+**Heat Transfer:**
+
+- More solar energy enters at equator than poles
+- Heat energy is transferred poleward by atmosphere and oceans
+
+**Intertropical Convergence Zone (ITCZ):**
+
+- Low pressure zone at the equator
+- Warm air rises, creating clouds
+- Visible as a band of clouds along the equator
+
+**Coriolis Effect:**
+
+- Deflects moving air to the right in Northern Hemisphere
+- Deflects moving air to the left in Southern Hemisphere
+- Caused by Earth's rotation
+- Prevents air from flowing directly from equator to poles
+
+**Geostrophic Wind:**
+
+- Wind flows nearly parallel to isobars (lines of equal pressure)
+- Balance between pressure gradient force and Coriolis deflection
+- At surface: wind flows diagonally across isobars (due to friction)
