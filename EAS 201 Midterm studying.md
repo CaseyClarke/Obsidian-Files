@@ -580,8 +580,8 @@ This explains why:
 
 ### **4. Fronts**
 
-- **Warm front:** warm air over cold → gradual clouds/rain
-- **Cold front:** cold air under warm → steeper, more intense weather
+- **Warm front:** warm air over cold → gradual clouds/rain (warm mass towards cold)
+- **Cold front:** cold air under warm → steeper, more intense weather (cold mass towards warm)
 - Both push warm air upward → condensation
 
 ### **5. Local Winds**
