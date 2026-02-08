@@ -1177,3 +1177,90 @@ In caves (vadose zone), evaporating water precipitates minerals forming:
 4. **Remember the snow→ice transformation** process and densities
 5. **Know the two ice sheets** and their characteristics
 6. **Understand mass balance** and what controls it
+
+# Lecture 13
+
+## Types of Glaciers
+
+**Continental vs Alpine Glaciers**: Continental glaciers (ice sheets and ice caps) have broad, flat dome geometry and aren't constrained by mountains. Alpine glaciers are surrounded and shaped by mountain terrain, extending much further from the poles.
+
+**Specific glacier types you should know**:
+
+- **Ice fields**: Most similar to continental glaciers but constrained by mountains
+- **Valley glaciers**: Accumulate in high regions and flow downhill through valleys (what most people picture)
+- **Cirque glaciers**: Small glaciers in bowl-shaped depressions
+- **Tidewater glaciers**: Reach the sea and lose ice through calving (breaking off icebergs)
+- **Piedmont glaciers**: Valley glaciers that spread out into broad lowlands
+
+**Key features**: Nunataks (mountains surrounded by glacier), fjords (flooded glacial valleys), hanging valleys (where tributary glaciers meet main glaciers at different elevations)
+
+## How Glaciers Flow and Transport Sediment
+
+Glaciers exhibit **laminar flow** (not turbulent like rivers). The parallel moraines visible on valley glaciers demonstrate this - no swirling motion. Ice is strong enough to carry sediment on its surface without turbulence, so material doesn't get deposited until the ice melts. This is why glaciers do a poor job of sorting sediments compared to rivers.
+
+## Glacial Erosion
+
+**Three main erosion mechanisms** (most effective when the glacier base is at 0°C):
+
+- **Frost wedging**: Water enters cracks, freezes, expands, breaks rock apart
+- **Abrasion**: Rocks frozen into the glacier base scrape over bedrock
+- **Plucking**: Ice surrounds rock fragments and pulls them away from bedrock as the glacier moves
+
+**Erosional landforms to identify**:
+
+- **Roche Moutonnée**: Smooth upstream side, jagged downstream side (shows ice flow direction)
+- **Striations/striae**: Lines scratched into bedrock by dragged rocks
+- **Chatter marks**: Repeated impacts from larger rocks, roughly perpendicular to striations
+- **U-shaped valleys**: Characteristic cross-section (vs V-shaped river valleys)
+- **Cirques**: Bowl-shaped depressions where glaciers form
+- **Arêtes**: Sharp ridges between glacial valleys
+- **Horns**: Pointed peaks where 3+ arêtes meet (e.g., Matterhorn)
+
+## Glacial Deposition
+
+**Till**: Unsorted mixture of gravel, sand, and mud deposited directly from ice. No significant layering. Sometimes called "boulder clay" because it contains everything from boulders to clay.
+
+**Moraines** (accumulations of till):
+
+- **Terminal moraine**: Marks furthest extent of ice
+- **Recessional moraines**: Mark stages of glacier retreat
+- **Lateral moraines**: Form along glacier sides
+- **Medial moraines**: Form where two tributary glaciers join
+- **End moraines**: General category including terminal and recessional
+
+**Drumlins**: Teardrop-shaped hills formed under ice sheets. **Important**: Steep side faces upstream (opposite of Roche Moutonnée). They're depositional, not erosional.
+
+**Erratics**: Large boulders transported far from their source, rock type doesn't match local bedrock
+
+## Water-Related Glacial Deposits
+
+These are **sorted** (unlike till) because water deposited them:
+
+- **Eskers**: Ridges of sorted sand/gravel deposited by streams flowing under glaciers
+- **Kames**: Random hills of sorted sediment deposited in/on/beside ice
+- **Kettles**: Depressions left when stranded ice blocks melt
+- **Outwash plains**: Flat areas of layered gravel and sand from braided streams leaving glaciers
+- **Varves**: Annual layers in glacial lake sediments (coarser in summer when ice melts, finer in winter). Can be counted like tree rings to determine age.
+- **Dropstones**: Oversized rocks in fine lake sediments, dropped from melting icebergs
+
+**Key distinction**: If you dig into a landform and find sorted sediment (all one grain size), it was deposited by water. Mixed grain sizes = deposited directly from ice (till).
+
+## Periglacial Features
+
+**Permafrost**: Ground frozen for 2+ years. Can be meters to 1.5 km thick. Covers 25% of North America.
+
+**Active layer**: Top layer (10 cm to 2 m) that melts in summer, creating very sloppy conditions. It's impermeable when frozen.
+
+**Solifluction**: Slow downhill creep of the active layer on slopes
+
+**Ice wedges**: Form when cracks fill with snow/water that freezes and expands, widening the crack over repeated cycles. Can become wider than they are deep.
+
+## Exam Tips
+
+**Flow direction indicators**: Roche Moutonnée (smooth = upstream), drumlins (steep = upstream), striations (show flow direction)
+
+**Sorted vs unsorted**: This distinction helps identify whether features were deposited by ice (unsorted till) or water (sorted sediment)
+
+**U-shaped vs V-shaped valleys**: Glacial valleys are U-shaped from abrasion; river valleys are V-shaped from mass wasting on slopes
+
+Would you like me to clarify any of these concepts or create practice questions on specific topics?
