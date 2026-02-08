@@ -1027,3 +1027,153 @@ In caves (vadose zone), evaporating water precipitates minerals forming:
 - **Stalagmites**: grow from floor (G for ground)
 
 **Veins** are cracks filled with minerals. **Geodes** are spaces partly filled with minerals, often showing visible crystals. **Hydrothermal water** (hot groundwater) can dissolve and deposit a wider variety of minerals than cold water.
+
+# Lecture 12
+
+## **FOUNDATIONAL CONCEPTS**
+
+### **Cryosphere**
+
+- **Definition**: The "sphere of ice" (from Greek _kuros_)
+- Treated as part of the **hydrosphere** (exchanges water with other parts)
+- **Components**: ice sheets, ice shelves, sea ice, glaciers, snow, permafrost
+- **Residence times**: snow (days/months) → glaciers (years/centuries) → ice sheets (hundreds of thousands of years)
+
+---
+
+## **SNOW & SNOW LINE**
+
+### **Snow Line (Perennial Snow Boundary)**
+
+- Separates **permanent snow** from **seasonal snow**
+- **Elevation varies by**:
+    - Temperature (lower near poles)
+    - Humidity (lower in coastal areas with more moisture)
+- Example: Pacific side of BC mountains has lower snow line than prairie side
+
+### **Snow Cover Trends**
+
+- Decreasing globally (~2% smaller in 2011-2020 vs 1972-1981)
+- Spring snow melts **19 days earlier** in USA than in 1972
+- Impacts: shorter ski seasons, less natural irrigation for agriculture
+
+---
+
+## **GLACIER FORMATION: SNOW → ICE**
+
+|Stage|Air Content|Density (g/cc)|
+|---|---|---|
+|Fresh snow|~90%|<0.1|
+|Ice granules|~50%|0.3-0.5|
+|Granular ice|~30%|0.5-0.7|
+|Glacier ice|10-20% (trapped bubbles)|Higher|
+
+**Key point**: Trapped air bubbles in ancient ice preserve atmospheric composition from hundreds of thousands of years ago!
+
+---
+
+## **GLACIER BASICS**
+
+### **Definition**
+
+- Large accumulation of **perennial ice**
+- Flows under its **own weight** due to gravity
+- Covers ~10% of Earth's land surface
+
+### **Flow Characteristics**
+
+- **Laminar flow** (NOT turbulent like rivers)
+- Ice flows via **plastic deformation** under pressure
+- Generally flows **downhill** (but can move slightly uphill at base)
+
+---
+
+## **CRITICAL GLACIER ZONES**
+
+### **Equilibrium Line (Snow Line)**
+
+**Most important concept for understanding glaciers!**
+
+- **Above**: **Zone of Accumulation** (net ice gain)
+- **Below**: **Zone of Ablation** (net ice loss)
+- At the line: flow lines parallel to surface
+- Visually: boundary between white (snowy) and dark (glassy) ice
+
+### **Mass Balance**
+
+- **Positive mass balance**: Accumulation > Ablation → glacier **advances**
+- **Negative mass balance**: Accumulation < Ablation → glacier **retreats**
+
+**⚠️ EXAM TIP**: Glacier "retreat" does NOT mean ice flows backward! Ice continues flowing forward but melts faster than it's replenished, so the glacier front moves uphill.
+
+---
+
+## **GLACIER MOVEMENT MECHANISMS**
+
+### **Cold-Based Glaciers**
+
+- Frozen to bedrock
+- Movement: **Ice deformation only**
+
+### **Warm-Based Glaciers** (3 mechanisms)
+
+1. **Ice deformation** (plastic flow)
+2. **Basal sliding** (over rock)
+3. **Sediment deformation** (pushing sediment)
+
+**Result**: Warm-based glaciers move **faster** and leave **more landscape evidence**
+
+---
+
+## **GLACIER FEATURES**
+
+### **Crevasses**
+
+- Brittle fractures in upper ice layer
+- Form where glacier bends over slope changes
+- Dangerous (may be hidden by snow above snow line)
+
+---
+
+## **GLACIER TYPES**
+
+### **Continental Glaciers** (unconfined by topography)
+
+- **Ice Sheets**: Only 2 left
+    - **Antarctica**: 90% of world's ice, up to 4km thick, would raise sea level **60m** if melted, started forming ~35 million years ago
+    - **Greenland**: Would raise sea level **6-7m** if melted, currently biggest contributor to sea level rise
+- **Ice Caps**: <50,000 km² (e.g., Vatnajökull in Iceland)
+
+### **Alpine Glaciers**
+
+- Confined by valleys/topography
+- Flow between mountains
+
+### **Ice Shelves**
+
+- **Floating ice** attached to ice sheets
+- **Grounding line**: separates grounded ice from floating ice
+- Sensitive to climate change (in direct contact with ocean)
+- **Calving**: process of iceberg formation
+- Important: Help hold back fast-flowing outlet glaciers
+
+---
+
+## **CLIMATE CHANGE CONNECTIONS**
+
+- Most glaciers are **retreating** (negative mass balance)
+- **Exception**: Some humid coastal glaciers (Norway, coastal Alaska) are **advancing** due to warmer air carrying more moisture → more snow
+- Sea level rising **3+ mm/year**:
+    - 60% from melting glaciers
+    - 40% from thermal expansion of water
+
+---
+
+## **STUDY TIPS FOR YOUR EXAM**
+
+1. **Understand the equilibrium line** - it's the key to understanding glacier behavior
+2. **Know the difference between glacier advance/retreat** and ice flow direction
+3. **Distinguish cold-based vs warm-based glaciers** and their movement mechanisms
+4. **Remember the snow→ice transformation** process and densities
+5. **Know the two ice sheets** and their characteristics
+6. **Understand mass balance** and what controls it
