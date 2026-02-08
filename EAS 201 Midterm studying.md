@@ -554,3 +554,177 @@ This explains why:
 - Wind flows nearly parallel to isobars (lines of equal pressure)
 - Balance between pressure gradient force and Coriolis deflection
 - At surface: wind flows diagonally across isobars (due to friction)
+# Lecture 7
+
+## **Key Content to Study**
+
+### **1. Coriolis Effect**
+
+- Causes moving objects to appear to curve on rotating Earth
+- Affects large-scale weather (NOT toilets - that's a myth!)
+- Opposite effects in Northern vs Southern hemispheres
+
+### **2. Pressure Systems**
+
+- **High Pressure (Anticyclones):** descending air, clear/dry weather, winds spiral outward
+    - NH: clockwise / SH: counterclockwise
+- **Low Pressure (Cyclones):** rising air, clouds/rain, winds spiral inward
+    - NH: counterclockwise / SH: clockwise
+
+### **3. Atmospheric Circulation Cells**
+
+- **Hadley Cell:** rises at ITCZ → descends at Horse Latitudes (~30°)
+- **Ferrel Cell:** mid-latitudes, opposite rotation to Hadley
+- **Polar Cell:** rises at ~60° → descends at poles
+- **Polar Front:** ~60° latitude, creates waves; **jet stream** runs along it
+
+### **4. Fronts**
+
+- **Warm front:** warm air over cold → gradual clouds/rain
+- **Cold front:** cold air under warm → steeper, more intense weather
+- Both push warm air upward → condensation
+
+### **5. Local Winds**
+
+- **Sea/Land Breeze:** day (sea→land), night (land→sea)
+- **Mountain Winds:** anabatic (upslope), catabatic (downslope)
+- **Chinook:** warm, dry wind descending mountains (Calgary)
+
+### **6. Sediment & Wind Erosion**
+
+- **Sizes:** dust (<1/16mm), sand (1/16-2mm), gravel (>2mm)
+- Wind-deposited sediment = well-sorted, rounded → good aquifers
+
+### **7. Cloud Formation**
+
+- **How:** moist air cools below dew point
+- **4 Lifting Mechanisms:** density, frontal, orographic, convergence
+
+### **8. Cloud Types** ⭐ (May appear on exam)
+
+**3 Basic Types:**
+
+- **Cumulus:** fluffy, flat bottom, rising air
+- **Stratus:** horizontal layers
+- **Cirrus:** wispy ice clouds (>6km altitude)
+
+**7 Variants:**
+
+- **Cumulonimbus:** tall cumulus with rain, thunder/lightning
+- **Stratocumulus:** low, spread-out + lumpy
+- **Altocumulus:** mid-level (2-6km), clumpy
+- **Cirrocumulus:** high ice cumulus
+- **Nimbostratus:** layered with steady rain
+- **Altostratus:** high stratus (can see sun through)
+- **Cirrostratus:** ice stratus, may be wavy
+
+# Lecture 8
+
+## **Severe Weather Phenomena**
+
+**Thunderstorms:**
+
+- Form in warm, moist air, especially along cold fronts where maritime tropical (warm/moist) meets continental polar (cold/dry) air
+- Upward air motion causes rapid cooling and condensation, releasing latent energy
+- **Lightning**: caused by ionization of air molecules; cloud top becomes positively charged, base negatively charged
+- **Hail**: ice particles carried upward, enlarged by freezing supercooled water
+- **Thunder**: sound from lightning; travels ~3 seconds per kilometer (count seconds between flash and thunder, divide by 3 for distance in km)
+
+**Tornadoes:**
+
+- Form in spiral updrafts within thunderstorms
+- Funnel cloud → becomes tornado when it touches ground
+- Tightly rotating low-pressure centers
+- Don't always rotate cyclonically (Coriolis effect is weak at small scales)
+- Maximum winds: 480 km/h; extreme low pressure
+- Myth debunked: Don't open windows during tornado approach
+
+**Tropical Cyclones:**
+
+- Form just outside the ITCZ (need Coriolis effect to rotate)
+- Require warm water (>26°C) and moist air
+- **Names vary by region**: Hurricanes (Atlantic), Typhoons (West Pacific), Tropical Cyclones (elsewhere)
+- **Effects**:
+    - High winds
+    - Storm surge (up to 9-13m) from wind pileup + low pressure
+    - Heavy rainfall (>250mm), causing flooding
+
+**Monsoons:**
+
+- Seasonal wind reversals caused by ITCZ migration
+- Particularly affect India, northern Australia, West Africa
+- Example: India gets dry winds in winter, heavy moisture-laden winds in summer (orographic lifting by Himalayas)
+
+## **Water Properties**
+
+**Molecular Structure:**
+
+- H₂O has 104.5° angle between hydrogen atoms
+- **Polar molecule**: electrons spend more time near oxygen (negative end) than hydrogen (positive end)
+- Creates electrical charge distribution
+
+**Hydrogen Bonds:**
+
+- Weak bonds between molecules (H attracted to O of neighboring molecule)
+- Hold ice crystals in open framework
+- Cause ice to be less dense than liquid water (ice floats)
+- Give water high surface tension
+
+**Surface Tension:**
+
+- Water molecules pull toward each other
+- Creates "skin" effect on water surface
+- Allows insects to skate on water
+- Forms spherical droplets
+
+**Solvent Properties:**
+
+- Excellent at dissolving ionic compounds (like NaCl)
+- Polar water molecules surround and pull apart ions
+- Negative ends attract positive ions (Na⁺)
+- Positive ends attract negative ions (Cl⁻)
+
+## **pH and Acidity**
+
+**pH Scale:**
+
+- pH = -log[H⁺ concentration]
+- Neutral water: pH 7 (concentration = 10⁻⁷)
+- Acidic: pH < 7 (more H⁺ ions)
+- Alkaline/Basic: pH > 7 (fewer H⁺ ions)
+
+**Examples to know:**
+
+- Battery acid: pH 0-1
+- Lemon juice/vinegar: pH 2
+- Blood: pH 7.4 (slightly alkaline)
+- Seawater: pH ~8
+- Drain cleaner: pH 14
+
+**Carbonic Acid:**
+
+- CO₂ + H₂O → H₂CO₃ (carbonic acid)
+- Dissociates to release H⁺ ions
+- Makes rainwater slightly acidic (pH ~6)
+- Important for rock erosion
+
+## **Ice and Phase Changes**
+
+**Ice as a Mineral:**
+
+- Meets all criteria: fixed composition, defined structure, inorganic, naturally occurring solid, crystalline
+- Hexagonal crystal structure
+- Open lattice structure makes it less dense than water
+
+**Phase Changes:**
+
+- Ice → Liquid → Vapor: requires energy input (breaks hydrogen bonds)
+- Vapor → Liquid → Ice: releases latent energy
+
+## **Weathering (Introduction)**
+
+- Modification of geosphere surface by atmosphere, hydrosphere, biosphere
+- **Physical weathering**: Ice expansion in cracks breaks rocks apart
+- **Chemical weathering**: Water dissolves minerals
+
+# Lecture 9
