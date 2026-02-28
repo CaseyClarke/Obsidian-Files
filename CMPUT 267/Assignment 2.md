@@ -72,7 +72,12 @@ $\sum x_i - p\sum x_i = pn - p\sum x_i$
 $\sum x_i = pn$
 $p = \frac 1n \sum_{i = 1}^n x_i$
 
-
-
+2.
+$P(p|D) = P(D|p)P(p)$
+$= p^{(\sum x_i) + k-1}(1-p)^{n-(\sum x_i)+k-1}$
+$= ((\sum x_i) + k-1)log(p) + log(1-p)(n-(\sum x_i)+k-1)$
+$\frac{d}{dp} = \frac{\sum x_i + k - 1}{p} - \frac{n -\sum x_i + k - 1}{1-p} = 0$
+$\frac{\sum x_i + k - 1}{p} = \frac{n -\sum x_i + k - 1}{1-p}$
+$P_{MAP} = \frac{\sum^n_{i = 1}x_i + (k-1)}{n+2(k-1)}$
 
 
