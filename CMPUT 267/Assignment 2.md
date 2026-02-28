@@ -36,11 +36,43 @@ $w_3 = 1.023 - 0.03(30(1.023)- 31) = 1.0323$
 $w_4 = 1.0323- 0.03(30(1.0323)- 31) = 1.03323$
 
 5.
-
 The MLE and Gradient Descent values are very close after only 4 iterations showing that Gradient Descent is correctly converging to the closed form solution. It is useful when there exists a closed form solution as it is often cheaper computationally than the closed form solutions for more complicated inputs.
 
 # Question 2
 
 1.
+$Pr(|X - \mu| \geq 0.5) \leq \frac 4n$
+$0.05 \leq \frac 4n$
+$n \geq 80$
+so minimum $n = 80$
+
+2.
+$Z = \frac{X-\mu}{\sigma / \sqrt{n}}$
+$Z = (X - \mu)\sqrt{n}$
+$Pr(|X - \mu| \geq 0.5) \leq 0.05$
+$Pr(|Z| \geq 0.5\sqrt{n}) \leq 0.05$
+$0.5\sqrt{n} = 1.96$
+$n = 15.3664 = 16$
+
+3.
+Chebyshev requires much more samples because it makes no assumptions about the underlying distribution so it has to be far more "conservative" about the amount of samples. It has to handle any distribution that has the same variance, it's basically a worst case for n.
+The gaussian approximation take much less samples because the normal distribution tapers off fairly quickly which we can use to our advantage
+
+# Question 3
+
+1.
+$\Pi^n_{i = 1}p^{x_i}(1-p)^{1-x_i}$
+$p^{\sum^n_{i=1}x^i}(1-p)^{\sum^n_{i=1}(1-x_i)}$
+$p^{\sum x_i}(1-p)^{n-\sum x_i}$
+$log_p(p^{\sum x_i}(1-p)^{n-\sum x_i})$
+$(\sum x_i) log(p) + (n-\sum x_i)log(1-p)$
+$\frac{d}{dp} = \frac{\sum x_i}{p} - \frac{n-\sum x_i}{1-p} = 0$
+$\frac{\sum x_i}{p} = \frac{n-\sum x_i}{1-p}$
+$\sum x_i - p\sum x_i = pn - p\sum x_i$
+$\sum x_i = pn$
+$p = \frac 1n \sum_{i = 1}^n x_i$
+
+
+
 
 
