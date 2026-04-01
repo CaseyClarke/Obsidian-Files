@@ -4,7 +4,6 @@
 - [ ] https://www.aliexpress.com/item/1005005623832147.html
 - [ ] https://www.aliexpress.com/item/1005003433705318.html?spm=a2g0o.order_list.order_list_main.29.140c1802FxMsOc (LONGER)
 - [ ] https://www.amazon.ca/Thermalright-TL-UB36-360mm-Single-Frame-Cooling/dp/B0FFMBHD3F?source=ps-sl-shoppingads-lpcontext&smid=A32B9TAI3MS38X&th=1
-- [ ] 
 ## For ana
 - [ ] magsafe ring stickers 
 - [ ] Some sort of multi usb charger
