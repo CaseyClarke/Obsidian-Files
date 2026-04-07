@@ -39,3 +39,24 @@ Feature weights go through both regularization and the data gradient step but th
 
 (a)
 
+$f^*(x) = x^2$
+$f^*(-1) = 1$
+$f^*(0) = 0$
+$f^*(1) = 1$
+
+(b)
+
+$G = E[(w_0 + w_1X − Y )^2]$
+$G = \frac13 \sum_{\{-1,0,1\}}E[(w_0 + w_1x − Y )^2 | X = x]$
+$G = \frac13 \sum_{\{-1,0,1\}}1 +(w_0 + w_1x-x^2)^2$
+$G = (1 + \frac13)((w_0-w_1-1)^2 + w_0^2 + (w_0 + w_1 - 1)^2)$
+
+$\frac{\partial G}{\partial w_0} = \frac23 ((w_0-w_1-1) + w_0 + (w_0 + w_1 - 1)) = 0$
+$w_0 = \frac23$
+$\frac{\partial G}{\partial w_1} = \frac23(- (w_0-w_1-1)+ (w_0 + w_1 - 1))$
+$w_1 = 0$
+
+so best linear is $f^*(x) = \frac23 + 0x = \frac23$
+
+(c)
+
