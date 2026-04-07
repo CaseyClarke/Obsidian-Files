@@ -60,3 +60,94 @@ so best linear is $f^*(x) = \frac23 + 0x = \frac23$
 
 (c)
 
+normal dist centered at 0 and 1 and then a line in the middle of each of them and then a line at 2/3
+
+(d)
+
+irreducible error is just E(VAR) and that's just 1
+reducible is $E[(\frac23 - X^2)^2]$
+$= \frac13 [(E[(\frac23 - (-1)^2)^2]) + (E[(\frac23 - (0)^2)^2]) + (E[(\frac23 - (1)^2)^2])]$
+$= \frac13(\frac19 + \frac49 + \frac19) =\frac29$
+
+total cost $= 1 + \frac29$
+
+(e) 
+
+given the best predictor is x^2, a quatradic fit can model it perfecty so the reducible error goes to 0 but the irreducible error stays at one given it's name so total error is 1
+
+# Question 3
+
+(a)
+
+Model A overfits given the difference between the losses is quite high and the training loss is extremely low while the testing loss is quite high
+
+(b)
+
+(i)
+$45 \pm 2.064\frac{10}{\sqrt{25}} = (40.872,49.128)$
+(ii)
+$38 \pm 2.064\frac{8}{\sqrt{25}} = (34.6976,41.3024)$
+(iii)
+There is a slight overlap around 41 but that doesn't imply anything about statistical difference you would need the CI of their difference to do that
+
+(c)
+
+(i)
+
+NULL: $\mu_{d} = 0$
+ALT: $\mu_{d}> 0$
+
+$t = \frac{7}{3/\sqrt{25}} = 11.6666666667$
+
+(ii)
+
+This means there is very high evidence against the null hypothesis, at $\alpha = 0.05$ we reject the null in favor of the alternative
+
+(iii)
+
+$7 \pm 2.064\frac{3}{\sqrt{25}} = (5.7616, 8.2384)$
+
+zero is not in the confidence interval which leads to the same conclusion as (ii), statistical signifigance of difference
+
+(d)
+
+(i)
+
+$\alpha' = 2+5 = 7$
+$\beta' = (50-5) + 2 = 47$
+
+$E[X] = \frac7{7+47} = 0.12962962963$
+
+(ii)
+
+normal dist
+
+# Question 4
+
+(a)
+
+(i)
+
+$x^2 + 10$
+
+(ii)
+
+reducible is affected since the irreducible cannot be reduced, in other words it's irreducible
+
+(b)
+
+(i)
+
+as d gets much larger than n you get overfitting, the training loss become really low while the testing loss becomes really high
+
+(ii)
+
+the intercept is just meant to be an offset so it shouldn't be affected by regularization so that it can capture the prior better
+
+(iii)
+
+who knows
+
+
+(c)
+
