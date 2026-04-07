@@ -33,3 +33,9 @@ $\nabla c_{reg}(w) = \frac1n \Sigma_{i=1}^n(\sigma(x_i^{\intercal}w) - y_i)x_i +
 $w_{t+1} = w_t - n(\frac1n \Sigma_{i=1}^n(\sigma(x_i^{\intercal}w) - y_i)x_i + \lambda(0||w)))$
 (iv)
 
+Feature weights go through both regularization and the data gradient step but the intercept only goes through the data gradient step since for i = 0 the term vanishes. This lets the intercept more accuratly capture the prior.
+
+# Question 2
+
+(a)
+
