@@ -33,7 +33,7 @@ $\nabla c_{reg}(w) = \frac1n \Sigma_{i=1}^n(\sigma(x_i^{\intercal}w) - y_i)x_i +
 $w_{t+1} = w_t - n(\frac1n \Sigma_{i=1}^n(\sigma(x_i^{\intercal}w) - y_i)x_i + \lambda(0||w)))$
 (iv)
 
-Feature weights go through both regularization and the data gradient step but the intercept only goes through the data gradient step since for i = 0 the term vanishes. This lets the intercept more accuratly capture the prior.
+The update for feature weights $w_i | i \geq 1$ includes a shrinkage term from the regularizer, pulling weights toward zero and reducing overfitting. The intercept ​ has no corresponding regularization term since it's excluded from $c_{reg}$, so its gradient contribution from is zero and it updates purely based on the data loss. This allows the intercept to freely capture the baseline bias without being incorrectly penalized.
 
 # Question 2
 
@@ -60,7 +60,12 @@ so best linear is $f^*(x) = \frac23 + 0x = \frac23$
 
 (c)
 
-normal dist centered at 0 and 1 and then a line in the middle of each of them and then a line at 2/3
+![[Pasted image 20260407182927.png]]
+
+Distributions are in Red
+Green is linear predictor $2/3$
+Blue is the predictor for $x = 1$
+Orange is the predictor for $x = 0$
 
 (d)
 
@@ -120,7 +125,7 @@ $E[X] = \frac7{7+47} = 0.12962962963$
 
 (ii)
 
-normal dist
+$d_i$ follow a normal dist
 
 # Question 4
 
@@ -142,7 +147,7 @@ as d gets much larger than n you get overfitting, the training loss become reall
 
 (ii)
 
-the intercept is just meant to be an offset so it shouldn't be affected by regularization so that it can capture the prior better
+The intercept​ shifts predictions up or down to match the mean, it doesn't control model complexity or curvature. Penalizing it would shrink it toward zero, biasing predictions away from the true data mean without reducing overfitting. Only $w_i | i \geq 1$  govern the shape of the fit, so regularization is applied exclusively to them.
 
 (iii)
 
