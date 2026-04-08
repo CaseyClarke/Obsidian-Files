@@ -73,7 +73,7 @@ total cost $= 1 + \frac29$
 
 (e) 
 
-given the best predictor is x^2, a quatradic fit can model it perfecty so the reducible error goes to 0 but the irreducible error stays at one given it's name so total error is 1
+given the best predictor is x^2, a quadradic fit can model it perfectly so the reducible error goes to 0 but the irreducible error stays at 1 given it's name so total error is 1
 
 # Question 3
 
@@ -148,6 +148,16 @@ the intercept is just meant to be an offset so it shouldn't be affected by regul
 
 who knows
 
-
 (c)
 
+(i)
+
+$p(T_i | x_i, w ) = \sigma(w^{\intercal} x_i )^{T_i}(1-\sigma (w^{\intercal} x_i ))^{1-T_i}$
+$L(w) = -\frac1n \Sigma_{i = 1}^n[T_iln(\sigma(w^{\intercal} x_i )) + (1-T_i)ln((1-\sigma (w^{\intercal} x_i )))]$
+
+(ii)
+
+$s^2 = 0.12(1-0.12) = 0.1056$
+$SE = \sqrt{\frac{0.1056}{64}} = 0.0406201920232$
+
+$CI = 0.12 \pm 2(0.0406201920232) = (0.0387596159536, 0.201240384046)$
