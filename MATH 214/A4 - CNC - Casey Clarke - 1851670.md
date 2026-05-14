@@ -19,5 +19,14 @@ $f(x) = \sum_{n = 0}^\infty \frac{x^{2n+1}}{2n+1}$
 
 # Question 2
 
+$f(x) = \frac{1}{x}$
+$f'(x) = \frac{-1}{x^2}$
+$f''(x) = \frac{1}{x^3}$
+$\dots$
+$f^{(n)}(x) = \frac{(-1)^n}{x^n}$
+
+$T\space f(x) = \sum_{n = 0}^\infty\frac{f^{(k)}(-1)}{n!}(x+1)^n$
+$T\space f(x) = \sum_{n = 0}^\infty\frac{\frac{(-1)^n}{(-1)^n}}{n!}(x+1)^n$
+$T\space f(x) = \sum_{n = 0}^\infty\frac{(x+1)^n}{n!}$
 
 
