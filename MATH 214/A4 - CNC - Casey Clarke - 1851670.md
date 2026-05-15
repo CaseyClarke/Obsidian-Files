@@ -8,7 +8,6 @@ this is now the correct form to be able to use the fomulas for $R$ on $\frac{1}{
 # Question 1
 
 $f(x) = \frac12\ln(\frac{1+x}{1-x}) = \frac12(\ln(1+x) - \ln(1-x))$
-
 $\frac{1}{1-x} = \sum_{n = 0}^\infty x^n$
 $\int\frac{1}{1-x}dx = \int\sum_{n = 0}^\infty x^ndx$
 $-\ln|1-x| = \sum_{n = 0}^\infty \int x^ndx$
