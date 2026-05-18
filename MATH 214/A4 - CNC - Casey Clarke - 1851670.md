@@ -1,9 +1,9 @@
-little lemma for Q1 and Q3
+little "lemma" for Q1 and Q3
 for series in the form $\sum_{n = 0}^\infty \frac{x^{2n+1}}{c(n)}$ ($c(n)$ is just some function in $n$)
 transform with $u = x^2$
 $\sum_{n = 0}^\infty \frac{x^{2n+1}}{c(n)} = x\sum_{n = 0}^\infty \frac{u^n}{c(n)}$
 this is now the correct form to be able to use the fomulas for $R$ on $\frac{1}{c(n)}$
-(technically this finds $R$ in terms of $u$ and you would have to back transform it to get the $R$ in terms of $x$ but in both the questions where i use this $R_u = R_x$ anyway so it doesn't matter)
+(technically this finds $R$ in terms of $u$ and you would have to back transform it to get the $R$ in terms of $x$ but in both the questions where i use this $R_u = R_x$ anyways so it doesn't matter)
 
 # Question 1
 
@@ -31,7 +31,6 @@ ratio formula
 $R = \lim_{n \to \infty}|\frac{1/(2n+1)}{1/(2n+3)}|$
 $R = \lim_{n \to \infty}|\frac{2n+3}{2n+1}|$
 $R = 1$
-$R = 1$
 so intermediate interval is $(-1, 1)$
 test $x = -1$
 $\sum_{n = 0}^\infty \frac{(-1)^{2n+1}}{2n+1}$
@@ -44,6 +43,7 @@ diverges by p-series so we can't include $x = 1$
 
 final interval: $x$ converges $\iff x \in (-1,1)$
 
+{{ENDQUESTION}}
 # Question 2
 
 $f(x) = \frac{1}{x}$
@@ -71,6 +71,8 @@ $-\sum_{n = 0}^\infty(1)^n$
 fails screening test so we can't include $x = 0$
 
 final interval: $x$ converges $\iff x \in (-2,0)$
+
+{{ENDQUESTION}}
 # Question 3
 
 $\sinh(x) = \frac12(e^x-e^{-x})$
